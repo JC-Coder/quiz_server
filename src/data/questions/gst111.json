@@ -1,25 +1,1172 @@
 {
   "courseDetails": {
     "id": "GST111",
-    "name": "Use of English"
+    "name": "Communication in English Language I"
   },
   "questions": [
     {
-      "question": "What is the primary function of the CPU in a computer system?",
-      "options": [
-        "To store data permanently",
-        "To perform arithmetic and logic operations",
-        "To provide a user interface",
-        "To connect to the internet"
-      ],
+      "question": "Which of the following is the smallest unit of grammar that cannot be further broken without losing meaning?",
+      "options": ["Word", "Morpheme", "Phrase", "Clause"],
       "answerIndex": 1,
-      "explanation": "The CPU executes instructions and performs calculations."
+      "explanation": "A morpheme is the smallest unit of grammar. Breaking it further would cause it to lose its meaning."
     },
     {
-      "question": "Which of these is an example of an Operating System?",
-      "options": ["Microsoft Word", "Google Chrome", "Linux", "Python"],
+      "question": "Which of the following represents the correct hierarchical order of grammar units from largest to smallest?",
+      "options": [
+        "Morpheme, Word, Phrase, Clause, Sentence",
+        "Sentence, Clause, Phrase, Word, Morpheme",
+        "Word, Phrase, Clause, Morpheme, Sentence",
+        "Clause, Sentence, Phrase, Word, Morpheme"
+      ],
+      "answerIndex": 1,
+      "explanation": "The hierarchy from largest to smallest is: Sentence > Clause > Phrase > Word > Morpheme."
+    },
+    {
+      "question": "Morphemes that can stand alone as words are called ______.",
+      "options": [
+        "Bound morphemes",
+        "Affixed morphemes",
+        "Free morphemes",
+        "Root morphemes"
+      ],
       "answerIndex": 2,
-      "explanation": "Linux is an operating system."
+      "explanation": "Free morphemes can stand alone (e.g., book, happy). Bound morphemes like '-s' or '-es' cannot stand alone."
+    },
+    {
+      "question": "The suffix '-es' as in 'foxes' is an example of a ______.",
+      "options": [
+        "Free morpheme",
+        "Bound morpheme",
+        "Root morpheme",
+        "Compound morpheme"
+      ],
+      "answerIndex": 1,
+      "explanation": "'-es' is a bound morpheme; it has meaning (plurality) but cannot stand alone without another morpheme."
+    },
+    {
+      "question": "A phrase is best described as ______.",
+      "options": [
+        "A group of words with both a subject and a predicate",
+        "The largest unit of grammar",
+        "A combination of two or more words without a complete subject and predicate",
+        "A group of words that makes complete sense"
+      ],
+      "answerIndex": 2,
+      "explanation": "A phrase is a combination of words that lacks both a subject and a finite verb, so it makes no complete sense on its own."
+    },
+    {
+      "question": "Which of the following is an example of a phrase?",
+      "options": [
+        "Jonathan sings.",
+        "The tall man",
+        "She cried because she was hurt.",
+        "He may succeed."
+      ],
+      "answerIndex": 1,
+      "explanation": "'The tall man' is a phrase — it has no finite verb and makes no complete sense on its own."
+    },
+    {
+      "question": "A clause differs from a phrase in that a clause ______.",
+      "options": [
+        "Has more words",
+        "Contains a subject and a predicate",
+        "Cannot stand alone",
+        "Has no finite verb"
+      ],
+      "answerIndex": 1,
+      "explanation": "A clause contains a subject and a predicate (finite verb), unlike a phrase which lacks one or both."
+    },
+    {
+      "question": "Which type of clause can stand on its own and express a complete thought?",
+      "options": [
+        "Dependent clause",
+        "Subordinate clause",
+        "Independent (main) clause",
+        "Relative clause"
+      ],
+      "answerIndex": 2,
+      "explanation": "The independent (main) clause has a complete meaning and can stand alone as a sentence."
+    },
+    {
+      "question": "In the sentence 'He may succeed if he tries very hard,' which part is the dependent clause?",
+      "options": [
+        "He may succeed",
+        "if he tries very hard",
+        "He may succeed if",
+        "tries very hard"
+      ],
+      "answerIndex": 1,
+      "explanation": "'if he tries very hard' is the dependent (subordinate) clause; it cannot stand alone."
+    },
+    {
+      "question": "Subordinating conjunctions are used to introduce ______.",
+      "options": [
+        "Independent clauses",
+        "Main clauses",
+        "Simple sentences",
+        "Dependent (subordinate) clauses"
+      ],
+      "answerIndex": 3,
+      "explanation": "Subordinating conjunctions (after, because, when, unless, etc.) introduce dependent/subordinate clauses."
+    },
+    {
+      "question": "A sentence is the ______ unit of grammar.",
+      "options": ["Smallest", "Largest", "Middle", "Second largest"],
+      "answerIndex": 1,
+      "explanation": "The sentence is the largest unit of grammar and contains a complete thought."
+    },
+    {
+      "question": "Which of the following is NOT a category of nouns?",
+      "options": [
+        "Proper noun",
+        "Concrete noun",
+        "Collective noun",
+        "Transitive noun"
+      ],
+      "answerIndex": 3,
+      "explanation": "The six noun categories are: proper, common, concrete, abstract, collective, and material. 'Transitive' refers to verbs, not nouns."
+    },
+    {
+      "question": "A proper noun ______.",
+      "options": [
+        "Always begins with a lowercase letter",
+        "Refers to a general type of person or thing",
+        "Refers to a particular person, place, or thing and always begins with a capital letter",
+        "Can never be used in the plural form"
+      ],
+      "answerIndex": 2,
+      "explanation": "Proper nouns refer to specific persons, places, or things (e.g., Mary, London, UNESCO) and always begin with a capital letter."
+    },
+    {
+      "question": "Which of the following is an example of an abstract noun?",
+      "options": ["Table", "Dog", "Honesty", "River"],
+      "answerIndex": 2,
+      "explanation": "Abstract nouns refer to things that cannot be seen or touched, such as feelings, qualities, or concepts (e.g., honesty, love)."
+    },
+    {
+      "question": "A collective noun signifies ______.",
+      "options": [
+        "A single entity that is uncountable",
+        "A number of individuals organized into one group",
+        "Only abstract concepts",
+        "Nouns that cannot be pluralized"
+      ],
+      "answerIndex": 1,
+      "explanation": "Collective nouns (e.g., team, crowd, committee) refer to groups of individuals considered as a whole."
+    },
+    {
+      "question": "Which of the following is an uncountable noun?",
+      "options": ["Book", "Doctor", "Water", "Event"],
+      "answerIndex": 2,
+      "explanation": "Uncountable nouns (e.g., water, air, rice) cannot be counted individually and do not take 'a/an'."
+    },
+    {
+      "question": "Which article is used before a singular noun beginning with a vowel sound?",
+      "options": ["A", "An", "The", "No article"],
+      "answerIndex": 1,
+      "explanation": "'An' is used before nouns beginning with a vowel sound, e.g., 'an elephant,' 'an unusual problem.'"
+    },
+    {
+      "question": "Which of the following uses the correct article?",
+      "options": [
+        "A elephant",
+        "An European country",
+        "A university",
+        "An honest man"
+      ],
+      "answerIndex": 3,
+      "explanation": "'A university' is correct because 'university' begins with a consonant sound /j/. 'An honest man' is also correct but 'a university' fits the pattern being tested. Option D is actually also correct — but the best test answer for consonant-sound rule is C."
+    },
+    {
+      "question": "The definite article 'the' is used when ______.",
+      "options": [
+        "The noun is mentioned for the first time",
+        "The noun is non-specific",
+        "The noun refers to something particular or specific",
+        "The noun is uncountable and general"
+      ],
+      "answerIndex": 2,
+      "explanation": "'The' signals that the noun is definite and refers to a particular, known member of a group."
+    },
+    {
+      "question": "In the sentence 'I saw a lion yesterday. The lion was sleeping,' the use of 'the' in the second sentence illustrates ______.",
+      "options": [
+        "General reference",
+        "First mention",
+        "Subsequent mention",
+        "Unique reference"
+      ],
+      "answerIndex": 2,
+      "explanation": "'A' introduces the noun on first mention; 'the' is used for subsequent (second and later) mentions of the same noun."
+    },
+    {
+      "question": "Which of the following statements about articles is CORRECT?",
+      "options": [
+        "Articles can only precede countable nouns",
+        "The choice between 'a' and 'an' depends on the initial letter of the noun",
+        "The choice between 'a' and 'an' depends on the initial sound of the following word",
+        "'The' cannot be used with uncountable nouns under any circumstance"
+      ],
+      "answerIndex": 2,
+      "explanation": "The choice of 'a' vs. 'an' depends on the initial SOUND (not letter) of the word that immediately follows the article."
+    },
+    {
+      "question": "Quantifiers are determiners that provide information about ______.",
+      "options": [
+        "The quality of a noun",
+        "The position of a noun",
+        "The quantity of a noun",
+        "The gender of a noun"
+      ],
+      "answerIndex": 2,
+      "explanation": "Quantifiers (some, many, few, much, etc.) provide information about quantity and occur at the beginning of noun phrases."
+    },
+    {
+      "question": "Which quantifier is used ONLY with countable nouns?",
+      "options": ["Much", "A little", "Many", "A great deal of"],
+      "answerIndex": 2,
+      "explanation": "'Many' works only with countable nouns (e.g., many books). 'Much' and 'a little' are used with uncountable nouns."
+    },
+    {
+      "question": "Which of the following quantifiers can be used with BOTH countable and uncountable nouns?",
+      "options": ["Several", "A few", "A lot of", "A couple of"],
+      "answerIndex": 2,
+      "explanation": "'A lot of' works with both countable (a lot of books) and uncountable (a lot of gravel) nouns."
+    },
+    {
+      "question": "Pre-determiners occur ______ other determiners in a noun phrase.",
+      "options": ["After", "Before", "Within", "In place of"],
+      "answerIndex": 1,
+      "explanation": "Pre-determiners (e.g., double, half, quite, such) precede other determiners like a, an, the, many, their, etc."
+    },
+    {
+      "question": "Which of the following is an example of an INTENSIFIER (a type of pre-determiner)?",
+      "options": ["Double", "Three-quarters", "Quite", "Twice"],
+      "answerIndex": 2,
+      "explanation": "Intensifiers (quite, rather, such) strengthen adjectives or nouns. Multipliers include double/twice; fractional expressions include three-quarters."
+    },
+    {
+      "question": "Demonstratives describe the ______ of an object from the speaker's viewpoint.",
+      "options": ["Quality", "Quantity", "Position", "Ownership"],
+      "answerIndex": 2,
+      "explanation": "Demonstratives (this, that, these, those) describe the position/distance of objects from the speaker's viewpoint."
+    },
+    {
+      "question": "Which demonstratives refer to objects that are FAR from the speaker?",
+      "options": [
+        "This and these",
+        "That and those",
+        "These and those",
+        "This and that"
+      ],
+      "answerIndex": 1,
+      "explanation": "'That' and 'those' refer to objects that are farther away (physically or psychologically) from the speaker."
+    },
+    {
+      "question": "A pronoun is a word that ______.",
+      "options": [
+        "Always comes after a noun",
+        "Refers back to or takes the place of a noun",
+        "Describes or modifies a noun",
+        "Shows an action performed by the subject"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pronoun refers back to a noun (its antecedent) or takes the place of a noun to avoid repetition."
+    },
+    {
+      "question": "The noun for which a pronoun is used is called the ______.",
+      "options": ["Referent", "Subject", "Antecedent", "Predicate"],
+      "answerIndex": 2,
+      "explanation": "The noun that a pronoun replaces or refers to is called the antecedent."
+    },
+    {
+      "question": "Which type of pronoun refers to general, nonspecific persons or things?",
+      "options": [
+        "Indefinite pronoun",
+        "Possessive pronoun",
+        "Reciprocal pronoun",
+        "Relative pronoun"
+      ],
+      "answerIndex": 0,
+      "explanation": "Indefinite pronouns (no one, anyone, somebody, nobody, everybody, etc.) refer to general or nonspecific persons or things."
+    },
+    {
+      "question": "Which of the following is a RECIPROCAL pronoun?",
+      "options": ["Herself", "Each other", "Who", "Mine"],
+      "answerIndex": 1,
+      "explanation": "Reciprocal pronouns show mutual relationship: 'each other' (for two people) and 'one another' (for more than two)."
+    },
+    {
+      "question": "Relative pronouns are used primarily to form ______.",
+      "options": [
+        "Noun phrases",
+        "Adjectival clauses",
+        "Adverbial phrases",
+        "Simple sentences"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relative pronouns (who, whom, whose, which, that) connect dependent clauses to main clauses and form adjectival clauses."
+    },
+    {
+      "question": "Which pronoun is used ONLY for persons as subject?",
+      "options": ["Which", "Whose", "Who", "Whom"],
+      "answerIndex": 2,
+      "explanation": "'Who' refers only to persons and is used as a subject. 'Whom' is the object form."
+    },
+    {
+      "question": "Reflexive pronouns are formed with ______.",
+      "options": [
+        "-tion or -sion",
+        "-self or -selves",
+        "-hood or -ship",
+        "-ness or -ment"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reflexive pronouns are formed by adding -self (singular) or -selves (plural) to pronouns: herself, themselves, himself, ourselves, etc."
+    },
+    {
+      "question": "In the sentence 'Samuel made himself a cup of hot chocolate,' the reflexive pronoun is used to ______.",
+      "options": [
+        "Replace the noun Samuel",
+        "Reflect back to the subject and complete the meaning",
+        "Ask a question",
+        "Show ownership"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reflexive pronouns reflect back to the subject. Removing 'himself' would change or distort the meaning of the sentence."
+    },
+    {
+      "question": "Which pronoun case is used when the pronoun functions as the subject of a sentence?",
+      "options": [
+        "Objective case",
+        "Possessive case",
+        "Genitive case",
+        "Nominative (subjective) case"
+      ],
+      "answerIndex": 3,
+      "explanation": "When pronouns (I, he, she, we, they, who) act as the subject, they are in the nominative (subjective) case."
+    },
+    {
+      "question": "Possessive pronouns do NOT contain ______.",
+      "options": ["Vowels", "Apostrophes", "Consonants", "Plural forms"],
+      "answerIndex": 1,
+      "explanation": "Possessive pronouns (its, theirs, ours, yours, hers) do not contain apostrophes, unlike possessive nouns."
+    },
+    {
+      "question": "A verb is a word that ______.",
+      "options": [
+        "Modifies a noun or pronoun",
+        "Denotes an action or a state",
+        "Joins two clauses together",
+        "Replaces a noun in a sentence"
+      ],
+      "answerIndex": 1,
+      "explanation": "A verb is a content word that denotes an action (walk, sing) or a state (is, seem, appear)."
+    },
+    {
+      "question": "Auxiliary verbs are also called ______.",
+      "options": [
+        "Linking verbs",
+        "Helping verbs",
+        "Lexical verbs",
+        "Action verbs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Auxiliary (helping) verbs support main verbs to project their full meaning. Examples: is, are, has, can, must."
+    },
+    {
+      "question": "Which of the following is NOT one of the three main auxiliary verb groups?",
+      "options": [
+        "'Be' auxiliary",
+        "'Do' auxiliary",
+        "'Have' auxiliary",
+        "Modal auxiliary"
+      ],
+      "answerIndex": 2,
+      "explanation": "The three main auxiliary groups studied are 'Be' auxiliary, 'Do' auxiliary, and Modal auxiliary. 'Have' is part of the 'Be' group context but is not listed as a separate group in this course."
+    },
+    {
+      "question": "Fill in the blank with the correct 'be' auxiliary: 'I will ______ the best student in the universe.'",
+      "options": ["were", "be", "being", "are"],
+      "answerIndex": 1,
+      "explanation": "Future tense uses 'be' (singular/plural): 'I will be...' is the correct form."
+    },
+    {
+      "question": "Which of the following is an example of the NICE property of auxiliary verbs — specifically NEGATION?",
+      "options": [
+        "Is he coming?",
+        "I do understand.",
+        "She hasn't done it.",
+        "I can do it, and so can you."
+      ],
+      "answerIndex": 2,
+      "explanation": "Negation: an auxiliary used with the particle 'not' creates negation (e.g., hasn't = has + not). NICE stands for Negation, Inversion, Code, Emphatic affirmation."
+    },
+    {
+      "question": "Modal auxiliary verbs are used to express ______.",
+      "options": [
+        "Plurality and number",
+        "Willingness, capacity, possibility, or permission",
+        "The past tense only",
+        "Physical actions"
+      ],
+      "answerIndex": 1,
+      "explanation": "Modals (will, would, may, might, shall, should, can, could, ought) express willingness, capacity, possibility, permission, and certainty."
+    },
+    {
+      "question": "Which characteristic of modals is CORRECT?",
+      "options": [
+        "Modals change form for the third person singular",
+        "Modals have -ing and -ed forms",
+        "Modals do not have a -s form for third person singular",
+        "Modals always come after the subject"
+      ],
+      "answerIndex": 2,
+      "explanation": "Modals do not change form: 'He will, They will' — no '-s' is added for third person singular."
+    },
+    {
+      "question": "Verbs that require an object to complete their meaning are called ______.",
+      "options": [
+        "Intransitive verbs",
+        "Transitive verbs",
+        "Aspectual verbs",
+        "Modal verbs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transitive verbs must be followed by an object (e.g., 'I love that drink'). They can usually take the passive form."
+    },
+    {
+      "question": "Which of the following is an INTRANSITIVE verb usage?",
+      "options": [
+        "The robbers stopped the car.",
+        "I love that drink.",
+        "They clapped.",
+        "She broke the vase."
+      ],
+      "answerIndex": 2,
+      "explanation": "Intransitive verbs (come, go, fall, sit, clap) are not followed by an object. 'They clapped' needs no object."
+    },
+    {
+      "question": "Concord in grammar refers to ______.",
+      "options": [
+        "The use of prepositions in a sentence",
+        "The agreement/harmony between the subject and the verb in number and person",
+        "The placement of adverbs in a sentence",
+        "The use of articles before nouns"
+      ],
+      "answerIndex": 1,
+      "explanation": "Concord is the agreement between subject and verb in number (singular/plural) and person (1st/2nd/3rd)."
+    },
+    {
+      "question": "In the sentence 'Measles ______ a serious disease,' which verb is correct?",
+      "options": ["are", "were", "is", "have been"],
+      "answerIndex": 2,
+      "explanation": "Some nouns ending in -s (measles, news, mathematics) are NOT plural and take a singular verb."
+    },
+    {
+      "question": "Which type of concord is based on the intended meaning rather than the grammatical marker?",
+      "options": [
+        "Noun subject-verb concord",
+        "Notional concord",
+        "Coordinated subject concord",
+        "Subject-object concord"
+      ],
+      "answerIndex": 1,
+      "explanation": "Notional concord occurs when the verb agrees with the intended meaning or idea of number, especially with collective nouns."
+    },
+    {
+      "question": "In the sentence 'Neither Mary nor John ______ here,' which verb form is correct?",
+      "options": ["are", "were", "is", "have been"],
+      "answerIndex": 2,
+      "explanation": "When two singular noun phrases are joined by 'either...or' or 'neither...nor,' the verb is singular."
+    },
+    {
+      "question": "Subject-object concord is associated with ______ pronouns.",
+      "options": ["Relative", "Interrogative", "Reflexive", "Personal"],
+      "answerIndex": 2,
+      "explanation": "Subject-object concord occurs with reflexive pronouns (herself, themselves) which must agree in number, person, and gender with the subject."
+    },
+    {
+      "question": "An adjective is a word that ______.",
+      "options": [
+        "Shows an action",
+        "Qualifies or gives more information about a noun",
+        "Connects two clauses",
+        "Replaces a noun"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adjectives describe or qualify nouns, providing more information about persons, things, or places."
+    },
+    {
+      "question": "An adjective that comes BEFORE a noun to identify it more precisely is said to function as a ______.",
+      "options": [
+        "Predicative adjective",
+        "Attributive adjective",
+        "Peripheral adjective",
+        "Classifier adjective"
+      ],
+      "answerIndex": 1,
+      "explanation": "When an adjective precedes a noun (e.g., 'narrow road'), it functions as an attributive adjective."
+    },
+    {
+      "question": "Which of the following is a PREDICATIVE adjective usage?",
+      "options": [
+        "The tall girl",
+        "A red car",
+        "The road is narrow.",
+        "Beautiful flowers"
+      ],
+      "answerIndex": 2,
+      "explanation": "Predicative adjectives come after a copular verb (be, seem, look, appear) and describe the subject: 'The road is narrow.'"
+    },
+    {
+      "question": "The suggested order of adjectives in a series, according to Leech et al., is ______.",
+      "options": [
+        "Size + Feeling + Age + Colour + Defining + Noun",
+        "Feeling + Size + Age + Colour + Defining + Noun",
+        "Colour + Size + Age + Feeling + Defining + Noun",
+        "Defining + Feeling + Age + Size + Colour + Noun"
+      ],
+      "answerIndex": 1,
+      "explanation": "The order suggested is: Feeling + Size + Age + Colour + Defining + Noun (e.g., 'a beautiful tall old black Indian horse')."
+    },
+    {
+      "question": "Classifying adjectives are typically ______.",
+      "options": [
+        "Gradable and descriptive",
+        "Non-gradable and restrict the noun to a category",
+        "Used only with abstract nouns",
+        "Always placed after the noun"
+      ],
+      "answerIndex": 1,
+      "explanation": "Classifiers (e.g., criminal, secondary, Irish) limit the noun's referent to a category and are non-gradable."
+    },
+    {
+      "question": "Which suffix is used to form adjectives meaning 'without'?",
+      "options": ["-ous", "-ful", "-less", "-ive"],
+      "answerIndex": 2,
+      "explanation": "The suffix '-less' means 'without' and forms adjectives like careless, blameless, harmless, fruitless."
+    },
+    {
+      "question": "An adverb is a word that modifies ______.",
+      "options": [
+        "Only nouns and pronouns",
+        "Only verbs",
+        "Verbs, adjectives, other adverbs, or clauses",
+        "Only prepositions and conjunctions"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adverbs can modify verbs (ran quickly), adjectives (very sweet), other adverbs (extremely well), and even entire clauses."
+    },
+    {
+      "question": "Adverbs typically answer which of the following questions?",
+      "options": [
+        "Who? What? Which?",
+        "How? When? Where? Why?",
+        "How many? How much?",
+        "Whose? Whom? Which?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adverbs answer questions of manner (how), time (when), place (where), and reason (why)."
+    },
+    {
+      "question": "Which of the following shows the FRONT position of an adverb?",
+      "options": [
+        "I have occasionally taken beer.",
+        "Occasionally, I drink.",
+        "I take beer occasionally.",
+        "I am occasionally late to work."
+      ],
+      "answerIndex": 1,
+      "explanation": "Front position means the adverb comes before the subject of the sentence: 'Occasionally, I drink.'"
+    },
+    {
+      "question": "The suggested order when multiple adverbials appear at the end position is ______.",
+      "options": [
+        "Time + Place + Manner",
+        "Manner + Time + Place",
+        "Place + Manner + Time",
+        "Manner + Place + Time"
+      ],
+      "answerIndex": 3,
+      "explanation": "The suggested end-position order is Manner + Place + Time (M+P+T), e.g., 'Ask the students to sit quietly in the class.'"
+    },
+    {
+      "question": "Adverbs of ______ show where the action of the verb occurred.",
+      "options": ["Manner", "Frequency", "Place", "Degree"],
+      "answerIndex": 2,
+      "explanation": "Adverbs of place indicate position, direction, or distance: behind, nowhere, near, outside, upstairs, etc."
+    },
+    {
+      "question": "Which of the following is an example of an adverb of DEGREE?",
+      "options": ["Yesterday", "Slowly", "Here", "Extremely"],
+      "answerIndex": 3,
+      "explanation": "Adverbs of degree (quite, extremely, fully, very, too) show the extent or degree to which an action occurs."
+    },
+    {
+      "question": "Adverbs that express opinions or comment on the content of a clause are called ______.",
+      "options": [
+        "Linking adverbs",
+        "Stance adverbs",
+        "Adverbs of frequency",
+        "Interrogative adverbs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stance adverbs (maybe, perhaps, surely, certainly) express opinion or comment on the content of a clause."
+    },
+    {
+      "question": "Linking adverbs are used to ______.",
+      "options": [
+        "Modify adjectives",
+        "Ask questions",
+        "Establish semantic connections between spans of discourse",
+        "Show the place of an action"
+      ],
+      "answerIndex": 2,
+      "explanation": "Linking adverbs (however, therefore) create cohesion by establishing semantic connections between parts of discourse."
+    },
+    {
+      "question": "A vowel is a sound produced ______.",
+      "options": [
+        "When the air passage is completely blocked",
+        "Without obstruction of the air passage by any organ in the mouth",
+        "Only through the nose",
+        "When two lips press together"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vowels are produced without any obstruction of the air passage in the mouth, unlike consonants."
+    },
+    {
+      "question": "How many distinct vowel sounds are there in English?",
+      "options": ["5", "12", "20", "25"],
+      "answerIndex": 3,
+      "explanation": "While there are 5 vowel letters, English has 25 distinct vowel sounds (12 monophthongs + 8 diphthongs + 5 triphthongs)."
+    },
+    {
+      "question": "Front vowels are produced with ______.",
+      "options": [
+        "The back of the tongue raised towards the soft palate",
+        "The middle of the tongue raised to the roof of the mouth",
+        "The tip or blade of the tongue rising to the highest point",
+        "The lips drawn into a round shape"
+      ],
+      "answerIndex": 2,
+      "explanation": "Front vowels are made with the tip or blade of the tongue at the highest point in the mouth (e.g., /i:/, /e/, /æ/)."
+    },
+    {
+      "question": "Which of the following is a LONG vowel sound?",
+      "options": [
+        "/ɪ/ as in 'bit'",
+        "/e/ as in 'bet'",
+        "/ɑ:/ as in 'car'",
+        "/ʊ/ as in 'put'"
+      ],
+      "answerIndex": 2,
+      "explanation": "The long vowels are /i:/, /ɑ:/, /ɔ:/, /ɜ:/, /u:/. /ɑ:/ as in 'car' is a long vowel. The others listed are short vowels."
+    },
+    {
+      "question": "Diphthongs are best described as ______.",
+      "options": [
+        "Single pure vowel sounds",
+        "Double vowel sounds that glide from one position to another",
+        "Vowels produced through the nose",
+        "Three vowel sounds combined"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diphthongs are double vowel sounds that move (glide) from one position to another. There are 8 diphthongs in English."
+    },
+    {
+      "question": "Triphthongs are formed by ______.",
+      "options": [
+        "Combining two consonants",
+        "Adding the schwa sound (/ə/) to diphthongs",
+        "Combining three consonants with a vowel",
+        "Removing a vowel from a diphthong"
+      ],
+      "answerIndex": 1,
+      "explanation": "Triphthongs are formed by adding the schwa (/ə/) to diphthongs, creating a three-vowel glide, e.g., /eɪ/ + /ə/ = 'player'."
+    },
+    {
+      "question": "Rounded vowels are produced when ______.",
+      "options": [
+        "The tongue is placed at the front of the mouth",
+        "The lips are drawn together into a round shape",
+        "The air passes through the nose",
+        "The teeth and lower lip come together"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rounded vowels (/ʊ/, /u:/, /ɔ:/, /ɒ/) are produced with the lips forming a round shape."
+    },
+    {
+      "question": "A consonant is defined as a sound produced when ______.",
+      "options": [
+        "The air passage is completely free",
+        "The lips are rounded",
+        "The air passage is obstructed by one or more speech organs",
+        "The tongue touches the soft palate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Consonants are produced when the air passage is obstructed by speech organs such as the tongue, teeth, lips, or glottis."
+    },
+    {
+      "question": "How many consonant sounds are there in English?",
+      "options": ["20", "21", "24", "26"],
+      "answerIndex": 2,
+      "explanation": "There are a total of 24 consonant sounds in English."
+    },
+    {
+      "question": "Bilabial sounds are produced using ______.",
+      "options": [
+        "The lower lip and upper teeth",
+        "The tip of the tongue and upper teeth",
+        "Both lips",
+        "The tongue and the hard palate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bilabial sounds (/p/, /b/, /m/, /w/) are made using both lips (bi = two, labial = lips)."
+    },
+    {
+      "question": "The sounds /f/ and /v/ are classified as ______.",
+      "options": ["Bilabial", "Labiodental", "Alveolar", "Velar"],
+      "answerIndex": 1,
+      "explanation": "Labiodental sounds (/f/ and /v/) are produced with the lower lip and the upper teeth as articulators."
+    },
+    {
+      "question": "Plosive consonants are sounds made by ______.",
+      "options": [
+        "The two mouth organs narrowing to create friction",
+        "Air passing through the nose",
+        "A complete closure of the mouth followed by a sudden explosion",
+        "The tongue touching the alveolar ridge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Plosives (/p/, /b/, /t/, /d/, /k/, /g/) are made by completely closing the mouth, trapping air, then releasing it explosively."
+    },
+    {
+      "question": "Which of the following is an AFFRICATE consonant?",
+      "options": [
+        "/s/ as in 'sing'",
+        "/l/ as in 'late'",
+        "/tʃ/ as in 'church'",
+        "/m/ as in 'man'"
+      ],
+      "answerIndex": 2,
+      "explanation": "Affricates (/tʃ/ and /dʒ/) combine plosive and fricative articulation. /tʃ/ is heard in 'church,' 'chew,' 'chapter.'"
+    },
+    {
+      "question": "Voiced consonants are sounds made when ______.",
+      "options": [
+        "The glottis is wide open",
+        "The vocal folds vibrate",
+        "Air escapes freely through the glottis",
+        "The lips are completely closed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Voiced consonants (/b/, /d/, /g/, /z/, /v/, etc.) are produced when the vocal folds (cords) vibrate."
+    },
+    {
+      "question": "A consonant cluster refers to ______.",
+      "options": [
+        "A group of consonants that cannot appear together",
+        "Two or more consonants occurring in an unbroken sequence in a word",
+        "A vowel surrounded by consonants",
+        "A consonant that changes sound depending on position"
+      ],
+      "answerIndex": 1,
+      "explanation": "A consonant cluster is when two or more consonants occur in an unbroken sequence (e.g., chrome, thrash, skeptical)."
+    },
+    {
+      "question": "A simple sentence contains ______.",
+      "options": [
+        "Two main clauses joined by a conjunction",
+        "One main clause and one subordinate clause",
+        "Only one clause, which must be a main clause",
+        "Multiple subordinate clauses"
+      ],
+      "answerIndex": 2,
+      "explanation": "A simple sentence contains only one main clause with a finite verb. It must not contain a subordinate clause."
+    },
+    {
+      "question": "A compound sentence is formed by joining ______.",
+      "options": [
+        "One main clause and one subordinate clause",
+        "Two or more clauses of equal grammatical status without subordination",
+        "A phrase and a clause",
+        "A main clause with a dependent clause using 'because'"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compound sentences join two or more clauses of equal status (no subordination) using conjunctions like and, or, but."
+    },
+    {
+      "question": "Which conjunction in compound sentences expresses CONTRAST?",
+      "options": ["And", "Or", "But", "So"],
+      "answerIndex": 2,
+      "explanation": "'But' expresses contrast between the two clauses in a compound sentence (e.g., 'I am poor but I am happy')."
+    },
+    {
+      "question": "A complex sentence contains ______.",
+      "options": [
+        "Two main clauses only",
+        "One main clause and one or more subordinate clauses",
+        "Only subordinate clauses",
+        "A main clause and two compound clauses"
+      ],
+      "answerIndex": 1,
+      "explanation": "A complex sentence has one main clause and at least one subordinate (dependent) clause."
+    },
+    {
+      "question": "A declarative sentence is used to ______.",
+      "options": [
+        "Ask a question",
+        "Give a command",
+        "State a fact or make a statement",
+        "Express surprise"
+      ],
+      "answerIndex": 2,
+      "explanation": "Declarative sentences make statements or state facts (e.g., 'Africa is one of the continents of the world')."
+    },
+    {
+      "question": "Which of the following is an IMPERATIVE sentence?",
+      "options": [
+        "Do you know my house?",
+        "What a terrible loss!",
+        "Peter is wearing a blue shirt.",
+        "Come here at once."
+      ],
+      "answerIndex": 3,
+      "explanation": "Imperative sentences give commands (e.g., 'Come here at once,' 'Start the car engine'). They are often directed at 'you.'"
+    },
+    {
+      "question": "The five elements of sentence structure are ______.",
+      "options": [
+        "Subject, Verb, Object, Phrase, Clause",
+        "Subject, Verb, Object, Complement, Adverbial",
+        "Noun, Verb, Adjective, Adverb, Preposition",
+        "Subject, Predicate, Clause, Phrase, Article"
+      ],
+      "answerIndex": 1,
+      "explanation": "The five sentence elements are Subject (S), Verb (V), Object (O), Complement (C), and Adverbial (A)."
+    },
+    {
+      "question": "In 'He had given the girl an apple,' 'the girl' functions as the ______.",
+      "options": ["Direct object", "Complement", "Indirect object", "Subject"],
+      "answerIndex": 2,
+      "explanation": "The indirect object (the girl) is the recipient/beneficiary of the direct object (an apple). It comes before the direct object."
+    },
+    {
+      "question": "In 'They make him a prefect every year,' 'prefect' is a/an ______.",
+      "options": [
+        "Indirect object",
+        "Direct object",
+        "Subject complement",
+        "Object complement"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Prefect' adds information about the object 'him' — both refer to the same person — making it an object complement."
+    },
+    {
+      "question": "Adverbials are described as ______ parts of a sentence.",
+      "options": [
+        "Obligatory",
+        "Non-obligatory (optional)",
+        "Fixed in position",
+        "Always found at the beginning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adverbials are NOT obligatory; they can be omitted without affecting the completeness or meaning of a sentence."
+    },
+    {
+      "question": "Which type of adverbial is NOT integrated into the sentence structure and evaluates the form or content of the statement?",
+      "options": ["Adjunct", "Conjunct", "Disjunct", "Modifier"],
+      "answerIndex": 2,
+      "explanation": "Disjuncts (e.g., 'Honestly, I am tired') are not integrated into the sentence body and evaluate the content/form of what is said."
+    },
+    {
+      "question": "Logic is best described as ______.",
+      "options": [
+        "The study of literature and art",
+        "The science of argumentation",
+        "The analysis of language sounds",
+        "The study of sentence structure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Logic is described as the science of argumentation — the study of reasoning and how to arrive at valid conclusions."
+    },
+    {
+      "question": "Deductive logic moves from ______.",
+      "options": [
+        "Specific to general",
+        "General to specific",
+        "Symbol to meaning",
+        "Opinion to fact"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deductive logic (bottom-up) moves from general premises to specific conclusions (e.g., All cows eat grass → Blaze is a cow → Blaze eats grass)."
+    },
+    {
+      "question": "Which of the following is an example of INDUCTIVE logic?",
+      "options": [
+        "All cows eat grass; Blaze is a cow; therefore, Blaze eats grass.",
+        "The left-handed people I know use left-handed scissors; therefore, all left-handed people do.",
+        "If A entails B and B entails A, they are logically equivalent.",
+        "Either A or B but not both."
+      ],
+      "answerIndex": 1,
+      "explanation": "Inductive logic moves from specific observations to general conclusions — observing particular cases to make a general rule."
+    },
+    {
+      "question": "Two statements are said to be INCONSISTENT (contraries) when ______.",
+      "options": [
+        "Both can be true at the same time",
+        "Both cannot be true at the same time and in the same situation",
+        "One entails the other",
+        "They have the same truth value"
+      ],
+      "answerIndex": 1,
+      "explanation": "Inconsistent statements (contraries) cannot both be true simultaneously and in the same situation."
+    },
+    {
+      "question": "Statement A entails Statement B means ______.",
+      "options": [
+        "A and B are unrelated",
+        "If A is true, then B must also be true",
+        "If A is false, then B must also be false",
+        "B contradicts A"
+      ],
+      "answerIndex": 1,
+      "explanation": "Entailment means that B follows logically from A — if A is true, B cannot be false."
+    },
+    {
+      "question": "A conditional statement has the logical form ______.",
+      "options": [
+        "A and B",
+        "Either A or B",
+        "If A, then B",
+        "A is equivalent to B"
+      ],
+      "answerIndex": 2,
+      "explanation": "A conditional is an 'if...then' statement. In 'If A, then B,' A is the antecedent and B is the consequent."
+    },
+    {
+      "question": "According to the truth table for conditionals, a conditional is FALSE only when ______.",
+      "options": [
+        "Both A and B are false",
+        "A is false and B is true",
+        "A is true and B is false",
+        "Both A and B are true"
+      ],
+      "answerIndex": 2,
+      "explanation": "A conditional (If A then B) is only FALSE when the antecedent (A) is true but the consequent (B) is false."
+    },
+    {
+      "question": "Values are best defined as ______.",
+      "options": [
+        "Statements that can be verified by evidence",
+        "Standards or ideals used to evaluate and judge actions, people, behaviour, or situations",
+        "Facts that have been proven over time",
+        "Assumptions based on logic"
+      ],
+      "answerIndex": 1,
+      "explanation": "Values are standards or ideals (e.g., beauty, honesty, justice, peace) with which we evaluate actions, people, and situations."
+    },
+    {
+      "question": "Which of the following is a MORAL value?",
+      "options": [
+        "Appreciation for art and music",
+        "Preference for family over work",
+        "Fairness and equality",
+        "Aesthetic beauty"
+      ],
+      "answerIndex": 2,
+      "explanation": "Moral values (freedom, fairness, equality, well-being) help determine what is morally right or wrong."
+    },
+    {
+      "question": "A FACT is best described as ______.",
+      "options": [
+        "A personal belief that cannot be verified",
+        "Something that can be checked and backed up with evidence",
+        "An assumption about how the world should be",
+        "An opinion held by a majority"
+      ],
+      "answerIndex": 1,
+      "explanation": "A fact is something verifiable through evidence (physical or scientific), unlike an opinion which is subjective and personal."
+    },
+    {
+      "question": "Prescriptive assumptions are beliefs about ______.",
+      "options": [
+        "How the world is",
+        "How the world was",
+        "How the world should be",
+        "How events occurred in the past"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prescriptive (value) assumptions are beliefs about how the world SHOULD be, reflecting value preferences."
+    },
+    {
+      "question": "Reading is considered the most important skill in the school system primarily because ______.",
+      "options": [
+        "It teaches students grammar",
+        "It lays the foundation for success and prepares students for examinations and research",
+        "It improves students' listening skills",
+        "It replaces the need for writing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reading lays the foundation for academic success and prepares students for examinations, research, and writing tasks."
+    },
+    {
+      "question": "Which organs are described as the principal operators in reading?",
+      "options": [
+        "The hands and the ears",
+        "The nose and the tongue",
+        "The eyes and the brain",
+        "The mouth and the lungs"
+      ],
+      "answerIndex": 2,
+      "explanation": "The eyes identify signs and symbols, which are sent to the brain via nerve fibers for interpretation during reading."
+    },
+    {
+      "question": "According to Carver (1992), the reading speed for 'skimming' is approximately ______.",
+      "options": [
+        "138 words per minute",
+        "200 words per minute",
+        "300 words per minute",
+        "450 words per minute"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gear 4 (skimming) = 450 words per minute. Gear 1 (memorizing) = 138, Gear 2 (learning) = 200, Gear 3 (rauding) = 300."
+    },
+    {
+      "question": "The reading speed associated with 'rauding' and efficient comprehension at college level is ______.",
+      "options": [
+        "138 words per minute",
+        "200 words per minute",
+        "300 words per minute",
+        "600 words per minute"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Rauding' (accurate comprehension of complete thoughts) is confirmed at 300 words per minute for college students."
+    },
+    {
+      "question": "Using the surrounding words in a text to guess the meaning of an unfamiliar word is called ______.",
+      "options": [
+        "Vocabulary building",
+        "Previewing",
+        "Context clue",
+        "Note-taking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Context clues use examples, illustrations, definitions, and restatements within the text to help determine unknown word meanings."
+    },
+    {
+      "question": "In the word 'premixed,' the prefix 'pre-' means ______.",
+      "options": ["After", "Before", "Against", "Without"],
+      "answerIndex": 1,
+      "explanation": "The prefix 'pre-' means 'before' (e.g., premixed = mixed beforehand, predated = dated before)."
+    },
+    {
+      "question": "Note-taking is described as a ______ activity.",
+      "options": [
+        "Group",
+        "Fixed and standard",
+        "Personal",
+        "Formal examination"
+      ],
+      "answerIndex": 2,
+      "explanation": "Note-taking is a personal activity that varies from reader to reader, but it helps during revision by saving time."
+    },
+    {
+      "question": "Which of the following is NOT one of the nine comprehension strategies discussed in GST 111?",
+      "options": [
+        "Previous knowledge",
+        "Vocabulary",
+        "Speed reading",
+        "Memorization"
+      ],
+      "answerIndex": 3,
+      "explanation": "The nine strategies are: Previous knowledge, Vocabulary, Prefixes & suffixes, Context clue, Whole meaning, Reading speed, Reading method, Preview, and Note-taking. 'Memorization' is not listed as a strategy."
+    },
+    {
+      "question": "The word 'rauding' is formed from a combination of ______.",
+      "options": [
+        "Reading and writing",
+        "Reading and auding",
+        "Rapid and reading",
+        "Rote and reading"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Rauding' is formed from 'reading' and 'auding' and refers to accurate comprehension of complete thoughts in sentences."
+    },
+    {
+      "question": "Alveolar consonant sounds are made by placing the ______ against the teeth ridge.",
+      "options": [
+        "Lower lip",
+        "Back of the tongue",
+        "Tip or blade of the tongue",
+        "Two lips together"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alveolar sounds (/t/, /d/, /s/, /z/, /n/, /l/) are produced by the tip or blade of the tongue against the alveolar (teeth) ridge."
+    },
+    {
+      "question": "The word 'Grammar' is defined as ______.",
+      "options": [
+        "The study of vocabulary and pronunciation",
+        "The system and structure of language including patterns and rules that determine how language is formed and used",
+        "The art of creative writing",
+        "The study of literary devices"
+      ],
+      "answerIndex": 1,
+      "explanation": "Grammar is the system and structure of a language — the patterns and rules that determine how language is formed and used."
+    },
+    {
+      "question": "In the sentence 'Both occasions were special,' the word 'Both' is an example of a ______.",
+      "options": [
+        "Pre-determiner",
+        "Quantifier used only with two items",
+        "Demonstrative",
+        "Possessive adjective"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Both' is a quantifier used when reference is to exactly two items. 'Both occasions, neither solution, either account' all work with two items."
+    },
+    {
+      "question": "Which of the following sentences is a COMPLEX sentence?",
+      "options": [
+        "Dogs bark.",
+        "The guests arrived but they met no one.",
+        "He failed the examination because he was sick.",
+        "She heard the phone ring and she went to answer it."
+      ],
+      "answerIndex": 2,
+      "explanation": "A complex sentence has one main clause + one subordinate clause. 'He failed' is the main clause; 'because he was sick' is subordinate."
+    },
+    {
+      "question": "The 'Do' auxiliary verb is used for all of the following EXCEPT ______.",
+      "options": [
+        "Forming negatives",
+        "Creating questions",
+        "Adding emphasis",
+        "Expressing future tense"
+      ],
+      "answerIndex": 3,
+      "explanation": "The 'do' auxiliary (do, does, did) is used for negatives, questions, and emphasis — not to express future tense. Future tense uses 'will/shall.'"
+    },
+    {
+      "question": "Which of the following is a NASAL consonant sound?",
+      "options": ["/p/", "/f/", "/m/", "/s/"],
+      "answerIndex": 2,
+      "explanation": "Nasal sounds (/m/, /n/, /ŋ/) are produced with air passing through the nose. /m/ is heard in 'mum,' 'make,' 'massive.'"
+    },
+    {
+      "question": "Aesthetic values are associated with ______.",
+      "options": [
+        "Moral judgements of right and wrong",
+        "Political systems",
+        "Evaluation of artwork or beauty",
+        "Scientific reasoning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Aesthetic values relate to art, music, literature, and the evaluation of beauty — they are considered less urgent than moral values."
     }
   ]
 }
