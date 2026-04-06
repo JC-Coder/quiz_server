@@ -70,8 +70,8 @@ function SetupPage() {
         </p>
       </header>
 
-      <section className="mx-auto w-full max-w-2xl rounded-[2.5rem] border border-slate-100 bg-white p-8 shadow-xl shadow-slate-200/40 sm:p-12">
-        <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+      <section className="mx-auto w-full max-w-2xl rounded-3xl border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 sm:p-12">
+        <h1 className="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
           Configure your mock exam
         </h1>
         <p className="mt-4 text-lg text-slate-600">

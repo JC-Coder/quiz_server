@@ -111,9 +111,9 @@ function QuizPage() {
         </div>
       </header>
 
-      <section className="mx-auto w-full max-w-2xl rounded-[2.5rem] border border-slate-100 bg-white p-8 shadow-xl shadow-slate-200/40 sm:p-12">
+      <section className="mx-auto w-full max-w-2xl rounded-3xl border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 sm:p-12">
         <p className="text-xs font-bold uppercase tracking-widest text-brand-500">{question.category}</p>
-        <h1 className="mt-4 text-2xl font-extrabold leading-tight text-slate-900 sm:text-3xl">
+        <h1 className="mt-4 text-xl font-extrabold leading-tight text-slate-900 sm:text-3xl">
           {question.question}
         </h1>
 

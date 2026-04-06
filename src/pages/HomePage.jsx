@@ -51,7 +51,7 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <nav className="sticky top-0 z-50 border-b border-slate-50 bg-white/80 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
           <div className="flex items-center gap-2.5">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500 text-white shadow-lg shadow-brand-500/20">
               <span className="text-sm font-black">M</span>
@@ -60,40 +60,42 @@ function HomePage() {
               Miva<span className="text-brand-500">Prep</span>
             </span>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <Link
               to="/progress"
-              className="rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:bg-slate-50"
+              className="rounded-xl border border-slate-200 px-3 py-2 text-xs font-bold text-slate-700 transition hover:bg-slate-50 sm:px-4 sm:py-2.5 sm:text-sm"
             >
-              Pending Tests
+              <span className="sm:hidden">Pending</span>
+              <span className="hidden sm:inline">Pending Tests</span>
             </Link>
             <Link
               to="/setup"
-              className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-slate-800"
+              className="rounded-xl bg-slate-900 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-slate-800 sm:px-5 sm:py-2.5 sm:text-sm"
             >
-              Start Practice
+              <span className="sm:hidden">Start</span>
+              <span className="hidden sm:inline">Start Practice</span>
             </Link>
           </div>
         </div>
       </nav>
 
       <PageContainer wide>
-        <section className="flex flex-col items-center gap-10 py-20 lg:py-28">
+        <section className="flex flex-col items-center gap-8 py-12 lg:py-28">
           <div className="mx-auto w-full max-w-4xl text-center">
-            <h1 className="mx-auto max-w-2xl text-4xl font-black leading-[1.2] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+            <h1 className="mx-auto max-w-2xl text-3xl font-black leading-[1.2] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               Ace your exams with
               <br />
               <span className="bg-gradient-to-r from-brand-500 to-cyan-500 bg-clip-text py-2 text-transparent">
                 Miva-tailored mocks.
               </span>
             </h1>
-            <p className="mx-auto mt-6 text-base leading-relaxed text-slate-500 sm:text-lg lg:max-w-2xl">
+            <p className="mx-auto mt-6 text-base leading-relaxed text-slate-500 md:text-lg lg:max-w-2xl">
               Practice Comp Sci, Soft Eng, and other MIVA faculties with explanation-first quizzes.
             </p>
-            <div className="mt-12 flex flex-col items-center justify-center gap-6 sm:flex-row lg:gap-8">
+            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row lg:gap-8">
               <Link
                 to="/setup"
-                className="inline-flex items-center justify-center rounded-2xl bg-brand-500 px-10 py-5 text-lg font-bold text-white shadow-2xl shadow-brand-500/30 transition-all hover:-translate-y-1 hover:bg-brand-600"
+                className="inline-flex w-full items-center justify-center rounded-2xl bg-brand-500 px-10 py-4 text-lg font-bold text-white shadow-2xl shadow-brand-500/30 transition-all hover:-translate-y-1 hover:bg-brand-600 sm:w-auto sm:py-5"
               >
                 Start Exam Practice
               </Link>
@@ -102,8 +104,8 @@ function HomePage() {
           </div>
         </section>
 
-        <section className="py-20 lg:py-32">
-          <div className="mb-20 text-center">
+        <section className="py-16 lg:py-32">
+          <div className="mb-12 text-center sm:mb-20">
             <h2 className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
               Built specifically for
               <br />
@@ -111,7 +113,7 @@ function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
             {highlights.map((item) => (
               <article
                 key={item.title}
@@ -120,7 +122,7 @@ function HomePage() {
                 <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-500 transition-colors group-hover:bg-brand-500 group-hover:text-white">
                   {item.icon}
                 </div>
-                <h3 className="text-2xl font-black tracking-tight text-slate-900 transition-colors group-hover:text-brand-600">
+                <h3 className="text-xl font-black tracking-tight text-slate-900 transition-colors group-hover:text-brand-600 sm:text-2xl">
                   {item.title}
                 </h3>
                 <p className="mt-4 text-base leading-relaxed text-slate-500">{item.description}</p>
