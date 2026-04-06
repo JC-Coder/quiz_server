@@ -1,0 +1,25 @@
+{
+  "courseDetails": {
+    "id": "GST111",
+    "name": "Use of English"
+  },
+  "questions": [
+    {
+      "question": "What is the primary function of the CPU in a computer system?",
+      "options": [
+        "To store data permanently",
+        "To perform arithmetic and logic operations",
+        "To provide a user interface",
+        "To connect to the internet"
+      ],
+      "answerIndex": 1,
+      "explanation": "The CPU executes instructions and performs calculations."
+    },
+    {
+      "question": "Which of these is an example of an Operating System?",
+      "options": ["Microsoft Word", "Google Chrome", "Linux", "Python"],
+      "answerIndex": 2,
+      "explanation": "Linux is an operating system."
+    }
+  ]
+}

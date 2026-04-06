@@ -1,51 +1,33 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import OptionButton from '../components/OptionButton';
 import PageContainer from '../components/PageContainer';
 import { STORAGE_KEYS } from '../constants/storage';
-import { buildNewSession, buildResult } from '../utils/quiz';
-import { getQuestionCatalog } from '../utils/questions';
-import { loadJson, saveJson } from '../utils/storage';
+import { buildResult } from '../utils/quiz';
+import { getSessionById, removeSessionById, upsertSession } from '../utils/sessions';
+import { saveJson } from '../utils/storage';
 
 function QuizPage() {
   const navigate = useNavigate();
-  const location = useLocation();
-  const { questions: allQuestions } = useMemo(() => getQuestionCatalog(), []);
+  const [searchParams] = useSearchParams();
+  const sessionId = useMemo(() => searchParams.get('sessionId'), [searchParams]);
   const [session, setSession] = useState(null);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [locked, setLocked] = useState(false);
 
   useEffect(() => {
-    const setup = loadJson(STORAGE_KEYS.setup);
-    if (!setup) {
+    if (!sessionId) {
       navigate('/setup', { replace: true });
       return;
     }
 
-    const retry = new URLSearchParams(location.search).get('retry') === '1';
-    const existingSession = retry ? null : loadJson(STORAGE_KEYS.session);
-
-    if (existingSession) {
-      // keeps backward compatibility with sessions saved before timestamps existed
-      const hydratedSession = {
-        ...existingSession,
-        startedAt: existingSession.startedAt ?? new Date().toISOString(),
-        updatedAt: new Date().toISOString()
-      };
-      saveJson(STORAGE_KEYS.session, hydratedSession);
-      setSession(hydratedSession);
+    const existingSession = getSessionById(sessionId);
+    if (!existingSession) {
+      navigate('/progress', { replace: true });
       return;
     }
-
-    // creates a fresh session when there is no in-progress quiz
-    const newSession = buildNewSession(setup, allQuestions);
-    if (newSession.questions.length === 0) {
-      navigate('/setup', { replace: true });
-      return;
-    }
-    saveJson(STORAGE_KEYS.session, newSession);
-    setSession(newSession);
-  }, [allQuestions, location.search, navigate]);
+    setSession(existingSession);
+  }, [navigate, sessionId]);
 
   if (!session) return null;
 
@@ -89,12 +71,12 @@ function QuizPage() {
     if (updatedSession.currentIndex >= updatedSession.questions.length) {
       const result = buildResult(updatedSession);
       saveJson(STORAGE_KEYS.result, result);
-      localStorage.removeItem(STORAGE_KEYS.session);
+      removeSessionById(updatedSession.id);
       navigate('/result');
       return;
     }
 
-    saveJson(STORAGE_KEYS.session, updatedSession);
+    upsertSession(updatedSession);
     setSession(updatedSession);
     setSelectedIndex(null);
     setLocked(false);

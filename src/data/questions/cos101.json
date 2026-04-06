@@ -1,23 +1,668 @@
-[
-  {
-    "id": "cos101-1",
-    "category": "COS101",
-    "question": "What is the primary function of the CPU in a computer system?",
-    "options": [
-      "To store data permanently",
-      "To perform arithmetic and logic operations",
-      "To provide a user interface",
-      "To connect to the internet"
-    ],
-    "answerIndex": 1,
-    "explanation": "The CPU executes instructions and performs calculations."
+{
+  "courseDetails": {
+    "id": "COS101",
+    "name": "Foundations of Computer Science"
   },
-  {
-    "id": "cos101-2",
-    "category": "COS101",
-    "question": "Which of these is an example of an Operating System?",
-    "options": ["Microsoft Word", "Google Chrome", "Linux", "Python"],
-    "answerIndex": 2,
-    "explanation": "Linux is an operating system."
-  }
-]
+  "questions": [
+    {
+      "question": "An operating system is best defined as a software that",
+      "options": [
+        "creates only documents",
+        "manages hardware resources",
+        "is used only for browsing",
+        "stores files permanently"
+      ],
+      "answerIndex": 1,
+      "explanation": "An operating system manages hardware resources and provides services for programs."
+    },
+    {
+      "question": "Which of the following is an example of system software?",
+      "options": [
+        "Microsoft Word",
+        "Google Chrome",
+        "Windows",
+        "PowerPoint"
+      ],
+      "answerIndex": 2,
+      "explanation": "Windows is an operating system, which is system software."
+    },
+    {
+      "question": "Which of the following is an application software?",
+      "options": [
+        "Linux",
+        "macOS",
+        "Microsoft Excel",
+        "Kernel"
+      ],
+      "answerIndex": 2,
+      "explanation": "Microsoft Excel is application software used for spreadsheet tasks."
+    },
+    {
+      "question": "Hardware refers to the",
+      "options": [
+        "physical components of a computer",
+        "instructions that control the computer",
+        "internet connection of a computer",
+        "background services only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hardware means the physical parts of a computer system."
+    },
+    {
+      "question": "Which of the following is NOT a computer type?",
+      "options": [
+        "Desktop",
+        "Laptop",
+        "Server",
+        "Compiler"
+      ],
+      "answerIndex": 3,
+      "explanation": "A compiler is software, not a type of computer."
+    },
+    {
+      "question": "A server is most appropriate for",
+      "options": [
+        "hosting applications and managing large data",
+        "printing documents only",
+        "replacing all software",
+        "drawing flowcharts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Servers are designed to host applications and manage large amounts of data."
+    },
+    {
+      "question": "Which computer type is most suitable for lightweight tasks on the move?",
+      "options": [
+        "Server",
+        "Tablet",
+        "High-end desktop",
+        "Workstation monitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A tablet or similar mobile device is suitable for lightweight tasks while moving around."
+    },
+    {
+      "question": "RAM is used mainly for",
+      "options": [
+        "permanent storage",
+        "temporary storage",
+        "internet access",
+        "password creation"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM stores data temporarily while programs are running."
+    },
+    {
+      "question": "Which component determines how fast a computer processes instructions?",
+      "options": [
+        "Monitor",
+        "Processor",
+        "Keyboard",
+        "Speaker"
+      ],
+      "answerIndex": 1,
+      "explanation": "The processor handles instructions and determines processing speed."
+    },
+    {
+      "question": "The speed of a processor is measured in",
+      "options": [
+        "Bytes",
+        "Hertz",
+        "Pixels",
+        "Volts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Processor speed is measured in Hertz."
+    },
+    {
+      "question": "A GPU is especially useful for",
+      "options": [
+        "password storage",
+        "graphic rendering",
+        "typing documents",
+        "file deletion"
+      ],
+      "answerIndex": 1,
+      "explanation": "A GPU is used for graphics processing and rendering images quickly."
+    },
+    {
+      "question": "Which of the following is stored permanently?",
+      "options": [
+        "Hard disk data",
+        "Running process in RAM",
+        "Active browser tab in memory only",
+        "Temporary variables only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Data on a hard disk is stored permanently compared with temporary RAM storage."
+    },
+    {
+      "question": "Higher monitor resolution generally gives",
+      "options": [
+        "lower brightness only",
+        "sharper images",
+        "more battery damage",
+        "less memory space"
+      ],
+      "answerIndex": 1,
+      "explanation": "Higher screen resolution makes images appear sharper and more detailed."
+    },
+    {
+      "question": "Battery life is most essential when choosing a",
+      "options": [
+        "server rack",
+        "laptop",
+        "monitor",
+        "printer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Battery life is especially important for laptops because they are portable."
+    },
+    {
+      "question": "Which of the following is a core function of an operating system?",
+      "options": [
+        "Process management",
+        "Essay writing",
+        "Social networking",
+        "Printing only pictures"
+      ],
+      "answerIndex": 0,
+      "explanation": "Process management is one of the core functions of an operating system."
+    },
+    {
+      "question": "Every running application is called a",
+      "options": [
+        "protocol",
+        "topology",
+        "process",
+        "browser"
+      ],
+      "answerIndex": 2,
+      "explanation": "A running application is known as a process."
+    },
+    {
+      "question": "Which of the following is NOT listed as a process state in the material?",
+      "options": [
+        "Ready",
+        "Running",
+        "Waiting",
+        "Installed"
+      ],
+      "answerIndex": 3,
+      "explanation": "Installed is not a process state; examples given include ready, running, and waiting."
+    },
+    {
+      "question": "The OS function that manages RAM is called",
+      "options": [
+        "file management",
+        "process management",
+        "memory management",
+        "device formatting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Memory management is the operating system function responsible for RAM."
+    },
+    {
+      "question": "The OS function that manages files and directories is",
+      "options": [
+        "security",
+        "file management",
+        "process control",
+        "compilation"
+      ],
+      "answerIndex": 1,
+      "explanation": "File management handles files, folders, and navigation through directories."
+    },
+    {
+      "question": "The OS function that protects files and folders is",
+      "options": [
+        "networking",
+        "editing",
+        "security",
+        "debugging"
+      ],
+      "answerIndex": 2,
+      "explanation": "Security is the operating system function that protects files and folders."
+    },
+    {
+      "question": "Which operating system component loads the OS into RAM during boot?",
+      "options": [
+        "Shell",
+        "Kernel",
+        "Bootloader",
+        "Browser"
+      ],
+      "answerIndex": 2,
+      "explanation": "The bootloader is responsible for loading the operating system into RAM."
+    },
+    {
+      "question": "The kernel is",
+      "options": [
+        "the user’s document folder",
+        "the core of the operating system",
+        "a type of spreadsheet",
+        "an input device"
+      ],
+      "answerIndex": 1,
+      "explanation": "The kernel is the central core of the operating system."
+    },
+    {
+      "question": "Daemons in Linux are called _____ in Windows.",
+      "options": [
+        "protocols",
+        "services",
+        "drivers",
+        "shells"
+      ],
+      "answerIndex": 1,
+      "explanation": "Linux background programs are called daemons, while Windows calls them services."
+    },
+    {
+      "question": "The shell mainly provides",
+      "options": [
+        "internet cables",
+        "user interface for interacting with OS services",
+        "permanent storage",
+        "monitor display resolution"
+      ],
+      "answerIndex": 1,
+      "explanation": "The shell provides a way for users to interact with operating system services."
+    },
+    {
+      "question": "CLI stands for",
+      "options": [
+        "Central Language Interface",
+        "Command Line Interface",
+        "Computer Logic Integration",
+        "Core Link Interpreter"
+      ],
+      "answerIndex": 1,
+      "explanation": "CLI means Command Line Interface."
+    },
+    {
+      "question": "GUI stands for",
+      "options": [
+        "General User Internet",
+        "Graphical User Interface",
+        "Global Utility Integration",
+        "Guided User Instruction"
+      ],
+      "answerIndex": 1,
+      "explanation": "GUI means Graphical User Interface."
+    },
+    {
+      "question": "Which of the following is a word processor?",
+      "options": [
+        "Microsoft Word",
+        "Microsoft Excel",
+        "Google Slides",
+        "Safari"
+      ],
+      "answerIndex": 0,
+      "explanation": "Microsoft Word is a word processing application."
+    },
+    {
+      "question": "A spreadsheet is mainly used for",
+      "options": [
+        "video rendering only",
+        "tabular data handling and calculations",
+        "booting the operating system",
+        "password encryption only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spreadsheets are mainly used to organize, calculate, sort, and analyze tabular data."
+    },
+    {
+      "question": "Which of the following is an example of a spreadsheet program?",
+      "options": [
+        "Apple Pages",
+        "Google Sheets",
+        "Mozilla Firefox",
+        "Linux"
+      ],
+      "answerIndex": 1,
+      "explanation": "Google Sheets is a spreadsheet application."
+    },
+    {
+      "question": "Which of the following is NOT a word processor?",
+      "options": [
+        "Google Docs",
+        "Apple Pages",
+        "Microsoft Word",
+        "Social networking platform"
+      ],
+      "answerIndex": 3,
+      "explanation": "A social networking platform is not a word processor."
+    },
+    {
+      "question": "Presentation tools are mainly used to create",
+      "options": [
+        "operating systems",
+        "visual slide presentations",
+        "network cables",
+        "processor cores"
+      ],
+      "answerIndex": 1,
+      "explanation": "Presentation tools are designed for creating slide-based presentations."
+    },
+    {
+      "question": "Which of the following is a presentation tool?",
+      "options": [
+        "PowerPoint",
+        "Excel",
+        "Word",
+        "Kernel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Microsoft PowerPoint is a presentation software tool."
+    },
+    {
+      "question": "A web browser is used to",
+      "options": [
+        "manage RAM",
+        "access information on the internet",
+        "load the operating system",
+        "connect two hard disks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Web browsers are used to access information on the internet."
+    },
+    {
+      "question": "Which of the following is a web browser?",
+      "options": [
+        "Chrome",
+        "PowerPoint",
+        "Numbers",
+        "WordPad"
+      ],
+      "answerIndex": 0,
+      "explanation": "Google Chrome is a web browser."
+    },
+    {
+      "question": "An algorithm is",
+      "options": [
+        "a physical device",
+        "a step-by-step procedure for solving a problem",
+        "a web protocol",
+        "a computer type"
+      ],
+      "answerIndex": 1,
+      "explanation": "An algorithm is a sequence of steps used to solve a particular problem."
+    },
+    {
+      "question": "Pseudocode is best described as",
+      "options": [
+        "machine language",
+        "plain-language representation of program logic",
+        "a type of monitor",
+        "a spreadsheet formula"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pseudocode expresses program logic in a simple human-readable way."
+    },
+    {
+      "question": "A flowchart is mainly used to",
+      "options": [
+        "repair batteries",
+        "represent an algorithm visually",
+        "browse the web",
+        "increase storage permanently"
+      ],
+      "answerIndex": 1,
+      "explanation": "A flowchart shows the steps of a process or algorithm visually."
+    },
+    {
+      "question": "Program development includes",
+      "options": [
+        "design, coding, testing",
+        "battery charging, networking, printing",
+        "only browsing and typing",
+        "monitor cleaning and updates"
+      ],
+      "answerIndex": 0,
+      "explanation": "Program development typically includes design, coding, and testing."
+    },
+    {
+      "question": "Which of the following is NOT part of a software development process?",
+      "options": [
+        "Design",
+        "Testing",
+        "Computer upgrade",
+        "Coding"
+      ],
+      "answerIndex": 2,
+      "explanation": "Computer upgrade is not a normal stage in software development."
+    },
+    {
+      "question": "Python is commonly described in the material as an",
+      "options": [
+        "assembled language",
+        "interpreted language",
+        "operating system",
+        "networking device"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python is an interpreted programming language."
+    },
+    {
+      "question": "Which of the following is a valid Python variable name?",
+      "options": [
+        "2age",
+        "age$",
+        "mark",
+        "score%"
+      ],
+      "answerIndex": 2,
+      "explanation": "A valid Python variable name cannot start with a digit or contain symbols like $ or %."
+    },
+    {
+      "question": "Which symbol is commonly used in Python to display output?",
+      "options": [
+        "read()",
+        "print()",
+        "save()",
+        "show()"
+      ],
+      "answerIndex": 1,
+      "explanation": "The print() function is used to display output in Python."
+    },
+    {
+      "question": "What is the output of print(\"name\" + \" sake\")?",
+      "options": [
+        "name sake",
+        "namesake",
+        "name+sake",
+        "Name sake"
+      ],
+      "answerIndex": 0,
+      "explanation": "The strings are concatenated, and because the second string begins with a space, the result is 'name sake'."
+    },
+    {
+      "question": "What is the output idea of while True: print(\"hi\")?",
+      "options": [
+        "It runs endlessly",
+        "It prints once only",
+        "It gives syntax error immediately",
+        "It stores data permanently"
+      ],
+      "answerIndex": 0,
+      "explanation": "A while True loop continues indefinitely unless stopped."
+    },
+    {
+      "question": "Which of the following values will be printed by for x in range(2,10): print(x)?",
+      "options": [
+        "2 to 10",
+        "2 to 9",
+        "1 to 9",
+        "3 to 10"
+      ],
+      "answerIndex": 1,
+      "explanation": "range(2,10) starts at 2 and stops before 10, so it prints 2 through 9."
+    },
+    {
+      "question": "Which loop repeats as long as a condition remains true?",
+      "options": [
+        "for loop only over files",
+        "while loop",
+        "print loop",
+        "range loop"
+      ],
+      "answerIndex": 1,
+      "explanation": "A while loop continues execution while its condition stays true."
+    },
+    {
+      "question": "The for statement is mainly used to",
+      "options": [
+        "shut down the OS",
+        "iterate over a sequence",
+        "protect passwords",
+        "create hardware"
+      ],
+      "answerIndex": 1,
+      "explanation": "A for loop is used to iterate through a sequence of items or values."
+    },
+    {
+      "question": "A router is used to",
+      "options": [
+        "connect multiple networks together",
+        "store data temporarily",
+        "perform calculations",
+        "display web pages"
+      ],
+      "answerIndex": 0,
+      "explanation": "A router connects different networks and directs traffic between them."
+    },
+    {
+      "question": "A computer network is",
+      "options": [
+        "a single isolated computer",
+        "a collection of interconnected computers and devices",
+        "a type of software application",
+        "a browser tab"
+      ],
+      "answerIndex": 1,
+      "explanation": "A computer network is a group of interconnected computers and devices."
+    },
+    {
+      "question": "HTTP is commonly used for",
+      "options": [
+        "storing passwords",
+        "transmitting web pages",
+        "controlling processor speed",
+        "drawing flowcharts"
+      ],
+      "answerIndex": 1,
+      "explanation": "HTTP is the protocol commonly used for transmitting web pages over the internet."
+    },
+    {
+      "question": "TCP in networking stands for",
+      "options": [
+        "Transfer Control Page",
+        "Transmission Control Protocol",
+        "Total Computer Process",
+        "Terminal Core Package"
+      ],
+      "answerIndex": 1,
+      "explanation": "TCP means Transmission Control Protocol."
+    },
+    {
+      "question": "Which topology connects devices in a linear fashion?",
+      "options": [
+        "Star",
+        "Mesh",
+        "Ring",
+        "Bus"
+      ],
+      "answerIndex": 3,
+      "explanation": "A bus topology arranges devices along a single main line."
+    },
+    {
+      "question": "Which of the following is a benefit of data visualization in social research?",
+      "options": [
+        "It limits accessibility of findings",
+        "It complicates interpretation",
+        "It enhances communication and understanding",
+        "It discourages collaboration"
+      ],
+      "answerIndex": 2,
+      "explanation": "Data visualization helps communicate findings more clearly and improves understanding."
+    },
+    {
+      "question": "Which of the following is a negative impact or risk from computer networks and internet use?",
+      "options": [
+        "Online information stealing",
+        "Enhancing business",
+        "Bringing people closer",
+        "Improved research access"
+      ],
+      "answerIndex": 0,
+      "explanation": "Online information stealing is a negative effect or risk of network and internet use."
+    },
+    {
+      "question": "One important application of computers in social administration is",
+      "options": [
+        "reducing all need for records",
+        "streamlining administrative processes",
+        "eliminating data analysis",
+        "preventing all errors completely"
+      ],
+      "answerIndex": 1,
+      "explanation": "Computers help streamline administrative processes and improve efficiency."
+    },
+    {
+      "question": "Which of the following best matches computers in social research?",
+      "options": [
+        "They make large-scale data collection easier",
+        "They make findings less accessible",
+        "They remove all privacy issues",
+        "They stop online surveys"
+      ],
+      "answerIndex": 0,
+      "explanation": "Computers support large-scale data collection and analysis in research."
+    },
+    {
+      "question": "Which statement is correct?",
+      "options": [
+        "Algorithms are based on code patching",
+        "Algorithms are step-by-step guides for solving problems",
+        "Algorithms are computer viruses",
+        "Algorithms are network cables"
+      ],
+      "answerIndex": 1,
+      "explanation": "An algorithm is a step-by-step guide for solving a specific problem."
+    },
+    {
+      "question": "Which statement is correct?",
+      "options": [
+        "Compiled languages are converted at runtime only",
+        "Interpreted languages can have a shorter learning curve",
+        "Compiled languages are not used in programming",
+        "Interpreters are hardware devices"
+      ],
+      "answerIndex": 1,
+      "explanation": "Interpreted languages are often easier to learn and test quickly."
+    },
+    {
+      "question": "Which statement is correct?",
+      "options": [
+        "Programming provides a way to communicate with a computer through an interpreter or compiler",
+        "Computers are software systems only",
+        "The computer can work directly with high-level language without translation",
+        "Compilers do not convert code"
+      ],
+      "answerIndex": 0,
+      "explanation": "Programming allows humans to give instructions to computers through languages processed by compilers or interpreters."
+    },
+    {
+      "question": "Which of the following pairs is correctly matched?",
+      "options": [
+        "Word processor — data sorting and filtering only",
+        "Spreadsheet — document boot process",
+        "Browser — internet access",
+        "Kernel — slide presentation creation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A browser is used for accessing information on the internet."
+    }
+  ]
+}

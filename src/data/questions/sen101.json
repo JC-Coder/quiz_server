@@ -1,23 +1,25 @@
-[
-  {
-    "id": "sen101-1",
-    "category": "SEN101",
-    "question": "What does the 'S' in SOLID principles of software design stand for?",
-    "options": [
-      "Single Responsibility Principle",
-      "System Integration",
-      "Sustainable Development",
-      "Structural Pattern"
-    ],
-    "answerIndex": 0,
-    "explanation": "The S means Single Responsibility Principle."
+{
+  "courseDetails": {
+    "id": "SEN101",
+    "name": "Software Engineering Principles"
   },
-  {
-    "id": "sen101-2",
-    "category": "SEN101",
-    "question": "Which of the following is a phase in the Software Development Life Cycle (SDLC)?",
-    "options": ["Marketing", "Recruitment", "Maintenance", "Sales"],
-    "answerIndex": 2,
-    "explanation": "Maintenance is a standard SDLC phase."
-  }
-]
+  "questions": [
+    {
+      "question": "What does the 'S' in SOLID principles of software design stand for?",
+      "options": [
+        "Single Responsibility Principle",
+        "System Integration",
+        "Sustainable Development",
+        "Structural Pattern"
+      ],
+      "answerIndex": 0,
+      "explanation": "The S means Single Responsibility Principle."
+    },
+    {
+      "question": "Which of the following is a phase in the Software Development Life Cycle (SDLC)?",
+      "options": ["Marketing", "Recruitment", "Maintenance", "Sales"],
+      "answerIndex": 2,
+      "explanation": "Maintenance is a standard SDLC phase."
+    }
+  ]
+}

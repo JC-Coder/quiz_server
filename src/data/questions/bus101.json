@@ -1,15 +1,19 @@
-[
-  {
-    "id": "bus101-1",
-    "category": "BUS101",
-    "question": "What does SWOT analysis stand for in business strategy?",
-    "options": [
-      "Strength, Weakness, Opportunities, Threats",
-      "Sales, Wages, Operations, Taxes",
-      "Service, Wisdom, Organization, Timing",
-      "Stability, Wealth, Ownership, Trend"
-    ],
-    "answerIndex": 0,
-    "explanation": "SWOT means Strengths, Weaknesses, Opportunities, and Threats."
-  }
-]
+{
+  "courseDetails": {
+    "id": "BUS101",
+    "name": "Introduction to Business"
+  },
+  "questions": [
+    {
+      "question": "What does SWOT analysis stand for in business strategy?",
+      "options": [
+        "Strength, Weakness, Opportunities, Threats",
+        "Sales, Wages, Operations, Taxes",
+        "Service, Wisdom, Organization, Timing",
+        "Stability, Wealth, Ownership, Trend"
+      ],
+      "answerIndex": 0,
+      "explanation": "SWOT means Strengths, Weaknesses, Opportunities, and Threats."
+    }
+  ]
+}

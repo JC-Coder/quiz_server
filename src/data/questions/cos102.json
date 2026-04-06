@@ -1,18 +1,20 @@
-[
-  {
-    "id": "cos102-1",
-    "category": "COS102",
-    "question": "In Python, which function is used to display output to the console?",
-    "options": ["display()", "write()", "print()", "log()"],
-    "answerIndex": 2,
-    "explanation": "The print() function is the standard way to output text in Python."
+{
+  "courseDetails": {
+    "id": "COS102",
+    "name": "Python Programming Foundations"
   },
-  {
-    "id": "cos102-2",
-    "category": "COS102",
-    "question": "What is the correct way to declare a list in Python?",
-    "options": ["x = (1, 2, 3)", "x = {1, 2, 3}", "x = [1, 2, 3]", "x = <1, 2, 3>"],
-    "answerIndex": 2,
-    "explanation": "Lists in Python are defined using square brackets."
-  }
-]
+  "questions": [
+    {
+      "question": "In Python, which function is used to display output to the console?",
+      "options": ["display()", "write()", "print()", "log()"],
+      "answerIndex": 2,
+      "explanation": "The print() function is the standard way to output text in Python."
+    },
+    {
+      "question": "What is the correct way to declare a list in Python?",
+      "options": ["x = (1, 2, 3)", "x = {1, 2, 3}", "x = [1, 2, 3]", "x = <1, 2, 3>"],
+      "answerIndex": 2,
+      "explanation": "Lists in Python are defined using square brackets."
+    }
+  ]
+}

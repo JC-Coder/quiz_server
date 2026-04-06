@@ -1,38 +1,55 @@
-import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageContainer from '../components/PageContainer';
-import { STORAGE_KEYS } from '../constants/storage';
-import { getProgressSnapshot } from '../utils/progress';
-import { loadJson } from '../utils/storage';
 
 const highlights = [
   {
     title: 'Computer Science',
     description:
-      'Practice questions from COS 101, COS 102, CSC 201, and other core CS modules.'
+      'Practice questions from COS 101, COS 102, CSC 201, and other core CS modules.',
+    icon: (
+      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+        />
+      </svg>
+    )
   },
   {
     title: 'Software Engineering',
-    description: 'Master SEN 101, SEN 201, and related engineering courses with tailored mocks.'
+    description: 'Master SEN 101, SEN 201, and related engineering courses with tailored mocks.',
+    icon: (
+      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+        />
+      </svg>
+    )
   },
   {
     title: 'Business Management',
-    description: 'Prepare for BUS 101 and other management courses with curated exam-style sets.'
+    description: 'Prepare for BUS 101 and other management courses with curated exam-style sets.',
+    icon: (
+      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+        />
+      </svg>
+    )
   }
 ];
 
 function HomePage() {
-  const [session, setSession] = useState(null);
-  const progress = useMemo(() => getProgressSnapshot(session), [session]);
-
-  useEffect(() => {
-    const savedSession = loadJson(STORAGE_KEYS.session);
-    if (!savedSession) return;
-    setSession(savedSession);
-  }, []);
-
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white">
       <nav className="sticky top-0 z-50 border-b border-slate-50 bg-white/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-2.5">
@@ -43,44 +60,24 @@ function HomePage() {
               Miva<span className="text-brand-500">Prep</span>
             </span>
           </div>
-          {progress ? (
+          <div className="flex items-center gap-3">
             <Link
               to="/progress"
-              className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-slate-800"
+              className="rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-bold text-slate-700 transition hover:bg-slate-50"
             >
-              Resume Test
+              Pending Tests
             </Link>
-          ) : (
             <Link
               to="/setup"
               className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-slate-800"
             >
               Start Practice
             </Link>
-          )}
+          </div>
         </div>
       </nav>
 
       <PageContainer wide>
-        {progress && (
-          <section className="mx-auto mt-8 w-full max-w-4xl rounded-2xl border border-brand-100 bg-brand-50/40 p-5">
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="text-xs font-black uppercase tracking-widest text-brand-700">In Progress</p>
-                <p className="mt-1 text-sm font-bold text-slate-800">
-                  You answered {progress.answered}/{progress.total} questions.
-                </p>
-              </div>
-              <Link
-                to="/progress"
-                className="inline-flex items-center justify-center rounded-xl bg-brand-500 px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-600"
-              >
-                Continue Test
-              </Link>
-            </div>
-          </section>
-        )}
-
         <section className="flex flex-col items-center gap-10 py-20 lg:py-28">
           <div className="mx-auto w-full max-w-4xl text-center">
             <h1 className="mx-auto max-w-2xl text-4xl font-black leading-[1.2] tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
@@ -105,31 +102,46 @@ function HomePage() {
           </div>
         </section>
 
-        <section className="py-20">
-          <div className="mb-14 text-center">
-            <h2 className="text-sm font-black uppercase tracking-[0.3em] text-brand-500">
-              Faculty Specific
+        <section className="py-20 lg:py-32">
+          <div className="mb-20 text-center">
+            <h2 className="text-3xl font-black tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
+              Built specifically for
+              <br />
+              <span className="text-brand-500">Miva Students.</span>
             </h2>
-            <p className="mt-6 text-3xl font-black tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-              Built for MIVA students.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {highlights.map((item) => (
               <article
                 key={item.title}
-                className="flex flex-col rounded-[2.5rem] border border-slate-100 bg-white p-10 shadow-sm transition-all hover:border-brand-100 hover:shadow-xl hover:shadow-brand-500/5"
+                className="group relative flex flex-col rounded-3xl border border-slate-100 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:border-brand-200 hover:shadow-2xl hover:shadow-brand-500/10"
               >
-                <h3 className="mt-4 text-2xl font-black text-slate-900">{item.title}</h3>
-                <p className="mt-4 text-base leading-relaxed text-slate-600">{item.description}</p>
+                <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-500 transition-colors group-hover:bg-brand-500 group-hover:text-white">
+                  {item.icon}
+                </div>
+                <h3 className="text-2xl font-black tracking-tight text-slate-900 transition-colors group-hover:text-brand-600">
+                  {item.title}
+                </h3>
+                <p className="mt-4 text-base leading-relaxed text-slate-500">{item.description}</p>
+                <div className="mt-8 flex items-center gap-2 text-sm font-bold text-brand-500 opacity-0 transition-opacity group-hover:opacity-100">
+                  Learn more
+                  <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={3}
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </div>
               </article>
             ))}
           </div>
         </section>
       </PageContainer>
     </div>
-  );
+  )
 }
 
 export default HomePage;

@@ -62,7 +62,7 @@ function ResultPage() {
             Review Answers
           </Link>
           <Link
-            to="/quiz?retry=1"
+            to="/setup"
             className="inline-flex items-center justify-center rounded-2xl bg-brand-500 px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-500/20 transition-all hover:bg-brand-600 hover:shadow-xl hover:shadow-brand-500/30"
           >
             Retry Quiz

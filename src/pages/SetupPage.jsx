@@ -1,30 +1,58 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import PageContainer from '../components/PageContainer';
 import { questionCounts, quizModes } from '../constants/options';
 import { STORAGE_KEYS } from '../constants/storage';
-import { getProgressSnapshot } from '../utils/progress';
 import { getQuestionCatalog } from '../utils/questions';
-import { loadJson, saveJson } from '../utils/storage';
+import { buildNewSession } from '../utils/quiz';
+import { migrateLegacySessionIfPresent, upsertSession } from '../utils/sessions';
+import { saveJson } from '../utils/storage';
 
 function SetupPage() {
   const navigate = useNavigate();
   const { questions, facultyOptions } = useMemo(() => getQuestionCatalog(), []);
-  const session = useMemo(() => loadJson(STORAGE_KEYS.session), []);
-  const progress = useMemo(() => getProgressSnapshot(session), [session]);
   const [category, setCategory] = useState(facultyOptions[0]?.value ?? 'all');
-  const [count, setCount] = useState(questionCounts[0]);
+  const [count, setCount] = useState(questionCounts[0] ?? 10);
   const [mode, setMode] = useState(quizModes[0].value);
+
+  const availableForCategory = useMemo(() => {
+    if (category === 'all') return questions.length;
+    return questions.filter((question) => question.category === category).length;
+  }, [category, questions]);
+
+  const countOptions = useMemo(() => {
+    if (availableForCategory <= 0) return [];
+
+    const filtered = questionCounts.filter((option) => option <= availableForCategory);
+    if (filtered.length === 0) return [availableForCategory];
+    if (!filtered.includes(availableForCategory)) filtered.push(availableForCategory);
+    return [...new Set(filtered)].sort((left, right) => left - right);
+  }, [availableForCategory]);
+
+  useEffect(() => {
+    migrateLegacySessionIfPresent();
+  }, []);
+
+  useEffect(() => {
+    if (!countOptions.includes(count)) {
+      setCount(countOptions[0] ?? 0);
+    }
+  }, [count, countOptions]);
 
   function handleSubmit(event) {
     event.preventDefault();
+    if (availableForCategory === 0) return;
 
-    // keeps setup in local storage so quiz page can continue from it
-    const setup = { category, count: Number(count), mode };
+    const finalCount = Math.min(Number(count), availableForCategory);
+    const setup = { category, count: finalCount, mode };
+    const sessionId = crypto.randomUUID ? crypto.randomUUID() : `sess_${Date.now()}`;
+    const session = { ...buildNewSession(setup, questions), id: sessionId };
+
+    // keeps setup/result for compatibility and stores pending sessions in collection
     saveJson(STORAGE_KEYS.setup, setup);
-    localStorage.removeItem(STORAGE_KEYS.session);
     localStorage.removeItem(STORAGE_KEYS.result);
-    navigate('/quiz');
+    upsertSession(session);
+    navigate(`/quiz?sessionId=${encodeURIComponent(sessionId)}`);
   }
 
   return (
@@ -54,23 +82,6 @@ function SetupPage() {
           <p className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-700">
             No question JSON was found in <code>src/data/questions</code>. Add a file to continue.
           </p>
-        )}
-
-        {progress && (
-          <div className="mt-5 rounded-2xl border border-brand-100 bg-brand-50/40 p-4">
-            <p className="text-xs font-black uppercase tracking-widest text-brand-700">Unfinished Test</p>
-            <p className="mt-1 text-sm font-bold text-slate-800">
-              {progress.answered}/{progress.total} answered. Continue where you stopped.
-            </p>
-            <div className="mt-3">
-              <Link
-                to="/progress"
-                className="inline-flex items-center justify-center rounded-xl bg-brand-500 px-4 py-2 text-sm font-bold text-white transition hover:bg-brand-600"
-              >
-                Open Progress
-              </Link>
-            </div>
-          </div>
         )}
 
         <form className="mt-10 space-y-8" onSubmit={handleSubmit}>
@@ -103,12 +114,15 @@ function SetupPage() {
                 value={count}
                 onChange={(event) => setCount(Number(event.target.value))}
               >
-                {questionCounts.map((value) => (
+                {countOptions.map((value) => (
                   <option key={value} value={value}>
                     {value} Questions
                   </option>
                 ))}
               </select>
+              <p className="mt-2 text-xs font-semibold text-slate-500">
+                {availableForCategory} question{availableForCategory === 1 ? '' : 's'} available.
+              </p>
             </div>
           </div>
 
@@ -140,7 +154,7 @@ function SetupPage() {
           <button
             type="submit"
             className="inline-flex w-full items-center justify-center rounded-2xl bg-brand-500 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-brand-500/20 transition-all hover:bg-brand-600 hover:shadow-xl hover:shadow-brand-500/30 disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto sm:px-12"
-            disabled={questions.length === 0}
+            disabled={questions.length === 0 || availableForCategory === 0 || countOptions.length === 0}
           >
             Build My Mock
           </button>

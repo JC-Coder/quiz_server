@@ -1,10 +1,14 @@
-[
-  {
-    "id": "mth101-1",
-    "category": "MTH101",
-    "question": "If log(x) = 2 (base 10), what is the value of x?",
-    "options": ["20", "100", "2", "10"],
-    "answerIndex": 1,
-    "explanation": "If log(x) = 2, then x = 10^2 = 100."
-  }
-]
+{
+  "courseDetails": {
+    "id": "MTH101",
+    "name": "General Mathematics"
+  },
+  "questions": [
+    {
+      "question": "If log(x) = 2 (base 10), what is the value of x?",
+      "options": ["20", "100", "2", "10"],
+      "answerIndex": 1,
+      "explanation": "If log(x) = 2, then x = 10^2 = 100."
+    }
+  ]
+}

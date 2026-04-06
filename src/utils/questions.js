@@ -22,16 +22,36 @@ export function getQuestionCatalog() {
   // loads every JSON file in src/data/questions automatically
   Object.values(questionModules).forEach((moduleValue) => {
     const rawData = moduleValue?.default ?? moduleValue;
-    const entries = Array.isArray(rawData) ? rawData : rawData?.questions;
-    if (!Array.isArray(entries)) return;
 
-    entries.forEach((entry) => {
-      const normalized = normalizeQuestion(entry);
-      if (!normalized) return;
-      if (!normalized.id || !normalized.category || !normalized.question) return;
-      if (normalized.answerIndex < 0 || normalized.answerIndex >= normalized.options.length) return;
-      questions.push(normalized);
-    });
+    // Handle the new structured format: { courseDetails, questions }
+    if (!Array.isArray(rawData) && rawData?.questions) {
+      const category = rawData.courseDetails?.id;
+      if (!category) return;
+
+      rawData.questions.forEach((entry, index) => {
+        const normalized = normalizeQuestion({
+          ...entry,
+          category,
+          // Generate an id if it's missing from the new simplified structure
+          id: entry.id ?? `${category}-${index + 1}`
+        });
+
+        if (normalized && normalized.question) {
+          questions.push(normalized);
+        }
+      });
+      return;
+    }
+
+    // Handle the legacy flat array format
+    if (Array.isArray(rawData)) {
+      rawData.forEach((entry) => {
+        const normalized = normalizeQuestion(entry);
+        if (normalized && normalized.id && normalized.category && normalized.question) {
+          questions.push(normalized);
+        }
+      });
+    }
   });
 
   const categories = new Set(questions.map((question) => question.category));
@@ -64,9 +84,6 @@ export function pickQuizQuestions(allQuestions, category, count) {
       ? allQuestions
       : allQuestions.filter((question) => question.category === category);
 
-  const selected = shuffle(byCategory);
-  if (selected.length >= requestedCount) return selected.slice(0, requestedCount);
-
-  // falls back to all questions when selected category has too few questions
-  return shuffle(allQuestions).slice(0, requestedCount);
+  const cappedCount = Math.min(requestedCount, byCategory.length);
+  return shuffle(byCategory).slice(0, cappedCount);
 }
