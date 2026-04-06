@@ -1,668 +1,903 @@
 {
   "courseDetails": {
     "id": "COS101",
-    "name": "Foundations of Computer Science"
+    "name": "Introduction to Computing"
   },
   "questions": [
     {
-      "question": "An operating system is best defined as a software that",
-      "options": [
-        "creates only documents",
-        "manages hardware resources",
-        "is used only for browsing",
-        "stores files permanently"
-      ],
-      "answerIndex": 1,
-      "explanation": "An operating system manages hardware resources and provides services for programs."
+      "question": "Which component of a computer determines how fast instructions are processed?",
+      "options": ["RAM", "GPU", "Processor", "Hard disk"],
+      "answerIndex": 2,
+      "explanation": "The processor (CPU) determines how fast a computer processes instructions. Its speed is measured in Hertz."
     },
     {
-      "question": "Which of the following is an example of system software?",
+      "question": "The speed of a processor is measured in:",
+      "options": ["Bytes", "Hertz", "Pixels", "Watts"],
+      "answerIndex": 1,
+      "explanation": "Processor speed is measured in Hertz (Hz), which indicates how many instructions it can process per second."
+    },
+    {
+      "question": "An i7 processor running at 4GHz can process how many instructions per second?",
+      "options": ["4,000,000", "400,000,000", "4,000,000,000", "40,000,000"],
+      "answerIndex": 2,
+      "explanation": "4GHz means 4 gigahertz, which equals 4,000,000,000 (4 billion) instructions per second."
+    },
+    {
+      "question": "Which component is most important for rendering images faster during gaming and deep learning?",
+      "options": ["RAM", "Hard disk", "GPU", "Processor"],
+      "answerIndex": 2,
+      "explanation": "A GPU (Graphical Processing Unit) is designed to render images faster and is also used to speed up deep learning training."
+    },
+    {
+      "question": "The RAM capacity is measured in:",
+      "options": ["Hertz", "Bytes", "Pixels", "Watts"],
+      "answerIndex": 1,
+      "explanation": "RAM capacity is measured in Bytes (e.g., 8GB, 16GB, 32GB)."
+    },
+    {
+      "question": "What does RAM stand for?",
+      "options": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Rapid Allocation Memory",
+        "Read Allocation Module"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM stands for Random Access Memory. It holds information temporarily while the computer is running."
+    },
+    {
+      "question": "A modern high-end laptop suitable for animators and graphic designers would typically have:",
+      "options": [
+        "4GB RAM, 500GB HDD, i3 processor",
+        "32GB RAM, 1TB HDD, i7 processor, GPU",
+        "8GB RAM, 256GB HDD, i5 processor",
+        "16GB RAM, 500GB HDD, i3 processor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A high-end laptop for animation and graphics needs 32GB RAM, 1TB hard drive, an i7 processor, and a GPU for enhanced rendering performance."
+    },
+    {
+      "question": "Which of the following determines how much information can be stored permanently on a computer?",
+      "options": ["RAM", "GPU", "Processor speed", "Hard disk space"],
+      "answerIndex": 3,
+      "explanation": "The hard disk (storage) determines how much information can be stored permanently. RAM only stores information temporarily."
+    },
+    {
+      "question": "For a professional always on the move doing only basic tasks like email editing, which computer is most appropriate?",
+      "options": [
+        "High-end desktop",
+        "Server",
+        "Low-end laptop",
+        "High-end laptop"
+      ],
+      "answerIndex": 2,
+      "explanation": "A low-end laptop is portable and sufficient for basic tasks like email editing and word processing."
+    },
+    {
+      "question": "An 8GB RAM can retain a maximum of how many bytes of information?",
+      "options": ["8,000,000", "800,000,000", "8,000,000,000", "80,000,000"],
+      "answerIndex": 2,
+      "explanation": "8GB = 8,000,000,000 bytes. The prefix 'Giga' means one billion."
+    },
+    {
+      "question": "Which of the following computer types is most suitable for hosting applications that require real-time processing?",
+      "options": ["Low-end laptop", "Tablet", "Server", "Desktop"],
+      "answerIndex": 2,
+      "explanation": "Servers are designed to host applications and manage large amounts of data in real time."
+    },
+    {
+      "question": "Monitor resolution is usually expressed in:",
+      "options": ["Hertz", "Bytes", "Pixels (e.g., 1920 x 1080)", "Watts"],
+      "answerIndex": 2,
+      "explanation": "Monitor resolution is expressed in pixels, for example 1920 x 1080. More pixels means sharper images."
+    },
+    {
+      "question": "For a graphics artist who travels frequently and does 3D animation, the most suitable computer would be:",
+      "options": [
+        "Low-end laptop",
+        "Tablet",
+        "Server",
+        "High-end laptop with GPU"
+      ],
+      "answerIndex": 3,
+      "explanation": "A high-end laptop with a GPU supports 3D animation and is portable for travel, making it ideal for a mobile graphics artist."
+    },
+    {
+      "question": "Which factor most affects battery life in a laptop used for 3D animation tasks?",
+      "options": [
+        "Screen brightness only",
+        "The keyboard type",
+        "High-power tasks like animation and rendering",
+        "The color of the laptop"
+      ],
+      "answerIndex": 2,
+      "explanation": "High-intensity tasks like 3D animation, graphics rendering, and gaming consume more power and deplete battery life faster."
+    },
+    {
+      "question": "The Intel i7 processor is an example of a:",
+      "options": [
+        "Single-core processor",
+        "Dual-core processor",
+        "Multiple-core processor",
+        "Graphics processor"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Intel i7 processor has more than four cores, making it a multiple-core processor designed for enhanced performance."
+    },
+    {
+      "question": "An operating system is best described as:",
+      "options": [
+        "A hardware component that stores files",
+        "A software that manages hardware resources",
+        "A device that connects computers to the internet",
+        "A program used only for word processing"
+      ],
+      "answerIndex": 1,
+      "explanation": "An operating system is software that manages hardware resources such as the processor, keyboard, monitor, and memory."
+    },
+    {
+      "question": "Which of the following is NOT a function of an operating system?",
+      "options": [
+        "Process management",
+        "Memory management",
+        "File management",
+        "Graphics rendering"
+      ],
+      "answerIndex": 3,
+      "explanation": "The core OS functions are process management, memory management, file management, networking, and security. Graphics rendering is handled by the GPU and related software."
+    },
+    {
+      "question": "The core component of an OS that manages the CPU, memory, and other hardware is called the:",
+      "options": ["Shell", "Bootloader", "Kernel", "Daemon"],
+      "answerIndex": 2,
+      "explanation": "The Kernel is the core of the operating system. It manages the CPU, memory, and hardware resources."
+    },
+    {
+      "question": "Software that runs in the background without requiring user interaction is called:",
+      "options": ["Shell", "Kernel", "Bootloader", "Daemon / Service"],
+      "answerIndex": 3,
+      "explanation": "Background processes are called Daemons in Linux and Services in Windows. They run without user interaction."
+    },
+    {
+      "question": "Which OS component provides a user interface for interacting with operating system services?",
+      "options": ["Kernel", "Shell", "Bootloader", "Daemon"],
+      "answerIndex": 1,
+      "explanation": "The Shell provides the user interface \u2014 either a Command Line Interface (CLI) or Graphical User Interface (GUI)."
+    },
+    {
+      "question": "In the OS-chef analogy from the lecture, what does the kitchen assistant represent?",
+      "options": ["RAM", "Hard disk", "CPU", "Operating system"],
+      "answerIndex": 2,
+      "explanation": "In the analogy, the OS is the chef giving instructions and the kitchen assistant (who carries out those instructions) represents the CPU."
+    },
+    {
+      "question": "The section of the OS that loads the operating system into RAM at startup is called the:",
+      "options": ["Kernel", "Shell", "Bootloader", "Daemon"],
+      "answerIndex": 2,
+      "explanation": "The Bootloader manages the boot process and loads the operating system into RAM when the computer starts."
+    },
+    {
+      "question": "The OS manages the RAM by:",
+      "options": [
+        "Permanently storing files in it",
+        "Asking the processor to load and delete files from memory as needed",
+        "Formatting the hard disk",
+        "Rendering images on screen"
+      ],
+      "answerIndex": 1,
+      "explanation": "The OS instructs the processor to load files into RAM when needed and deletes them from memory when they are closed."
+    },
+    {
+      "question": "Which protocol does the Windows OS use to communicate with other machines on a network?",
+      "options": ["HTTP", "FTP", "TCP (Transmission Control Protocol)", "DNS"],
+      "answerIndex": 2,
+      "explanation": "The Windows OS uses TCP (Transmission Control Protocol) to communicate with other machines on a network."
+    },
+    {
+      "question": "Operating systems exist in which of the following devices?",
+      "options": [
+        "Only desktop computers",
+        "Only laptops",
+        "Supercomputers, servers, desktops, laptops, and mobile devices",
+        "Only mobile phones"
+      ],
+      "answerIndex": 2,
+      "explanation": "Operating systems exist in virtually all computers \u2014 from supercomputers and servers to desktops, laptops, and mobile devices."
+    },
+    {
+      "question": "Which of the following is NOT an example of a word processor?",
+      "options": [
+        "Microsoft Word",
+        "Google Docs",
+        "Apple Pages",
+        "Social networking"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microsoft Word, Google Docs, and Apple Pages are all word processors. Social networking is not a word processor."
+    },
+    {
+      "question": "Microsoft Excel is a typical example of a:",
+      "options": [
+        "Word processor",
+        "Spreadsheet",
+        "Presentation tool",
+        "Web browser"
+      ],
+      "answerIndex": 1,
+      "explanation": "Microsoft Excel is a spreadsheet application used for data organisation, calculations, and analysis."
+    },
+    {
+      "question": "Which software application is used to compress or archive files to make them smaller?",
+      "options": [
+        "Email client",
+        "Web browser",
+        "File compression tool",
+        "Spreadsheet"
+      ],
+      "answerIndex": 2,
+      "explanation": "File compression tools like WinRAR, 7-Zip, and macOS Archive Utility are used to compress or archive files for storage or transport."
+    },
+    {
+      "question": "Which of the following is an example of a file compression tool?",
       "options": [
         "Microsoft Word",
         "Google Chrome",
-        "Windows",
-        "PowerPoint"
+        "WinRAR",
+        "Microsoft Outlook"
       ],
       "answerIndex": 2,
-      "explanation": "Windows is an operating system, which is system software."
+      "explanation": "WinRAR is a popular file compression tool. Others include 7-Zip and macOS's built-in Archive Utility."
     },
     {
-      "question": "Which of the following is an application software?",
+      "question": "What is the role of data visualisation in social research and social administration?",
       "options": [
-        "Linux",
-        "macOS",
+        "To limit accessibility of research findings",
+        "To complicate data interpretation",
+        "To enhance data communication and understanding",
+        "To discourage data sharing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Data visualisation enhances communication and understanding of data by presenting it in graphical or chart form."
+    },
+    {
+      "question": "Which of the following is a primary benefit of using computers in social research and social administration?",
+      "options": [
+        "Enhanced data analysis capabilities",
+        "Decreased efficiency",
+        "Increased subjectivity",
+        "Limited data storage capacity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Computers provide enhanced data analysis capabilities, allowing researchers to process large datasets and uncover insights efficiently."
+    },
+    {
+      "question": "Which of the following is an example of a presentation tool?",
+      "options": [
         "Microsoft Excel",
-        "Kernel"
-      ],
-      "answerIndex": 2,
-      "explanation": "Microsoft Excel is application software used for spreadsheet tasks."
-    },
-    {
-      "question": "Hardware refers to the",
-      "options": [
-        "physical components of a computer",
-        "instructions that control the computer",
-        "internet connection of a computer",
-        "background services only"
-      ],
-      "answerIndex": 0,
-      "explanation": "Hardware means the physical parts of a computer system."
-    },
-    {
-      "question": "Which of the following is NOT a computer type?",
-      "options": [
-        "Desktop",
-        "Laptop",
-        "Server",
-        "Compiler"
-      ],
-      "answerIndex": 3,
-      "explanation": "A compiler is software, not a type of computer."
-    },
-    {
-      "question": "A server is most appropriate for",
-      "options": [
-        "hosting applications and managing large data",
-        "printing documents only",
-        "replacing all software",
-        "drawing flowcharts"
-      ],
-      "answerIndex": 0,
-      "explanation": "Servers are designed to host applications and manage large amounts of data."
-    },
-    {
-      "question": "Which computer type is most suitable for lightweight tasks on the move?",
-      "options": [
-        "Server",
-        "Tablet",
-        "High-end desktop",
-        "Workstation monitor"
-      ],
-      "answerIndex": 1,
-      "explanation": "A tablet or similar mobile device is suitable for lightweight tasks while moving around."
-    },
-    {
-      "question": "RAM is used mainly for",
-      "options": [
-        "permanent storage",
-        "temporary storage",
-        "internet access",
-        "password creation"
-      ],
-      "answerIndex": 1,
-      "explanation": "RAM stores data temporarily while programs are running."
-    },
-    {
-      "question": "Which component determines how fast a computer processes instructions?",
-      "options": [
-        "Monitor",
-        "Processor",
-        "Keyboard",
-        "Speaker"
-      ],
-      "answerIndex": 1,
-      "explanation": "The processor handles instructions and determines processing speed."
-    },
-    {
-      "question": "The speed of a processor is measured in",
-      "options": [
-        "Bytes",
-        "Hertz",
-        "Pixels",
-        "Volts"
-      ],
-      "answerIndex": 1,
-      "explanation": "Processor speed is measured in Hertz."
-    },
-    {
-      "question": "A GPU is especially useful for",
-      "options": [
-        "password storage",
-        "graphic rendering",
-        "typing documents",
-        "file deletion"
-      ],
-      "answerIndex": 1,
-      "explanation": "A GPU is used for graphics processing and rendering images quickly."
-    },
-    {
-      "question": "Which of the following is stored permanently?",
-      "options": [
-        "Hard disk data",
-        "Running process in RAM",
-        "Active browser tab in memory only",
-        "Temporary variables only"
-      ],
-      "answerIndex": 0,
-      "explanation": "Data on a hard disk is stored permanently compared with temporary RAM storage."
-    },
-    {
-      "question": "Higher monitor resolution generally gives",
-      "options": [
-        "lower brightness only",
-        "sharper images",
-        "more battery damage",
-        "less memory space"
-      ],
-      "answerIndex": 1,
-      "explanation": "Higher screen resolution makes images appear sharper and more detailed."
-    },
-    {
-      "question": "Battery life is most essential when choosing a",
-      "options": [
-        "server rack",
-        "laptop",
-        "monitor",
-        "printer"
-      ],
-      "answerIndex": 1,
-      "explanation": "Battery life is especially important for laptops because they are portable."
-    },
-    {
-      "question": "Which of the following is a core function of an operating system?",
-      "options": [
-        "Process management",
-        "Essay writing",
-        "Social networking",
-        "Printing only pictures"
-      ],
-      "answerIndex": 0,
-      "explanation": "Process management is one of the core functions of an operating system."
-    },
-    {
-      "question": "Every running application is called a",
-      "options": [
-        "protocol",
-        "topology",
-        "process",
-        "browser"
-      ],
-      "answerIndex": 2,
-      "explanation": "A running application is known as a process."
-    },
-    {
-      "question": "Which of the following is NOT listed as a process state in the material?",
-      "options": [
-        "Ready",
-        "Running",
-        "Waiting",
-        "Installed"
-      ],
-      "answerIndex": 3,
-      "explanation": "Installed is not a process state; examples given include ready, running, and waiting."
-    },
-    {
-      "question": "The OS function that manages RAM is called",
-      "options": [
-        "file management",
-        "process management",
-        "memory management",
-        "device formatting"
-      ],
-      "answerIndex": 2,
-      "explanation": "Memory management is the operating system function responsible for RAM."
-    },
-    {
-      "question": "The OS function that manages files and directories is",
-      "options": [
-        "security",
-        "file management",
-        "process control",
-        "compilation"
-      ],
-      "answerIndex": 1,
-      "explanation": "File management handles files, folders, and navigation through directories."
-    },
-    {
-      "question": "The OS function that protects files and folders is",
-      "options": [
-        "networking",
-        "editing",
-        "security",
-        "debugging"
-      ],
-      "answerIndex": 2,
-      "explanation": "Security is the operating system function that protects files and folders."
-    },
-    {
-      "question": "Which operating system component loads the OS into RAM during boot?",
-      "options": [
-        "Shell",
-        "Kernel",
-        "Bootloader",
-        "Browser"
-      ],
-      "answerIndex": 2,
-      "explanation": "The bootloader is responsible for loading the operating system into RAM."
-    },
-    {
-      "question": "The kernel is",
-      "options": [
-        "the user’s document folder",
-        "the core of the operating system",
-        "a type of spreadsheet",
-        "an input device"
-      ],
-      "answerIndex": 1,
-      "explanation": "The kernel is the central core of the operating system."
-    },
-    {
-      "question": "Daemons in Linux are called _____ in Windows.",
-      "options": [
-        "protocols",
-        "services",
-        "drivers",
-        "shells"
-      ],
-      "answerIndex": 1,
-      "explanation": "Linux background programs are called daemons, while Windows calls them services."
-    },
-    {
-      "question": "The shell mainly provides",
-      "options": [
-        "internet cables",
-        "user interface for interacting with OS services",
-        "permanent storage",
-        "monitor display resolution"
-      ],
-      "answerIndex": 1,
-      "explanation": "The shell provides a way for users to interact with operating system services."
-    },
-    {
-      "question": "CLI stands for",
-      "options": [
-        "Central Language Interface",
-        "Command Line Interface",
-        "Computer Logic Integration",
-        "Core Link Interpreter"
-      ],
-      "answerIndex": 1,
-      "explanation": "CLI means Command Line Interface."
-    },
-    {
-      "question": "GUI stands for",
-      "options": [
-        "General User Internet",
-        "Graphical User Interface",
-        "Global Utility Integration",
-        "Guided User Instruction"
-      ],
-      "answerIndex": 1,
-      "explanation": "GUI means Graphical User Interface."
-    },
-    {
-      "question": "Which of the following is a word processor?",
-      "options": [
-        "Microsoft Word",
-        "Microsoft Excel",
-        "Google Slides",
-        "Safari"
-      ],
-      "answerIndex": 0,
-      "explanation": "Microsoft Word is a word processing application."
-    },
-    {
-      "question": "A spreadsheet is mainly used for",
-      "options": [
-        "video rendering only",
-        "tabular data handling and calculations",
-        "booting the operating system",
-        "password encryption only"
-      ],
-      "answerIndex": 1,
-      "explanation": "Spreadsheets are mainly used to organize, calculate, sort, and analyze tabular data."
-    },
-    {
-      "question": "Which of the following is an example of a spreadsheet program?",
-      "options": [
-        "Apple Pages",
-        "Google Sheets",
-        "Mozilla Firefox",
-        "Linux"
-      ],
-      "answerIndex": 1,
-      "explanation": "Google Sheets is a spreadsheet application."
-    },
-    {
-      "question": "Which of the following is NOT a word processor?",
-      "options": [
         "Google Docs",
-        "Apple Pages",
-        "Microsoft Word",
-        "Social networking platform"
+        "Microsoft PowerPoint",
+        "WinRAR"
+      ],
+      "answerIndex": 2,
+      "explanation": "Microsoft PowerPoint is a presentation tool used to create visual slideshows. Others include Google Slides and Apple Keynote."
+    },
+    {
+      "question": "What is the role of email clients in computing?",
+      "options": [
+        "To compress files",
+        "To allow users to send, receive, and manage email messages",
+        "To create visual presentations",
+        "To browse the internet"
+      ],
+      "answerIndex": 1,
+      "explanation": "Email clients like Microsoft Outlook, Gmail, and Apple Mail allow users to compose, send, receive, and manage email messages."
+    },
+    {
+      "question": "Which of the following is an example of a Learning Management System (LMS)?",
+      "options": ["Microsoft Excel", "Moodle", "WinRAR", "Adobe Premiere Pro"],
+      "answerIndex": 1,
+      "explanation": "Moodle is an example of a Learning Management System (LMS), used to support the administration and delivery of educational courses."
+    },
+    {
+      "question": "Which of the following is an example of a cloud storage tool?",
+      "options": ["Microsoft PowerPoint", "Google Drive", "WinRAR", "Moodle"],
+      "answerIndex": 1,
+      "explanation": "Google Drive is a cloud storage tool. Others include Dropbox, Microsoft OneDrive, Box, iCloud Drive, and Amazon Drive."
+    },
+    {
+      "question": "Git is an example of a:",
+      "options": [
+        "Presentation tool",
+        "Version control system",
+        "Email client",
+        "File compression tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "Git is a distributed version control system (VCS) used to track and manage changes in software development projects."
+    },
+    {
+      "question": "An algorithm is best defined as:",
+      "options": [
+        "A programming language syntax",
+        "A step-by-step process of solving a problem efficiently",
+        "A design approach to code upgrade",
+        "A case study for code patching"
+      ],
+      "answerIndex": 1,
+      "explanation": "An algorithm is a step-by-step process of solving a problem efficiently. It provides a high-level view of how a problem will be solved."
+    },
+    {
+      "question": "Which of the following is a correct characteristic of an algorithm?",
+      "options": [
+        "An algorithm must be infinite",
+        "An algorithm must have input and output",
+        "An algorithm must use Python syntax",
+        "An algorithm cannot be reused"
+      ],
+      "answerIndex": 1,
+      "explanation": "An algorithm must have input and output, must be finite (have an end point), have a sequence of steps, and be reusable."
+    },
+    {
+      "question": "Pseudocode is best described as:",
+      "options": [
+        "A formal programming language with strict syntax",
+        "An English-like, informal way of stating an algorithm",
+        "A graphical representation of an algorithm",
+        "Machine code instructions for the CPU"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pseudocode is an informal, compact, English-like way of describing an algorithm. It does not follow any specific programming language syntax."
+    },
+    {
+      "question": "Which shape in a flowchart is used to represent a decision?",
+      "options": ["Rectangle", "Oval", "Parallelogram", "Diamond"],
+      "answerIndex": 3,
+      "explanation": "A diamond shape represents a decision point in a flowchart, where the flow branches based on a yes/no condition."
+    },
+    {
+      "question": "Which shape in a flowchart is used to represent input or output?",
+      "options": ["Rectangle", "Diamond", "Parallelogram", "Oval"],
+      "answerIndex": 2,
+      "explanation": "A parallelogram represents input or output operations in a flowchart."
+    },
+    {
+      "question": "Which shape in a flowchart represents the start or end of a process?",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Parallelogram",
+        "Oval / Rounded rectangle"
       ],
       "answerIndex": 3,
-      "explanation": "A social networking platform is not a word processor."
+      "explanation": "An oval (or rounded rectangle / terminal shape) represents the start or end of a flowchart."
     },
     {
-      "question": "Presentation tools are mainly used to create",
+      "question": "A flowchart is defined as:",
       "options": [
-        "operating systems",
-        "visual slide presentations",
-        "network cables",
-        "processor cores"
+        "A text-based algorithm description",
+        "A compiled programming language",
+        "A graphical representation of an algorithm",
+        "A database management tool"
       ],
-      "answerIndex": 1,
-      "explanation": "Presentation tools are designed for creating slide-based presentations."
+      "answerIndex": 2,
+      "explanation": "A flowchart is a graphical representation of an algorithm, using standard symbols to show the steps and decision points."
     },
     {
-      "question": "Which of the following is a presentation tool?",
+      "question": "Which of these statements about algorithms is correct?",
       "options": [
-        "PowerPoint",
-        "Excel",
-        "Word",
-        "Kernel"
-      ],
-      "answerIndex": 0,
-      "explanation": "Microsoft PowerPoint is a presentation software tool."
-    },
-    {
-      "question": "A web browser is used to",
-      "options": [
-        "manage RAM",
-        "access information on the internet",
-        "load the operating system",
-        "connect two hard disks"
-      ],
-      "answerIndex": 1,
-      "explanation": "Web browsers are used to access information on the internet."
-    },
-    {
-      "question": "Which of the following is a web browser?",
-      "options": [
-        "Chrome",
-        "PowerPoint",
-        "Numbers",
-        "WordPad"
+        "Algorithms are a step-by-step guide for solving a particular problem",
+        "Algorithms are based on coded approaches to code testing",
+        "Algorithms are case studies for code patching",
+        "Algorithms are design approaches to code upgrade"
       ],
       "answerIndex": 0,
-      "explanation": "Google Chrome is a web browser."
+      "explanation": "An algorithm is correctly described as a step-by-step guide for solving a particular problem efficiently."
     },
     {
-      "question": "An algorithm is",
+      "question": "How would you define the program development process?",
       "options": [
-        "a physical device",
-        "a step-by-step procedure for solving a problem",
-        "a web protocol",
-        "a computer type"
+        "Installing software on a computer",
+        "Finding an appropriate word processor",
+        "The process of creating software programs",
+        "Upgrading computer hardware"
+      ],
+      "answerIndex": 2,
+      "explanation": "Program development is the process of creating software programs, involving designing, coding, testing, and debugging."
+    },
+    {
+      "question": "In the pseudocode for finding if a number is odd or even, which operation is used?",
+      "options": [
+        "Multiplication",
+        "Addition",
+        "Division remainder (modulus)",
+        "Subtraction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The modulus operation checks if a remainder exists when dividing by 2. If there is a remainder, the number is odd; otherwise it is even."
+    },
+    {
+      "question": "Which of the following best describes the purpose of a flowchart in software development?",
+      "options": [
+        "To write the final code of a program",
+        "To visualise the steps and decision-making of a program",
+        "To compile the program into machine code",
+        "To test the program for bugs"
       ],
       "answerIndex": 1,
-      "explanation": "An algorithm is a sequence of steps used to solve a particular problem."
+      "explanation": "A flowchart visually represents the steps and logic flow of a program, making it easier to understand before coding begins."
     },
     {
-      "question": "Pseudocode is best described as",
+      "question": "An algorithm must be finite. What does this mean?",
       "options": [
-        "machine language",
-        "plain-language representation of program logic",
-        "a type of monitor",
-        "a spreadsheet formula"
+        "It must use only numbers",
+        "It must have an end point",
+        "It must run forever",
+        "It must be written in Python"
       ],
       "answerIndex": 1,
-      "explanation": "Pseudocode expresses program logic in a simple human-readable way."
+      "explanation": "A finite algorithm must have a defined end point \u2014 it cannot run indefinitely."
     },
     {
-      "question": "A flowchart is mainly used to",
+      "question": "Which of the following is a valid variable name in Python?",
+      "options": ["age#", "@gauge", "mark", "score$"],
+      "answerIndex": 2,
+      "explanation": "Valid Python identifiers can contain letters, digits, and underscores but cannot start with a digit or contain special characters like #, @, or $."
+    },
+    {
+      "question": "Which of the following is NOT a valid Python identifier?",
+      "options": ["_123Kazeem", "James1", "1James", "my_name"],
+      "answerIndex": 2,
+      "explanation": "1James is invalid because identifiers cannot start with a digit. _123Kazeem and James1 are valid."
+    },
+    {
+      "question": "What is the output of: print(\"name\" + \" \" + \"sake\")",
+      "options": ["namesake", "Namesake", "Name sake", "name sake"],
+      "answerIndex": 3,
+      "explanation": "String concatenation joins the strings exactly as given. \"name\" + \" \" + \"sake\" produces \"name sake\" with a space in the middle."
+    },
+    {
+      "question": "What is the output of: print(\"name\" + 24)",
+      "options": ["name42", "Error", "name24", "24"],
+      "answerIndex": 1,
+      "explanation": "In Python, you cannot concatenate a string and an integer directly. This raises a TypeError (Error)."
+    },
+    {
+      "question": "Python has how many standard data types?",
+      "options": ["3", "4", "5", "6"],
+      "answerIndex": 2,
+      "explanation": "Python has five standard data types: Numbers, String, List, Tuple, and Dictionary."
+    },
+    {
+      "question": "Which of the following is a Python string data type example?",
       "options": [
-        "repair batteries",
-        "represent an algorithm visually",
-        "browse the web",
-        "increase storage permanently"
+        "my_age = 20",
+        "my_weight = 46.7",
+        "my_name = \"James\"",
+        "my_score = True"
+      ],
+      "answerIndex": 2,
+      "explanation": "A string is a sequence of characters enclosed in quotation marks. my_name = \"James\" is a string. The others are integer, float, and boolean."
+    },
+    {
+      "question": "What is the result of 100 + 200 as a Python expression?",
+      "options": ["\"100200\"", "Error", "300", "100200"],
+      "answerIndex": 2,
+      "explanation": "100 + 200 is an arithmetic expression that evaluates to 300."
+    },
+    {
+      "question": "A function in Python is:",
+      "options": [
+        "A variable that stores data",
+        "A loop that runs forever",
+        "A defined code segment that can be called repeatedly",
+        "A data type for storing text"
+      ],
+      "answerIndex": 2,
+      "explanation": "A function is a defined program code segment (subprogram) that performs a specific task and can be called (executed) repeatedly."
+    },
+    {
+      "question": "Which of the following Python reserved words CANNOT be used as an identifier?",
+      "options": ["mark", "name", "if", "age"],
+      "answerIndex": 2,
+      "explanation": "Python reserved words like 'if', 'while', 'for', 'def', etc. cannot be used as identifiers because they have special meaning in the language."
+    },
+    {
+      "question": "What is a literal expression in Python?",
+      "options": [
+        "A complex function",
+        "Any number or string that can be directly evaluated",
+        "A loop structure",
+        "A conditional statement"
       ],
       "answerIndex": 1,
-      "explanation": "A flowchart shows the steps of a process or algorithm visually."
+      "explanation": "A literal is the simplest kind of expression. Any number or string is a literal expression \u2014 for example, 26 or \"James\"."
     },
     {
-      "question": "Program development includes",
+      "question": "Identifiers in Python are:",
       "options": [
-        "design, coding, testing",
-        "battery charging, networking, printing",
-        "only browsing and typing",
-        "monitor cleaning and updates"
+        "Case insensitive",
+        "Case sensitive",
+        "Numeric only",
+        "Always lowercase"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python identifiers are case sensitive. For example, 'Raheem' and 'raheem' are treated as two different identifiers."
+    },
+    {
+      "question": "Which Python operator is used for string repetition?",
+      "options": ["+", "/", "*", "%"],
+      "answerIndex": 2,
+      "explanation": "The asterisk (*) is the repetition operator in Python for strings. For example, \"Hi\" * 3 produces \"HiHiHi\"."
+    },
+    {
+      "question": "Which Python operator is used for string concatenation?",
+      "options": ["+", "*", "/", "%"],
+      "answerIndex": 0,
+      "explanation": "The plus (+) sign is the string concatenation operator in Python. For example, \"Hello\" + \" World\" produces \"Hello World\"."
+    },
+    {
+      "question": "What are the two numerical types supported by Python?",
+      "options": [
+        "Strings and floats",
+        "Integers and floats",
+        "Booleans and strings",
+        "Lists and tuples"
+      ],
+      "answerIndex": 1,
+      "explanation": "Python supports two numerical types: integers (whole numbers like 20) and floats (decimal numbers like 46.7)."
+    },
+    {
+      "question": "Which of the following correctly stores an integer in Python?",
+      "options": [
+        "my_age = 20.5",
+        "my_age = \"20\"",
+        "my_age = 20",
+        "my_age = [20]"
+      ],
+      "answerIndex": 2,
+      "explanation": "my_age = 20 stores a whole number (integer). 20.5 is a float, \"20\" is a string, and [20] is a list."
+    },
+    {
+      "question": "Special symbols like !, &, @, #, $, % cannot be used in Python identifiers. This means which of the following is invalid?",
+      "options": ["_myname", "myname1", "myname$", "MyName"],
+      "answerIndex": 2,
+      "explanation": "myname$ is invalid because the dollar sign ($) is a special symbol and cannot be used in Python identifiers."
+    },
+    {
+      "question": "What is the output of the following code? while True: print(\"Hi\")",
+      "options": ["hi", "Hi will be printed endlessly", "Error", "Hi"],
+      "answerIndex": 1,
+      "explanation": "The condition 'True' never becomes false, so the loop runs forever and prints 'Hi' endlessly \u2014 an infinite loop."
+    },
+    {
+      "question": "What is the output of: for x in range(2, 10): print(x)",
+      "options": ["2, 5, 8", "Error", "2, 4, 6, 8", "2, 3, 4, 5, 6, 7, 8, 9"],
+      "answerIndex": 3,
+      "explanation": "range(2, 10) generates numbers from 2 up to (but not including) 10: 2, 3, 4, 5, 6, 7, 8, 9."
+    },
+    {
+      "question": "What is the output of: for x in range(2, 10, 3): print(x)",
+      "options": ["Error", "2, 5, 8", "2, 5", "2, 4, 6, 8"],
+      "answerIndex": 1,
+      "explanation": "range(2, 10, 3) starts at 2, steps by 3, and stops before 10: gives 2, 5, 8."
+    },
+    {
+      "question": "The while statement in Python:",
+      "options": [
+        "Iterates over a sequence like a list",
+        "Executes a block of code repeatedly as long as a condition is true",
+        "Executes a block of code only once",
+        "Is used to define functions"
+      ],
+      "answerIndex": 1,
+      "explanation": "The while statement executes a block of code repeatedly as long as a specified condition remains true."
+    },
+    {
+      "question": "Which conditional statement is useful when checking multiple conditions?",
+      "options": ["if only", "while", "if-elif-else", "for"],
+      "answerIndex": 2,
+      "explanation": "The if-elif-else statement (elif is short for 'else if') is used when there are multiple conditions to check."
+    },
+    {
+      "question": "What is the output of the following code? while (3 < 6): print(\"Testing\")",
+      "options": [
+        "Testing is printed endlessly",
+        "Testing",
+        "Error",
+        "testing"
       ],
       "answerIndex": 0,
-      "explanation": "Program development typically includes design, coding, and testing."
+      "explanation": "3 < 6 is always True and never changes, so the loop runs forever and prints 'Testing' endlessly \u2014 an infinite loop."
+    },
+    {
+      "question": "In a Python list a = [57, 78, 34, 67, 78], what is the value of a[2]?",
+      "options": ["57", "78", "34", "67"],
+      "answerIndex": 2,
+      "explanation": "Python list indexing starts at 0. a[0]=57, a[1]=78, a[2]=34. So a[2] is 34."
+    },
+    {
+      "question": "Which of the following is TRUE about Python tuples compared to lists?",
+      "options": [
+        "Tuples can be updated",
+        "Tuples cannot be updated",
+        "Tuples use curly braces",
+        "Tuples cannot store numbers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tuples are similar to lists but they cannot be updated (they are immutable). Lists can be modified after creation."
+    },
+    {
+      "question": "A Python dictionary stores data as:",
+      "options": [
+        "Indexed values",
+        "Key-value pairs",
+        "Single values only",
+        "Tuples only"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Python dictionary stores data as key-value pairs, where each key maps to a specific value."
+    },
+    {
+      "question": "Which Python statement is used to iterate over a sequence such as a list?",
+      "options": ["while", "if", "for", "def"],
+      "answerIndex": 2,
+      "explanation": "The 'for' statement is used to iterate over a sequence such as a list, tuple, or range."
+    },
+    {
+      "question": "The if-else statement in Python is useful when:",
+      "options": [
+        "You want to loop through a list",
+        "You want to execute one block if a condition is true and another if false",
+        "You want to define a function",
+        "You want to import a module"
+      ],
+      "answerIndex": 1,
+      "explanation": "The if-else statement executes one block of code when the condition is true and a different block when the condition is false."
+    },
+    {
+      "question": "What does the 'for' statement in Python iterate over?",
+      "options": [
+        "Only numbers",
+        "A sequence such as a list, tuple, or range",
+        "Only strings",
+        "Only dictionaries"
+      ],
+      "answerIndex": 1,
+      "explanation": "The for statement is used to iterate over any sequence \u2014 including lists, tuples, strings, and ranges."
+    },
+    {
+      "question": "How do you append a new item to a Python list?",
+      "options": [
+        "list.add()",
+        "list.insert()",
+        "list.append()",
+        "list.push()"
+      ],
+      "answerIndex": 2,
+      "explanation": "The append() method is used to add a new item to the end of a Python list."
+    },
+    {
+      "question": "In Python, list indexes start at:",
+      "options": ["1", "0", "-1", "2"],
+      "answerIndex": 1,
+      "explanation": "Python list indexing starts at 0. So the first element is at index 0, the second at index 1, and so on."
+    },
+    {
+      "question": "What is the output of: print(\"name\" + \"sake\")",
+      "options": ["name sake", "namesake", "Namesake", "Error"],
+      "answerIndex": 1,
+      "explanation": "String concatenation with + joins the strings directly with no space: \"name\" + \"sake\" = \"namesake\"."
+    },
+    {
+      "question": "A computer network is best defined as:",
+      "options": [
+        "A physical device used for data storage",
+        "A collection of interconnected computers and devices",
+        "A type of software application",
+        "A single computer system"
+      ],
+      "answerIndex": 1,
+      "explanation": "A computer network is a collection of interconnected computers and devices that can exchange information and resources."
+    },
+    {
+      "question": "What is the purpose of a router in a computer network?",
+      "options": [
+        "To connect multiple networks together",
+        "To store data temporarily",
+        "To process mathematical calculations",
+        "To display web pages"
+      ],
+      "answerIndex": 0,
+      "explanation": "A router connects multiple networks together and directs data traffic between them."
+    },
+    {
+      "question": "Which protocol is commonly used for transmitting web pages over the internet?",
+      "options": ["HTTP", "DNS", "TCP/IP", "FTP"],
+      "answerIndex": 0,
+      "explanation": "HTTP (HyperText Transfer Protocol) is the protocol commonly used for transmitting web pages over the internet."
+    },
+    {
+      "question": "Which type of network topology connects all devices in a linear fashion?",
+      "options": ["Bus", "Star", "Mesh", "Ring"],
+      "answerIndex": 0,
+      "explanation": "In a Bus topology, all devices are connected in a linear (straight line) fashion along a single cable."
+    },
+    {
+      "question": "What does LAN stand for?",
+      "options": [
+        "Large Area Network",
+        "Local Area Network",
+        "Linked Area Network",
+        "Limited Access Network"
+      ],
+      "answerIndex": 1,
+      "explanation": "LAN stands for Local Area Network, typically used in homes and small offices."
+    },
+    {
+      "question": "What does WAN stand for?",
+      "options": [
+        "Wide Area Network",
+        "Wireless Area Network",
+        "Web Access Node",
+        "Wide Access Node"
+      ],
+      "answerIndex": 0,
+      "explanation": "WAN stands for Wide Area Network, used to connect offices and systems spread across large distances."
+    },
+    {
+      "question": "Which of the following is a network protocol used for the internet?",
+      "options": ["USB", "HDMI", "TCP/IP", "VGA"],
+      "answerIndex": 2,
+      "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the standard network protocol used for internet communication."
+    },
+    {
+      "question": "What negative impact comes from computer networks and internet use?",
+      "options": [
+        "Online information stealing",
+        "Enhancing businesses",
+        "Bringing people closer",
+        "None of the above"
+      ],
+      "answerIndex": 0,
+      "explanation": "Online information stealing (data theft, hacking, cyber fraud) is a major negative impact of computer networks and internet use."
+    },
+    {
+      "question": "Which of the following best describes the Internet?",
+      "options": [
+        "A local network used in homes",
+        "A global network of linked computer networks",
+        "A single computer system",
+        "A type of operating system"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Internet is a massive global network of linked computer networks that enables communication and information sharing worldwide."
+    },
+    {
+      "question": "What role can computers play in data collection for social research?",
+      "options": [
+        "Facilitating large-scale data collection",
+        "Reducing the need for data cleaning",
+        "Eliminating the need for human involvement",
+        "Minimising data security risks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Computers facilitate large-scale data collection through online surveys, electronic data entry, and digital databases."
+    },
+    {
+      "question": "Which software tool is commonly used for statistical analysis in social research?",
+      "options": [
+        "Microsoft PowerPoint",
+        "WinRAR",
+        "SPSS (Statistical Package for the Social Sciences)",
+        "Google Chrome"
+      ],
+      "answerIndex": 2,
+      "explanation": "SPSS is a statistical software program widely used in social research for data analysis, statistical modeling, and visualization."
+    },
+    {
+      "question": "What is the use of simulation and modeling in social research?",
+      "options": [
+        "To compress data files",
+        "To model social behaviour and test hypotheses computationally",
+        "To create presentations",
+        "To manage email accounts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Computational models allow social scientists to simulate social behaviour and interactions, and to test hypotheses without real-world experiments."
     },
     {
       "question": "Which of the following is NOT part of a software development process?",
+      "options": ["Design", "Testing", "Computer upgrade", "Code developing"],
+      "answerIndex": 2,
+      "explanation": "The SDLC phases are Requirements Gathering, System Design, Implementation, Testing, Deployment, and Maintenance. Computer upgrade is not a phase."
+    },
+    {
+      "question": "Which of these statements is correct about compiled and interpreted languages?",
       "options": [
-        "Design",
+        "Interpreted language has a shorter learning curve",
+        "Compiled languages are converted at runtime",
+        "Compiled languages do not have a strict syntax style",
+        "Compiled language has a shorter learning curve"
+      ],
+      "answerIndex": 0,
+      "explanation": "Interpreted languages have shorter development cycles and learning curves. Compiled languages offer speed and efficiency but take longer to learn."
+    },
+    {
+      "question": "Which of the following is correct about programming and compilers?",
+      "options": [
+        "Programming provides the platform to communicate with the computer via an interpreter or compiler",
+        "Compilers convert low-level to high-level language",
+        "Computers are software systems",
+        "The computer can work directly with high-level languages"
+      ],
+      "answerIndex": 0,
+      "explanation": "Programming languages communicate with the computer through interpreters or compilers that convert high-level code to machine-readable instructions."
+    },
+    {
+      "question": "Which of the following best describes the Agile methodology?",
+      "options": [
+        "Linear and sequential \u2014 each phase must finish before the next begins",
+        "Iterative and incremental development with adjustable priorities",
+        "Emphasises strict documentation over flexibility",
+        "Does not involve customer feedback during development"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile is an iterative methodology that breaks a project into sprints, allows priority changes throughout, and promotes flexibility and adaptability."
+    },
+    {
+      "question": "Which phase of the SDLC involves gathering information from stakeholders to determine software requirements?",
+      "options": [
+        "System design",
         "Testing",
-        "Computer upgrade",
-        "Coding"
+        "Requirements gathering and analysis",
+        "Deployment"
       ],
       "answerIndex": 2,
-      "explanation": "Computer upgrade is not a normal stage in software development."
+      "explanation": "The Requirements Gathering and Analysis phase collects information from stakeholders to determine the software's purpose, capabilities, and constraints."
     },
     {
-      "question": "Python is commonly described in the material as an",
+      "question": "In software testing, which type tests individual functions or components?",
       "options": [
-        "assembled language",
-        "interpreted language",
-        "operating system",
-        "networking device"
-      ],
-      "answerIndex": 1,
-      "explanation": "Python is an interpreted programming language."
-    },
-    {
-      "question": "Which of the following is a valid Python variable name?",
-      "options": [
-        "2age",
-        "age$",
-        "mark",
-        "score%"
-      ],
-      "answerIndex": 2,
-      "explanation": "A valid Python variable name cannot start with a digit or contain symbols like $ or %."
-    },
-    {
-      "question": "Which symbol is commonly used in Python to display output?",
-      "options": [
-        "read()",
-        "print()",
-        "save()",
-        "show()"
-      ],
-      "answerIndex": 1,
-      "explanation": "The print() function is used to display output in Python."
-    },
-    {
-      "question": "What is the output of print(\"name\" + \" sake\")?",
-      "options": [
-        "name sake",
-        "namesake",
-        "name+sake",
-        "Name sake"
-      ],
-      "answerIndex": 0,
-      "explanation": "The strings are concatenated, and because the second string begins with a space, the result is 'name sake'."
-    },
-    {
-      "question": "What is the output idea of while True: print(\"hi\")?",
-      "options": [
-        "It runs endlessly",
-        "It prints once only",
-        "It gives syntax error immediately",
-        "It stores data permanently"
-      ],
-      "answerIndex": 0,
-      "explanation": "A while True loop continues indefinitely unless stopped."
-    },
-    {
-      "question": "Which of the following values will be printed by for x in range(2,10): print(x)?",
-      "options": [
-        "2 to 10",
-        "2 to 9",
-        "1 to 9",
-        "3 to 10"
-      ],
-      "answerIndex": 1,
-      "explanation": "range(2,10) starts at 2 and stops before 10, so it prints 2 through 9."
-    },
-    {
-      "question": "Which loop repeats as long as a condition remains true?",
-      "options": [
-        "for loop only over files",
-        "while loop",
-        "print loop",
-        "range loop"
-      ],
-      "answerIndex": 1,
-      "explanation": "A while loop continues execution while its condition stays true."
-    },
-    {
-      "question": "The for statement is mainly used to",
-      "options": [
-        "shut down the OS",
-        "iterate over a sequence",
-        "protect passwords",
-        "create hardware"
-      ],
-      "answerIndex": 1,
-      "explanation": "A for loop is used to iterate through a sequence of items or values."
-    },
-    {
-      "question": "A router is used to",
-      "options": [
-        "connect multiple networks together",
-        "store data temporarily",
-        "perform calculations",
-        "display web pages"
-      ],
-      "answerIndex": 0,
-      "explanation": "A router connects different networks and directs traffic between them."
-    },
-    {
-      "question": "A computer network is",
-      "options": [
-        "a single isolated computer",
-        "a collection of interconnected computers and devices",
-        "a type of software application",
-        "a browser tab"
-      ],
-      "answerIndex": 1,
-      "explanation": "A computer network is a group of interconnected computers and devices."
-    },
-    {
-      "question": "HTTP is commonly used for",
-      "options": [
-        "storing passwords",
-        "transmitting web pages",
-        "controlling processor speed",
-        "drawing flowcharts"
-      ],
-      "answerIndex": 1,
-      "explanation": "HTTP is the protocol commonly used for transmitting web pages over the internet."
-    },
-    {
-      "question": "TCP in networking stands for",
-      "options": [
-        "Transfer Control Page",
-        "Transmission Control Protocol",
-        "Total Computer Process",
-        "Terminal Core Package"
-      ],
-      "answerIndex": 1,
-      "explanation": "TCP means Transmission Control Protocol."
-    },
-    {
-      "question": "Which topology connects devices in a linear fashion?",
-      "options": [
-        "Star",
-        "Mesh",
-        "Ring",
-        "Bus"
+        "System testing",
+        "User acceptance testing",
+        "Integration testing",
+        "Unit testing"
       ],
       "answerIndex": 3,
-      "explanation": "A bus topology arranges devices along a single main line."
+      "explanation": "Unit testing tests individual functions or components of the software in isolation."
     },
     {
-      "question": "Which of the following is a benefit of data visualization in social research?",
+      "question": "The Waterfall methodology is described as:",
       "options": [
-        "It limits accessibility of findings",
-        "It complicates interpretation",
-        "It enhances communication and understanding",
-        "It discourages collaboration"
+        "Flexible and iterative",
+        "Linear and rigid",
+        "Focused on user stories and sprints",
+        "Sprint-based with no documentation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Waterfall methodology is linear and rigid \u2014 each phase must be completed before moving to the next, with no going back."
+    },
+    {
+      "question": "During which SDLC phase does actual coding and development of the software application begin?",
+      "options": [
+        "Requirements gathering",
+        "System design",
+        "Implementation / coding",
+        "Testing"
       ],
       "answerIndex": 2,
-      "explanation": "Data visualization helps communicate findings more clearly and improves understanding."
+      "explanation": "The Implementation (or Coding) phase is where programmers write the actual code using the appropriate programming languages and tools."
     },
     {
-      "question": "Which of the following is a negative impact or risk from computer networks and internet use?",
+      "question": "What happens during the Deployment phase of the SDLC?",
       "options": [
-        "Online information stealing",
-        "Enhancing business",
-        "Bringing people closer",
-        "Improved research access"
-      ],
-      "answerIndex": 0,
-      "explanation": "Online information stealing is a negative effect or risk of network and internet use."
-    },
-    {
-      "question": "One important application of computers in social administration is",
-      "options": [
-        "reducing all need for records",
-        "streamlining administrative processes",
-        "eliminating data analysis",
-        "preventing all errors completely"
-      ],
-      "answerIndex": 1,
-      "explanation": "Computers help streamline administrative processes and improve efficiency."
-    },
-    {
-      "question": "Which of the following best matches computers in social research?",
-      "options": [
-        "They make large-scale data collection easier",
-        "They make findings less accessible",
-        "They remove all privacy issues",
-        "They stop online surveys"
-      ],
-      "answerIndex": 0,
-      "explanation": "Computers support large-scale data collection and analysis in research."
-    },
-    {
-      "question": "Which statement is correct?",
-      "options": [
-        "Algorithms are based on code patching",
-        "Algorithms are step-by-step guides for solving problems",
-        "Algorithms are computer viruses",
-        "Algorithms are network cables"
-      ],
-      "answerIndex": 1,
-      "explanation": "An algorithm is a step-by-step guide for solving a specific problem."
-    },
-    {
-      "question": "Which statement is correct?",
-      "options": [
-        "Compiled languages are converted at runtime only",
-        "Interpreted languages can have a shorter learning curve",
-        "Compiled languages are not used in programming",
-        "Interpreters are hardware devices"
-      ],
-      "answerIndex": 1,
-      "explanation": "Interpreted languages are often easier to learn and test quickly."
-    },
-    {
-      "question": "Which statement is correct?",
-      "options": [
-        "Programming provides a way to communicate with a computer through an interpreter or compiler",
-        "Computers are software systems only",
-        "The computer can work directly with high-level language without translation",
-        "Compilers do not convert code"
-      ],
-      "answerIndex": 0,
-      "explanation": "Programming allows humans to give instructions to computers through languages processed by compilers or interpreters."
-    },
-    {
-      "question": "Which of the following pairs is correctly matched?",
-      "options": [
-        "Word processor — data sorting and filtering only",
-        "Spreadsheet — document boot process",
-        "Browser — internet access",
-        "Kernel — slide presentation creation"
+        "Requirements are gathered from stakeholders",
+        "Code is written and developed",
+        "The software is installed and configured in the production environment",
+        "Individual functions are tested"
       ],
       "answerIndex": 2,
-      "explanation": "A browser is used for accessing information on the internet."
+      "explanation": "During Deployment, the successfully tested software is installed on target hardware or servers and configured to work in the desired environment."
     }
   ]
 }
