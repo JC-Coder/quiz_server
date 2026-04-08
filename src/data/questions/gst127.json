@@ -1,0 +1,1071 @@
+{
+  "courseDetails": {
+    "id": "GST127",
+    "name": "Environmental and Sustainable Development"
+  },
+  "questions": [
+    {
+      "question": "The environment is best defined as",
+      "options": [
+        "only the air around us",
+        "only living things in a place",
+        "everything that surrounds and influences living organisms",
+        "only land and water"
+      ],
+      "answerIndex": 2,
+      "explanation": "The environment includes both living and non-living things that surround organisms and affect their existence. This means it is broader than just air, land, water, or living things alone. In GST 127, this definition is important because many later topics such as pollution, sustainability, and resource use all depend on understanding what the environment really includes."
+    },
+    {
+      "question": "Environmental studies is called a multidisciplinary field because it",
+      "options": [
+        "focuses only on biology",
+        "combines knowledge from many disciplines",
+        "studies only pollution",
+        "is limited to social science"
+      ],
+      "answerIndex": 1,
+      "explanation": "Environmental studies draws from biology, ecology, geography, geology, chemistry, physics, and social sciences. It is called multidisciplinary because one subject alone cannot fully explain environmental problems. Exams often test this by asking for the meaning of multidisciplinary or by including one unrelated field as a distractor."
+    },
+    {
+      "question": "Which of the following is NOT one of the disciplines commonly used in environmental studies?",
+      "options": ["Ecology", "Geology", "Chemistry", "Typography"],
+      "answerIndex": 3,
+      "explanation": "Ecology, geology, and chemistry are all part of environmental studies. Typography is related to text design and is not a core environmental discipline. In MCQs like this, the correct answer is the odd one out."
+    },
+    {
+      "question": "Which of the following falls within the scope of environmental studies?",
+      "options": [
+        "Climate change",
+        "Poetry criticism",
+        "Number theory",
+        "Musical harmony"
+      ],
+      "answerIndex": 0,
+      "explanation": "Climate change is a major environmental issue and lies clearly within the scope of environmental studies. The other options belong to literature, mathematics, and music. This type of question checks whether you can identify real environmental topics among unrelated distractors."
+    },
+    {
+      "question": "Natural resources are best described as",
+      "options": [
+        "only resources created by industries",
+        "materials occurring naturally that can be useful to humans",
+        "substances found only underground",
+        "things that cannot be managed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Natural resources are materials or substances that occur in nature and can be useful to humans, such as water, forests, soil, and minerals. They are not limited to underground resources, and they can be managed. This is a basic definition that may appear directly in exams."
+    },
+    {
+      "question": "Conservation means",
+      "options": [
+        "careless exploitation of resources",
+        "complete ban on the use of resources",
+        "protection, preservation, management, and restoration of resources",
+        "turning forests into cities"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conservation means protecting and wisely managing resources so they remain useful over time. It does not mean total non-use, and it definitely does not mean wasteful exploitation. In exams, students often confuse conservation with preservation, but conservation includes proper use and restoration."
+    },
+    {
+      "question": "Which of the following is a technique for managing natural resources?",
+      "options": [
+        "Sustainable utilisation",
+        "Unchecked extraction",
+        "Wasteful disposal",
+        "Random exploitation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sustainable utilisation means using resources in a way that meets current needs without destroying future availability. The other options describe poor management. When a question asks about management techniques, the correct option usually reflects planning and long-term balance."
+    },
+    {
+      "question": "Rapid population growth and urbanization often lead to",
+      "options": [
+        "reduced pressure on resources",
+        "increased pollution and deforestation",
+        "automatic sustainability",
+        "complete resource renewal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Population growth and urban expansion increase pressure on land, water, housing, transport, and energy. This often leads to pollution, deforestation, and depletion of natural resources. Exam questions often test this cause-and-effect relationship."
+    },
+    {
+      "question": "One way poverty affects the environment is that it can",
+      "options": [
+        "reduce all environmental hazards",
+        "lead to overuse of natural resources",
+        "eliminate inequality",
+        "prevent degradation completely"
+      ],
+      "answerIndex": 1,
+      "explanation": "Poverty can force people to depend heavily on nearby natural resources for fuel, land, and survival. This may lead to overuse and environmental degradation. The wrong options are unrealistic extremes, which is common in MCQ distractors."
+    },
+    {
+      "question": "Sustainability means",
+      "options": [
+        "using all resources immediately",
+        "meeting present needs without harming future generations’ ability to meet theirs",
+        "protecting only forests",
+        "avoiding development entirely"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is one of the most important definitions in GST 127. Sustainability is about balance between present use and future availability. It does not mean stopping development; it means making development responsible and lasting."
+    },
+    {
+      "question": "Environmental justice is concerned with",
+      "options": [
+        "punishing only polluting companies",
+        "fair treatment and meaningful involvement of all people in environmental matters",
+        "giving resources only to rich communities",
+        "separating environmental law from society"
+      ],
+      "answerIndex": 1,
+      "explanation": "Environmental justice focuses on fairness in environmental protection and decision-making. It means all people, regardless of income, race, ethnicity, or location, should be treated fairly and involved meaningfully. This often appears as a direct-definition question."
+    },
+    {
+      "question": "Environmental policy refers to",
+      "options": [
+        "a set of principles guiding interaction with the environment",
+        "a type of pollution",
+        "a weather forecast system",
+        "a method of mining land"
+      ],
+      "answerIndex": 0,
+      "explanation": "Environmental policy includes principles and guidelines used by governments, organizations, and individuals in dealing with environmental issues. It is not itself a pollution type or a technical process. Policy questions often test whether you can distinguish rules from problems."
+    },
+    {
+      "question": "Which of the following is an example of an environmental agreement mentioned in the notes?",
+      "options": [
+        "Paris Agreement",
+        "NATO Charter",
+        "ECOWAS Protocol on Trade",
+        "African Cup regulations"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Paris Agreement is a global climate agreement aimed at reducing greenhouse gas emissions and limiting global warming. The other options may be real frameworks, but they are not environmental agreements highlighted in this course context."
+    },
+    {
+      "question": "The term “cosmic” refers to things related to",
+      "options": [
+        "only the earth’s soil",
+        "the universe or cosmos",
+        "only human society",
+        "industrial production"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cosmic refers to the universe and celestial bodies such as stars, planets, and galaxies. In 'man and his cosmic environment,' the idea is to understand human existence in relation to the wider universe, not just society or land."
+    },
+    {
+      "question": "Which of the following correctly shows the structure of the universe from larger to smaller scale?",
+      "options": [
+        "Solar system, galaxy, galaxy cluster",
+        "Galaxy cluster, galaxy, solar system",
+        "Planet, galaxy cluster, star",
+        "Atmosphere, biosphere, galaxy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Galaxy clusters are larger groupings that contain many galaxies, and galaxies contain solar systems. So the correct order from larger to smaller is galaxy cluster, galaxy, solar system. This is a classic arrangement question."
+    },
+    {
+      "question": "Galaxies are best described as",
+      "options": [
+        "layers of the atmosphere",
+        "collections of stars, gas, dust, and dark matter held together by gravity",
+        "oceans beyond the earth",
+        "only planets around the sun"
+      ],
+      "answerIndex": 1,
+      "explanation": "A galaxy is a vast system of stars, gas, dust, and dark matter held together by gravity. It is much larger than a solar system. Students often confuse galaxy and solar system, so pay attention to scale."
+    },
+    {
+      "question": "Which of the following is NOT one of the three main galaxy types in the notes?",
+      "options": ["Spiral", "Elliptical", "Irregular", "Rectangular"],
+      "answerIndex": 3,
+      "explanation": "The main galaxy types listed are spiral, elliptical, and irregular. Rectangular is not a scientific galaxy type. In many MCQs, one option looks pattern-like but is completely false."
+    },
+    {
+      "question": "The Milky Way is an example of a",
+      "options": ["spiral galaxy", "dwarf planet", "galaxy cluster", "comet"],
+      "answerIndex": 0,
+      "explanation": "The Milky Way is the spiral galaxy that contains our solar system. It is not a planet, comet, or galaxy cluster. This is a high-yield factual item in the cosmic environment topic."
+    },
+    {
+      "question": "The solar system consists of",
+      "options": [
+        "only the sun and earth",
+        "the sun, planets, dwarf planets, moons, asteroids, comets, and smaller bodies",
+        "only stars and galaxies",
+        "only planets and oceans"
+      ],
+      "answerIndex": 1,
+      "explanation": "The solar system includes more than the sun and the eight planets. It also contains dwarf planets like Pluto, moons, asteroids, comets, and other smaller objects. Exams may test the broader definition rather than the simplified school version."
+    },
+    {
+      "question": "Earth is special because it is the only known planet that",
+      "options": [
+        "has mountains",
+        "has a rocky surface",
+        "harbours life",
+        "moves around the sun"
+      ],
+      "answerIndex": 2,
+      "explanation": "Many planets have rocky surfaces or move around stars, but Earth is highlighted as the only known planet that harbours life. The phrase 'only known planet that supports life' is key."
+    },
+    {
+      "question": "Water covers about what proportion of the Earth’s surface according to the notes?",
+      "options": ["30%", "50%", "70%", "90%"],
+      "answerIndex": 2,
+      "explanation": "The notes state that water covers about 70% of Earth’s surface. This number is often tested directly. Be careful not to mix it up with other water-related percentages, such as the share found in oceans."
+    },
+    {
+      "question": "The biosphere refers to the parts of Earth that",
+      "options": [
+        "consist only of rocks",
+        "support life",
+        "contain only gases",
+        "contain only underground water"
+      ],
+      "answerIndex": 1,
+      "explanation": "The biosphere includes all regions of the earth where life exists, including organisms and their interactions with non-living surroundings. The easiest memory aid is 'bio' means life."
+    },
+    {
+      "question": "The hydrosphere is the",
+      "options": [
+        "total mass of water on Earth",
+        "solid outer crust only",
+        "lowest atmospheric layer",
+        "total living matter on Earth"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hydrosphere includes all the water on Earth: oceans, rivers, lakes, groundwater, and glaciers. A common confusion is mixing hydrosphere with biosphere or atmosphere."
+    },
+    {
+      "question": "The lithosphere is the",
+      "options": [
+        "region of life",
+        "solid, rigid outer layer of the Earth",
+        "outermost atmospheric layer",
+        "region of ocean tides"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lithosphere is the solid outer part of the Earth, including the crust and upper mantle. It relates to rocks and land, not air, tides, or living organisms."
+    },
+    {
+      "question": "The atmosphere is mainly composed of",
+      "options": [
+        "oxygen and hydrogen",
+        "nitrogen and oxygen",
+        "carbon dioxide and methane",
+        "hydrogen and helium"
+      ],
+      "answerIndex": 1,
+      "explanation": "The atmosphere is mainly nitrogen and oxygen, with smaller amounts of other gases. The notes give about 78% nitrogen and 21% oxygen. This is a common factual MCQ."
+    },
+    {
+      "question": "Most weather occurs in the",
+      "options": ["stratosphere", "mesosphere", "troposphere", "exosphere"],
+      "answerIndex": 2,
+      "explanation": "The troposphere is the lowest atmospheric layer and the one where most weather events occur. A good exam memory trick is: troposphere equals weather."
+    },
+    {
+      "question": "The ozone layer is found in the",
+      "options": ["troposphere", "stratosphere", "mesosphere", "exosphere"],
+      "answerIndex": 1,
+      "explanation": "The stratosphere contains the ozone layer, which protects life by absorbing harmful ultraviolet radiation. Students often confuse this with the troposphere because that is the layer closest to us."
+    },
+    {
+      "question": "The coldest layer of the atmosphere is the",
+      "options": ["troposphere", "stratosphere", "mesosphere", "thermosphere"],
+      "answerIndex": 2,
+      "explanation": "The mesosphere is the coldest atmospheric layer according to the notes. This is one of those fact-based items examiners like because the options are all real layers."
+    },
+    {
+      "question": "The outermost layer of the atmosphere is the",
+      "options": ["thermosphere", "troposphere", "exosphere", "mesosphere"],
+      "answerIndex": 2,
+      "explanation": "The exosphere is the outermost layer and gradually merges into space. For atmosphere questions, also remember troposphere is lowest and exosphere is outermost."
+    },
+    {
+      "question": "Carrying capacity is best defined as",
+      "options": [
+        "the number of industries in a state",
+        "the maximum number of individuals an environment can support sustainably",
+        "the total amount of rainfall in a year",
+        "the number of cities in a country"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carrying capacity is the maximum population of a species that an environment can support over the long term without being degraded. The important word is 'sustainably,' because temporary support is not enough."
+    },
+    {
+      "question": "Which of the following can influence carrying capacity?",
+      "options": [
+        "Food and water availability",
+        "Climate and temperature",
+        "Human activities",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "Carrying capacity depends on available resources, environmental conditions, and human activity. Because all three factors matter, 'All of the above' is correct. This is a typical multiple-valid-factors MCQ."
+    },
+    {
+      "question": "The Aral Sea case study illustrates",
+      "options": [
+        "galaxy formation",
+        "exceeding environmental carrying capacity",
+        "renewable energy success",
+        "climate neutrality"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Aral Sea is used as an example of overuse of natural resources beyond what the environment could sustain. It is therefore linked to carrying capacity and environmental degradation."
+    },
+    {
+      "question": "Environmental problems are mainly the",
+      "options": [
+        "positive impacts of industrialization",
+        "negative impacts of human activities on the environment",
+        "natural beauty of ecosystems",
+        "legal rights of workers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Environmental problems are harmful effects, especially those caused by human activities, on ecosystems and environmental quality. This definition appears directly in the course and is likely to be tested as a recall question."
+    },
+    {
+      "question": "Which of the following is listed as a major environmental problem?",
+      "options": [
+        "Climate change",
+        "Poetry",
+        "Inflation accounting",
+        "Planet rotation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Climate change is one of the major environmental problems highlighted in the material. The other options are unrelated fields or natural processes not presented as environmental problems in this context."
+    },
+    {
+      "question": "Climate change refers to",
+      "options": [
+        "short-term daily weather changes only",
+        "long-term shifts in temperature and weather patterns",
+        "only rainfall in a region",
+        "movement of the moon"
+      ],
+      "answerIndex": 1,
+      "explanation": "Climate change is about long-term changes in temperature and weather patterns, not short-term day-to-day weather. A common exam confusion is weather versus climate, so keep that distinction clear."
+    },
+    {
+      "question": "Pollution is the",
+      "options": [
+        "natural recycling of air",
+        "introduction of harmful materials into the environment",
+        "process of photosynthesis",
+        "evaporation of water"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pollution happens when harmful materials enter the environment and cause damage to organisms or ecosystems. It is one of the most basic definitions in environmental studies and often appears in objective tests."
+    },
+    {
+      "question": "Harmful materials introduced into the environment are called",
+      "options": ["nutrients", "pollutants", "sediments", "catalysts"],
+      "answerIndex": 1,
+      "explanation": "Pollutants are the harmful agents, while pollution is the condition or process involving them. These two terms are commonly tested together because many students mix them up."
+    },
+    {
+      "question": "Which of the following is NOT listed as a type of pollution in the notes?",
+      "options": [
+        "Air pollution",
+        "Water pollution",
+        "Noise pollution",
+        "Cultural pollution"
+      ],
+      "answerIndex": 3,
+      "explanation": "The listed pollution types are air, water, noise, and land pollution. Cultural pollution may sound possible in normal conversation, but it is not one of the formal categories in your notes."
+    },
+    {
+      "question": "Air pollution is mainly caused by the introduction of harmful",
+      "options": [
+        "rocks and clay",
+        "gases, particulates, and biological molecules into the atmosphere",
+        "stars into the atmosphere",
+        "tides into the ocean"
+      ],
+      "answerIndex": 1,
+      "explanation": "Air pollution involves harmful gases, particles, and other substances entering the atmosphere. The wrong options are either absurd or belong to completely different environmental contexts."
+    },
+    {
+      "question": "Which of the following is an air pollutant listed in the material?",
+      "options": [
+        "Carbon monoxide",
+        "Pure oxygen",
+        "Clean rainwater",
+        "Pure nitrogen only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Carbon monoxide is a harmful air pollutant. Oxygen and nitrogen are major normal components of air, while clean rainwater is not classified as an air pollutant. This question tests identification of harmful substances."
+    },
+    {
+      "question": "Water pollution is the contamination of",
+      "options": [
+        "deserts only",
+        "water bodies by harmful substances",
+        "the atmosphere by noise",
+        "land by pesticides only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Water pollution affects rivers, lakes, oceans, and groundwater through harmful substances such as chemicals, microbes, metals, and waste. It is broader than contamination from one source only."
+    },
+    {
+      "question": "The Exxon Valdez case study is mainly linked to",
+      "options": [
+        "air pollution",
+        "water pollution from oil spill",
+        "deforestation",
+        "galaxy distortion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exxon Valdez is a classic oil spill case study, so it is associated with marine and water pollution. Matching case studies to their correct topic is a common CBT pattern."
+    },
+    {
+      "question": "Noise pollution is important because it",
+      "options": [
+        "affects human health and environmental quality",
+        "improves concentration in all cases",
+        "increases biodiversity",
+        "reduces stress automatically"
+      ],
+      "answerIndex": 0,
+      "explanation": "Noise pollution can harm hearing, increase stress, disturb sleep, and reduce environmental quality. It may seem less serious than air or water pollution, which is exactly why examiners like asking about it."
+    },
+    {
+      "question": "Land pollution can result from",
+      "options": [
+        "hazardous waste disposal",
+        "agricultural chemicals",
+        "mining and urbanization",
+        "all of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "Land pollution has many causes, including hazardous waste, chemicals, mining, and urban development. Since all listed options are valid causes, 'all of the above' is correct."
+    },
+    {
+      "question": "Loss of biodiversity means",
+      "options": [
+        "increase in air pressure",
+        "reduction in the variety of plant and animal species",
+        "increase in rainfall",
+        "growth in fossil fuel reserves"
+      ],
+      "answerIndex": 1,
+      "explanation": "Biodiversity refers to the variety of life. Its loss means fewer species and reduced ecological variety, which weakens ecosystems and often harms human well-being too."
+    },
+    {
+      "question": "Land degradation is a process in which",
+      "options": [
+        "the quality and productivity of land are reduced",
+        "the atmosphere becomes thinner",
+        "the sun becomes hotter",
+        "cities disappear"
+      ],
+      "answerIndex": 0,
+      "explanation": "Land degradation lowers the quality and productivity of land, often through erosion, desertification, contamination, or deforestation. It is strongly linked to agriculture and environmental sustainability."
+    },
+    {
+      "question": "Which event in the notes involved deadly gas release from a pesticide plant?",
+      "options": [
+        "Aral Sea crisis",
+        "Bhopal disaster",
+        "Kalundborg case",
+        "Bhutan index"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Bhopal disaster involved the release of deadly gas from a pesticide plant in India and is used as a case study for severe industrial pollution and environmental harm."
+    },
+    {
+      "question": "DDT is used in the material as an example of",
+      "options": [
+        "harmless pesticide use",
+        "chemical pollution with long-term ecological effects",
+        "a renewable fuel",
+        "a social policy"
+      ],
+      "answerIndex": 1,
+      "explanation": "DDT is important because it showed that chemicals used for immediate benefits can cause serious long-term ecological and health damage. It is a classic example of unintended environmental consequences."
+    },
+    {
+      "question": "Renewable energy sources are those that",
+      "options": [
+        "can be replenished over time",
+        "run out quickly",
+        "are always more expensive than fossil fuels",
+        "cannot be used in Africa"
+      ],
+      "answerIndex": 0,
+      "explanation": "Renewable energy comes from sources that nature replenishes, such as sunlight, wind, and moving water. It is not defined by price or location. In MCQs, focus on the definition, not assumptions."
+    },
+    {
+      "question": "Which of the following is NOT a renewable energy source?",
+      "options": ["Wind", "Solar", "Natural gas", "Geothermal"],
+      "answerIndex": 2,
+      "explanation": "Natural gas is a fossil fuel and therefore non-renewable. Wind, solar, and geothermal are renewable sources because they are naturally replenished."
+    },
+    {
+      "question": "Wind energy is harnessed using",
+      "options": [
+        "solar panels",
+        "wind turbines",
+        "crude oil pumps",
+        "ocean barrages only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wind turbines capture the kinetic energy of moving air and convert it into mechanical and then electrical energy. Solar panels belong to solar energy, not wind."
+    },
+    {
+      "question": "Solar energy is converted into electricity mainly through",
+      "options": [
+        "hydro dams",
+        "photovoltaic cells",
+        "coal boilers",
+        "tidal streams"
+      ],
+      "answerIndex": 1,
+      "explanation": "Photovoltaic cells are the main technology used to convert sunlight into electricity. This is a very common renewable energy fact question."
+    },
+    {
+      "question": "Tidal energy is derived from the",
+      "options": [
+        "heat within the earth",
+        "rise and fall of ocean tides",
+        "decay of biomass",
+        "burning of natural gas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tidal energy comes from the movement of ocean water caused by tides. It should not be confused with geothermal energy, which comes from heat within the Earth."
+    },
+    {
+      "question": "Geothermal energy comes from",
+      "options": [
+        "wind movement",
+        "the heat stored within the Earth",
+        "ocean waves",
+        "nuclear fusion in space"
+      ],
+      "answerIndex": 1,
+      "explanation": "Geothermal energy uses heat from inside the Earth. The prefix 'geo' means earth, which can help you remember it in an exam."
+    },
+    {
+      "question": "Biomass energy is produced from",
+      "options": [
+        "only fossilized materials",
+        "organic matter such as plants and agricultural waste",
+        "metal ores",
+        "ocean salt"
+      ],
+      "answerIndex": 1,
+      "explanation": "Biomass comes from organic material such as wood, crop residues, and plant waste. It differs from fossil fuels because it is based on recent biological material rather than ancient deposits."
+    },
+    {
+      "question": "Which of the following is an advantage of renewable energy?",
+      "options": [
+        "Reduced greenhouse gas emissions",
+        "Depletion of finite resources",
+        "Greater air toxicity",
+        "Permanent fuel scarcity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Renewable energy is promoted partly because it helps reduce greenhouse gas emissions compared with fossil fuels. The other options are not advantages and are contrary to the purpose of renewables."
+    },
+    {
+      "question": "A major disadvantage of renewable energy mentioned in the notes is",
+      "options": [
+        "energy security",
+        "job creation",
+        "intermittency and variability",
+        "sustainability"
+      ],
+      "answerIndex": 2,
+      "explanation": "Some renewable sources such as solar and wind are intermittent, meaning they do not produce energy constantly. This is one of the main technical challenges with renewables."
+    },
+    {
+      "question": "Non-renewable energy is energy that",
+      "options": [
+        "can be replenished easily in a short time",
+        "can run out and is not quickly replaced",
+        "never causes pollution",
+        "comes only from sunlight"
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-renewable energy sources are finite on human timescales. They take very long periods to form and cannot be quickly replaced after use. Coal, oil, and natural gas fall into this category."
+    },
+    {
+      "question": "Which of the following are fossil fuels?",
+      "options": [
+        "Coal, oil, and natural gas",
+        "Solar, wind, and hydro",
+        "Biomass, geothermal, and tidal",
+        "Hydrogen, oxygen, and nitrogen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Coal, oil, and natural gas are fossil fuels. This is a core classification fact in energy topics and often appears in simple recall questions."
+    },
+    {
+      "question": "One advantage of fossil fuels over some renewables is that fossil fuels",
+      "options": [
+        "are always cleaner",
+        "provide baseload power more easily",
+        "are renewable",
+        "have no environmental impact"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fossil fuels can provide continuous and stable electricity, which makes them important for baseload power. This does not mean they are cleaner or environmentally harmless."
+    },
+    {
+      "question": "Baseload power refers to",
+      "options": [
+        "energy used only at night",
+        "constant and uninterrupted electricity supply needed to meet minimum demand",
+        "electricity from underground water only",
+        "temporary peak demand energy only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baseload power is the steady minimum level of electricity demand that must be met continuously. It is different from peak demand, which refers to the highest-demand periods."
+    },
+    {
+      "question": "A major disadvantage of fossil fuels is that they",
+      "options": [
+        "are too renewable",
+        "contribute to climate change and pollution",
+        "reduce greenhouse gases",
+        "require no infrastructure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Burning fossil fuels releases greenhouse gases and pollutants, which contribute to climate change, air pollution, and health problems. This is one of the central criticisms of fossil-fuel use."
+    },
+    {
+      "question": "Before the Industrial Revolution, societies were heavily dependent on",
+      "options": [
+        "nuclear power",
+        "annual plant photosynthesis and biomass",
+        "solar cells",
+        "geothermal stations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pre-industrial societies depended heavily on biomass such as wood and crop residues, which ultimately relied on plant photosynthesis. This limited available energy and constrained economic growth."
+    },
+    {
+      "question": "The Industrial Revolution led to a surge in energy demand mainly because of",
+      "options": [
+        "reduced production",
+        "new machinery and steam power",
+        "disappearance of transport",
+        "a decline in industries"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Industrial Revolution introduced machinery, factories, and steam engines, all of which needed more energy than traditional human and animal labor. This explains the rapid rise in energy demand."
+    },
+    {
+      "question": "During the Industrial Revolution, coal became important because it",
+      "options": [
+        "was rare and difficult to access",
+        "powered steam engines and industrial production",
+        "replaced all transportation",
+        "reduced all pollution immediately"
+      ],
+      "answerIndex": 1,
+      "explanation": "Coal became central because it powered steam engines, factories, locomotives, and other industrial machinery. The idea that it reduced pollution is false; it actually increased pollution."
+    },
+    {
+      "question": "A major environmental consequence of increased energy demand during industrialization was",
+      "options": [
+        "cleaner rivers everywhere",
+        "reduced emissions",
+        "air and water pollution",
+        "disappearance of cities"
+      ],
+      "answerIndex": 2,
+      "explanation": "Industrialization increased fossil-fuel burning and industrial waste, leading to significant air and water pollution. The question tests your understanding of environmental consequences of industrial growth."
+    },
+    {
+      "question": "Which of the following is a driver of energy demand mentioned in the notes?",
+      "options": [
+        "Total income",
+        "Urbanization",
+        "Population growth",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "Income, urbanization, and population growth all contribute to rising energy demand because they increase consumption, infrastructure needs, and production. All listed factors are valid."
+    },
+    {
+      "question": "Demand-side management (DSM) focuses on",
+      "options": [
+        "expanding fuel imports only",
+        "managing consumer demand for energy",
+        "shutting all power plants",
+        "replacing governments with private firms"
+      ],
+      "answerIndex": 1,
+      "explanation": "DSM is about influencing how consumers use energy so that demand is reduced, shifted, or made more efficient. It is not about eliminating supply systems but about using energy more wisely."
+    },
+    {
+      "question": "Which of the following is a DSM strategy?",
+      "options": [
+        "Smart metering",
+        "More galaxy observation",
+        "Desert expansion",
+        "Deforestation policy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Smart metering helps consumers monitor their usage and make informed decisions, making it a direct DSM strategy. The other options are unrelated to energy demand management."
+    },
+    {
+      "question": "Time-of-use pricing works by",
+      "options": [
+        "making electricity the same price at all times",
+        "charging higher prices during peak demand periods",
+        "abolishing electricity bills",
+        "making off-peak power more expensive than peak"
+      ],
+      "answerIndex": 1,
+      "explanation": "Time-of-use pricing encourages people to shift electricity use away from busy peak times by making electricity more expensive during those periods. This helps reduce pressure on the grid."
+    },
+    {
+      "question": "One benefit of smart metering is that it",
+      "options": [
+        "hides energy usage from consumers",
+        "gives consumers immediate feedback on their usage",
+        "bans appliances",
+        "increases waste automatically"
+      ],
+      "answerIndex": 1,
+      "explanation": "Smart meters provide real-time or near-real-time data on energy use. This feedback helps people understand their consumption and change their behavior to save energy."
+    },
+    {
+      "question": "Behavioural change as a DSM strategy includes",
+      "options": [
+        "leaving all lights on",
+        "turning off lights when not needed",
+        "increasing wasteful appliance use",
+        "abandoning all technology"
+      ],
+      "answerIndex": 1,
+      "explanation": "Behavioral change means making practical choices that reduce energy use, such as switching off lights and using appliances more carefully. It is a low-cost but effective DSM approach."
+    },
+    {
+      "question": "Energy policy seeks to ensure",
+      "options": [
+        "energy security, equity, and sustainability",
+        "only industrial expansion",
+        "only low taxes",
+        "only fossil fuel use"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course highlights energy security, equity, and sustainability as the three major objectives of energy policy. These are important to memorize because they are easy to test directly."
+    },
+    {
+      "question": "Energy security means",
+      "options": [
+        "uninterrupted supply of energy at an affordable price",
+        "storing fuel underground only",
+        "banning energy imports",
+        "using only solar energy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Energy security means reliable and affordable access to energy. It does not require only one energy source or total energy independence. The key ideas are stability and affordability."
+    },
+    {
+      "question": "Which of the following is an example of international cooperation in energy and climate policy?",
+      "options": [
+        "Paris Agreement",
+        "Kalundborg park",
+        "Silent Spring",
+        "Bhopal disaster"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Paris Agreement is a global climate cooperation framework. Kalundborg is an industrial symbiosis example, Silent Spring is a book, and Bhopal is a disaster case study."
+    },
+    {
+      "question": "Carbon capture and storage (CCS) is associated with",
+      "options": [
+        "capturing atmospheric wind in turbines",
+        "trapping carbon emissions to reduce release into the atmosphere",
+        "improving biodiversity through farming",
+        "increasing plastic recycling only"
+      ],
+      "answerIndex": 1,
+      "explanation": "CCS refers to capturing carbon dioxide from industrial processes or power generation and storing it so it does not enter the atmosphere. It is discussed as a climate mitigation strategy."
+    },
+    {
+      "question": "A challenge to energy transition in Nigeria mentioned in the notes is",
+      "options": [
+        "unlimited grid infrastructure",
+        "lack of regulatory framework and policy",
+        "too much energy storage",
+        "complete social acceptance"
+      ],
+      "answerIndex": 1,
+      "explanation": "The notes mention weak regulatory frameworks and policy support as one of the barriers to energy transition in Nigeria. Other challenges include finance, infrastructure, and limited expertise."
+    },
+    {
+      "question": "Which of the following is listed as a renewable energy penetration strategy?",
+      "options": [
+        "Education and awareness",
+        "Increased oil spillages",
+        "Deforestation",
+        "Mine collapse"
+      ],
+      "answerIndex": 0,
+      "explanation": "Education and awareness help increase public understanding and support for renewable-energy adoption. The other options are environmental problems, not strategies."
+    },
+    {
+      "question": "Carbon taxes are considered useful because they",
+      "options": [
+        "encourage more carbon emissions",
+        "create an economic incentive to reduce carbon use",
+        "eliminate all taxes in an economy",
+        "replace renewable energy automatically"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carbon taxes place a cost on carbon emissions, encouraging individuals and industries to reduce carbon-intensive activities and adopt cleaner options. This is a market-based environmental policy tool."
+    },
+    {
+      "question": "Subsidies can support renewable energy by",
+      "options": [
+        "increasing cost barriers",
+        "reducing cost barriers to cleaner technologies",
+        "banning all market activity",
+        "stopping research"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subsidies make renewable technologies and efficient products more affordable, which encourages adoption. In MCQs, subsidies are usually linked with support, not restriction."
+    },
+    {
+      "question": "Chemical hazards are",
+      "options": [
+        "harmless chemicals used everywhere",
+        "toxic substances that can damage living organisms",
+        "only radioactive rays",
+        "only naturally beneficial elements"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chemical hazards are harmful substances that can injure humans, animals, plants, or ecosystems. They are not limited to radiation and are not harmless simply because they are commonly used."
+    },
+    {
+      "question": "Which of the following is a classification of environmental contaminant in the notes?",
+      "options": ["Carcinogen", "Ecosystem", "Atmosphere", "Photosphere"],
+      "answerIndex": 0,
+      "explanation": "Carcinogen is a class of harmful contaminant that can cause cancer. Ecosystem and atmosphere are environmental terms, not contaminant types."
+    },
+    {
+      "question": "Arsenic is described in the notes as",
+      "options": [
+        "an imaginary pollutant",
+        "a naturally occurring element found in water, soil, dust, air, and food",
+        "a renewable energy source",
+        "a layer of the atmosphere"
+      ],
+      "answerIndex": 1,
+      "explanation": "Arsenic is a naturally occurring element, but it can become a serious hazard because of exposure through water, soil, food, or industrial activity. This shows that naturally occurring substances can still be dangerous."
+    },
+    {
+      "question": "Exposure to asbestos is strongly associated with",
+      "options": [
+        "better lung function",
+        "lung cancer and mesothelioma",
+        "improved biodiversity",
+        "reduced air pollution"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asbestos exposure is linked to serious lung diseases, especially lung cancer and mesothelioma. It appears in this course as a hazardous chemical/mineral example with major health implications."
+    },
+    {
+      "question": "Ionizing radiation is especially dangerous because it can",
+      "options": [
+        "improve immunity at high doses",
+        "break molecular bonds and damage cells",
+        "reduce the risk of cancer completely",
+        "only warm the skin harmlessly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ionizing radiation has enough energy to damage atoms and molecules, causing serious biological harm. That is why it is associated with burns, internal injury, and increased cancer risk."
+    },
+    {
+      "question": "Chemicals and waste can contaminate",
+      "options": [
+        "only air",
+        "only water",
+        "only soil",
+        "air, water, and soil"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course emphasizes that chemicals and waste can spread through multiple environmental media: air, water, and soil. This broad impact is part of why chemical and waste management is important."
+    },
+    {
+      "question": "Vulnerable populations often bear a disproportionate burden of exposure because of issues related to",
+      "options": [
+        "environmental justice",
+        "galaxy structure",
+        "rainfall chemistry",
+        "fossilization"
+      ],
+      "answerIndex": 0,
+      "explanation": "Environmental justice highlights how poorer or marginalized groups often face greater environmental risks and weaker protection. This topic connects social inequality with environmental health."
+    },
+    {
+      "question": "Which of the following is a type of waste listed in the course?",
+      "options": [
+        "Electronic waste",
+        "Planetary waste",
+        "Cultural waste",
+        "Linguistic waste"
+      ],
+      "answerIndex": 0,
+      "explanation": "Electronic waste, or e-waste, is one of the recognized waste categories in the notes. The other options are not formal waste categories in this course."
+    },
+    {
+      "question": "Waste management involves",
+      "options": [
+        "dumping waste anywhere convenient",
+        "collecting, transporting, processing, recycling, or disposing of waste responsibly",
+        "burning all waste immediately",
+        "ignoring hazardous waste"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waste management is a full system that includes collection, transportation, processing, recycling, and safe disposal. It is not simply dumping or burning. This is an important exam definition."
+    },
+    {
+      "question": "Which of the following is a waste management strategy mentioned in the material?",
+      "options": ["Composting", "Overgrazing", "Smelting", "Deforestation"],
+      "answerIndex": 0,
+      "explanation": "Composting is a sustainable method for decomposing organic waste into useful nutrient-rich material. It is a proper waste management strategy, unlike the other options."
+    },
+    {
+      "question": "The waste hierarchy in the notes is",
+      "options": [
+        "reduce, reuse, recycle",
+        "recycle, dump, burn",
+        "sell, waste, replace",
+        "use, discard, repeat"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 3Rs—reduce, reuse, recycle—form the waste hierarchy emphasized in the course. Their order matters because preventing waste comes before recycling it."
+    },
+    {
+      "question": "Industrial ecology aims to move industry from",
+      "options": [
+        "closed-loop to open-loop systems",
+        "open-loop to closed-loop systems",
+        "renewable to fossil systems",
+        "local to global markets only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Industrial ecology seeks to redesign industrial systems so that waste is minimized and outputs can become useful inputs elsewhere. That is the move from open-loop to closed-loop systems."
+    },
+    {
+      "question": "Industrial symbiosis means",
+      "options": [
+        "competition between industries for the same waste",
+        "using the by-products of one industry as input for another",
+        "shutting down all industrial parks",
+        "producing more waste for export"
+      ],
+      "answerIndex": 1,
+      "explanation": "Industrial symbiosis allows one firm’s by-product or waste to become another firm’s raw material. This reduces waste and improves resource efficiency."
+    },
+    {
+      "question": "A circular economy is best described as",
+      "options": [
+        "a system that encourages one-time use and disposal",
+        "a regenerative system that minimizes waste and keeps materials in use",
+        "a policy for increasing fossil fuel consumption",
+        "an economy that depends only on imports"
+      ],
+      "answerIndex": 1,
+      "explanation": "A circular economy aims to keep products and materials in use through repair, reuse, refurbishment, remanufacturing, and recycling. It contrasts with the linear take-use-dispose model."
+    },
+    {
+      "question": "Sustainable development has three main pillars:",
+      "options": [
+        "legal, political, military",
+        "economic, social, environmental",
+        "solar, hydro, tidal",
+        "local, national, international"
+      ],
+      "answerIndex": 1,
+      "explanation": "The three pillars of sustainable development are economic, social, and environmental. These are central to GST 127 and very likely to appear in direct recall questions."
+    },
+    {
+      "question": "The Sustainable Development Goals (SDGs) were adopted in",
+      "options": ["1987", "2000", "2015", "2022"],
+      "answerIndex": 2,
+      "explanation": "The SDGs were adopted in 2015 by the United Nations. This date is important because the SDGs followed the Millennium Development Goals."
+    },
+    {
+      "question": "One major difference between the SDGs and the MDGs is that the SDGs",
+      "options": [
+        "contain fewer goals",
+        "are broader and more universal",
+        "apply only to developing countries",
+        "ended in 2015 before the MDGs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The SDGs are broader, more integrated, and apply to all countries, unlike the MDGs which were narrower and focused mainly on developing countries. Keywords like broader, universal, and integrated are useful here."
+    },
+    {
+      "question": "The Millennium Development Goals (MDGs) consisted of",
+      "options": ["5 goals", "8 goals", "12 goals", "17 goals"],
+      "answerIndex": 1,
+      "explanation": "The MDGs had 8 goals, while the SDGs have 17. Number comparison questions like this are very common because they are easy to test and easy to confuse."
+    },
+    {
+      "question": "NEPAD stands for",
+      "options": [
+        "National Energy Plan for African Development",
+        "New Partnership for Africa’s Development",
+        "New Policy for Agriculture and Development",
+        "Nigerian Partnership for Development"
+      ],
+      "answerIndex": 1,
+      "explanation": "NEPAD means New Partnership for Africa’s Development. It is a pan-African strategic framework for development. Acronym questions are common, so the full form is worth memorizing."
+    },
+    {
+      "question": "Which of the following is one objective of NEPAD?",
+      "options": [
+        "Eradicate poverty",
+        "Promote planetary colonization",
+        "End all trade in Africa",
+        "Replace the African Union"
+      ],
+      "answerIndex": 0,
+      "explanation": "One of the core objectives of NEPAD is poverty eradication, along with sustainable growth, women’s empowerment, and integrating Africa into the global economy. The other options are clearly outside NEPAD’s purpose."
+    },
+    {
+      "question": "Which of the following is one of the strategic themes of NEPAD?",
+      "options": [
+        "Agriculture and Food Security",
+        "Galaxy and Space Control",
+        "Interplanetary Trade",
+        "Ocean Colonization"
+      ],
+      "answerIndex": 0,
+      "explanation": "Agriculture and Food Security is one of NEPAD’s themes. The others are fictional or unrelated. This is a category-recognition question."
+    },
+    {
+      "question": "NEEDS in Nigeria is mainly associated with",
+      "options": [
+        "National Economic Empowerment and Development Strategy",
+        "National Environmental Education and Development Scheme",
+        "New Energy Efficiency and Development Standard",
+        "Nigerian Ecological Enhancement and Drainage System"
+      ],
+      "answerIndex": 0,
+      "explanation": "NEEDS stands for National Economic Empowerment and Development Strategy. It is a Nigerian development framework focused on wealth creation, employment generation, poverty reduction, and value re-orientation."
+    },
+    {
+      "question": "Which of the following is one of the stated goals of NEEDS in Nigeria?",
+      "options": [
+        "Wealth creation",
+        "Planetary exploration",
+        "Galaxy integration",
+        "Ocean acidification control only"
+      ],
+      "answerIndex": 0,
+      "explanation": "NEEDS includes goals such as wealth creation, employment generation, poverty reduction, and value re-orientation. These are practical national development goals, unlike the distractor options."
+    }
+  ]
+}

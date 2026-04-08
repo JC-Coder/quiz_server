@@ -1,6 +1,10 @@
 export const faculties = [
   { value: "COS101", label: "COS 101 - Intro to Computing" },
   { value: "GST111", label: "GST 111 - Communication in English Language I" },
+  {
+    value: "GST127",
+    label: "GST 127 - Environmental and Sustainable Development",
+  },
   // { value: "COS102", label: "COS 102 - Intro to Python" },
   // { value: "SEN101", label: "SEN 101 - Software Engineering I" },
   // { value: "BUS101", label: "BUS 101 - Intro to Business" },
