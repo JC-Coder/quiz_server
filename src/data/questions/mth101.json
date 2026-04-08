@@ -1,14 +1,608 @@
 {
   "courseDetails": {
     "id": "MTH101",
-    "name": "General Mathematics"
+    "name": "Elementary Mathematics I"
   },
   "questions": [
     {
-      "question": "If log(x) = 2 (base 10), what is the value of x?",
-      "options": ["20", "100", "2", "10"],
+  "question": "If n(A) = 12, n(B) = 8, and n(A ∪ B) = 15, what is n(A ∩ B)?",
+  "options": ["3", "5", "7", "20"],
+  "answerIndex": 1,
+  "explanation": "Using the formula: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 8 - 15 = 5"
+},
+    {
+      "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A ∪ B?",
+      "options": ["{3, 4}", "{1, 2, 3, 4, 5, 6}", "{1, 2, 5, 6}", "{1, 2, 3, 4}"],
       "answerIndex": 1,
-      "explanation": "If log(x) = 2, then x = 10^2 = 100."
+      "explanation": "Union contains all elements in either set: {1, 2, 3, 4, 5, 6}"
+    },
+    {
+      "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A ∩ B?",
+      "options": ["{3, 4}", "{1, 2, 3, 4, 5, 6}", "{1, 2, 5, 6}", "∅"],
+      "answerIndex": 0,
+      "explanation": "Intersection contains only elements in both sets: {3, 4}"
+    },
+    {
+      "question": "If the universal set U = {1, 2, 3, 4, 5, 6, 7, 8} and A = {2, 4, 6, 8}, what is A'?",
+      "options": ["{2, 4, 6, 8}", "{1, 3, 5, 7}", "{1, 2, 3, 4, 5, 6, 7, 8}", "∅"],
+      "answerIndex": 1,
+      "explanation": "Complement contains all elements in U but not in A"
+    },
+    {
+      "question": "How many subsets does the set {a, b, c} have?",
+      "options": ["3", "6", "8", "9"],
+      "answerIndex": 2,
+      "explanation": "Number of subsets = 2^n where n is number of elements. 2³ = 8"
+    },
+    {
+      "question": "If n(A) = 12, n(B) = 8, and n(A ∩ B) = 5, what is n(A ∪ B)?",
+      "options": ["20", "15", "25", "10"],
+      "answerIndex": 1,
+      "explanation": "n(A ∪ B) = n(A) + n(B) - n(A ∩ B) = 12 + 8 - 5 = 15"
+    },
+    {
+      "question": "Which of the following is a subset of {a, b, c}?",
+      "options": ["{d, e}", "{a, b, c, d}", "{a, c}", "{a, b, c, d, e}"],
+      "answerIndex": 2,
+      "explanation": "{a, c} contains only elements from the original set"
+    },
+    {
+      "question": "If A ⊂ B and B ⊂ C, which statement must be true?",
+      "options": ["B = C", "A ∩ C = ∅", "A ⊂ C", "A = C"],
+      "answerIndex": 2,
+      "explanation": "Transitivity of subset relation: if A ⊂ B and B ⊂ C, then A ⊂ C"
+    },
+    {
+      "question": "Using De Morgan's Law, (A ∪ B)' is equal to what?",
+      "options": ["A' ∩ B'", "A ∩ B", "A' ∪ B'", "A ∪ B"],
+      "answerIndex": 0,
+      "explanation": "De Morgan's Law: (A ∪ B)' = A' ∩ B'"
+    },
+    {
+      "question": "In a Venn diagram, if sets A and B overlap, the overlapping region represents which operation?",
+      "options": ["A ∪ B", "A'", "A ∩ B", "A - B"],
+      "answerIndex": 2,
+      "explanation": "The overlapping region shows elements in both sets (intersection)"
+    },
+    {
+      "question": "If n(A) = 5 and n(B) = 3 with A ∩ B = ∅, what is n(A ∪ B)?",
+      "options": ["2", "8", "15", "0"],
+      "answerIndex": 1,
+      "explanation": "When sets are disjoint (A ∩ B = ∅), n(A ∪ B) = n(A) + n(B) = 5 + 3 = 8"
+    },
+    {
+      "question": "If n(A ∪ B) = 15, n(A) = 12, and n(B) = 8, what is n(A ∩ B)?",
+      "options": ["3", "5", "7", "20"],
+      "answerIndex": 1,
+      "explanation": "Rearranging: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 8 - 15 = 5"
+    },
+    {
+      "question": "Which property states that A ∪ B = B ∪ A?",
+      "options": ["Associative property", "Distributive property", "Commutative property", "Identity property"],
+      "answerIndex": 2,
+      "explanation": "Commutative property: order doesn't matter in union"
+    },
+    {
+      "question": "Which number is rational?",
+      "options": ["0.333... (0.3̄)", "π", "√2", "√7"],
+      "answerIndex": 0,
+      "explanation": "0.3̄ = 1/3, which is a fraction (rational). Others are irrational."
+    },
+    {
+      "question": "Which of the following is an integer but not a natural number?",
+      "options": ["5", "3.5", "-3", "1/2"],
+      "answerIndex": 2,
+      "explanation": "-3 is an integer. Natural numbers are positive integers (1, 2, 3, ...)"
+    },
+    {
+      "question": "Express 0.125 as a fraction in simplest form.",
+      "options": ["125/100", "5/8", "1/8", "1/4"],
+      "answerIndex": 2,
+      "explanation": "0.125 = 125/1000 = 1/8 when simplified"
+    },
+    {
+      "question": "Which number is both rational and an integer?",
+      "options": ["√5", "3.14", "-8", "22/7"],
+      "answerIndex": 2,
+      "explanation": "-8 is an integer, and all integers are rational (can write as -8/1)"
+    },
+    {
+      "question": "√16 is an element of which number system?",
+      "options": ["Irrational numbers only", "Only rational numbers excluding integers", "Real numbers but not integers", "Natural numbers"],
+      "answerIndex": 3,
+      "explanation": "√16 = 4, which is a natural number (also integer, rational, real)"
+    },
+    {
+      "question": "What is |-3| + |5|?",
+      "options": ["2", "8", "-8", "-2"],
+      "answerIndex": 1,
+      "explanation": "|-3| = 3, |5| = 5, so 3 + 5 = 8"
+    },
+    {
+      "question": "Which property states that a(b + c) = ab + ac?",
+      "options": ["Commutative", "Associative", "Distributive", "Identity"],
+      "answerIndex": 2,
+      "explanation": "Distributive property of multiplication over addition"
+    },
+    {
+      "question": "What is the multiplicative inverse of 2/3?",
+      "options": ["-2/3", "3/2", "2/3", "-3/2"],
+      "answerIndex": 1,
+      "explanation": "Multiplicative inverse: (2/3) × (3/2) = 1"
+    },
+    {
+      "question": "Simplify: (2/5) - (1/10)",
+      "options": ["1/10", "3/10", "1/5", "2/5"],
+      "answerIndex": 1,
+      "explanation": "(2/5) - (1/10) = (4/10) - (1/10) = 3/10"
+    },
+    {
+      "question": "For the quadratic equation ax² + bx + c = 0, what is the discriminant?",
+      "options": ["-b ± √(b² - 4ac)", "b² - 4ac", "4ac - b²", "b² + 4ac"],
+      "answerIndex": 1,
+      "explanation": "Discriminant Δ = b² - 4ac"
+    },
+    {
+      "question": "If a quadratic equation has discriminant Δ = 0, what can be said about its roots?",
+      "options": ["The equation has two distinct real roots", "The equation has two equal real roots", "The equation has no real roots", "The equation has complex conjugate roots"],
+      "answerIndex": 1,
+      "explanation": "Δ = 0 means two equal (repeated) real roots"
+    },
+    {
+      "question": "If α and β are roots of x² - 5x + 6 = 0, what is α + β?",
+      "options": ["-5", "5", "6", "-6"],
+      "answerIndex": 1,
+      "explanation": "Sum of roots = -b/a = -(-5)/1 = 5"
+    },
+    {
+      "question": "If α and β are roots of 2x² + 3x - 5 = 0, what is αβ?",
+      "options": ["3/2", "-5/2", "5/2", "-3/2"],
+      "answerIndex": 1,
+      "explanation": "Product of roots = c/a = -5/2"
+    },
+    {
+      "question": "Solve: x² - 9 = 0",
+      "options": ["x = 3 only", "x = -3 only", "x = ±3", "No real solution"],
+      "answerIndex": 2,
+      "explanation": "x² = 9, so x = ±3"
+    },
+    {
+      "question": "What are the roots of x² - 7x + 12 = 0?",
+      "options": ["x = 3, 4", "x = -3, -4", "x = 3, -4", "x = -3, 4"],
+      "answerIndex": 0,
+      "explanation": "(x - 3)(x - 4) = 0, so x = 3 or x = 4"
+    },
+    {
+      "question": "Using the quadratic formula to solve x² + 6x + 8 = 0, what are the roots?",
+      "options": ["x = -2, -4", "x = 2, 4", "x = -2, 4", "x = 2, -4"],
+      "answerIndex": 0,
+      "explanation": "x = [-6 ± √(36-32)]/2 = [-6 ± 2]/2 = -4 or -2"
+    },
+    {
+      "question": "What is the nature of roots for x² + 4x + 5 = 0?",
+      "options": ["Two distinct real roots", "Two equal real roots", "No real roots (complex)", "One real root"],
+      "answerIndex": 2,
+      "explanation": "Δ = 16 - 20 = -4 < 0, so complex roots"
+    },
+    {
+      "question": "Complete the square for x² + 6x = 7",
+      "options": ["(x + 3)² = 16", "(x + 3)² = 10", "(x + 6)² = 7", "(x + 3)² = 7"],
+      "answerIndex": 0,
+      "explanation": "x² + 6x + 9 = 7 + 9, so (x + 3)² = 16"
+    },
+    {
+      "question": "If the sum of roots is 8 and product is 15, find the quadratic equation.",
+      "options": ["x² - 8x + 15 = 0", "x² + 8x + 15 = 0", "x² - 8x - 15 = 0", "x² + 8x - 15 = 0"],
+      "answerIndex": 0,
+      "explanation": "x² - (sum)x + (product) = 0: x² - 8x + 15 = 0"
+    },
+    {
+      "question": "Solve: (x - 2)² = 25",
+      "options": ["x = 7 only", "x = -3 only", "x = 7, -3", "x = 2, 25"],
+      "answerIndex": 2,
+      "explanation": "x - 2 = ±5, so x = 7 or x = -3"
+    },
+    {
+      "question": "The sequence 2, 5, 8, 11, 14, ... is an arithmetic sequence. What is the nth term?",
+      "options": ["n + 2", "3n - 1", "3n + 2", "2n + 3"],
+      "answerIndex": 1,
+      "explanation": "a₁ = 2, d = 3. aₙ = 2 + (n-1)3 = 2 + 3n - 3 = 3n - 1"
+    },
+    {
+      "question": "What is the 10th term of the arithmetic sequence with first term 3 and common difference 4?",
+      "options": ["39", "40", "43", "37"],
+      "answerIndex": 0,
+      "explanation": "a₁₀ = 3 + (10-1)×4 = 3 + 36 = 39"
+    },
+    {
+      "question": "What is the sum to infinity of the geometric series with first term a = 8 and common ratio r = 1/2?",
+      "options": ["16", "24", "8", "12"],
+      "answerIndex": 0,
+      "explanation": "S∞ = a/(1-r) = 8/(1-1/2) = 8/(1/2) = 16"
+    },
+    {
+      "question": "Find the common ratio of the geometric sequence: 3, 6, 12, 24, ...",
+      "options": ["2", "3", "1/2", "4"],
+      "answerIndex": 0,
+      "explanation": "r = 6/3 = 2 (or 12/6 = 2)"
+    },
+    {
+      "question": "What is the 5th term of the geometric sequence with a₁ = 2 and r = 3?",
+      "options": ["162", "54", "486", "18"],
+      "answerIndex": 0,
+      "explanation": "a₅ = 2 × 3^(5-1) = 2 × 3⁴ = 2 × 81 = 162"
+    },
+    {
+      "question": "The sum of the first n terms of an arithmetic sequence is given by Sₙ = n/2[2a + (n-1)d]. If a = 3, d = 2, and n = 10, what is S₁₀?",
+      "options": ["120", "110", "100", "90"],
+      "answerIndex": 0,
+      "explanation": "S₁₀ = 10/2[2(3) + (10-1)2] = 5[6 + 18] = 5 × 24 = 120"
+    },
+    {
+      "question": "In an arithmetic sequence, if a₁ = 5 and a₅ = 17, what is the common difference?",
+      "options": ["3", "4", "2", "12"],
+      "answerIndex": 0,
+      "explanation": "a₅ = a₁ + 4d, so 17 = 5 + 4d, thus 4d = 12, d = 3"
+    },
+    {
+      "question": "If the first three terms of a geometric sequence are 2, 6, 18, what is the 6th term?",
+      "options": ["486", "162", "54", "1458"],
+      "answerIndex": 0,
+      "explanation": "a₁ = 2, r = 3. a₆ = 2 × 3⁵ = 2 × 243 = 486"
+    },
+    {
+      "question": "For which values of r does a geometric series converge?",
+      "options": ["|r| > 1", "|r| < 1", "|r| = 1", "All values of r"],
+      "answerIndex": 1,
+      "explanation": "Geometric series converges only when |r| < 1"
+    },
+    {
+      "question": "What is the common difference of the arithmetic sequence: 10, 7, 4, 1, -2, ...?",
+      "options": ["3", "-3", "7", "-7"],
+      "answerIndex": 1,
+      "explanation": "d = 7 - 10 = -3"
+    },
+    {
+      "question": "What is the sum of the geometric series 2 + 6 + 18 + 54 + ... to 5 terms?",
+      "options": ["162", "242", "182", "486"],
+      "answerIndex": 1,
+      "explanation": "a = 2, r = 3, n = 5. S₅ = 2(3⁵ - 1)/(3 - 1) = 2(242)/2 = 242"
+    },
+    {
+      "question": "What is the coefficient of x³ in the expansion of (2 + x)⁵?",
+      "options": ["10", "20", "40", "80"],
+      "answerIndex": 2,
+      "explanation": "C(5,3) × 2² × x³ = 10 × 4 × x³, coefficient = 40"
+    },
+    {
+      "question": "In the binomial expansion of (1 + x)ⁿ, what is the general term?",
+      "options": ["nˣxʳ", "nxʳ", "C(n,r)xʳ", "n!/r! × xʳ"],
+      "answerIndex": 2,
+      "explanation": "General term is C(n,r)xʳ or (ⁿCᵣ)xʳ"
+    },
+    {
+      "question": "Calculate C(6, 2)",
+      "options": ["12", "15", "30", "3"],
+      "answerIndex": 1,
+      "explanation": "C(6,2) = 6!/(2!4!) = (6×5)/(2×1) = 15"
+    },
+    {
+      "question": "What is the middle term in the expansion of (a + b)⁶?",
+      "options": ["6a³b³", "15a³b³", "20a³b³", "10a³b³"],
+      "answerIndex": 2,
+      "explanation": "For (a+b)⁶, middle term is 4th term: C(6,3)a³b³ = 20a³b³"
+    },
+    {
+      "question": "Using Pascal's triangle, what is the coefficient of the 3rd term in (a + b)⁴?",
+      "options": ["4", "6", "1", "4"],
+      "answerIndex": 1,
+      "explanation": "Row 4 of Pascal's triangle: 1, 4, 6, 4, 1. Third term coefficient = 6"
+    },
+    {
+      "question": "How many terms are in the expansion of (a + b)⁷?",
+      "options": ["7", "8", "6", "14"],
+      "answerIndex": 1,
+      "explanation": "(a + b)ⁿ has (n + 1) terms. For n = 7: 7 + 1 = 8 terms"
+    },
+    {
+      "question": "Expand (1 + x)³ using the binomial theorem.",
+      "options": ["1 + 3x + 3x² + x³", "1 + x + x² + x³", "1 + 3x + x³", "3 + 3x + 3x² + x³"],
+      "answerIndex": 0,
+      "explanation": "(1+x)³ = C(3,0) + C(3,1)x + C(3,2)x² + C(3,3)x³ = 1 + 3x + 3x² + x³"
+    },
+    {
+      "question": "What is C(n, 0) for any positive integer n?",
+      "options": ["0", "1", "n", "n!"],
+      "answerIndex": 1,
+      "explanation": "C(n,0) = n!/(0!×n!) = 1"
+    },
+    {
+      "question": "What is the sum of all coefficients in the expansion of (x + y)⁵?",
+      "options": ["5", "10", "32", "25"],
+      "answerIndex": 2,
+      "explanation": "Sum of coefficients = (1 + 1)⁵ = 2⁵ = 32"
+    },
+    {
+      "question": "Simplify: log₂(8)",
+      "options": ["2", "3", "4", "8"],
+      "answerIndex": 1,
+      "explanation": "log₂(8) = log₂(2³) = 3"
+    },
+    {
+      "question": "What is ln(e²)?",
+      "options": ["e", "2", "e²", "1"],
+      "answerIndex": 1,
+      "explanation": "ln(e²) = 2ln(e) = 2(1) = 2"
+    },
+    {
+      "question": "Solve for x: 2ˣ = 16",
+      "options": ["x = 2", "x = 3", "x = 4", "x = 8"],
+      "answerIndex": 2,
+      "explanation": "2ˣ = 2⁴, so x = 4"
+    },
+    {
+      "question": "Simplify: log(100)",
+      "options": ["1", "2", "10", "100"],
+      "answerIndex": 1,
+      "explanation": "log(100) = log(10²) = 2 (common log base 10)"
+    },
+    {
+      "question": "Which law states that log(MN) = log(M) + log(N)?",
+      "options": ["Quotient law", "Product law", "Power law", "Change of base law"],
+      "answerIndex": 1,
+      "explanation": "This is the product law of logarithms"
+    },
+    {
+      "question": "Simplify: e^(ln 5)",
+      "options": ["5", "e", "ln 5", "e⁵"],
+      "answerIndex": 0,
+      "explanation": "e^(ln x) = x, so e^(ln 5) = 5"
+    },
+    {
+      "question": "Solve: log₃(x) = 2",
+      "options": ["x = 6", "x = 8", "x = 9", "x = 3"],
+      "answerIndex": 2,
+      "explanation": "log₃(x) = 2 means 3² = x, so x = 9"
+    },
+    {
+      "question": "Expand: log(x²y³)",
+      "options": ["2log(x) + 3log(y)", "2log(x) × 3log(y)", "log(x) + log(y)", "5log(xy)"],
+      "answerIndex": 0,
+      "explanation": "log(x²y³) = log(x²) + log(y³) = 2log(x) + 3log(y)"
+    },
+    {
+      "question": "What is log_a(1) for any base a > 0, a ≠ 1?",
+      "options": ["1", "0", "a", "undefined"],
+      "answerIndex": 1,
+      "explanation": "log_a(1) = 0 because a⁰ = 1"
+    },
+    {
+      "question": "Condense: 3log(x) - log(y)",
+      "options": ["log(x³/y)", "log(3x/y)", "log(x³y)", "log(x/y³)"],
+      "answerIndex": 0,
+      "explanation": "3log(x) - log(y) = log(x³) - log(y) = log(x³/y)"
+    },
+    {
+      "question": "What is the modulus of z = 3 + 4i?",
+      "options": ["5", "7", "√7", "25"],
+      "answerIndex": 0,
+      "explanation": "|z| = √(3² + 4²) = √(9 + 16) = √25 = 5"
+    },
+    {
+      "question": "What is i²?",
+      "options": ["1", "-1", "i", "0"],
+      "answerIndex": 1,
+      "explanation": "By definition, i² = -1"
+    },
+    {
+      "question": "Simplify: (2 + 3i) + (4 - i)",
+      "options": ["6 + 2i", "6 + 4i", "2 + 2i", "8 - 4i"],
+      "answerIndex": 0,
+      "explanation": "(2 + 4) + (3i - i) = 6 + 2i"
+    },
+    {
+      "question": "What is the conjugate of z = 5 - 2i?",
+      "options": ["5 + 2i", "-5 + 2i", "-5 - 2i", "2 - 5i"],
+      "answerIndex": 0,
+      "explanation": "Conjugate changes sign of imaginary part: 5 + 2i"
+    },
+    {
+      "question": "If z = 1 + i, what is |z|?",
+      "options": ["√3", "1", "√2", "2"],
+      "answerIndex": 2,
+      "explanation": "|z| = √(1² + 1²) = √2"
+    },
+    {
+      "question": "The cube roots of unity satisfy which equation?",
+      "options": ["z³ = -1", "z³ = 1", "z³ = 0", "z² = 1"],
+      "answerIndex": 1,
+      "explanation": "Cube roots of unity are solutions to z³ = 1"
+    },
+    {
+      "question": "Convert 120° to radians.",
+      "options": ["2π/3", "π/3", "π/6", "3π/2"],
+      "answerIndex": 0,
+      "explanation": "120° × (π/180) = 120π/180 = 2π/3"
+    },
+    {
+      "question": "What is the value of sin(7π/6)?",
+      "options": ["-√3/2", "-1/2", "√3/2", "1/2"],
+      "answerIndex": 1,
+      "explanation": "7π/6 is in third quadrant, reference angle π/6. sin(7π/6) = -sin(π/6) = -1/2"
+    },
+    {
+      "question": "Using the addition formula, what is sin(A + B) equal to?",
+      "options": ["cos A cos B - sin A sin B", "sin A cos B + cos A sin B", "sin A cos B - cos A sin B", "sin A sin B + cos A cos B"],
+      "answerIndex": 1,
+      "explanation": "sin(A + B) = sin A cos B + cos A sin B"
+    },
+    {
+      "question": "Simplify cos(A - B) using the subtraction formula.",
+      "options": ["cos A cos B - sin A sin B", "sin A cos B + cos A sin B", "sin A cos B - cos A sin B", "cos A cos B + sin A sin B"],
+      "answerIndex": 3,
+      "explanation": "cos(A - B) = cos A cos B + sin A sin B"
+    },
+    {
+      "question": "What is the value of tan(π/4)?",
+      "options": ["0", "1", "√3", "undefined"],
+      "answerIndex": 1,
+      "explanation": "tan(45°) = tan(π/4) = 1"
+    },
+    {
+      "question": "Simplify: sin²θ + cos²θ",
+      "options": ["0", "1", "2", "tan²θ"],
+      "answerIndex": 1,
+      "explanation": "Pythagorean identity: sin²θ + cos²θ = 1"
+    },
+    {
+      "question": "In mathematical induction, what is the first step?",
+      "options": ["Prove P(k+1) from P(k)", "Prove P(1) is true", "Assume P(k) is true", "Conclude P(n) is true for all n"],
+      "answerIndex": 1,
+      "explanation": "Base case: prove the statement is true for n = 1"
+    },
+    {
+      "question": "What is the determinant of the 2×2 matrix [[a, b], [c, d]]?",
+      "options": ["ad - bc", "ac - bd", "ab - cd", "ad + bc"],
+      "answerIndex": 0,
+      "explanation": "det = ad - bc"
+    },
+    {
+      "question": "For matrix multiplication AB to be defined, what condition must be satisfied?",
+      "options": ["A and B must be square matrices", "Columns of A = Rows of B", "A and B must have same dimensions", "Rows of A = Columns of B"],
+      "answerIndex": 1,
+      "explanation": "Number of columns in A must equal number of rows in B"
+    },
+    {
+      "question": "What is the identity matrix of order 2?",
+      "options": ["[[1, 0], [0, 1]]", "[[0, 1], [1, 0]]", "[[1, 1], [1, 1]]", "[[2, 0], [0, 2]]"],
+      "answerIndex": 0,
+      "explanation": "Identity matrix has 1s on diagonal, 0s elsewhere"
+    },
+    {
+      "question": "If A is a 2×3 matrix and B is a 3×2 matrix, what is the order of AB?",
+      "options": ["2×2", "3×3", "2×3", "3×2"],
+      "answerIndex": 0,
+      "explanation": "(2×3)(3×2) = 2×2"
+    },
+    {
+      "question": "The inverse of matrix A exists if:",
+      "options": ["det(A) = 0", "det(A) ≠ 0", "A is not square", "A is symmetric"],
+      "answerIndex": 1,
+      "explanation": "Inverse exists only when determinant is non-zero"
+    },
+    {
+      "question": "What is the transpose of matrix [[1, 2], [3, 4]]?",
+      "options": ["[[1, 3], [2, 4]]", "[[4, 3], [2, 1]]", "[[1, 2], [3, 4]]", "[[2, 1], [4, 3]]"],
+      "answerIndex": 0,
+      "explanation": "Transpose swaps rows and columns"
+    },
+    {
+      "question": "For the induction step, if we assume P(k) is true and prove P(k+1) is true, what have we shown?",
+      "options": ["P(n) is false", "P(n) is true for all n", "The implication P(k) → P(k+1)", "Only P(1) is true"],
+      "answerIndex": 2,
+      "explanation": "Induction step shows if P(k) is true, then P(k+1) is also true"
+    },
+    {
+      "question": "What is the sum of the first n positive integers using the formula proved by induction?",
+      "options": ["n(n-1)/2", "n(n+1)/2", "n²", "n(n+1)"],
+      "answerIndex": 1,
+      "explanation": "1 + 2 + 3 + ... + n = n(n+1)/2"
+    },
+    {
+      "question": "If det([[2, 4], [1, 3]]) = ?",
+      "options": ["2", "10", "6", "-2"],
+      "answerIndex": 0,
+      "explanation": "det = (2)(3) - (4)(1) = 6 - 4 = 2"
+    },
+    {
+      "question": "What is 5! (5 factorial)?",
+      "options": ["25", "120", "60", "100"],
+      "answerIndex": 1,
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120"
+    },
+    {
+      "question": "How many ways can 5 people be arranged in a row?",
+      "options": ["25", "120", "60", "20"],
+      "answerIndex": 1,
+      "explanation": "5P5 = 5! = 120"
+    },
+    {
+      "question": "The number of ways to choose 3 items from 5 is:",
+      "options": ["10", "15", "20", "60"],
+      "answerIndex": 0,
+      "explanation": "C(5,3) = 5!/(3!2!) = 10"
+    },
+    {
+      "question": "If a quadratic has roots 2 and 3, what is α + β?",
+      "options": ["5", "6", "-5", "-6"],
+      "answerIndex": 0,
+      "explanation": "Sum of roots α + β = 2 + 3 = 5"
+    },
+    {
+      "question": "The 4th term of an arithmetic sequence is 14 and the 8th term is 26. What is the common difference?",
+      "options": ["2", "3", "4", "5"],
+      "answerIndex": 1,
+      "explanation": "a₈ - a₄ = 4d, so 26 - 14 = 4d, d = 3"
+    },
+    {
+      "question": "Express sin A + sin B as a product using sum-to-product formula.",
+      "options": ["2 sin((A-B)/2) cos((A+B)/2)", "2 sin((A+B)/2) cos((A-B)/2)", "2 cos((A+B)/2) sin((A-B)/2)", "sin((A+B)/2) cos((A-B)/2)"],
+      "answerIndex": 1,
+      "explanation": "sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2)"
+    },
+    {
+      "question": "What is the value of e⁰?",
+      "options": ["0", "1", "e", "undefined"],
+      "answerIndex": 1,
+      "explanation": "Any number (except 0) raised to power 0 equals 1"
+    },
+    {
+      "question": "Solve: 3ˣ = 27",
+      "options": ["x = 2", "x = 3", "x = 9", "x = 27"],
+      "answerIndex": 1,
+      "explanation": "3ˣ = 3³, so x = 3"
+    },
+    {
+      "question": "What is log₅(25)?",
+      "options": ["1", "2", "5", "25"],
+      "answerIndex": 1,
+      "explanation": "log₅(25) = log₅(5²) = 2"
+    },
+    {
+      "question": "The sum of the first 5 terms of 1, 3, 5, 7, 9, ... is:",
+      "options": ["20", "25", "30", "15"],
+      "answerIndex": 1,
+      "explanation": "S₅ = 5/2[2(1) + 4(2)] = 5/2[10] = 25, or simply 1+3+5+7+9 = 25"
+    },
+    {
+      "question": "In polar form, what does r represent for a complex number z = a + bi?",
+      "options": ["The real part", "The imaginary part", "The modulus", "The argument"],
+      "answerIndex": 2,
+      "explanation": "r is the modulus = √(a² + b²)"
+    },
+    {
+      "question": "What is sin(30°)?",
+      "options": ["0", "1/2", "√3/2", "1"],
+      "answerIndex": 1,
+      "explanation": "sin(30°) = 1/2"
+    },
+    {
+      "question": "What is cos(60°)?",
+      "options": ["0", "1/2", "√3/2", "1"],
+      "answerIndex": 1,
+      "explanation": "cos(60°) = 1/2"
+    },
+    {
+      "question": "The sum of an infinite geometric series with a = 6 and r = 1/3 is:",
+      "options": ["6", "9", "12", "18"],
+      "answerIndex": 1,
+      "explanation": "S∞ = a/(1-r) = 6/(1-1/3) = 6/(2/3) = 9"
+    },
+    {
+      "question": "What is the discriminant of the quadratic equation 2x² - 3x + 1 = 0?",
+      "options": ["1", "5", "9", "17"],
+      "answerIndex": 0,
+      "explanation": "Δ = b² - 4ac = (-3)² - 4(2)(1) = 9 - 8 = 1"
     }
   ]
 }
