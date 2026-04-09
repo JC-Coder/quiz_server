@@ -6,9 +6,7 @@ export const faculties = [
     label: "GST 127 - Environmental and Sustainable Development",
   },
   { value: "MTH101", label: "MTH 101 - Elementary Mathematics I" },
-  // { value: "COS102", label: "COS 102 - Intro to Python" },
-  // { value: "SEN101", label: "SEN 101 - Software Engineering I" },
-  // { value: "BUS101", label: "BUS 101 - Intro to Business" },
+  { value: "PHY101", label: "PHY 101 - General Physics I" },
 ];
 
 export const questionCounts = [10, 20, 30, 50, 70, 100];

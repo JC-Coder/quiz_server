@@ -1,0 +1,738 @@
+{
+  "courseDetails": {
+    "id": "PHY101",
+    "name": "General Physics I"
+  },
+  "questions": [
+    {
+      "question": "Which of the following is a vector quantity?",
+      "options": ["Speed", "Distance", "Mass", "Displacement"],
+      "answerIndex": 3,
+      "explanation": "Displacement has both magnitude and direction, making it a vector. Speed, distance, and mass are scalars."
+    },
+    {
+      "question": "A car travels 40 km East, then 30 km North. What is the magnitude of its displacement?",
+      "options": ["70 km", "50 km", "35 km", "10 km"],
+      "answerIndex": 1,
+      "explanation": "Using Pythagoras: d = √(40² + 30²) = √(1600 + 900) = √2500 = 50 km"
+    },
+    {
+      "question": "Which of these quantities is a scalar?",
+      "options": ["Velocity", "Force", "Work", "Acceleration"],
+      "answerIndex": 2,
+      "explanation": "Work has only magnitude (measured in joules), no direction. The others are vectors."
+    },
+    {
+      "question": "If vector a + vector b = 0, then:",
+      "options": [
+        "|a| = |b| and they are in the same direction",
+        "|a| = |b| and they are in opposite directions",
+        "a and b are perpendicular",
+        "|a| > |b|"
+      ],
+      "answerIndex": 1,
+      "explanation": "For two vectors to sum to zero, they must have equal magnitudes but opposite directions."
+    },
+    {
+      "question": "The dot product of two perpendicular vectors is:",
+      "options": ["1", "-1", "0", "Maximum value"],
+      "answerIndex": 2,
+      "explanation": "A · B = |A||B|cos(90°) = 0"
+    },
+    {
+      "question": "Which is NOT a vector quantity?",
+      "options": ["Momentum", "Energy", "Force", "Torque"],
+      "answerIndex": 1,
+      "explanation": "Energy (whether kinetic or potential) is a scalar quantity with no direction."
+    },
+    {
+      "question": "A man walks 3 m North, then 4 m East, then 3 m South. His displacement is:",
+      "options": ["10 m", "4 m East", "0 m", "5 m"],
+      "answerIndex": 1,
+      "explanation": "North and South cancel (3-3=0). Net displacement is 4 m East."
+    },
+    {
+      "question": "The magnitude of vector A = 3î + 4ĵ is:",
+      "options": ["7", "5", "1", "12"],
+      "answerIndex": 1,
+      "explanation": "|A| = √(3² + 4²) = √(9+16) = √25 = 5"
+    },
+    {
+      "question": "Distance is to displacement as speed is to:",
+      "options": ["Acceleration", "Velocity", "Time", "Force"],
+      "answerIndex": 1,
+      "explanation": "Distance and speed are scalars; displacement and velocity are their vector counterparts."
+    },
+    {
+      "question": "Two vectors of magnitude 5 N and 12 N act at right angles. The magnitude of their resultant is:",
+      "options": ["17 N", "13 N", "7 N", "60 N"],
+      "answerIndex": 1,
+      "explanation": "For perpendicular vectors: R = √(5² + 12²) = √(25+144) = √169 = 13 N"
+    },
+    {
+      "question": "A car accelerates from rest at 4 m/s² for 10 seconds. What is its final velocity?",
+      "options": ["40 m/s", "4 m/s", "14 m/s", "400 m/s"],
+      "answerIndex": 0,
+      "explanation": "v = u + at = 0 + 4(10) = 40 m/s"
+    },
+    {
+      "question": "An object is dropped from rest and falls for 3 seconds. How far does it fall? (g = 10 m/s²)",
+      "options": ["30 m", "45 m", "90 m", "15 m"],
+      "answerIndex": 1,
+      "explanation": "s = ut + (1/2)at² = 0 + (1/2)(10)(3²) = 5(9) = 45 m"
+    },
+    {
+      "question": "A car moving at 20 m/s accelerates at 2 m/s² for 5 seconds. Its final velocity is:",
+      "options": ["30 m/s", "25 m/s", "10 m/s", "22 m/s"],
+      "answerIndex": 0,
+      "explanation": "v = u + at = 20 + 2(5) = 20 + 10 = 30 m/s"
+    },
+    {
+      "question": "An object accelerates from 10 m/s to 30 m/s over a distance of 100 m. The acceleration is:",
+      "options": ["2 m/s²", "4 m/s²", "8 m/s²", "1 m/s²"],
+      "answerIndex": 1,
+      "explanation": "v² = u² + 2as → 30² = 10² + 2a(100) → 900 = 100 + 200a → a = 4 m/s²"
+    },
+    {
+      "question": "A stone is thrown vertically upward with initial velocity 20 m/s. What is its maximum height? (g = 10 m/s²)",
+      "options": ["40 m", "20 m", "10 m", "5 m"],
+      "answerIndex": 1,
+      "explanation": "At max height, v = 0. Using v² = u² - 2gh → 0 = 20² - 2(10)h → h = 400/20 = 20 m"
+    },
+    {
+      "question": "The area under a velocity-time graph represents:",
+      "options": ["Acceleration", "Displacement", "Force", "Momentum"],
+      "answerIndex": 1,
+      "explanation": "Area under v-t graph = velocity × time = displacement"
+    },
+    {
+      "question": "A car travels 180 km in 3 hours. Its average speed is:",
+      "options": ["60 km/h", "540 km/h", "183 km/h", "177 km/h"],
+      "answerIndex": 0,
+      "explanation": "Average speed = total distance / total time = 180/3 = 60 km/h"
+    },
+    {
+      "question": "Which equation represents uniformly accelerated motion?",
+      "options": ["v = u + at", "v = u - at", "v = ut", "v = at²"],
+      "answerIndex": 0,
+      "explanation": "This is the first equation of motion for constant acceleration."
+    },
+    {
+      "question": "An object starts from rest and travels 72 m in 6 s. Its acceleration is:",
+      "options": ["2 m/s²", "4 m/s²", "12 m/s²", "6 m/s²"],
+      "answerIndex": 1,
+      "explanation": "s = ut + (1/2)at² → 72 = 0 + (1/2)a(6²) → 72 = 18a → a = 4 m/s²"
+    },
+    {
+      "question": "How long does it take an object to fall 80 m from rest? (g = 10 m/s²)",
+      "options": ["2 s", "4 s", "8 s", "16 s"],
+      "answerIndex": 1,
+      "explanation": "s = (1/2)gt² → 80 = (1/2)(10)t² → 80 = 5t² → t² = 16 → t = 4 s"
+    },
+    {
+      "question": "A car decelerates uniformly from 25 m/s to rest in 5 seconds. The deceleration is:",
+      "options": ["5 m/s²", "30 m/s²", "20 m/s²", "125 m/s²"],
+      "answerIndex": 0,
+      "explanation": "a = (v-u)/t = (0-25)/5 = -5 m/s². Magnitude of deceleration = 5 m/s²"
+    },
+    {
+      "question": "The slope of a distance-time graph gives:",
+      "options": ["Acceleration", "Velocity", "Speed", "Force"],
+      "answerIndex": 2,
+      "explanation": "Slope of s-t graph = Δs/Δt = speed (or velocity if direction considered)"
+    },
+    {
+      "question": "An object thrown upward with velocity 30 m/s will reach maximum height in: (g = 10 m/s²)",
+      "options": ["3 s", "30 s", "1.5 s", "6 s"],
+      "answerIndex": 0,
+      "explanation": "t = u/g = 30/10 = 3 s"
+    },
+    {
+      "question": "For an object moving with constant velocity:",
+      "options": [
+        "Acceleration is positive",
+        "Acceleration is negative",
+        "Acceleration is zero",
+        "Acceleration varies"
+      ],
+      "answerIndex": 2,
+      "explanation": "Constant velocity means no change in velocity, hence acceleration = 0"
+    },
+    {
+      "question": "A ball is thrown horizontally from a cliff at 15 m/s. After 2 s, its horizontal displacement is:",
+      "options": ["30 m", "15 m", "7.5 m", "60 m"],
+      "answerIndex": 0,
+      "explanation": "Horizontal: x = vt = 15(2) = 30 m (no horizontal acceleration)"
+    },
+    {
+      "question": "A 5 kg object accelerates at 8 m/s². The net force acting on it is:",
+      "options": ["40 N", "13 N", "1.6 N", "3 N"],
+      "answerIndex": 0,
+      "explanation": "F = ma = 5 × 8 = 40 N"
+    },
+    {
+      "question": "The weight of a 10 kg mass on Earth where g = 10 m/s² is:",
+      "options": ["10 N", "100 N", "1 N", "20 N"],
+      "answerIndex": 1,
+      "explanation": "W = mg = 10 × 10 = 100 N"
+    },
+    {
+      "question": "When the net force on an object is zero, the object:",
+      "options": [
+        "Must be at rest",
+        "Must be moving with constant velocity",
+        "Is either at rest or moving with constant velocity",
+        "Must be accelerating"
+      ],
+      "answerIndex": 2,
+      "explanation": "Newton's first law: zero net force means zero acceleration, so v is constant (which includes v = 0)"
+    },
+    {
+      "question": "A 2 kg object is subjected to a net force of 14 N. Its acceleration is:",
+      "options": ["28 m/s²", "7 m/s²", "12 m/s²", "16 m/s²"],
+      "answerIndex": 1,
+      "explanation": "a = F/m = 14/2 = 7 m/s²"
+    },
+    {
+      "question": "A 10 kg block slides down a 30° incline. The component of weight parallel to the plane is: (g = 10 m/s²)",
+      "options": ["100 N", "50 N", "86.6 N", "25 N"],
+      "answerIndex": 1,
+      "explanation": "F_parallel = mgsinθ = 10 × 10 × sin(30°) = 100 × 0.5 = 50 N"
+    },
+    {
+      "question": "Action and reaction forces:",
+      "options": [
+        "Act on the same object",
+        "Act on different objects",
+        "Have different magnitudes",
+        "Are in the same direction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Newton's third law: action-reaction pairs act on different objects"
+    },
+    {
+      "question": "Friction always acts:",
+      "options": [
+        "In the direction of motion",
+        "Opposite to the direction of motion",
+        "Perpendicular to the surface",
+        "At 45° to the surface"
+      ],
+      "answerIndex": 1,
+      "explanation": "Friction opposes relative motion or attempted motion"
+    },
+    {
+      "question": "A car of mass 1000 kg accelerates from rest to 20 m/s in 10 s. The average force is:",
+      "options": ["2000 N", "1000 N", "200 N", "20000 N"],
+      "answerIndex": 0,
+      "explanation": "a = (v-u)/t = (20-0)/10 = 2 m/s². F = ma = 1000 × 2 = 2000 N"
+    },
+    {
+      "question": "The force of friction depends on:",
+      "options": [
+        "Normal force and coefficient of friction",
+        "Mass only",
+        "Velocity",
+        "Time"
+      ],
+      "answerIndex": 0,
+      "explanation": "f = μN where μ is coefficient of friction and N is normal force"
+    },
+    {
+      "question": "If the mass of an object is doubled while the net force remains constant, its acceleration:",
+      "options": ["Doubles", "Remains the same", "Halves", "Quadruples"],
+      "answerIndex": 2,
+      "explanation": "a = F/m. If m doubles, a becomes half"
+    },
+    {
+      "question": "A 50 N horizontal force is applied to a 10 kg block on a frictionless surface. The acceleration is:",
+      "options": ["5 m/s²", "500 m/s²", "0.2 m/s²", "60 m/s²"],
+      "answerIndex": 0,
+      "explanation": "a = F/m = 50/10 = 5 m/s²"
+    },
+    {
+      "question": "The normal force on an object resting on a horizontal surface equals:",
+      "options": ["Its weight", "Twice its weight", "Half its weight", "Zero"],
+      "answerIndex": 0,
+      "explanation": "On horizontal surface with no vertical acceleration, N = mg = W"
+    },
+    {
+      "question": "An object of mass 4 kg rests on a surface with μ = 0.2. The maximum static friction is: (g = 10 m/s²)",
+      "options": ["0.8 N", "8 N", "80 N", "2 N"],
+      "answerIndex": 1,
+      "explanation": "f_max = μN = μmg = 0.2 × 4 × 10 = 8 N"
+    },
+    {
+      "question": "Two masses m₁ = 4 kg and m₂ = 6 kg hang on a frictionless pulley. The acceleration of the system is: (g = 10 m/s²)",
+      "options": ["10 m/s²", "2 m/s²", "4 m/s²", "1 m/s²"],
+      "answerIndex": 1,
+      "explanation": "a = [(m₂ - m₁)g]/(m₁ + m₂) = [(6-4) × 10]/(4+6) = 20/10 = 2 m/s²"
+    },
+    {
+      "question": "A 10 kg object is pushed with 100 N force. If friction is 40 N, the acceleration is:",
+      "options": ["6 m/s²", "10 m/s²", "14 m/s²", "4 m/s²"],
+      "answerIndex": 0,
+      "explanation": "F_net = 100 - 40 = 60 N. a = F_net/m = 60/10 = 6 m/s²"
+    },
+    {
+      "question": "The work done in lifting a 5 kg mass through 10 m is: (g = 10 m/s²)",
+      "options": ["50 J", "500 J", "5 J", "100 J"],
+      "answerIndex": 1,
+      "explanation": "W = mgh = 5 × 10 × 10 = 500 J"
+    },
+    {
+      "question": "A 2 kg object moving at 6 m/s has kinetic energy:",
+      "options": ["36 J", "12 J", "18 J", "72 J"],
+      "answerIndex": 0,
+      "explanation": "KE = (1/2)mv² = (1/2)(2)(6²) = 1 × 36 = 36 J"
+    },
+    {
+      "question": "The potential energy of a 10 kg mass at height 5 m is: (g = 10 m/s²)",
+      "options": ["50 J", "500 J", "15 J", "100 J"],
+      "answerIndex": 1,
+      "explanation": "PE = mgh = 10 × 10 × 5 = 500 J"
+    },
+    {
+      "question": "An object falls from height h. Just before hitting the ground, its kinetic energy equals:",
+      "options": ["Zero", "mgh", "2mgh", "mg"],
+      "answerIndex": 1,
+      "explanation": "All PE converts to KE: KE = PE_initial = mgh"
+    },
+    {
+      "question": "Work done is measured in:",
+      "options": ["Watts", "Joules", "Newtons", "kg·m/s"],
+      "answerIndex": 1,
+      "explanation": "SI unit of work (and energy) is the joule (J)"
+    },
+    {
+      "question": "Power is defined as:",
+      "options": [
+        "Work done per unit time",
+        "Force times distance",
+        "Energy stored",
+        "Change in momentum"
+      ],
+      "answerIndex": 0,
+      "explanation": "P = W/t = rate of doing work"
+    },
+    {
+      "question": "A 20 N force moves an object 4 m in the direction of the force. Work done is:",
+      "options": ["5 J", "80 J", "24 J", "16 J"],
+      "answerIndex": 1,
+      "explanation": "W = Fs = 20 × 4 = 80 J"
+    },
+    {
+      "question": "An engine does 5000 J of work in 20 s. Its power output is:",
+      "options": ["250 W", "100000 W", "100 W", "2500 W"],
+      "answerIndex": 0,
+      "explanation": "P = W/t = 5000/20 = 250 W"
+    },
+    {
+      "question": "If the speed of an object doubles, its kinetic energy:",
+      "options": ["Doubles", "Quadruples", "Halves", "Remains the same"],
+      "answerIndex": 1,
+      "explanation": "KE ∝ v². If v doubles, KE increases by factor of 2² = 4"
+    },
+    {
+      "question": "Work done by friction is:",
+      "options": [
+        "Always positive",
+        "Always negative",
+        "Always zero",
+        "Can be positive or negative"
+      ],
+      "answerIndex": 1,
+      "explanation": "Friction opposes motion, so work done by friction (on moving object) is negative"
+    },
+    {
+      "question": "A compressed spring stores:",
+      "options": [
+        "Kinetic energy",
+        "Elastic potential energy",
+        "Gravitational potential energy",
+        "Nuclear energy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compressed or stretched springs store elastic PE"
+    },
+    {
+      "question": "The work-energy theorem states:",
+      "options": ["W = ΔKE", "W = ΔPE", "W = KE + PE", "W = F/a"],
+      "answerIndex": 0,
+      "explanation": "Net work done equals change in kinetic energy"
+    },
+    {
+      "question": "A 5 kg object moving at 4 m/s increases speed to 8 m/s. The work done is:",
+      "options": ["60 J", "120 J", "40 J", "80 J"],
+      "answerIndex": 1,
+      "explanation": "W = ΔKE = (1/2)m(v_f² - v_i²) = (1/2)(5)(64-16) = 2.5 × 48 = 120 J"
+    },
+    {
+      "question": "At the highest point of a pendulum's swing:",
+      "options": [
+        "KE is maximum, PE is minimum",
+        "KE is minimum, PE is maximum",
+        "Both KE and PE are maximum",
+        "Both KE and PE are zero"
+      ],
+      "answerIndex": 1,
+      "explanation": "At highest point, velocity is zero (KE = 0 = minimum) and height is maximum (PE is maximum)"
+    },
+    {
+      "question": "The SI unit of power is:",
+      "options": ["Joule", "Newton", "Watt", "kg·m/s²"],
+      "answerIndex": 2,
+      "explanation": "Power is measured in watts (W), where 1 W = 1 J/s"
+    },
+    {
+      "question": "An object of mass m is raised to height h, then released. Its speed just before hitting ground is:",
+      "options": ["√(gh)", "√(2gh)", "gh", "2gh"],
+      "answerIndex": 1,
+      "explanation": "mgh = (1/2)mv² → v = √(2gh)"
+    },
+    {
+      "question": "Work done is zero when:",
+      "options": [
+        "Force and displacement are parallel",
+        "Force and displacement are perpendicular",
+        "Force is maximum",
+        "Displacement is maximum"
+      ],
+      "answerIndex": 1,
+      "explanation": "W = Fscosθ. When θ = 90°, cos90° = 0, so W = 0"
+    },
+    {
+      "question": "A machine lifts 100 kg through 20 m in 10 s. The power is: (g = 10 m/s²)",
+      "options": ["200 W", "2000 W", "20000 W", "20 W"],
+      "answerIndex": 1,
+      "explanation": "W = mgh = 100 × 10 × 20 = 20000 J. P = W/t = 20000/10 = 2000 W"
+    },
+    {
+      "question": "Total mechanical energy is conserved when:",
+      "options": [
+        "Friction is present",
+        "Air resistance acts",
+        "Only conservative forces act",
+        "Temperature changes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mechanical energy is conserved only when all forces are conservative (no friction/air resistance)"
+    },
+    {
+      "question": "If KE of an object is 200 J and PE is 300 J, total mechanical energy is:",
+      "options": ["100 J", "500 J", "200 J", "300 J"],
+      "answerIndex": 1,
+      "explanation": "Total ME = KE + PE = 200 + 300 = 500 J"
+    },
+    {
+      "question": "A 4 kg object moving at 5 m/s has momentum:",
+      "options": ["20 kg·m/s", "9 kg·m/s", "1.25 kg·m/s", "0.8 kg·m/s"],
+      "answerIndex": 0,
+      "explanation": "p = mv = 4 × 5 = 20 kg·m/s"
+    },
+    {
+      "question": "In an isolated system, total momentum is:",
+      "options": [
+        "Always increasing",
+        "Always decreasing",
+        "Conserved",
+        "Zero"
+      ],
+      "answerIndex": 2,
+      "explanation": "Law of conservation of momentum applies when no external forces act"
+    },
+    {
+      "question": "Two objects of mass 3 kg and 5 kg move with velocities 4 m/s and 2 m/s respectively in the same direction. After collision, they stick together. Their common velocity is:",
+      "options": ["2.75 m/s", "3 m/s", "2.5 m/s", "4 m/s"],
+      "answerIndex": 0,
+      "explanation": "m₁u₁ + m₂u₂ = (m₁+m₂)v → 3(4) + 5(2) = 8v → 22 = 8v → v = 2.75 m/s"
+    },
+    {
+      "question": "Impulse equals:",
+      "options": [
+        "Force times time",
+        "Mass times acceleration",
+        "Work done",
+        "Energy transferred"
+      ],
+      "answerIndex": 0,
+      "explanation": "I = Ft = Δp (change in momentum)"
+    },
+    {
+      "question": "A 2 kg ball moving at 10 m/s strikes a wall and bounces back at 8 m/s. The change in momentum is:",
+      "options": ["4 kg·m/s", "36 kg·m/s", "20 kg·m/s", "18 kg·m/s"],
+      "answerIndex": 1,
+      "explanation": "Taking initial direction as positive: Δp = m(v_f - v_i) = 2(-8 - 10) = 2(-18) = -36 kg·m/s. Magnitude = 36 kg·m/s"
+    },
+    {
+      "question": "In a perfectly inelastic collision:",
+      "options": [
+        "Objects bounce apart",
+        "Objects stick together",
+        "KE is conserved",
+        "Momentum is not conserved"
+      ],
+      "answerIndex": 1,
+      "explanation": "Perfectly inelastic collision means objects stick together and move with common velocity"
+    },
+    {
+      "question": "A 50 N force acts on a body for 0.1 s. The impulse is:",
+      "options": ["500 N·s", "5 N·s", "0.002 N·s", "50.1 N·s"],
+      "answerIndex": 1,
+      "explanation": "I = Ft = 50 × 0.1 = 5 N·s"
+    },
+    {
+      "question": "Momentum is conserved in:",
+      "options": [
+        "All collisions",
+        "Only elastic collisions",
+        "Only inelastic collisions",
+        "No collisions"
+      ],
+      "answerIndex": 0,
+      "explanation": "Momentum is always conserved in isolated systems, regardless of collision type"
+    },
+    {
+      "question": "Two trolleys of mass 3 kg and 2 kg moving at 4 m/s and 3 m/s in opposite directions collide and stick. Their common velocity is:",
+      "options": ["1.2 m/s", "2 m/s", "0.6 m/s", "3.5 m/s"],
+      "answerIndex": 0,
+      "explanation": "Taking first direction as positive: 3(4) + 2(-3) = 5v → 12 - 6 = 5v → v = 1.2 m/s"
+    },
+    {
+      "question": "In an elastic collision:",
+      "options": [
+        "Only momentum is conserved",
+        "Only KE is conserved",
+        "Both momentum and KE are conserved",
+        "Neither is conserved"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elastic collisions conserve both momentum and kinetic energy"
+    },
+    {
+      "question": "The SI unit of momentum is:",
+      "options": ["kg·m/s", "N·m", "J", "W"],
+      "answerIndex": 0,
+      "explanation": "Momentum = mass × velocity, so units are kg·m/s (also equivalent to N·s)"
+    },
+    {
+      "question": "A rocket works on the principle of:",
+      "options": [
+        "Conservation of energy",
+        "Conservation of momentum",
+        "Newton's first law",
+        "Conservation of charge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rocket propulsion is based on conservation of momentum (action-reaction)"
+    },
+    {
+      "question": "A 1000 kg car moving at 20 m/s collides with a stationary 2000 kg truck. If they stick together, their velocity is:",
+      "options": ["6.67 m/s", "10 m/s", "13.3 m/s", "20 m/s"],
+      "answerIndex": 0,
+      "explanation": "1000(20) + 2000(0) = 3000v → 20000 = 3000v → v = 6.67 m/s"
+    },
+    {
+      "question": "If the velocity of an object is doubled, its momentum:",
+      "options": ["Remains the same", "Doubles", "Quadruples", "Halves"],
+      "answerIndex": 1,
+      "explanation": "p = mv is linear in v, so doubling v doubles p"
+    },
+    {
+      "question": "A force of 100 N acts for 0.5 s on a 5 kg mass initially at rest. The final velocity is:",
+      "options": ["10 m/s", "100 m/s", "20 m/s", "5 m/s"],
+      "answerIndex": 0,
+      "explanation": "Ft = mΔv → 100(0.5) = 5v → 50 = 5v → v = 10 m/s"
+    },
+    {
+      "question": "The centripetal acceleration of an object in circular motion is given by:",
+      "options": ["a = vr", "a = v²/r", "a = vt", "a = v/r"],
+      "answerIndex": 1,
+      "explanation": "Centripetal acceleration formula: a_c = v²/r"
+    },
+    {
+      "question": "A mass of 2 kg revolves in a circle of radius 4 m at 6 m/s. The centripetal force is:",
+      "options": ["18 N", "48 N", "12 N", "72 N"],
+      "answerIndex": 0,
+      "explanation": "F_c = mv²/r = (2 × 36)/4 = 72/4 = 18 N"
+    },
+    {
+      "question": "The period of circular motion is related to speed by:",
+      "options": ["T = 2πr/v", "T = 2πrv", "T = v/(2πr)", "T = vr"],
+      "answerIndex": 0,
+      "explanation": "Period T = circumference/speed = 2πr/v"
+    },
+    {
+      "question": "Centripetal force always acts:",
+      "options": [
+        "Tangent to the circle",
+        "Away from the center",
+        "Toward the center",
+        "Perpendicular to the plane"
+      ],
+      "answerIndex": 2,
+      "explanation": "Centripetal means 'center-seeking'; force points toward center"
+    },
+    {
+      "question": "An object moves in a circle at constant speed. Its acceleration is:",
+      "options": [
+        "Zero",
+        "Constant in magnitude, changing in direction",
+        "Constant in direction, changing in magnitude",
+        "Both magnitude and direction changing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Centripetal acceleration has constant magnitude but continuously changes direction"
+    },
+    {
+      "question": "Angular velocity ω and linear velocity v are related by:",
+      "options": ["v = ωr", "v = ω/r", "v = ω²r", "v = r/ω"],
+      "answerIndex": 0,
+      "explanation": "Linear velocity v = ωr where ω is in rad/s"
+    },
+    {
+      "question": "A satellite orbits Earth due to:",
+      "options": [
+        "Its high speed",
+        "Gravitational force providing centripetal force",
+        "Magnetic force",
+        "Air resistance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gravity provides the necessary centripetal force for orbital motion"
+    },
+    {
+      "question": "If the radius of circular path is halved while speed remains constant, centripetal acceleration:",
+      "options": ["Doubles", "Halves", "Quadruples", "Remains the same"],
+      "answerIndex": 0,
+      "explanation": "a_c = v²/r. If r is halved, a_c doubles"
+    },
+    {
+      "question": "The direction of centripetal acceleration is:",
+      "options": [
+        "Tangent to path",
+        "Outward from center",
+        "Inward toward center",
+        "In direction of motion"
+      ],
+      "answerIndex": 2,
+      "explanation": "Centripetal acceleration points toward the center of circular path"
+    },
+    {
+      "question": "For a conical pendulum, the centripetal force is provided by:",
+      "options": [
+        "Weight",
+        "Horizontal component of tension",
+        "Vertical component of tension",
+        "Friction"
+      ],
+      "answerIndex": 1,
+      "explanation": "The horizontal component of string tension provides centripetal force"
+    },
+    {
+      "question": "Which coordinate system uses (r, θ, φ)?",
+      "options": ["Cartesian", "Cylindrical", "Spherical", "Polar"],
+      "answerIndex": 2,
+      "explanation": "Spherical coordinates use radius r, polar angle θ, and azimuthal angle φ"
+    },
+    {
+      "question": "The dimension of force is:",
+      "options": ["MLT⁻¹", "MLT⁻²", "ML²T⁻²", "ML⁻¹T⁻²"],
+      "answerIndex": 1,
+      "explanation": "[F] = [ma] = M × LT⁻² = MLT⁻²"
+    },
+    {
+      "question": "Convert 72 km/h to m/s:",
+      "options": ["20 m/s", "72 m/s", "259.2 m/s", "7.2 m/s"],
+      "answerIndex": 0,
+      "explanation": "72 km/h = 72/3.6 = 20 m/s"
+    },
+    {
+      "question": "Which is a fundamental quantity?",
+      "options": ["Force", "Energy", "Time", "Velocity"],
+      "answerIndex": 2,
+      "explanation": "Time is a fundamental quantity; others are derived"
+    },
+    {
+      "question": "The dot product of two vectors gives a:",
+      "options": ["Vector", "Scalar", "Matrix", "Tensor"],
+      "answerIndex": 1,
+      "explanation": "Dot product (scalar product) yields a scalar quantity"
+    },
+    {
+      "question": "Which law states that for every action there is an equal and opposite reaction?",
+      "options": [
+        "Newton's first law",
+        "Newton's second law",
+        "Newton's third law",
+        "Law of gravitation"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is Newton's third law"
+    },
+    {
+      "question": "Hooke's law for springs states:",
+      "options": ["F = kx", "F = ma", "F = mv", "F = mg"],
+      "answerIndex": 0,
+      "explanation": "Force in spring is proportional to extension: F = kx"
+    },
+    {
+      "question": "The efficiency of a machine is:",
+      "options": [
+        "Output/Input",
+        "Input/Output",
+        "Output × Input",
+        "Output - Input"
+      ],
+      "answerIndex": 0,
+      "explanation": "Efficiency = (Useful output/Total input) × 100%"
+    },
+    {
+      "question": "Relative velocity of A with respect to B is:",
+      "options": ["v_A + v_B", "v_A - v_B", "v_B - v_A", "v_A × v_B"],
+      "answerIndex": 1,
+      "explanation": "v_AB = v_A - v_B"
+    },
+    {
+      "question": "The slope of a velocity-time graph gives:",
+      "options": ["Distance", "Displacement", "Acceleration", "Speed"],
+      "answerIndex": 2,
+      "explanation": "Slope of v-t graph = Δv/Δt = acceleration"
+    },
+    {
+      "question": "Density is defined as:",
+      "options": [
+        "Mass per unit volume",
+        "Volume per unit mass",
+        "Mass times volume",
+        "Force per unit area"
+      ],
+      "answerIndex": 0,
+      "explanation": "ρ = m/V"
+    },
+    {
+      "question": "The cross product of two parallel vectors is:",
+      "options": ["Maximum", "Zero", "1", "Undefined"],
+      "answerIndex": 1,
+      "explanation": "A × B = |A||B|sinθ. For parallel vectors, θ = 0°, so sin0° = 0"
+    },
+    {
+      "question": "Simple harmonic motion occurs when acceleration is proportional to:",
+      "options": ["Velocity", "Displacement from equilibrium", "Time", "Force"],
+      "answerIndex": 1,
+      "explanation": "In SHM, a ∝ -x (proportional and opposite to displacement)"
+    },
+    {
+      "question": "The range of a projectile is maximum when launched at:",
+      "options": ["30°", "45°", "60°", "90°"],
+      "answerIndex": 1,
+      "explanation": "Maximum range occurs at 45° for same initial and final heights"
+    },
+    {
+      "question": "Inertia depends on:",
+      "options": ["Force", "Mass", "Velocity", "Acceleration"],
+      "answerIndex": 1,
+      "explanation": "Inertia is the resistance to change in motion, which depends only on mass"
+    }
+  ]
+}

@@ -5,14 +5,19 @@
   },
   "questions": [
     {
-  "question": "If n(A) = 12, n(B) = 8, and n(A ∪ B) = 15, what is n(A ∩ B)?",
-  "options": ["3", "5", "7", "20"],
-  "answerIndex": 1,
-  "explanation": "Using the formula: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 8 - 15 = 5"
-},
+      "question": "If n(A) = 12, n(B) = 8, and n(A ∪ B) = 15, what is n(A ∩ B)?",
+      "options": ["3", "5", "7", "20"],
+      "answerIndex": 1,
+      "explanation": "Using the formula: n(A ∩ B) = n(A) + n(B) - n(A ∪ B) = 12 + 8 - 15 = 5"
+    },
     {
       "question": "If A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, what is A ∪ B?",
-      "options": ["{3, 4}", "{1, 2, 3, 4, 5, 6}", "{1, 2, 5, 6}", "{1, 2, 3, 4}"],
+      "options": [
+        "{3, 4}",
+        "{1, 2, 3, 4, 5, 6}",
+        "{1, 2, 5, 6}",
+        "{1, 2, 3, 4}"
+      ],
       "answerIndex": 1,
       "explanation": "Union contains all elements in either set: {1, 2, 3, 4, 5, 6}"
     },
@@ -24,7 +29,12 @@
     },
     {
       "question": "If the universal set U = {1, 2, 3, 4, 5, 6, 7, 8} and A = {2, 4, 6, 8}, what is A'?",
-      "options": ["{2, 4, 6, 8}", "{1, 3, 5, 7}", "{1, 2, 3, 4, 5, 6, 7, 8}", "∅"],
+      "options": [
+        "{2, 4, 6, 8}",
+        "{1, 3, 5, 7}",
+        "{1, 2, 3, 4, 5, 6, 7, 8}",
+        "∅"
+      ],
       "answerIndex": 1,
       "explanation": "Complement contains all elements in U but not in A"
     },
@@ -78,7 +88,12 @@
     },
     {
       "question": "Which property states that A ∪ B = B ∪ A?",
-      "options": ["Associative property", "Distributive property", "Commutative property", "Identity property"],
+      "options": [
+        "Associative property",
+        "Distributive property",
+        "Commutative property",
+        "Identity property"
+      ],
       "answerIndex": 2,
       "explanation": "Commutative property: order doesn't matter in union"
     },
@@ -108,7 +123,12 @@
     },
     {
       "question": "√16 is an element of which number system?",
-      "options": ["Irrational numbers only", "Only rational numbers excluding integers", "Real numbers but not integers", "Natural numbers"],
+      "options": [
+        "Irrational numbers only",
+        "Only rational numbers excluding integers",
+        "Real numbers but not integers",
+        "Natural numbers"
+      ],
       "answerIndex": 3,
       "explanation": "√16 = 4, which is a natural number (also integer, rational, real)"
     },
@@ -144,7 +164,12 @@
     },
     {
       "question": "If a quadratic equation has discriminant Δ = 0, what can be said about its roots?",
-      "options": ["The equation has two distinct real roots", "The equation has two equal real roots", "The equation has no real roots", "The equation has complex conjugate roots"],
+      "options": [
+        "The equation has two distinct real roots",
+        "The equation has two equal real roots",
+        "The equation has no real roots",
+        "The equation has complex conjugate roots"
+      ],
       "answerIndex": 1,
       "explanation": "Δ = 0 means two equal (repeated) real roots"
     },
@@ -180,19 +205,34 @@
     },
     {
       "question": "What is the nature of roots for x² + 4x + 5 = 0?",
-      "options": ["Two distinct real roots", "Two equal real roots", "No real roots (complex)", "One real root"],
+      "options": [
+        "Two distinct real roots",
+        "Two equal real roots",
+        "No real roots (complex)",
+        "One real root"
+      ],
       "answerIndex": 2,
       "explanation": "Δ = 16 - 20 = -4 < 0, so complex roots"
     },
     {
       "question": "Complete the square for x² + 6x = 7",
-      "options": ["(x + 3)² = 16", "(x + 3)² = 10", "(x + 6)² = 7", "(x + 3)² = 7"],
+      "options": [
+        "(x + 3)² = 16",
+        "(x + 3)² = 10",
+        "(x + 6)² = 7",
+        "(x + 3)² = 7"
+      ],
       "answerIndex": 0,
       "explanation": "x² + 6x + 9 = 7 + 9, so (x + 3)² = 16"
     },
     {
       "question": "If the sum of roots is 8 and product is 15, find the quadratic equation.",
-      "options": ["x² - 8x + 15 = 0", "x² + 8x + 15 = 0", "x² - 8x - 15 = 0", "x² + 8x - 15 = 0"],
+      "options": [
+        "x² - 8x + 15 = 0",
+        "x² + 8x + 15 = 0",
+        "x² - 8x - 15 = 0",
+        "x² + 8x - 15 = 0"
+      ],
       "answerIndex": 0,
       "explanation": "x² - (sum)x + (product) = 0: x² - 8x + 15 = 0"
     },
@@ -306,7 +346,12 @@
     },
     {
       "question": "Expand (1 + x)³ using the binomial theorem.",
-      "options": ["1 + 3x + 3x² + x³", "1 + x + x² + x³", "1 + 3x + x³", "3 + 3x + 3x² + x³"],
+      "options": [
+        "1 + 3x + 3x² + x³",
+        "1 + x + x² + x³",
+        "1 + 3x + x³",
+        "3 + 3x + 3x² + x³"
+      ],
       "answerIndex": 0,
       "explanation": "(1+x)³ = C(3,0) + C(3,1)x + C(3,2)x² + C(3,3)x³ = 1 + 3x + 3x² + x³"
     },
@@ -348,7 +393,12 @@
     },
     {
       "question": "Which law states that log(MN) = log(M) + log(N)?",
-      "options": ["Quotient law", "Product law", "Power law", "Change of base law"],
+      "options": [
+        "Quotient law",
+        "Product law",
+        "Power law",
+        "Change of base law"
+      ],
       "answerIndex": 1,
       "explanation": "This is the product law of logarithms"
     },
@@ -366,7 +416,12 @@
     },
     {
       "question": "Expand: log(x²y³)",
-      "options": ["2log(x) + 3log(y)", "2log(x) × 3log(y)", "log(x) + log(y)", "5log(xy)"],
+      "options": [
+        "2log(x) + 3log(y)",
+        "2log(x) × 3log(y)",
+        "log(x) + log(y)",
+        "5log(xy)"
+      ],
       "answerIndex": 0,
       "explanation": "log(x²y³) = log(x²) + log(y³) = 2log(x) + 3log(y)"
     },
@@ -432,13 +487,23 @@
     },
     {
       "question": "Using the addition formula, what is sin(A + B) equal to?",
-      "options": ["cos A cos B - sin A sin B", "sin A cos B + cos A sin B", "sin A cos B - cos A sin B", "sin A sin B + cos A cos B"],
+      "options": [
+        "cos A cos B - sin A sin B",
+        "sin A cos B + cos A sin B",
+        "sin A cos B - cos A sin B",
+        "sin A sin B + cos A cos B"
+      ],
       "answerIndex": 1,
       "explanation": "sin(A + B) = sin A cos B + cos A sin B"
     },
     {
       "question": "Simplify cos(A - B) using the subtraction formula.",
-      "options": ["cos A cos B - sin A sin B", "sin A cos B + cos A sin B", "sin A cos B - cos A sin B", "cos A cos B + sin A sin B"],
+      "options": [
+        "cos A cos B - sin A sin B",
+        "sin A cos B + cos A sin B",
+        "sin A cos B - cos A sin B",
+        "cos A cos B + sin A sin B"
+      ],
       "answerIndex": 3,
       "explanation": "cos(A - B) = cos A cos B + sin A sin B"
     },
@@ -456,7 +521,12 @@
     },
     {
       "question": "In mathematical induction, what is the first step?",
-      "options": ["Prove P(k+1) from P(k)", "Prove P(1) is true", "Assume P(k) is true", "Conclude P(n) is true for all n"],
+      "options": [
+        "Prove P(k+1) from P(k)",
+        "Prove P(1) is true",
+        "Assume P(k) is true",
+        "Conclude P(n) is true for all n"
+      ],
       "answerIndex": 1,
       "explanation": "Base case: prove the statement is true for n = 1"
     },
@@ -468,13 +538,23 @@
     },
     {
       "question": "For matrix multiplication AB to be defined, what condition must be satisfied?",
-      "options": ["A and B must be square matrices", "Columns of A = Rows of B", "A and B must have same dimensions", "Rows of A = Columns of B"],
+      "options": [
+        "A and B must be square matrices",
+        "Columns of A = Rows of B",
+        "A and B must have same dimensions",
+        "Rows of A = Columns of B"
+      ],
       "answerIndex": 1,
       "explanation": "Number of columns in A must equal number of rows in B"
     },
     {
       "question": "What is the identity matrix of order 2?",
-      "options": ["[[1, 0], [0, 1]]", "[[0, 1], [1, 0]]", "[[1, 1], [1, 1]]", "[[2, 0], [0, 2]]"],
+      "options": [
+        "[[1, 0], [0, 1]]",
+        "[[0, 1], [1, 0]]",
+        "[[1, 1], [1, 1]]",
+        "[[2, 0], [0, 2]]"
+      ],
       "answerIndex": 0,
       "explanation": "Identity matrix has 1s on diagonal, 0s elsewhere"
     },
@@ -486,19 +566,34 @@
     },
     {
       "question": "The inverse of matrix A exists if:",
-      "options": ["det(A) = 0", "det(A) ≠ 0", "A is not square", "A is symmetric"],
+      "options": [
+        "det(A) = 0",
+        "det(A) ≠ 0",
+        "A is not square",
+        "A is symmetric"
+      ],
       "answerIndex": 1,
       "explanation": "Inverse exists only when determinant is non-zero"
     },
     {
       "question": "What is the transpose of matrix [[1, 2], [3, 4]]?",
-      "options": ["[[1, 3], [2, 4]]", "[[4, 3], [2, 1]]", "[[1, 2], [3, 4]]", "[[2, 1], [4, 3]]"],
+      "options": [
+        "[[1, 3], [2, 4]]",
+        "[[4, 3], [2, 1]]",
+        "[[1, 2], [3, 4]]",
+        "[[2, 1], [4, 3]]"
+      ],
       "answerIndex": 0,
       "explanation": "Transpose swaps rows and columns"
     },
     {
       "question": "For the induction step, if we assume P(k) is true and prove P(k+1) is true, what have we shown?",
-      "options": ["P(n) is false", "P(n) is true for all n", "The implication P(k) → P(k+1)", "Only P(1) is true"],
+      "options": [
+        "P(n) is false",
+        "P(n) is true for all n",
+        "The implication P(k) → P(k+1)",
+        "Only P(1) is true"
+      ],
       "answerIndex": 2,
       "explanation": "Induction step shows if P(k) is true, then P(k+1) is also true"
     },
@@ -546,7 +641,12 @@
     },
     {
       "question": "Express sin A + sin B as a product using sum-to-product formula.",
-      "options": ["2 sin((A-B)/2) cos((A+B)/2)", "2 sin((A+B)/2) cos((A-B)/2)", "2 cos((A+B)/2) sin((A-B)/2)", "sin((A+B)/2) cos((A-B)/2)"],
+      "options": [
+        "2 sin((A-B)/2) cos((A+B)/2)",
+        "2 sin((A+B)/2) cos((A-B)/2)",
+        "2 cos((A+B)/2) sin((A-B)/2)",
+        "sin((A+B)/2) cos((A-B)/2)"
+      ],
       "answerIndex": 1,
       "explanation": "sin A + sin B = 2 sin((A+B)/2) cos((A-B)/2)"
     },
@@ -576,7 +676,12 @@
     },
     {
       "question": "In polar form, what does r represent for a complex number z = a + bi?",
-      "options": ["The real part", "The imaginary part", "The modulus", "The argument"],
+      "options": [
+        "The real part",
+        "The imaginary part",
+        "The modulus",
+        "The argument"
+      ],
       "answerIndex": 2,
       "explanation": "r is the modulus = √(a² + b²)"
     },
