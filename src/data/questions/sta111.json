@@ -1,0 +1,878 @@
+{
+  "courseDetails": {
+    "id": "STA111",
+    "name": "Introduction to Statistics"
+  },
+  "questions": [
+    {
+      "question": "What is the primary difference between descriptive and inferential statistics?",
+      "options": [
+        "Descriptive statistics uses graphs, inferential uses numbers",
+        "Descriptive summarizes data, inferential makes conclusions about populations",
+        "Descriptive is for small samples, inferential is for large samples",
+        "Descriptive uses mean, inferential uses median"
+      ],
+      "answerIndex": 1,
+      "explanation": "Descriptive statistics summarizes and presents data (what we observe), while inferential statistics uses sample data to make conclusions about populations (beyond what we observe)."
+    },
+    {
+      "question": "Which of the following is an example of continuous quantitative data?",
+      "options": [
+        "Number of students in a class",
+        "Gender of respondents",
+        "Temperature of a room",
+        "Marital status"
+      ],
+      "answerIndex": 2,
+      "explanation": "Temperature can take any value within a range (continuous). Number of students is discrete, gender and marital status are qualitative."
+    },
+    {
+      "question": "Given the dataset: 12, 15, 18, 22, 25, 30, 100. Which measure of central tendency is MOST affected by the outlier (100)?",
+      "options": ["Median", "Mode", "Mean", "All equally affected"],
+      "answerIndex": 2,
+      "explanation": "Mean = 31.71 (heavily influenced by 100), while Median = 22 (middle value, not affected). Outliers strongly affect the mean."
+    },
+    {
+      "question": "For the frequency distribution: Class Interval 10-20 (Freq 5), 20-30 (Freq 8), 30-40 (Freq 7), calculate the variance.",
+      "options": ["58.75", "65.4", "70.2", "55.5"],
+      "answerIndex": 1,
+      "explanation": "Class midpoints: 15, 25, 35. n=20. Mean = (15×5 + 25×8 + 35×7)/20 = 25.5. Variance = [5(15-25.5)² + 8(25-25.5)² + 7(35-25.5)²]/(20-1) = 1243/19 ≈ 65.4"
+    },
+    {
+      "question": "A dataset has mean = 50 and standard deviation = 10. What is the coefficient of variation?",
+      "options": ["5%", "10%", "20%", "50%"],
+      "answerIndex": 2,
+      "explanation": "CV = (s/x̄) × 100% = (10/50) × 100% = 20%"
+    },
+    {
+      "question": "Which chart type is BEST for showing the relationship between two continuous variables?",
+      "options": ["Pie chart", "Bar chart", "Scatter plot", "Histogram"],
+      "answerIndex": 2,
+      "explanation": "Scatter plots display relationships between two continuous variables by plotting points. Pie charts show proportions, bar charts show categorical data, histograms show distribution of one variable."
+    },
+    {
+      "question": "What is the main characteristic that distinguishes a histogram from a bar chart?",
+      "options": [
+        "Histograms have colors, bar charts don't",
+        "Histograms have touching bars for continuous data, bar charts have gaps for categorical data",
+        "Histograms are always vertical, bar charts are horizontal",
+        "Histograms show percentages, bar charts show counts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Histograms display continuous data with touching bars (no gaps), while bar charts display categorical data with gaps between bars."
+    },
+    {
+      "question": "For the data set: 5, 7, 9, 11, 13, 15, the range is:",
+      "options": ["5", "8", "10", "15"],
+      "answerIndex": 2,
+      "explanation": "Range = Maximum - Minimum = 15 - 5 = 10"
+    },
+    {
+      "question": "If a distribution is right-skewed, which relationship is TRUE?",
+      "options": [
+        "Mean < Median < Mode",
+        "Mean = Median = Mode",
+        "Mean > Median > Mode",
+        "Mode > Mean > Median"
+      ],
+      "answerIndex": 2,
+      "explanation": "In right-skewed distributions, the tail is on the right, pulling the mean higher than median, which is higher than mode."
+    },
+    {
+      "question": "Which measure of dispersion is expressed in the SAME units as the original data?",
+      "options": [
+        "Variance",
+        "Standard deviation",
+        "Coefficient of variation",
+        "Both A and B"
+      ],
+      "answerIndex": 1,
+      "explanation": "Standard deviation is in original units. Variance is in squared units. CV is a percentage."
+    },
+    {
+      "question": "Given frequency distribution: Score 0-10 (Freq 6), 10-20 (Freq 12), 20-30 (Freq 10). The median class is:",
+      "options": ["0-10", "10-20", "20-30", "Cannot be determined"],
+      "answerIndex": 1,
+      "explanation": "Total n = 28, n/2 = 14. Cumulative frequencies: 6, 18, 28. Class 10-20 contains the 14th value."
+    },
+    {
+      "question": "A stem-and-leaf display differs from a frequency table because it:",
+      "options": [
+        "Shows more categories",
+        "Retains the original data values",
+        "Is easier to construct",
+        "Uses percentages"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stem-and-leaf displays preserve actual data values, allowing reconstruction of original data. Frequency tables only show counts."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of the median?",
+      "options": [
+        "It is the middle value",
+        "It is affected by extreme values",
+        "It divides data into two equal parts",
+        "It can be found graphically from an ogive"
+      ],
+      "answerIndex": 1,
+      "explanation": "The median is NOT affected by extreme values (outliers) - this is one of its key advantages over the mean."
+    },
+    {
+      "question": "Data collected from online surveys you conduct yourself is classified as:",
+      "options": [
+        "Secondary data",
+        "Primary data",
+        "Tertiary data",
+        "Categorical data"
+      ],
+      "answerIndex": 1,
+      "explanation": "Primary data is collected directly by the researcher for their specific purpose."
+    },
+    {
+      "question": "For the data: 2, 2, 3, 4, 4, 4, 5, 6, the mode is:",
+      "options": ["2", "3", "4", "There is no mode"],
+      "answerIndex": 2,
+      "explanation": "Mode is the most frequently occurring value. 4 appears three times, more than any other value."
+    },
+    {
+      "question": "If the variance of a dataset is 64, the standard deviation is:",
+      "options": ["4", "8", "32", "128"],
+      "answerIndex": 1,
+      "explanation": "Standard deviation = √variance = √64 = 8"
+    },
+    {
+      "question": "Which level of measurement has a true zero point?",
+      "options": ["Nominal", "Ordinal", "Interval", "Ratio"],
+      "answerIndex": 3,
+      "explanation": "Ratio level has a true zero point where zero means absence of the attribute (e.g., weight, height). Interval has arbitrary zero (e.g., temperature in Celsius)."
+    },
+    {
+      "question": "Multiple bar charts are MOST useful for:",
+      "options": [
+        "Showing one variable over time",
+        "Comparing two or more variables for the same categories",
+        "Displaying proportions of a whole",
+        "Showing cumulative frequencies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multiple bar charts allow comparison of two or more variables across the same categories by placing bars side-by-side."
+    },
+    {
+      "question": "The sum of deviations of all values from the mean is:",
+      "options": [
+        "Equal to the range",
+        "Equal to the variance",
+        "Always zero",
+        "Equal to the standard deviation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Σ(x - x̄) = 0 always, because the mean is the balance point. This is a mathematical property of the mean."
+    },
+    {
+      "question": "Which graphical tool combines characteristics of both tables and graphs?",
+      "options": [
+        "Histogram",
+        "Pie chart",
+        "Stem-and-leaf display",
+        "Bar chart"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stem-and-leaf displays organize data in a table-like format but visually show distribution like a graph rotated 90°."
+    },
+    {
+      "question": "For grouped data with class intervals 10-20, 20-30, 30-40, the class boundaries for 20-30 are:",
+      "options": ["20, 30", "19.5, 30.5", "20.5, 29.5", "15, 25"],
+      "answerIndex": 1,
+      "explanation": "For continuous grouped data, class boundaries are: Lower limit - 0.5, Upper limit + 0.5. So 20-0.5=19.5, 30+0.5=30.5"
+    },
+    {
+      "question": "A researcher wants to study income inequality. Which measure would be MOST appropriate?",
+      "options": [
+        "Mean income",
+        "Median income",
+        "Coefficient of variation of income",
+        "Mode of income"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inequality refers to dispersion/variation. Coefficient of variation measures relative variation, perfect for comparing dispersion across groups with different means."
+    },
+    {
+      "question": "The interquartile range (IQR) is calculated as:",
+      "options": ["Q₃ - Q₁", "Q₂ - Q₁", "Q₃ - Q₂", "Maximum - Minimum"],
+      "answerIndex": 0,
+      "explanation": "IQR = Q₃ - Q₁ (third quartile minus first quartile), representing the middle 50% spread of data."
+    },
+    {
+      "question": "Which statement about the mean is FALSE?",
+      "options": [
+        "It uses all data points",
+        "It can be calculated for nominal data",
+        "It is affected by outliers",
+        "It is the balance point of the distribution"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mean cannot be calculated for nominal data (categories with no numeric meaning like gender, color). It requires numeric data."
+    },
+    {
+      "question": "An ogive is used to represent:",
+      "options": [
+        "Frequency distribution",
+        "Cumulative frequency distribution",
+        "Relative frequency distribution",
+        "Probability distribution"
+      ],
+      "answerIndex": 1,
+      "explanation": "An ogive (cumulative frequency curve) plots cumulative frequencies against class boundaries."
+    },
+    {
+      "question": "If a dataset has mean=100 and all values are increased by 10, the new mean is:",
+      "options": ["100", "110", "1000", "90"],
+      "answerIndex": 1,
+      "explanation": "Adding a constant to all values increases the mean by that constant. New mean = 100 + 10 = 110"
+    },
+    {
+      "question": "For the frequency distribution where all class intervals have equal width, which is the modal class? Class 20-30 (Freq 8), 30-40 (Freq 15), 40-50 (Freq 12)",
+      "options": ["20-30", "30-40", "40-50", "Cannot determine"],
+      "answerIndex": 1,
+      "explanation": "Modal class is the class with highest frequency. 30-40 has frequency 15, which is highest."
+    },
+    {
+      "question": "The purpose of a component (stacked) bar chart is to:",
+      "options": [
+        "Compare individual categories",
+        "Show breakdown of total into components",
+        "Display time series data",
+        "Show correlation between variables"
+      ],
+      "answerIndex": 1,
+      "explanation": "Component/stacked bar charts show how a total is divided into components/subcategories, with segments stacked on each other."
+    },
+    {
+      "question": "Calculate the Mean Absolute Deviation (MAD) for: 4, 8, 12",
+      "options": ["2.67", "3.00", "4.00", "8.00"],
+      "answerIndex": 0,
+      "explanation": "Mean = 8. |4-8| + |8-8| + |12-8| = 4 + 0 + 4 = 8. MAD = 8/3 = 2.67"
+    },
+    {
+      "question": "Which of the following is a discrete variable?",
+      "options": [
+        "Time taken to complete a test",
+        "Number of cars in a parking lot",
+        "Weight of students",
+        "Temperature of a room"
+      ],
+      "answerIndex": 1,
+      "explanation": "Number of cars can only be whole numbers (0, 1, 2, ...) - countable and discrete. Others are continuous (measurable)."
+    },
+    {
+      "question": "If two datasets have the same mean but different standard deviations, what can we conclude?",
+      "options": [
+        "They have the same spread",
+        "They have different spreads",
+        "They have the same median",
+        "They have the same range"
+      ],
+      "answerIndex": 1,
+      "explanation": "Standard deviation measures spread. Different SDs mean different spreads (variability) even if centers (means) are same."
+    },
+    {
+      "question": "The main advantage of using median over mean is:",
+      "options": [
+        "Easier to calculate",
+        "Uses all data points",
+        "Not affected by outliers",
+        "Always gives whole numbers"
+      ],
+      "answerIndex": 2,
+      "explanation": "Median's key advantage is resistance to outliers/extreme values, making it better for skewed data."
+    },
+    {
+      "question": "A pie chart showing budget allocation has a sector of 90°. What percentage of the budget does it represent?",
+      "options": ["90%", "45%", "25%", "15%"],
+      "answerIndex": 2,
+      "explanation": "Full circle = 360°. Percentage = (90/360) × 100% = 25%"
+    },
+    {
+      "question": "Which measure of central tendency MUST be an actual value from the dataset?",
+      "options": ["Mean", "Median (for odd n)", "Mode", "All of the above"],
+      "answerIndex": 2,
+      "explanation": "Mode must be an actual data value (the most frequent). Mean can be non-integer, median for even n is average of two middle values."
+    },
+    {
+      "question": "Given: x₁=2, x₂=4, x₃=6, x₄=8. Calculate Σ(x-5)²",
+      "options": ["20", "10", "40", "30"],
+      "answerIndex": 0,
+      "explanation": "(2-5)² + (4-5)² + (6-5)² + (8-5)² = 9 + 1 + 1 + 9 = 20"
+    },
+    {
+      "question": "The range is criticized as a measure of dispersion because it:",
+      "options": [
+        "Is difficult to calculate",
+        "Uses only two data points (max and min)",
+        "Cannot be used for grouped data",
+        "Is always larger than standard deviation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Range only uses the two extreme values (max and min), ignoring all other data points, making it very sensitive to outliers."
+    },
+    {
+      "question": "For a perfectly symmetric distribution, which is TRUE?",
+      "options": [
+        "Mean > Median",
+        "Mean < Median",
+        "Mean = Median = Mode",
+        "Mode > Mean"
+      ],
+      "answerIndex": 2,
+      "explanation": "In perfectly symmetric distributions, all three measures of central tendency coincide at the center."
+    },
+    {
+      "question": "What does a coefficient of variation of 50% indicate?",
+      "options": [
+        "Standard deviation is half the mean",
+        "Standard deviation is twice the mean",
+        "Mean is 50",
+        "Variance is 50"
+      ],
+      "answerIndex": 0,
+      "explanation": "CV = (s/x̄) × 100% = 50%, so s/x̄ = 0.5, meaning s = 0.5x̄ (SD is half the mean)"
+    },
+    {
+      "question": "A researcher records the blood types (A, B, AB, O) of 100 donors. This is what type of data?",
+      "options": [
+        "Quantitative discrete",
+        "Quantitative continuous",
+        "Qualitative nominal",
+        "Qualitative ordinal"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blood types are categories with no inherent order (cannot rank A as higher than B) - qualitative nominal data."
+    },
+    {
+      "question": "If a distribution has two modes, it is called:",
+      "options": ["Unimodal", "Bimodal", "Multimodal", "Amodal"],
+      "answerIndex": 1,
+      "explanation": "Bimodal distributions have two modes (two values with equal highest frequency)."
+    },
+    {
+      "question": "A fair coin is tossed 3 times. What is the probability of getting exactly 2 heads?",
+      "options": ["1/8", "1/4", "3/8", "1/2"],
+      "answerIndex": 2,
+      "explanation": "P(exactly 2 heads) = C(3,2) × (0.5)² × (0.5)¹ = 3 × 0.25 × 0.5 = 3/8"
+    },
+    {
+      "question": "Events A and B are independent. If P(A) = 0.4 and P(B) = 0.3, then P(A and B) is:",
+      "options": ["0.7", "0.12", "0.58", "0.1"],
+      "answerIndex": 1,
+      "explanation": "For independent events, P(A∩B) = P(A) × P(B) = 0.4 × 0.3 = 0.12"
+    },
+    {
+      "question": "Which of the following pairs of events are mutually exclusive?",
+      "options": [
+        "Rolling a die: getting an even number and getting a number greater than 3",
+        "Drawing a card: getting a heart and getting a red card",
+        "Flipping a coin: getting heads and getting tails on the same flip",
+        "Rolling a die: getting a 5 and getting an odd number"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mutually exclusive means cannot occur together. Cannot get heads AND tails on same flip. Other pairs can overlap."
+    },
+    {
+      "question": "A bag contains 4 red balls and 6 blue balls. If two balls are drawn without replacement, what is the probability both are red?",
+      "options": ["4/25", "2/15", "1/5", "16/100"],
+      "answerIndex": 1,
+      "explanation": "P(1st red) = 4/10, P(2nd red | 1st red) = 3/9. P(both red) = (4/10) × (3/9) = 12/90 = 2/15"
+    },
+    {
+      "question": "If P(A) = 0.6, then P(not A) is:",
+      "options": ["0.4", "0.6", "1.6", "Cannot be determined"],
+      "answerIndex": 0,
+      "explanation": "P(not A) = P(A') = 1 - P(A) = 1 - 0.6 = 0.4"
+    },
+    {
+      "question": "In a Binomial distribution with n=10 and p=0.3, the mean is:",
+      "options": ["3", "2.1", "7", "30"],
+      "answerIndex": 0,
+      "explanation": "Mean of Binomial = np = 10 × 0.3 = 3"
+    },
+    {
+      "question": "A Poisson distribution is characterized by:",
+      "options": [
+        "Fixed number of trials",
+        "Constant probability of success",
+        "Events occurring at a constant average rate",
+        "Sampling without replacement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Poisson models events occurring independently at a constant average rate (λ) in fixed interval of time/space."
+    },
+    {
+      "question": "If X follows a normal distribution with μ=50 and σ=10, the Z-score for X=65 is:",
+      "options": ["1.5", "6.5", "15", "-1.5"],
+      "answerIndex": 0,
+      "explanation": "Z = (X-μ)/σ = (65-50)/10 = 15/10 = 1.5"
+    },
+    {
+      "question": "P(A or B) = P(A) + P(B) is ONLY true when:",
+      "options": [
+        "A and B are independent",
+        "A and B are mutually exclusive",
+        "P(A) = P(B)",
+        "Always true"
+      ],
+      "answerIndex": 1,
+      "explanation": "Addition rule simplifies to P(A)+P(B) only when mutually exclusive (P(A∩B)=0). Otherwise, must subtract P(A∩B)."
+    },
+    {
+      "question": "The probability of an impossible event is:",
+      "options": ["-1", "0", "0.5", "1"],
+      "answerIndex": 1,
+      "explanation": "Impossible events have probability 0. Certain events have probability 1. Probabilities range from 0 to 1."
+    },
+    {
+      "question": "A box contains 3 white, 2 black, and 5 yellow balls. If one ball is selected at random, what is P(yellow)?",
+      "options": ["1/2", "1/5", "5/10", "3/10"],
+      "answerIndex": 0,
+      "explanation": "Total balls = 10. P(yellow) = 5/10 = 1/2"
+    },
+    {
+      "question": "Which distribution would BEST model the number of customers arriving at a store per hour?",
+      "options": ["Binomial", "Hypergeometric", "Poisson", "Bernoulli"],
+      "answerIndex": 2,
+      "explanation": "Poisson models count of events (arrivals) in fixed time interval with constant average rate."
+    },
+    {
+      "question": "For a Binomial distribution, which condition is NOT required?",
+      "options": [
+        "Fixed number of trials",
+        "Two possible outcomes per trial",
+        "Constant probability of success",
+        "Trials must have different probabilities"
+      ],
+      "answerIndex": 3,
+      "explanation": "Binomial requires constant probability across all trials. Option D contradicts this requirement."
+    },
+    {
+      "question": "In a normal distribution, approximately what percentage of values fall within 2 standard deviations of the mean?",
+      "options": ["68%", "95%", "99.7%", "50%"],
+      "answerIndex": 1,
+      "explanation": "Empirical rule (68-95-99.7): About 95% of data falls within μ ± 2σ in normal distribution."
+    },
+    {
+      "question": "If events A and B are independent, which is TRUE?",
+      "options": [
+        "P(A|B) = P(B|A)",
+        "P(A|B) = P(A)",
+        "P(A∩B) = 0",
+        "P(A∪B) = P(A) + P(B)"
+      ],
+      "answerIndex": 1,
+      "explanation": "For independent events, knowing B occurred doesn't change P(A), so P(A|B) = P(A)."
+    },
+    {
+      "question": "A random variable X can take values 1, 2, 3 with probabilities 0.2, 0.5, 0.3 respectively. What is E(X)?",
+      "options": ["2", "2.1", "2.5", "1.8"],
+      "answerIndex": 1,
+      "explanation": "E(X) = Σ[x·P(x)] = 1(0.2) + 2(0.5) + 3(0.3) = 0.2 + 1.0 + 0.9 = 2.1"
+    },
+    {
+      "question": "In a hypergeometric distribution, sampling is done:",
+      "options": [
+        "With replacement",
+        "Without replacement",
+        "From infinite population",
+        "With constant probability"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hypergeometric distribution is used for sampling without replacement from finite population."
+    },
+    {
+      "question": "Which of the following is a continuous random variable?",
+      "options": [
+        "Number of defects in a product",
+        "Number of students absent",
+        "Time until machine failure",
+        "Number of heads in coin flips"
+      ],
+      "answerIndex": 2,
+      "explanation": "Time can take any value in a range (continuous). Others are countable (discrete)."
+    },
+    {
+      "question": "For a Poisson distribution with λ=4, what is the variance?",
+      "options": ["2", "4", "8", "16"],
+      "answerIndex": 1,
+      "explanation": "For Poisson, Variance = λ = 4. (Mean and variance are both equal to λ in Poisson)"
+    },
+    {
+      "question": "Two events A and B are such that P(A)=0.5, P(B)=0.6, P(A∩B)=0.3. Find P(A∪B).",
+      "options": ["1.1", "0.8", "0.3", "0.15"],
+      "answerIndex": 1,
+      "explanation": "P(A∪B) = P(A) + P(B) - P(A∩B) = 0.5 + 0.6 - 0.3 = 0.8"
+    },
+    {
+      "question": "The standard normal distribution has mean = ? and standard deviation = ?",
+      "options": ["0, 1", "1, 0", "1, 1", "0, 0"],
+      "answerIndex": 0,
+      "explanation": "Standard normal (Z) distribution always has μ=0 and σ=1."
+    },
+    {
+      "question": "If P(A|B) = P(A), what can we conclude about events A and B?",
+      "options": [
+        "They are mutually exclusive",
+        "They are independent",
+        "They are dependent",
+        "P(A) = P(B)"
+      ],
+      "answerIndex": 1,
+      "explanation": "When P(A|B) = P(A), knowing B doesn't affect P(A), which is the definition of independence."
+    },
+    {
+      "question": "A discrete random variable X has probability distribution: X=0 (P=0.3), X=1 (P=0.5), X=2 (P=?). What is P(X=2)?",
+      "options": ["0.1", "0.2", "0.8", "Cannot determine"],
+      "answerIndex": 1,
+      "explanation": "ΣP(X) must equal 1. So 0.3 + 0.5 + P(X=2) = 1, therefore P(X=2) = 0.2"
+    },
+    {
+      "question": "Bayes' Theorem is used to find:",
+      "options": [
+        "Joint probabilities",
+        "Marginal probabilities",
+        "Reverse conditional probabilities",
+        "Union probabilities"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bayes' Theorem allows us to find P(A|B) when we know P(B|A) - reversing the conditional relationship."
+    },
+    {
+      "question": "In binomial distribution, if n=5 and p=0.5, what is P(X≥4)?",
+      "options": ["3/32", "6/32", "1/32", "15/32"],
+      "answerIndex": 1,
+      "explanation": "P(X≥4) = P(X=4) + P(X=5). P(4) = C(5,4)(0.5)⁵ = 5(0.03125) = 0.15625. P(5) = C(5,5)(0.5)⁵ = 1(0.03125) = 0.03125. Total = 0.1875 = 6/32"
+    },
+    {
+      "question": "Which statement about the Bernoulli distribution is FALSE?",
+      "options": [
+        "It has only one trial",
+        "It has two possible outcomes",
+        "It is a special case of Binomial with n=1",
+        "It always has mean = 0.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "Bernoulli has mean = p, which can be any value 0 < p < 1, not necessarily 0.5."
+    },
+    {
+      "question": "A sample space S = {1,2,3,4,5,6} represents outcomes of rolling a die. Event A = {2,4,6}. What is P(A')?",
+      "options": ["1/6", "1/3", "1/2", "2/3"],
+      "answerIndex": 2,
+      "explanation": "P(A) = 3/6 = 1/2 (three even outcomes). P(A') = 1 - P(A) = 1 - 1/2 = 1/2"
+    },
+    {
+      "question": "The difference between Binomial and Hypergeometric distributions is:",
+      "options": [
+        "Binomial has constant p, Hypergeometric has changing p",
+        "Binomial is discrete, Hypergeometric is continuous",
+        "Binomial has two outcomes, Hypergeometric has multiple",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explanation": "Binomial assumes constant probability (with replacement or infinite population), Hypergeometric has changing probability (without replacement, finite population)."
+    },
+    {
+      "question": "For events A and B, if P(A∩B) = 0, the events are:",
+      "options": [
+        "Independent",
+        "Mutually exclusive",
+        "Complementary",
+        "Dependent"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(A∩B) = 0 means events cannot occur together - definition of mutually exclusive."
+    },
+    {
+      "question": "The area under the entire normal probability density curve equals:",
+      "options": ["0", "0.5", "1", "μ"],
+      "answerIndex": 2,
+      "explanation": "Total area under any probability density curve equals 1 (representing 100% probability)."
+    },
+    {
+      "question": "In simple random sampling, every member of the population has:",
+      "options": [
+        "Different probability of selection",
+        "Equal probability of selection",
+        "Zero probability of selection",
+        "Probability proportional to size"
+      ],
+      "answerIndex": 1,
+      "explanation": "Simple random sampling gives every population member equal chance of being selected."
+    },
+    {
+      "question": "Which sampling method involves selecting every kth item from a list?",
+      "options": [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Stratified sampling",
+        "Cluster sampling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Systematic sampling selects items at regular intervals (every kth item after random start)."
+    },
+    {
+      "question": "The Central Limit Theorem states that as sample size increases, the sampling distribution of the mean approaches:",
+      "options": [
+        "Uniform distribution",
+        "Normal distribution",
+        "Binomial distribution",
+        "Poisson distribution"
+      ],
+      "answerIndex": 1,
+      "explanation": "CLT: For large n, sampling distribution of x̄ is approximately normal, regardless of population distribution."
+    },
+    {
+      "question": "A 95% confidence interval means:",
+      "options": [
+        "There's 95% probability the parameter is in the interval",
+        "95% of data falls in the interval",
+        "If we repeated sampling, 95% of intervals would contain the parameter",
+        "The parameter equals 95% of the sample mean"
+      ],
+      "answerIndex": 2,
+      "explanation": "Confidence level refers to long-run proportion of intervals that would contain parameter, not probability for one specific interval."
+    },
+    {
+      "question": "If sample size increases, the width of confidence interval:",
+      "options": ["Increases", "Decreases", "Stays the same", "Becomes zero"],
+      "answerIndex": 1,
+      "explanation": "Larger n → Smaller standard error (σ/√n) → Narrower confidence interval. Inverse relationship."
+    },
+    {
+      "question": "Type I error occurs when we:",
+      "options": [
+        "Reject a true null hypothesis",
+        "Fail to reject a false null hypothesis",
+        "Reject a false null hypothesis",
+        "Fail to reject a true null hypothesis"
+      ],
+      "answerIndex": 0,
+      "explanation": "Type I error = rejecting H₀ when it's actually true (false positive). Probability = α."
+    },
+    {
+      "question": "For hypothesis test H₀: μ=50 vs H₁: μ≠50, this is a:",
+      "options": [
+        "Right-tailed test",
+        "Left-tailed test",
+        "Two-tailed test",
+        "One-tailed test"
+      ],
+      "answerIndex": 2,
+      "explanation": "H₁: μ≠50 means testing for difference in either direction (greater OR less) - two-tailed test."
+    },
+    {
+      "question": "If a test has significance level α=0.05, what is the confidence level?",
+      "options": ["5%", "95%", "0.05", "0.95"],
+      "answerIndex": 1,
+      "explanation": "Confidence Level = 1-α = 1-0.05 = 0.95 = 95%. They are complements."
+    },
+    {
+      "question": "Which test would you use for testing population mean when n=25 and σ is unknown?",
+      "options": ["Z-test", "t-test", "Chi-square test", "F-test"],
+      "answerIndex": 1,
+      "explanation": "Small sample (n<30) with unknown σ requires t-test, not Z-test."
+    },
+    {
+      "question": "The standard error of the mean is calculated as:",
+      "options": ["σ × √n", "σ / √n", "σ × n", "σ / n"],
+      "answerIndex": 1,
+      "explanation": "Standard error = σ/√n (population SD divided by square root of sample size)"
+    },
+    {
+      "question": "In a chi-square test of independence with a 3×4 contingency table, the degrees of freedom is:",
+      "options": ["12", "7", "6", "2"],
+      "answerIndex": 2,
+      "explanation": "df = (rows-1)(columns-1) = (3-1)(4-1) = 2×3 = 6"
+    },
+    {
+      "question": "Stratified sampling involves:",
+      "options": [
+        "Dividing population into groups and sampling from each",
+        "Selecting every kth member",
+        "Random selection with replacement",
+        "Selecting whole clusters"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stratified sampling divides population into homogeneous strata, then samples from each stratum."
+    },
+    {
+      "question": "The purpose of a goodness-of-fit test is to:",
+      "options": [
+        "Test independence of variables",
+        "Test if data fits a specified distribution",
+        "Compare two means",
+        "Test for normality only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Goodness-of-fit tests whether observed data follows a hypothesized distribution (Binomial, Poisson, Normal, etc.)"
+    },
+    {
+      "question": "For confidence interval x̄ ± 1.96(s/√n), what confidence level is this?",
+      "options": ["90%", "95%", "99%", "99.7%"],
+      "answerIndex": 1,
+      "explanation": "Z = 1.96 corresponds to 95% confidence level (α=0.05, α/2=0.025 in each tail)"
+    },
+    {
+      "question": "If p-value < α, we should:",
+      "options": [
+        "Reject H₀",
+        "Accept H₀",
+        "Fail to reject H₀",
+        "Increase sample size"
+      ],
+      "answerIndex": 0,
+      "explanation": "When p-value is less than significance level α, we reject the null hypothesis."
+    },
+    {
+      "question": "A sample mean is a:",
+      "options": ["Parameter", "Statistic", "Population value", "Constant"],
+      "answerIndex": 1,
+      "explanation": "Sample mean (x̄) is a statistic (calculated from sample). Population mean (μ) is a parameter."
+    },
+    {
+      "question": "Sampling with replacement means:",
+      "options": [
+        "Same item can be selected multiple times",
+        "Item cannot be selected twice",
+        "Population size decreases",
+        "Probability changes after each selection"
+      ],
+      "answerIndex": 0,
+      "explanation": "With replacement, selected item is returned to population, allowing it to be selected again."
+    },
+    {
+      "question": "For sample size n=100, x̄=50, s=10, construct 95% CI for μ. The interval is approximately:",
+      "options": ["(48, 52)", "(49, 51)", "(40, 60)", "(45, 55)"],
+      "answerIndex": 0,
+      "explanation": "Large sample: x̄ ± 1.96(s/√n) = 50 ± 1.96(10/10) = 50 ± 1.96 ≈ (48.04, 51.96) ≈ (48, 52)"
+    },
+    {
+      "question": "Which is TRUE about the null hypothesis?",
+      "options": [
+        "It contains the equality (=, ≤, ≥)",
+        "It's what we want to prove",
+        "It's always rejected",
+        "It cannot contain equality"
+      ],
+      "answerIndex": 0,
+      "explanation": "H₀ always contains equality. H₁ contains inequality (≠, >, <). We test H₀, not prove it."
+    },
+    {
+      "question": "If we increase confidence level from 95% to 99%, the confidence interval:",
+      "options": [
+        "Gets narrower",
+        "Gets wider",
+        "Stays the same",
+        "Becomes zero"
+      ],
+      "answerIndex": 1,
+      "explanation": "Higher confidence requires wider interval to be more certain parameter is captured."
+    },
+    {
+      "question": "The power of a test is:",
+      "options": [
+        "P(Type I error)",
+        "P(Type II error)",
+        "1 - P(Type II error)",
+        "1 - P(Type I error)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Power = 1-β = 1-P(Type II error) = Probability of correctly rejecting false H₀"
+    },
+    {
+      "question": "In chi-square test, expected frequency for a cell is calculated as:",
+      "options": [
+        "(Row total) / (Column total)",
+        "(Row total) × (Column total) / (Grand total)",
+        "(Column total) / (Grand total)",
+        "(Observed frequency) - (Grand total)"
+      ],
+      "answerIndex": 1,
+      "explanation": "E = (Row total × Column total) / Grand total for each cell in contingency table"
+    },
+    {
+      "question": "Which sampling method is most likely to introduce bias?",
+      "options": [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Convenience sampling",
+        "Stratified sampling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Convenience sampling (non-probability) selects easily accessible members, likely introducing bias. Random methods reduce bias."
+    },
+    {
+      "question": "For testing H₀: μ=100 vs H₁: μ>100 at α=0.05, the critical region is:",
+      "options": ["Z < -1.645", "Z > 1.645", "|Z| > 1.96", "Z < 1.645"],
+      "answerIndex": 1,
+      "explanation": "Right-tailed test (H₁: μ>100) at α=0.05 has critical value Z=1.645. Reject if Z>1.645."
+    },
+    {
+      "question": "A point estimate is:",
+      "options": [
+        "A range of values",
+        "A single value estimate",
+        "Always equal to the parameter",
+        "The confidence interval"
+      ],
+      "answerIndex": 1,
+      "explanation": "Point estimate is a single value (e.g., x̄=50). Interval estimate is a range."
+    },
+    {
+      "question": "If we fail to reject H₀, we conclude:",
+      "options": [
+        "H₀ is proven true",
+        "H₁ is false",
+        "Insufficient evidence to support H₁",
+        "H₀ is accepted as fact"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fail to reject H₀ means insufficient evidence against it, NOT that it's proven true. Never accept H₀."
+    },
+    {
+      "question": "Cluster sampling differs from stratified sampling because in cluster sampling:",
+      "options": [
+        "We sample from all clusters",
+        "We select entire clusters, not individuals from each group",
+        "Clusters must be homogeneous",
+        "It's a non-probability method"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cluster sampling selects whole clusters randomly. Stratified sampling samples individuals from each stratum."
+    },
+    {
+      "question": "For chi-square test with 2×3 contingency table, df = ?",
+      "options": ["6", "5", "2", "1"],
+      "answerIndex": 2,
+      "explanation": "df = (r-1)(c-1) = (2-1)(3-1) = 1×2 = 2"
+    },
+    {
+      "question": "The main reason for using sampling instead of census is:",
+      "options": [
+        "Sampling is more accurate",
+        "Sampling saves time and cost",
+        "Sampling is required by law",
+        "Census is impossible"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sampling is less expensive, faster, and often more practical than examining entire population (census)."
+    },
+    {
+      "question": "What does it mean if a confidence interval for μ is (45, 55)?",
+      "options": [
+        "There's 95% chance μ is between 45 and 55",
+        "95% of sample means fall between 45 and 55",
+        "We're 95% confident the interval (45, 55) contains μ",
+        "μ equals 50"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct interpretation of CI: We're [confidence level]% confident this interval contains the true parameter."
+    }
+  ]
+}

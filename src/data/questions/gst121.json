@@ -1,0 +1,1431 @@
+{
+  "courseDetails": {
+    "id": "GST121",
+    "name": "Use of Library, Study Skills and ICT"
+  },
+  "questions": [
+    {
+      "question": "A library meant to be used by everybody in society is a",
+      "options": [
+        "Academic library",
+        "Public library",
+        "Special library",
+        "School library"
+      ],
+      "answerIndex": 1,
+      "explanation": "A public library is established for the general public. It is open to all categories of people in society without discrimination. This is different from an academic library, which mainly serves students and staff of higher institutions, or a special library, which serves a narrow professional group."
+    },
+    {
+      "question": "The apex library of a country is the",
+      "options": [
+        "Public library",
+        "Academic library",
+        "National library",
+        "Special library"
+      ],
+      "answerIndex": 2,
+      "explanation": "The national library is the apex library of a country. It has nationwide responsibility and performs special national duties that other libraries do not perform, such as serving as a national bibliographic center and handling legal deposit functions."
+    },
+    {
+      "question": "One function that sets the national library apart is that it",
+      "options": [
+        "Lends all books free",
+        "Issues ISBN",
+        "Teaches only children",
+        "Provides hostel services"
+      ],
+      "answerIndex": 1,
+      "explanation": "One of the special functions of the national library is issuing the International Standard Book Number, ISBN. It also serves as the depository for copyright publications in the country. The other options are either unrelated or belong to other institutions."
+    },
+    {
+      "question": "Libraries attached to universities, polytechnics, and colleges are",
+      "options": [
+        "Public libraries",
+        "Academic libraries",
+        "Special libraries",
+        "National libraries"
+      ],
+      "answerIndex": 1,
+      "explanation": "Academic libraries are attached to institutions of higher learning such as universities, polytechnics, and colleges. Their main role is to support teaching, learning, and research within those institutions."
+    },
+    {
+      "question": "A library attached to a hospital is most likely a",
+      "options": [
+        "Public library",
+        "School library",
+        "Special library",
+        "National library"
+      ],
+      "answerIndex": 2,
+      "explanation": "A hospital library is a special library because it serves a restricted institution and usually provides specialized materials for healthcare professionals, researchers, and patients. Special libraries focus on a narrow field or a particular organization."
+    },
+    {
+      "question": "Which of the following is a characteristic of special libraries?",
+      "options": [
+        "Very broad users",
+        "Homogenous users",
+        "No specialization",
+        "Only children use it"
+      ],
+      "answerIndex": 1,
+      "explanation": "Special libraries usually have homogenous users, meaning their users share similar information needs. For example, a law library mainly serves lawyers and legal researchers. This makes them different from public libraries, which serve a wide range of users."
+    },
+    {
+      "question": "Which library source is best for finding the meaning and pronunciation of a word?",
+      "options": ["Atlas", "Dictionary", "Yearbook", "Bibliography"],
+      "answerIndex": 1,
+      "explanation": "A dictionary provides the meaning, spelling, pronunciation, grammatical information, and sometimes the origin of words. An atlas is for maps, a yearbook summarizes events of a year, and a bibliography lists publications on a topic."
+    },
+    {
+      "question": "An encyclopedia is best used for",
+      "options": [
+        "Contact addresses",
+        "Background information on a topic",
+        "Borrowing novels",
+        "Recording attendance"
+      ],
+      "answerIndex": 1,
+      "explanation": "An encyclopedia gives background or general information on a topic and is usually a good starting point for understanding a concept. It is different from a directory, which gives contact information, or a bibliography, which lists related publications."
+    },
+    {
+      "question": "Which reference source gives names, addresses, and contact information?",
+      "options": ["Directory", "Atlas", "Index", "Abstract"],
+      "answerIndex": 0,
+      "explanation": "A directory contains names, addresses, email addresses, phone numbers, and other contact details of people or organizations. This is why it is the correct source when the question asks about finding contact information."
+    },
+    {
+      "question": "A bibliography is a",
+      "options": [
+        "List of publications on a topic",
+        "Summary of yearly events",
+        "List of maps",
+        "Book review"
+      ],
+      "answerIndex": 0,
+      "explanation": "A bibliography is a list of publications related to a topic, person, or field. It helps researchers identify relevant books, articles, and other materials. It does not summarize events like a yearbook, nor does it review books."
+    },
+    {
+      "question": "A yearbook contains",
+      "options": [
+        "Daily news only",
+        "Summary of events in a particular year",
+        "Only maps",
+        "Phone numbers"
+      ],
+      "answerIndex": 1,
+      "explanation": "A yearbook summarizes important events that happened within a specific year. It may cover world events, national events, or activities of a particular organization. This makes it useful for factual yearly updates."
+    },
+    {
+      "question": "Which reference source provides a condensed representation of a work?",
+      "options": ["Abstract", "Atlas", "Directory", "Handbook"],
+      "answerIndex": 0,
+      "explanation": "An abstract gives a condensed summary of the essential content of a work. It helps readers quickly know what a document is about before reading the full text. That is why abstracts are especially useful in research."
+    },
+    {
+      "question": "Which of the following cannot normally be borrowed from the library?",
+      "options": ["Textbook", "Reference source", "Novel", "Workbook"],
+      "answerIndex": 1,
+      "explanation": "Reference sources are usually used only within the library because they are meant for quick consultation by many users. Libraries often keep them in the reference section so they remain constantly available."
+    },
+    {
+      "question": "OPAC stands for",
+      "options": [
+        "Online Private Access Catalogue",
+        "Open Public Access Catalogue",
+        "Online Public Access Catalogue",
+        "Open Private Access Catalogue"
+      ],
+      "answerIndex": 2,
+      "explanation": "OPAC means Online Public Access Catalogue. It is the computerized catalogue that allows users to search the holdings of a library electronically. It helps users find materials and sometimes check their availability."
+    },
+    {
+      "question": "A major advantage of OPAC is",
+      "options": [
+        "It cannot be updated",
+        "Simultaneous use is possible",
+        "It requires no skills at all",
+        "It has no cost"
+      ],
+      "answerIndex": 1,
+      "explanation": "One major benefit of OPAC is that many users can search it at the same time. It is also flexible and can be updated easily. The other options are wrong because OPAC does require some ICT skills and is expensive to set up."
+    },
+    {
+      "question": "Which of the following is a demerit of card catalogue?",
+      "options": [
+        "Easy updating",
+        "Prone to misfiling",
+        "No space required",
+        "Digital access"
+      ],
+      "answerIndex": 1,
+      "explanation": "Card catalogues can be misfiled easily, and once cards are misplaced, users may struggle to find materials. They also take up physical space and can wear out over time. These are typical weaknesses tested in GST 121."
+    },
+    {
+      "question": "Book catalogue is most associated with",
+      "options": [
+        "Large network libraries only",
+        "Small libraries",
+        "Only online libraries",
+        "No bibliographic details"
+      ],
+      "answerIndex": 1,
+      "explanation": "A book catalogue is commonly associated with small libraries because it is cheaper and easier to maintain. However, it is less flexible than modern electronic catalogues and does not allow easy updating."
+    },
+    {
+      "question": "CD-ROM catalogue requires",
+      "options": [
+        "A printer only",
+        "A telephone line",
+        "A computer with CD drive",
+        "A projector"
+      ],
+      "answerIndex": 2,
+      "explanation": "A CD-ROM catalogue stores bibliographic information on a compact disc, so it can only be used on a computer with a CD drive. This requirement is one reason it became less popular as online catalogues improved."
+    },
+    {
+      "question": "The process of grouping library resources according to subject mutuality is",
+      "options": ["Indexing", "Classification", "Shelving", "Photocopying"],
+      "answerIndex": 1,
+      "explanation": "Classification is the systematic arrangement of library materials according to subject. It helps bring order to the library and makes it easier for users to locate books on similar subjects in the same area."
+    },
+    {
+      "question": "The most prominent classification schemes mentioned are",
+      "options": ["APA and MLA", "DDC and LC", "HTML and URL", "LAN and WAN"],
+      "answerIndex": 1,
+      "explanation": "DDC means Dewey Decimal Classification, while LC means Library of Congress Classification. These are library classification systems, unlike APA and MLA, which are referencing styles."
+    },
+    {
+      "question": "In DDC, 500–599 represents",
+      "options": ["Religion", "Natural Sciences", "Technology", "Literature"],
+      "answerIndex": 1,
+      "explanation": "In the Dewey Decimal Classification, 500–599 covers Natural Sciences. Students are often tested on the ten main DDC classes, so memorizing these ranges is important for exam success."
+    },
+    {
+      "question": "In DDC, 600–699 represents",
+      "options": ["Arts", "Language", "Technology", "History"],
+      "answerIndex": 2,
+      "explanation": "600–699 in the Dewey Decimal Classification represents Technology. This includes applied sciences and practical subjects. The exam may ask for either the range or the subject name."
+    },
+    {
+      "question": "In DDC, 800–899 represents",
+      "options": ["Literature", "Philosophy", "Religion", "Geography"],
+      "answerIndex": 0,
+      "explanation": "800–899 represents Literature in the DDC. This is one of the ten major classes students should know. Questions may test both recognition and elimination of wrong subject ranges."
+    },
+    {
+      "question": "The alphabetical list of subjects in a classification scheme is the",
+      "options": ["Table", "Index", "Notation", "Edition"],
+      "answerIndex": 1,
+      "explanation": "The index is the alphabetical list of subjects in a classification scheme. It helps the cataloguer move quickly from a subject term to the correct schedule and notation."
+    },
+    {
+      "question": "Which principle of classification is correct?",
+      "options": [
+        "Always classify by form first",
+        "Classify in the most general class available",
+        "Classify in the most specific class possible",
+        "Ignore the subject"
+      ],
+      "answerIndex": 2,
+      "explanation": "A key principle of classification is that a book should be placed in the most specific class possible, not just in a broad class. This helps users locate materials more precisely."
+    },
+    {
+      "question": "The first step in classifying a book is to determine the",
+      "options": [
+        "ISBN",
+        "Subject of the book",
+        "Price of the book",
+        "Size of the shelf"
+      ],
+      "answerIndex": 1,
+      "explanation": "Before classifying a book, the librarian must first determine its subject. After that, the index and schedules of the classification scheme are consulted to obtain the correct class number."
+    },
+    {
+      "question": "Descriptive cataloguing is the process of",
+      "options": [
+        "Selling library books",
+        "Describing information resources",
+        "Repairing books",
+        "Writing fiction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Descriptive cataloguing involves recording the bibliographic features of a resource according to standard cataloguing rules. It focuses on describing what the item is, not on selling or repairing it."
+    },
+    {
+      "question": "Which is NOT one of the eight elements of descriptive cataloguing?",
+      "options": ["Heading", "Imprint", "ISBN", "Abstract"],
+      "answerIndex": 3,
+      "explanation": "The eight elements of descriptive cataloguing include heading, title and statement of responsibility, edition, imprint, collation, series statement, notes area, and ISBN. Abstract is not one of them, so it is the correct exception."
+    },
+    {
+      "question": "The heading of a book entry is usually the",
+      "options": [
+        "Publisher name only",
+        "Author’s surname and initials",
+        "Title only",
+        "Place of publication"
+      ],
+      "answerIndex": 1,
+      "explanation": "In descriptive cataloguing, the heading for a book is usually the author's surname followed by initials. This serves as an access point and is often the first element in the catalogue entry."
+    },
+    {
+      "question": "In descriptive cataloguing, edition starts from",
+      "options": [
+        "First edition",
+        "Second edition",
+        "Third edition only",
+        "Fourth edition only"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson explains that there is no first edition statement in the catalogue in the usual sense. Edition statements begin from second edition onward, such as 2nd ed. or 3rd ed."
+    },
+    {
+      "question": "Hardware refers to",
+      "options": [
+        "Programs only",
+        "Physical parts of a computer",
+        "Internet connection",
+        "User password"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hardware refers to the physical and tangible parts of a computer system that can be seen and touched. Examples include the keyboard, monitor, motherboard, and CPU."
+    },
+    {
+      "question": "Software refers to",
+      "options": [
+        "Physical devices",
+        "Printed manuals",
+        "Instructions/programs",
+        "Only storage media"
+      ],
+      "answerIndex": 2,
+      "explanation": "Software is the set of instructions, routines, and programs that tell the computer what to do. Without software, hardware cannot perform meaningful tasks for the user."
+    },
+    {
+      "question": "Which of the following is an input device?",
+      "options": ["Monitor", "Speaker", "Keyboard", "Projector"],
+      "answerIndex": 2,
+      "explanation": "A keyboard is an input device because it allows the user to enter data into the computer. Monitor, speaker, and projector are output devices because they present processed information to the user."
+    },
+    {
+      "question": "Which of the following is an output device?",
+      "options": ["Scanner", "Mouse", "Monitor", "Keyboard"],
+      "answerIndex": 2,
+      "explanation": "A monitor is an output device because it displays processed information visually. The scanner, mouse, and keyboard all send data into the system, so they are input devices."
+    },
+    {
+      "question": "Which of the following is system software?",
+      "options": ["Microsoft Word", "Excel", "Operating system", "PowerPoint"],
+      "answerIndex": 2,
+      "explanation": "System software manages the operation of the computer itself. The operating system is the clearest example because it controls hardware, memory, and the running of applications. Word, Excel, and PowerPoint are application software."
+    },
+    {
+      "question": "A device driver mainly",
+      "options": [
+        "Types documents",
+        "Controls specific hardware",
+        "Creates websites",
+        "Stores video only"
+      ],
+      "answerIndex": 1,
+      "explanation": "A device driver is designed to control and support a specific hardware component, such as a printer or scanner. It acts as a translator between the hardware and the operating system."
+    },
+    {
+      "question": "Antivirus is an example of",
+      "options": [
+        "Application software",
+        "Utility software",
+        "Output device",
+        "Input device"
+      ],
+      "answerIndex": 1,
+      "explanation": "Antivirus is utility software because it helps maintain and protect the computer system. Utility software performs specialized support tasks such as scanning for threats, testing memory, or managing files."
+    },
+    {
+      "question": "Word processing software is an example of",
+      "options": [
+        "System software",
+        "Application software",
+        "Firmware",
+        "Hardware"
+      ],
+      "answerIndex": 1,
+      "explanation": "Application software helps users perform specific tasks. Word processors are application software because they help users create, edit, and format text documents."
+    },
+    {
+      "question": "RAM is an example of",
+      "options": [
+        "Secondary storage",
+        "Primary storage",
+        "Tertiary storage",
+        "Optical storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM is primary storage because it is internal memory that the CPU can access directly. It is used for temporary data and processing tasks while the computer is running."
+    },
+    {
+      "question": "Which storage type has direct access by the CPU?",
+      "options": [
+        "Primary storage",
+        "Secondary storage",
+        "Tertiary storage",
+        "Cloud storage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Primary storage is directly accessible to the CPU. This is why RAM is fast and used for current operations, unlike secondary or tertiary storage, which are slower and not directly accessed the same way."
+    },
+    {
+      "question": "USB drive is a",
+      "options": [
+        "Primary storage",
+        "Secondary storage",
+        "Output device",
+        "System software"
+      ],
+      "answerIndex": 1,
+      "explanation": "A USB drive is a form of secondary storage. It stores data externally and is not directly accessed by the CPU the way primary memory is."
+    },
+    {
+      "question": "Which of the following is an optical storage device?",
+      "options": ["USB flash drive", "DVD", "RAM", "Memory card"],
+      "answerIndex": 1,
+      "explanation": "DVD is an optical storage device because it uses laser technology for reading and storing data. USB flash drives and memory cards are flash storage devices, while RAM is primary memory."
+    },
+    {
+      "question": "Cloud storage allows access to files",
+      "options": [
+        "Only in one building",
+        "Anywhere with internet",
+        "Only through projector",
+        "Without electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cloud storage uses internet-connected data centers, so files can be accessed from different places as long as there is internet access. This is one of its main advantages over local storage."
+    },
+    {
+      "question": "The main function of an output device is to",
+      "options": [
+        "Enter data",
+        "Process data",
+        "Present useful information",
+        "Install applications"
+      ],
+      "answerIndex": 2,
+      "explanation": "Output devices make processed data meaningful to humans by presenting it as text, image, sound, or video. Without output devices, users would not benefit from the computer’s processing."
+    },
+    {
+      "question": "A monitor displays information in the form of",
+      "options": ["Smell", "Image", "Heat", "Weight"],
+      "answerIndex": 1,
+      "explanation": "A monitor presents output visually as images or text on the screen. It is the principal output device in many computer systems."
+    },
+    {
+      "question": "Which device converts digital signals into audible sound?",
+      "options": ["Printer", "Speaker", "Scanner", "Mouse"],
+      "answerIndex": 1,
+      "explanation": "A speaker converts digital audio signals into sound waves that people can hear. This makes it a standard audio output device."
+    },
+    {
+      "question": "A projector is mainly used for",
+      "options": [
+        "Scanning books",
+        "Displaying computer output on a screen or wall",
+        "Storing data",
+        "Typing text"
+      ],
+      "answerIndex": 1,
+      "explanation": "A projector is used to display computer visuals on a larger screen or wall, especially during presentations. This makes it useful in teaching, meetings, and seminars."
+    },
+    {
+      "question": "Which of these is NOT an output device?",
+      "options": ["Monitor", "Printer", "Speaker", "Scanner"],
+      "answerIndex": 3,
+      "explanation": "A scanner is an input device because it sends information into the computer by capturing text or images. The others are all output devices that present information to users."
+    },
+    {
+      "question": "ICT stands for",
+      "options": [
+        "International Computer Training",
+        "Information and Communication Technology",
+        "Information Control Theory",
+        "Internet and Computer Tools"
+      ],
+      "answerIndex": 1,
+      "explanation": "ICT means Information and Communication Technology. It covers technologies used for creating, storing, sharing, transmitting, and managing information."
+    },
+    {
+      "question": "Which statement best describes digital literacy?",
+      "options": [
+        "Ability to repair monitors",
+        "Ability to use digital technology and networks effectively",
+        "Ability to shelve books",
+        "Ability to print only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digital literacy is the ability to use digital technologies, communication devices, and associated networks effectively. It goes beyond basic device use and includes searching, evaluating, and sharing information responsibly."
+    },
+    {
+      "question": "The three components of digital literacy in your material are",
+      "options": [
+        "Think, read, write",
+        "Find, use, disseminate",
+        "Search, sort, store",
+        "Scan, save, print"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson presents digital literacy under three components: find, use, and disseminate. These cover locating information, evaluating and applying it, and sharing or creating information ethically."
+    },
+    {
+      "question": "In digital literacy, 'find' mainly deals with",
+      "options": [
+        "Evaluating source accuracy",
+        "Searching and navigating for information",
+        "Publishing a book",
+        "Formatting a document"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 'find' component focuses on searching and navigating digital spaces to locate information. It includes identifying information needs and using search strategies effectively."
+    },
+    {
+      "question": "In digital literacy, 'use' mainly focuses on",
+      "options": [
+        "Critical evaluation of digital sources",
+        "Typing faster",
+        "Printing pages",
+        "Book shelving"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 'use' component emphasizes critical thinking and evaluation. It teaches that not all online information should be trusted and that users should assess accuracy, authority, and reliability."
+    },
+    {
+      "question": "In digital literacy, 'disseminate' involves",
+      "options": [
+        "Destroying false news",
+        "Creating and sharing information ethically",
+        "Building shelves",
+        "Repairing software"
+      ],
+      "answerIndex": 1,
+      "explanation": "Disseminate refers to creating, communicating, and sharing information using appropriate digital tools while upholding information ethics. It includes teamwork, collaboration, and responsible online communication."
+    },
+    {
+      "question": "Media literacy includes the ability to",
+      "options": [
+        "Believe every news item",
+        "Critically analyse media content",
+        "Avoid all media permanently",
+        "Use only radio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Media literacy involves understanding, analyzing, and evaluating media content critically. A media-literate person does not accept every message at face value and knows how to question bias and misinformation."
+    },
+    {
+      "question": "Fake news awareness belongs mainly to",
+      "options": [
+        "Media literacy",
+        "Book binding",
+        "Classification",
+        "Descriptive cataloguing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Media literacy teaches people to question media messages, recognize fake news, and evaluate content carefully. This skill is very important in today’s information environment."
+    },
+    {
+      "question": "Which of the following is a form of internet service communication?",
+      "options": [
+        "Dewey Decimal",
+        "Instant messaging",
+        "Yearbook",
+        "Call number"
+      ],
+      "answerIndex": 1,
+      "explanation": "Instant messaging is a form of internet service communication because it allows people to exchange messages online in real time. The other options belong to library organization, not online communication."
+    },
+    {
+      "question": "Voice over Internet Protocol is associated with",
+      "options": [
+        "Internet telephony",
+        "Bibliography",
+        "Public library",
+        "Printer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Voice over Internet Protocol, VoIP, is part of internet telephony. It allows people to make voice calls over the internet instead of traditional telephone lines."
+    },
+    {
+      "question": "Internet Relay Chat is mainly",
+      "options": [
+        "A storage device",
+        "A multi-user chat platform",
+        "A search engine",
+        "A printer type"
+      ],
+      "answerIndex": 1,
+      "explanation": "Internet Relay Chat, IRC, is a multi-user chat system that allows group discussions in channels or chat rooms. It is a communication service, not hardware or a search engine."
+    },
+    {
+      "question": "Which of the following is asynchronous communication?",
+      "options": [
+        "Instant video call",
+        "Real-time web reference",
+        "Email",
+        "Face-to-face classroom talk"
+      ],
+      "answerIndex": 2,
+      "explanation": "Asynchronous communication does not require both parties to interact at the same time. Email fits this because the sender and receiver do not need to be online simultaneously."
+    },
+    {
+      "question": "Which of the following is NOT a component of study habits in your material?",
+      "options": [
+        "Time management",
+        "Good study environment",
+        "Note taking",
+        "Library binding"
+      ],
+      "answerIndex": 3,
+      "explanation": "The material lists time management, good study environment, test taking and preparation, note taking, and reading skills as components of study habits. Library binding is unrelated to study habits."
+    },
+    {
+      "question": "Good time management helps students avoid",
+      "options": ["Reading", "Procrastination", "Learning", "Note taking"],
+      "answerIndex": 1,
+      "explanation": "Good time management helps prevent procrastination because it allows a student to plan study time properly and avoid last-minute rushing. This is a very common exam idea in study-skills questions."
+    },
+    {
+      "question": "SQ3R begins with",
+      "options": ["Survey", "Scan", "Study", "Summarize"],
+      "answerIndex": 0,
+      "explanation": "SQ3R stands for Survey, Question, Read, Recite, Review. The first step is Survey, which means scanning the material to get an overview before deep reading."
+    },
+    {
+      "question": "PQ4R includes all EXCEPT",
+      "options": ["Preview", "Question", "Reflect", "Record"],
+      "answerIndex": 3,
+      "explanation": "PQ4R stands for Preview, Question, Read, Reflect, Recite, Review. Record is not one of the steps, so it is the correct exception."
+    },
+    {
+      "question": "In SQ3R, 'recite' means",
+      "options": [
+        "Ignore the material",
+        "Recall answers and note them",
+        "Sell the textbook",
+        "Rewrite the chapter fully"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recite means trying to recall what has been read, often by speaking it out or writing key answers from memory. This helps understanding and retention."
+    },
+    {
+      "question": "A good study environment should be",
+      "options": [
+        "Noisy and crowded",
+        "Free from distraction and noise",
+        "Inside a cinema",
+        "Always near television"
+      ],
+      "answerIndex": 1,
+      "explanation": "A good study environment should be conducive, meaning calm, quiet, and free from distractions. This allows the student to focus and study more effectively."
+    },
+    {
+      "question": "Note taking skill requires the student to",
+      "options": [
+        "Copy everything word for word always",
+        "Discern important points",
+        "Avoid writing while listening",
+        "Ignore lecturer explanations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Good note taking means identifying the important ideas and recording them in a useful way, often in your own words. It does not mean writing every single word without thinking."
+    },
+    {
+      "question": "Reading skills improve when you",
+      "options": [
+        "Read only when sleepy",
+        "Set reading goals",
+        "Avoid lectures",
+        "Never review"
+      ],
+      "answerIndex": 1,
+      "explanation": "Setting reading goals helps guide attention and makes study more purposeful. The lesson also encourages reading at the right time and at the right pace for the material."
+    },
+    {
+      "question": "Test preparation skill includes",
+      "options": [
+        "Predicting likely questions",
+        "Avoiding revision",
+        "Skipping notes",
+        "Ignoring study groups"
+      ],
+      "answerIndex": 0,
+      "explanation": "The material explains that good test preparation includes trying to predict possible questions, reviewing notes in advance, and even joining study groups to become better prepared."
+    },
+    {
+      "question": "Which study method includes 'reflect'?",
+      "options": ["SQ3R", "PQ4R", "Cornell", "Mnemonic"],
+      "answerIndex": 1,
+      "explanation": "Reflect is part of PQ4R, not SQ3R. This is one of the easiest places where examiners try to confuse students, so remembering the full expansions matters."
+    },
+    {
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "SQ3R – Preview first",
+        "PQ4R – Reflect included",
+        "SQ3R – Reflect included",
+        "PQ4R – Survey included only"
+      ],
+      "answerIndex": 1,
+      "explanation": "PQ4R includes Reflect. SQ3R begins with Survey, while PQ4R begins with Preview. Examiners often mix these steps to test whether students truly know the study methods."
+    },
+    {
+      "question": "Joining a study group mainly supports",
+      "options": ["Isolation", "Test preparation", "Misfiling", "Copyrighting"],
+      "answerIndex": 1,
+      "explanation": "Study groups help students prepare for tests by discussing topics, asking questions, and practicing likely exam questions together. They are part of good study and revision habits."
+    },
+    {
+      "question": "Which action best supports concentration while studying?",
+      "options": [
+        "Keeping TV on",
+        "Frequent standing up unnecessarily",
+        "Switching phone to a non-distracting mode",
+        "Chatting continuously"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reducing distractions is essential for concentration. Putting the phone on silent or another non-distracting mode helps prevent interruptions and improves the quality of study."
+    },
+    {
+      "question": "The best description of study skills is the ability to",
+      "options": [
+        "Acquire, organize, remember, and use information effectively",
+        "Only memorize facts",
+        "Only type assignments",
+        "Only borrow books"
+      ],
+      "answerIndex": 0,
+      "explanation": "Study skills involve acquiring, organizing, remembering, and using information effectively. This broader definition shows that studying is not only about memorization but about managing and applying knowledge well."
+    },
+    {
+      "question": "Which of these is NOT a study technique by name?",
+      "options": ["SQ3R", "PQ4R", "DDC", "Review"],
+      "answerIndex": 2,
+      "explanation": "DDC means Dewey Decimal Classification, which is a library classification scheme, not a study technique. SQ3R and PQ4R are study methods, while review is one of their components."
+    },
+    {
+      "question": "Plagiarism is best defined as",
+      "options": [
+        "Proper acknowledgment of sources",
+        "Using another person’s work without acknowledgment",
+        "Buying textbooks",
+        "Formatting references"
+      ],
+      "answerIndex": 1,
+      "explanation": "Plagiarism is the use of another person's words, ideas, or work without proper acknowledgment. It is considered unethical because it presents someone else's intellectual effort as one's own."
+    },
+    {
+      "question": "Copying words exactly without acknowledgment is",
+      "options": [
+        "Mosaic plagiarism",
+        "Copy and paste plagiarism",
+        "Bibliography plagiarism",
+        "Outline plagiarism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Copy and paste plagiarism happens when words, images, or ideas are taken exactly as they are without acknowledgment. It is one of the most direct and obvious forms of plagiarism."
+    },
+    {
+      "question": "Using your own previously published work without acknowledging it is",
+      "options": [
+        "Ghost plagiarism",
+        "Self plagiarism",
+        "Source plagiarism",
+        "Clone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Self plagiarism happens when a person reuses his or her own earlier work without proper acknowledgment. Even though it is your work, it is still unethical if it is presented as entirely new."
+    },
+    {
+      "question": "Submitting another person’s entire work as your own is",
+      "options": ["Clone", "Retweet", "Abstracting", "Fair use"],
+      "answerIndex": 0,
+      "explanation": "Clone plagiarism means submitting another person's entire work as if it were yours. This is one of the most serious forms of plagiarism because it involves total copying."
+    },
+    {
+      "question": "Citing non-existent works is called",
+      "options": ["Mosaic", "Error 404", "Retweet", "Indexing"],
+      "answerIndex": 1,
+      "explanation": "Error 404 plagiarism refers to citing sources that do not actually exist. This is a serious ethical problem because it gives false scholarly support to a piece of work."
+    },
+    {
+      "question": "'Find-replace' plagiarism involves",
+      "options": [
+        "Correct paraphrasing",
+        "Changing a few words and claiming the work",
+        "Adding page numbers",
+        "Using quotation marks correctly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Find-replace plagiarism happens when a person changes only a few words in an existing work and presents it as original. It is not true paraphrasing because the structure and source idea are still improperly copied."
+    },
+    {
+      "question": "Which is the best way to avoid plagiarism?",
+      "options": [
+        "Cite sources properly",
+        "Copy faster",
+        "Use no sources at all",
+        "Change only two words"
+      ],
+      "answerIndex": 0,
+      "explanation": "Proper citation is one of the most reliable ways to avoid plagiarism because it gives credit to the original source of an idea or exact wording. In exams, this is often tested as a direct definition or prevention question."
+    },
+    {
+      "question": "When using exact words from a source, you should use",
+      "options": [
+        "Pictures only",
+        "Quotation marks",
+        "Footnotes only",
+        "Capital letters only"
+      ],
+      "answerIndex": 1,
+      "explanation": "When you quote a source word for word, you should place the words in quotation marks and cite the source. This shows clearly that the words are borrowed and not your own."
+    },
+    {
+      "question": "Good paraphrasing means",
+      "options": [
+        "Replacing a few words with synonyms only",
+        "Restating the idea in a genuinely new structure",
+        "Removing the author’s name",
+        "Copying the sentence fully"
+      ],
+      "answerIndex": 1,
+      "explanation": "Good paraphrasing means expressing the original idea in a new sentence structure and wording while preserving the meaning and still citing the source. Merely changing a few words is poor paraphrasing and may still count as plagiarism."
+    },
+    {
+      "question": "Common knowledge usually",
+      "options": [
+        "Must always have quotation marks",
+        "Never exists",
+        "May not need citation",
+        "Must be copyrighted"
+      ],
+      "answerIndex": 2,
+      "explanation": "Common knowledge refers to facts that are widely known and generally accepted, such as Nigeria gaining independence in 1960. Such facts may not need citation, though when in doubt it is safer to cite."
+    },
+    {
+      "question": "Which is an unethical referencing practice?",
+      "options": [
+        "Accurate author names",
+        "Complete reference list",
+        "Fictitious reference details",
+        "Proper citation style"
+      ],
+      "answerIndex": 2,
+      "explanation": "Using fictitious reference details is unethical because it misleads the reader and falsely suggests that proper research was done. Ethical referencing requires accuracy, completeness, and honesty."
+    },
+    {
+      "question": "Copyright infringement mainly concerns",
+      "options": [
+        "Subject classification",
+        "Unauthorized use or reproduction of protected work",
+        "Reading speed",
+        "Shelf order"
+      ],
+      "answerIndex": 1,
+      "explanation": "Copyright infringement involves using, reproducing, distributing, or modifying another person's protected work without permission. It is a legal and ethical issue, unlike plagiarism, which focuses more on acknowledgment."
+    },
+    {
+      "question": "Recording a movie in a cinema without permission is",
+      "options": [
+        "Fair use",
+        "Copyright infringement",
+        "Note taking",
+        "Public lending"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recording a movie in a cinema without permission is a form of copyright infringement because it involves unauthorized reproduction of protected content. The material lists it as a clear example."
+    },
+    {
+      "question": "Uploading someone else’s copyrighted work online without permission is",
+      "options": [
+        "Cataloguing",
+        "Copyright infringement",
+        "Indexing",
+        "Review writing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Uploading someone else's copyrighted material without permission violates copyright law because it distributes protected intellectual property unlawfully."
+    },
+    {
+      "question": "Starting an assignment early helps reduce",
+      "options": [
+        "Library usage",
+        "Plagiarism temptation",
+        "Cataloguing errors",
+        "RAM speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Starting early gives a student enough time to read, understand, paraphrase, and reference properly. This reduces the pressure that often leads students to copy carelessly or plagiarize."
+    },
+    {
+      "question": "Information literacy mainly involves the ability to",
+      "options": [
+        "Decorate shelves",
+        "Define, locate, evaluate, and use information effectively",
+        "Print photographs only",
+        "Repair hardware"
+      ],
+      "answerIndex": 1,
+      "explanation": "Information literacy is the ability to identify information needs, locate suitable information, evaluate it critically, and use it effectively and ethically. It is central to research and academic success."
+    },
+    {
+      "question": "A directional reference question asks",
+      "options": [
+        "For a full thesis",
+        "How to get to a place or resource in the library",
+        "For a yearly summary",
+        "For a movie ticket"
+      ],
+      "answerIndex": 1,
+      "explanation": "Directional reference questions ask for directions within the library, such as where dictionaries, journals, or the catalogue are located. They are common with new library users."
+    },
+    {
+      "question": "A ready reference question usually requires",
+      "options": [
+        "Long field research",
+        "A straight-to-the-point answer",
+        "No answer",
+        "A laboratory experiment"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ready reference questions ask for quick, factual answers, such as a date, name, distance, or population. They are often answered immediately using reference tools or reliable quick sources."
+    },
+    {
+      "question": "Which is a synchronous form of reference service?",
+      "options": ["FAQ page", "Email", "Video conferencing", "Blog post"],
+      "answerIndex": 2,
+      "explanation": "Synchronous communication happens in real time. Video conferencing allows immediate two-way interaction, so it is synchronous, unlike email, blogs, or FAQs."
+    },
+    {
+      "question": "Which of the following is a browser?",
+      "options": ["Google", "Bing", "Chrome", "Yahoo Search"],
+      "answerIndex": 2,
+      "explanation": "Chrome is a browser because it is software used to open and display web pages. Google, Bing, and Yahoo Search are commonly used as search engines that help users find information online."
+    },
+    {
+      "question": "Which application is best for preparing slides?",
+      "options": ["Excel", "PowerPoint", "Word", "Access"],
+      "answerIndex": 1,
+      "explanation": "PowerPoint is designed for creating slide presentations. Word is for typed documents, while Excel is mainly for spreadsheets and calculations."
+    },
+    {
+      "question": "Which application is best for typed documents and letters?",
+      "options": ["Word", "Excel", "PowerPoint", "Paint"],
+      "answerIndex": 0,
+      "explanation": "Microsoft Word is the standard word-processing application used for creating letters, reports, assignments, and other text-based documents."
+    },
+    {
+      "question": "Which application is best for tables and calculations?",
+      "options": ["Word", "Excel", "PowerPoint", "VLC"],
+      "answerIndex": 1,
+      "explanation": "Excel is a spreadsheet application, so it is best for tables, numerical entries, formulas, and calculations. This type of basic ICT distinction is commonly tested."
+    },
+    {
+      "question": "Which of the following best describes a URL?",
+      "options": [
+        "A search engine result",
+        "A web address",
+        "A printer cable",
+        "A word-processing file"
+      ],
+      "answerIndex": 1,
+      "explanation": "A URL is a web address used to locate a specific resource or page on the internet. Students are often asked to distinguish URL from browser, homepage, and search engine."
+    },
+    {
+      "question": "Which pair is correctly distinguished?",
+      "options": [
+        "Browser finds results; search engine displays webpages",
+        "Search engine finds webpages; browser opens webpages",
+        "Browser stores RAM; search engine prints files",
+        "Search engine is hardware; browser is storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "A search engine helps users find web pages and information, while a browser is the software used to open and view those pages. This distinction is commonly tested because students often confuse the two."
+    },
+    {
+      "question": "The users of a public library may include",
+      "options": [
+        "Only university lecturers",
+        "Only secondary school students",
+        "Different categories of people in society",
+        "Only researchers in laboratories"
+      ],
+      "answerIndex": 2,
+      "explanation": "Public libraries are open to all categories of people in society, including students, workers, retirees, artisans, and people with special needs. This is one of their defining features."
+    },
+    {
+      "question": "Which of the following is a main function of public libraries?",
+      "options": [
+        "Issuing ISBN",
+        "Providing free service to all",
+        "Training only cataloguers",
+        "Supervising copyright court cases"
+      ],
+      "answerIndex": 1,
+      "explanation": "A major function of the public library is to provide free service to the public. This includes access to resources, reading spaces, and community support services."
+    },
+    {
+      "question": "Which of the following is another main function of the national library?",
+      "options": [
+        "Serving as national bibliographic center",
+        "Running private hostel accommodation",
+        "Selling printers to students",
+        "Providing only sports facilities"
+      ],
+      "answerIndex": 0,
+      "explanation": "Apart from legal deposit and issuing ISBN, the national library also serves as the national bibliographic center. This makes it important in preserving and documenting national publications."
+    },
+    {
+      "question": "Which of the following best describes reference sources?",
+      "options": [
+        "Materials meant to be read from cover to cover",
+        "Resources that contain specific items of information",
+        "Only fiction books",
+        "Books meant mainly for home borrowing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reference sources are materials consulted for specific information rather than read continuously from beginning to end. Examples include dictionaries, encyclopedias, indexes, and yearbooks."
+    },
+    {
+      "question": "If a student wants background information before starting an assignment, the best first source is a",
+      "options": ["Handbook", "Encyclopedia", "Directory", "Atlas"],
+      "answerIndex": 1,
+      "explanation": "An encyclopedia is often the best starting point for getting background information on a topic. It gives a broad overview and can point the student to further sources."
+    },
+    {
+      "question": "If a student needs contact details of staff members in an institution, the best source is a",
+      "options": ["Directory", "Bibliography", "Index", "Yearbook"],
+      "answerIndex": 0,
+      "explanation": "A directory contains contact information such as names, phone numbers, addresses, and email addresses. This makes it the correct source for institutional contacts."
+    },
+    {
+      "question": "Which of the following is true about indexes?",
+      "options": [
+        "They provide maps of countries",
+        "They guide users to documents on a subject",
+        "They summarize a whole year’s events",
+        "They contain only dictionary meanings"
+      ],
+      "answerIndex": 1,
+      "explanation": "Indexes guide users to relevant documents on a subject, author, or topic. They are important research tools because they help users trace where needed information can be found."
+    },
+    {
+      "question": "An atlas is mainly a collection of",
+      "options": ["Poems", "Maps", "Journal abstracts", "Email addresses"],
+      "answerIndex": 1,
+      "explanation": "An atlas is a bound collection of maps and is used for geographical information. This makes it different from a directory or bibliography."
+    },
+    {
+      "question": "A card catalogue records bibliographic details on",
+      "options": [
+        "Flash drives",
+        "3 by 5 inch cards",
+        "Only mobile phones",
+        "Wall charts"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson explains that card catalogue entries are recorded on 3 by 5 inch cards and arranged alphabetically in drawers within a catalogue cabinet."
+    },
+    {
+      "question": "Which of the following is an advantage of card catalogue?",
+      "options": [
+        "Prone to misfiling",
+        "It can be removed easily",
+        "Flexibility",
+        "It wears out quickly"
+      ],
+      "answerIndex": 2,
+      "explanation": "Card catalogue is flexible and allows simultaneous access. The other options are disadvantages, not advantages."
+    },
+    {
+      "question": "Which of the following is a demerit of book catalogue?",
+      "options": [
+        "Portable",
+        "Cheap to maintain",
+        "Not flexible",
+        "Can be replicated in many places"
+      ],
+      "answerIndex": 2,
+      "explanation": "Book catalogue is portable and cheap, but one of its major weaknesses is that it is not flexible. Updating it is difficult compared with newer catalogue systems."
+    },
+    {
+      "question": "One clear benefit of CD-ROM catalogue is that it",
+      "options": [
+        "Needs no computer at all",
+        "Can be replicated",
+        "Can never be damaged",
+        "Is always online"
+      ],
+      "answerIndex": 1,
+      "explanation": "A CD-ROM catalogue can be replicated and is portable. However, it still requires a computer with a CD drive and can be damaged if not handled properly."
+    },
+    {
+      "question": "Which of the following is a demerit of OPAC?",
+      "options": [
+        "Flexible updating",
+        "Simultaneous usage",
+        "Expensive to set up",
+        "No geographical hindrance"
+      ],
+      "answerIndex": 2,
+      "explanation": "OPAC has many strengths, but one important disadvantage is the high cost of setup and maintenance. It may also be difficult for users with low ICT skills."
+    },
+    {
+      "question": "Cataloguing is described in the material as the",
+      "options": [
+        "Decoration of the library",
+        "Soul of librarianship",
+        "History of the internet",
+        "Punishment for late return"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson describes cataloguing as the soul of librarianship because it is central to organizing, describing, and making resources accessible in the library."
+    },
+    {
+      "question": "According to the lesson, cataloguing is of how many major types?",
+      "options": ["One", "Two", "Three", "Four"],
+      "answerIndex": 1,
+      "explanation": "The lesson says cataloguing is of two types: descriptive cataloguing and subject cataloguing. In the unit, focus is placed mainly on descriptive cataloguing."
+    },
+    {
+      "question": "AACR2 is mainly associated with",
+      "options": [
+        "Reference interviewing",
+        "Descriptive cataloguing",
+        "Internet telephony",
+        "Study timetable design"
+      ],
+      "answerIndex": 1,
+      "explanation": "AACR2 stands for Anglo-American Cataloguing Rules II. It provides standard rules for descriptive cataloguing to ensure uniformity and standardization."
+    },
+    {
+      "question": "In descriptive cataloguing, the place of publication, publisher, and year belong to the",
+      "options": [
+        "Notes area",
+        "Imprint or publication area",
+        "Series statement",
+        "Heading"
+      ],
+      "answerIndex": 1,
+      "explanation": "The imprint or publication area contains the place of publication, publisher's name, and year. This part helps identify the publication details of a document."
+    },
+    {
+      "question": "In descriptive cataloguing, the physical description of a book is known as",
+      "options": ["Collation", "Heading", "Index", "Glossary"],
+      "answerIndex": 0,
+      "explanation": "Collation refers to the physical description of the resource, such as page numbers, illustrations, and size. It helps describe the physical makeup of the item."
+    },
+    {
+      "question": "Which of the following may appear in the notes area for books according to the lesson?",
+      "options": [
+        "Index and bibliography",
+        "Foreword and preface only",
+        "Cover color and price",
+        "Shelf mark and accession number"
+      ],
+      "answerIndex": 0,
+      "explanation": "The lesson specifically notes that index and bibliography are part of the notes area in descriptive cataloguing for books. This is a detail examiners can test directly."
+    },
+    {
+      "question": "Which of the following statements about ISBN is correct?",
+      "options": [
+        "It is only for journals",
+        "It is copied into the catalogue as it appears in the book",
+        "It replaces the author’s name",
+        "It is not important in cataloguing"
+      ],
+      "answerIndex": 1,
+      "explanation": "ISBN is an important identifier for books and is copied into the catalogue exactly as it appears. It shows that the work is formally recognized as a publication."
+    },
+    {
+      "question": "Which of the following is one of Ranganathan’s laws of library science mentioned in the lesson?",
+      "options": [
+        "Books are for sale",
+        "Every reader his or her book",
+        "Every shelf its printer",
+        "Catalogues are for librarians only"
+      ],
+      "answerIndex": 1,
+      "explanation": "One of Ranganathan’s laws is 'Every reader his or her book.' The lesson uses these laws to explain why classification is important in organizing the library for effective access."
+    },
+    {
+      "question": "If a book treats more than three subjects, it should generally be classified in",
+      "options": [
+        "The first subject mentioned",
+        "The most general class that combines them",
+        "The author’s favorite subject",
+        "Any empty shelf"
+      ],
+      "answerIndex": 1,
+      "explanation": "A principle of classification states that when a book covers more than three subjects, it should be placed in the broad general class that brings them together. This avoids misleading over-specific placement."
+    },
+    {
+      "question": "The reference process includes all EXCEPT",
+      "options": [
+        "Information need or gap",
+        "Reference interview",
+        "Search strategy",
+        "Book publishing contract"
+      ],
+      "answerIndex": 3,
+      "explanation": "The reference process includes identifying the information need, conducting a reference interview, creating a search strategy, interacting with the user, providing an answer, and receiving a response. A publishing contract is unrelated."
+    },
+    {
+      "question": "A research question in reference service usually requires",
+      "options": [
+        "Only a one-word reply",
+        "Use of a variety of scholarly sources",
+        "No librarian support",
+        "Only a dictionary"
+      ],
+      "answerIndex": 1,
+      "explanation": "Research questions are more serious and usually need scholarly materials and multiple sources. They go beyond quick or directional questions because the information need is deeper."
+    },
+    {
+      "question": "Which of the following is an asynchronous reference service tool?",
+      "options": [
+        "Video conferencing",
+        "Instant messaging",
+        "Email",
+        "Real-time web reference"
+      ],
+      "answerIndex": 2,
+      "explanation": "Email is asynchronous because communication does not happen instantly in real time. The user sends a message and waits for a response later."
+    },
+    {
+      "question": "Which of the following is a synchronous reference service tool?",
+      "options": [
+        "FAQ page",
+        "Blog",
+        "Text-based instant messaging",
+        "Stored web article"
+      ],
+      "answerIndex": 2,
+      "explanation": "Text-based instant messaging is synchronous because both users communicate instantly. This allows immediate two-way interaction between the librarian and the library user."
+    },
+    {
+      "question": "Which philosophical school of thought about reference service emphasizes the highest level of support?",
+      "options": [
+        "Maximum Service School",
+        "Minimum Service School",
+        "Middling School",
+        "Silent School"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Maximum Service School supports giving users extensive assistance in meeting their information needs. This idea appears in the lesson on reference service."
+    },
+    {
+      "question": "Which of the following is a quality expected of a reference librarian?",
+      "options": [
+        "Poor communication",
+        "Approachability",
+        "Carelessness",
+        "Silence at all times"
+      ],
+      "answerIndex": 1,
+      "explanation": "A reference librarian should be approachable, resourceful, and a good communicator. These qualities help users feel comfortable asking questions and receiving guidance."
+    },
+    {
+      "question": "Which of the following best describes ethical issues in information use?",
+      "options": [
+        "Only computer repairs",
+        "Plagiarism, copyright infringement, and unethical referencing",
+        "Only shelf arrangement",
+        "Only internet costs"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson identifies plagiarism, copyright infringement, and unethical referencing as major ethical issues in information use. These are central areas for GST 121 MCQ questions."
+    },
+    {
+      "question": "Which of the following is a type of plagiarism where someone writes the work for another person who then claims it?",
+      "options": [
+        "Ghost plagiarism",
+        "Atlas plagiarism",
+        "Utility plagiarism",
+        "Index plagiarism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ghost plagiarism occurs when a person claims work written by someone else as his or her own. This includes situations where another person is hired or asked to produce the work."
+    },
+    {
+      "question": "Which of the following is true about paraphrasing?",
+      "options": [
+        "It means replacing only one or two words",
+        "It means restating the idea fully in your own way",
+        "It removes the need to cite always",
+        "It is the same as direct quotation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Proper paraphrasing means restating another author's idea in a new structure and wording while still preserving the meaning and citing the source. It is different from quoting directly."
+    },
+    {
+      "question": "Which of the following helps avoid copyright infringement?",
+      "options": [
+        "Assuming all content is free to use",
+        "Asking for permission when necessary",
+        "Recording any film you want",
+        "Uploading books without permission"
+      ],
+      "answerIndex": 1,
+      "explanation": "Seeking permission when needed is one of the safest ways to avoid copyright infringement. The lesson also advises creating original content and using public-domain materials where appropriate."
+    },
+    {
+      "question": "Which of the following best explains media-literate behavior?",
+      "options": [
+        "Believing every headline immediately",
+        "Fact-checking and evaluating media content",
+        "Ignoring all news sources forever",
+        "Using only one media platform"
+      ],
+      "answerIndex": 1,
+      "explanation": "A media-literate person evaluates media messages critically, checks facts, and recognizes that media may contain bias or misinformation. This skill is very important in the digital age."
+    },
+    {
+      "question": "Which digital literacy component emphasizes using evaluation criteria such as authority and accuracy?",
+      "options": ["Find", "Use", "Disseminate", "Store"],
+      "answerIndex": 1,
+      "explanation": "The 'use' component of digital literacy focuses on evaluating digital information critically. It includes judging authority, reliability, and relevance before accepting or applying information."
+    },
+    {
+      "question": "Which of the following is one benefit of AI to students mentioned in the lesson?",
+      "options": [
+        "Replacing all teachers permanently",
+        "Personalizing learning",
+        "Eliminating all reading",
+        "Removing the need for research"
+      ],
+      "answerIndex": 1,
+      "explanation": "The lesson explains that AI can personalize learning and support students by complementing classroom teaching. It can also assist research and provide simulations, but should be used ethically."
+    },
+    {
+      "question": "Which of the following is one ethical rule for student use of AI?",
+      "options": [
+        "Use AI as a total replacement for your thinking",
+        "Hide your AI use from instructors always",
+        "Use AI as a supplement, not a replacement",
+        "Never question AI output"
+      ],
+      "answerIndex": 2,
+      "explanation": "The material advises students to use AI as a supplement rather than a total replacement. AI should support learning, not completely take over the student's own effort and judgment."
+    },
+    {
+      "question": "Which of the following is recommended when using AI in learning and research?",
+      "options": [
+        "Be transparent about AI use",
+        "Pretend the work is entirely yours",
+        "Ignore instructor guidance",
+        "Use AI blindly"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transparency is important in ethical AI use. Students are advised to acknowledge the use of AI and follow instructor guidance so that they do not violate academic integrity rules."
+    },
+    {
+      "question": "Which of the following is listed as an input device in the material?",
+      "options": ["Projector", "Scanner", "Printer", "Speaker"],
+      "answerIndex": 1,
+      "explanation": "A scanner is an input device because it captures text or images and sends them into the computer. Projector, printer, and speaker are all output devices."
+    },
+    {
+      "question": "Which of the following is a strength of internet service communication?",
+      "options": [
+        "Privacy concerns",
+        "Spamming",
+        "Enhances collaboration",
+        "Connectivity issues"
+      ],
+      "answerIndex": 2,
+      "explanation": "One major strength of internet service communication is that it enhances collaboration. People can work together from different places using tools such as video conferencing and shared online documents."
+    },
+    {
+      "question": "Which of the following is a weakness of internet service communication?",
+      "options": [
+        "Improves productivity",
+        "Creates job opportunities",
+        "Privacy concerns",
+        "Makes communication easier"
+      ],
+      "answerIndex": 2,
+      "explanation": "Privacy concerns are a weakness because hackers, data leaks, and identity theft may affect online communication. The other options are strengths, not weaknesses."
+    },
+    {
+      "question": "Spamming in internet communication refers to",
+      "options": [
+        "Organized cataloguing",
+        "Unwanted bulk messages",
+        "Improved signal strength",
+        "Digital literacy skill"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spamming means receiving unwanted messages, usually advertisements or junk mail. It can make it hard to locate important messages and is a common weakness of online communication."
+    },
+    {
+      "question": "Which of the following is an example of internet telephony?",
+      "options": ["VoIP", "Bibliography", "Card catalogue", "Atlas"],
+      "answerIndex": 0,
+      "explanation": "VoIP, Voice over Internet Protocol, is an example of internet telephony because it allows voice calls over the internet. It is part of internet-based communication services."
+    },
+    {
+      "question": "Which of the following is a common use of video conferencing?",
+      "options": [
+        "Sorting books by class number",
+        "Holding virtual meetings",
+        "Binding journals",
+        "Producing ISBN"
+      ],
+      "answerIndex": 1,
+      "explanation": "Video conferencing is used for virtual meetings, classes, collaboration, and presentations. It became especially important during remote learning and work."
+    },
+    {
+      "question": "Which of the following is NOT one of the four indicators of word processing skills in the lesson?",
+      "options": [
+        "Basic word processing",
+        "Save, retrieve and print files",
+        "Margins and alignment",
+        "Library shelving"
+      ],
+      "answerIndex": 3,
+      "explanation": "The lesson groups word processing skills into four indicators: basic word processing, save/retrieve/print files, margins and alignment, and formatting. Library shelving is unrelated."
+    },
+    {
+      "question": "Which shortcut is commonly used to save a document according to the lesson?",
+      "options": ["Ctrl + S", "Ctrl + P", "Ctrl + J", "Ctrl + X"],
+      "answerIndex": 0,
+      "explanation": "Ctrl + S is a common shortcut for saving a document. Students should know this because practical ICT questions often test basic computer and word-processing operations."
+    },
+    {
+      "question": "Which of the following best describes alignment in word processing?",
+      "options": [
+        "Connecting to the internet",
+        "Positioning text properly in a document",
+        "Scanning a photo",
+        "Deleting a folder"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alignment refers to how text is positioned in a document, such as left, center, right, or justified. It is part of making a document neat and properly formatted."
+    },
+    {
+      "question": "Which shortcut is associated with justify alignment in the lesson?",
+      "options": ["Ctrl + B", "Ctrl + J", "Ctrl + U", "Ctrl + L"],
+      "answerIndex": 1,
+      "explanation": "The lesson mentions Ctrl + J as a shortcut for justified alignment. This makes text align evenly on both the left and right margins."
+    },
+    {
+      "question": "Which of the following belongs to formatting in word processing?",
+      "options": [
+        "Bold, italic, and underline",
+        "Cataloguing and classification",
+        "Dewey and LC",
+        "ISBN and ISSN"
+      ],
+      "answerIndex": 0,
+      "explanation": "Formatting in word processing includes features such as bold, italic, underline, line spacing, and font adjustments. These help improve the appearance and readability of documents."
+    }
+  ]
+}
