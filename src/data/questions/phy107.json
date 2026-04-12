@@ -1,0 +1,1108 @@
+{
+    "courseDetails": {
+        "id": "PHY107",
+        "name": "General Practical Physics I"
+    },
+    "questions": [
+        {
+            "question": "A nonlinear relation y = ax^2 + bx is best linearized for slope determination by plotting:",
+            "options": [
+                "y/x versus x",
+                "y versus x^2",
+                "√y versus x",
+                "y versus x"
+            ],
+            "answerIndex": 0,
+            "explanation": "Divide all terms by x to get y/x = ax + b. Plotting y/x on the Y-axis and x on the X-axis gives a straight line with slope 'a'."
+        },
+        {
+            "question": "The gradient of a graph plotted from y = k/x after linearization represents:",
+            "options": [
+                "1/k",
+                "-k",
+                "constant k",
+                "log k"
+            ],
+            "answerIndex": 2,
+            "explanation": "To linearize, plot y versus 1/x. The equation becomes y = k(1/x), which matches y = mx. The slope m is the constant k."
+        },
+        {
+            "question": "When linearizing T^2 = (4π^2/g)L, the intercept ideally equals:",
+            "options": [
+                "g",
+                "g / 4π^2",
+                "4π^2",
+                "zero"
+            ],
+            "answerIndex": 3,
+            "explanation": "The equation is in the form y = mx + c. Since there is no '+ c' term, the theoretical intercept is zero."
+        },
+        {
+            "question": "A best-fit line that does not pass through the origin despite theory predicting so suggests:",
+            "options": [
+                "random error only",
+                "systematic experimental error",
+                "improper scaling",
+                "numerical rounding"
+            ],
+            "answerIndex": 1,
+            "explanation": "Systematic errors consistently shift the entire graph by a fixed amount, causing a non-zero intercept."
+        },
+        {
+            "question": "Which transformation converts y = a e^(-bx) into a straight-line form?",
+            "options": [
+                "y versus x",
+                "ln y versus x",
+                "y versus ln x",
+                "ln x versus y"
+            ],
+            "answerIndex": 1,
+            "explanation": "Taking the natural log of both sides gives ln y = ln a - bx. Plotting ln y versus x gives a straight line."
+        },
+        {
+            "question": "In determining slope error, points chosen should be:",
+            "options": [
+                "randomly selected",
+                "farthest apart along the line",
+                "closest together",
+                "at the origin"
+            ],
+            "answerIndex": 1,
+            "explanation": "Choosing points far apart minimizes the relative error in reading the coordinates from the graph."
+        },
+        {
+            "question": "If a straight-line graph has equation y = mx + c and both x and y have uncertainties, the slope uncertainty is best obtained using:",
+            "options": [
+                "percentage error averaging",
+                "graph intercept method",
+                "maximum and minimum slope method",
+                "least count method"
+            ],
+            "answerIndex": 2,
+            "explanation": "The maximum and minimum slope method (centroid method) accounts for the error bars on both axes to find the range of possible slopes."
+        },
+        {
+            "question": "The principal advantage of graphical error estimation over analytical methods is that it:",
+            "options": [
+                "eliminates calculations",
+                "removes systematic errors",
+                "improves least count",
+                "accounts for experimental scatter visually"
+            ],
+            "answerIndex": 3,
+            "explanation": "Graphs allow you to visually identify outliers and see the overall scatter (random error) of the data points."
+        },
+        {
+            "question": "A graph plotted with unequal scale divisions primarily affects the:",
+            "options": [
+                "random uncertainty",
+                "accuracy of slope determination",
+                "value of intercept",
+                "zero error"
+            ],
+            "answerIndex": 1,
+            "explanation": "Unequal scale divisions distort the line, severely impacting the accuracy of the calculated slope."
+        },
+        {
+            "question": "The non-zero intercept in a T^2 versus m graph for a spring experiment is due to:",
+            "options": [
+                "effective mass of the spring",
+                "air resistance",
+                "error in stopwatch",
+                "pivot friction"
+            ],
+            "answerIndex": 0,
+            "explanation": "The mass of the spring and hanger contributes to the oscillation, shifting the graph along the mass axis to create an intercept."
+        },
+        {
+            "question": "What is the slope of a graph of log(P) against log(V) for Boyle's law PV = k?",
+            "options": [
+                "1",
+                "-1",
+                "k",
+                "log k"
+            ],
+            "answerIndex": 1,
+            "explanation": "Log(PV) = log(k) becomes log(P) + log(V) = log(k). Rearranging gives log(P) = -1*log(V) + log(k), so the slope is -1."
+        },
+        {
+            "question": "To linearize Coulomb's law F = k(q1q2/r^2), you should plot:",
+            "options": [
+                "F vs r",
+                "F vs 1/r",
+                "F vs 1/r^2",
+                "F vs r^2"
+            ],
+            "answerIndex": 2,
+            "explanation": "By treating (1/r^2) as the x-variable, the equation becomes F = (k q1q2) * (1/r^2), which is a straight line y = mx."
+        },
+        {
+            "question": "In experimental linearization, logarithmic plotting is preferred for y = kx^n because it:",
+            "options": [
+                "removes intercept",
+                "converts power laws into linear form",
+                "reduces least count",
+                "makes the error become zero"
+            ],
+            "answerIndex": 1,
+            "explanation": "Taking the log gives log(y) = n*log(x) + log(k), converting the power relation 'n' into a linear slope."
+        },
+        {
+            "question": "Random errors in graph plotting are identified by:",
+            "options": [
+                "curvature of graph",
+                "shift of intercept",
+                "scatter of points about best-fit line",
+                "change in slope"
+            ],
+            "answerIndex": 2,
+            "explanation": "Random errors cause unpredictable fluctuations, seen as a scatter of data points around the theoretical best-fit line."
+        },
+        {
+            "question": "Which condition invalidates slope-based constant determination?",
+            "options": [
+                "curved experimental plot with linear assumption",
+                "small intercept",
+                "large data set",
+                "fine graph scale"
+            ],
+            "answerIndex": 0,
+            "explanation": "If the data plots as a curve when a straight line was assumed, the linear equation (and its slope) cannot be used to find constants."
+        },
+        {
+            "question": "If Q = a^2 * b^(-1/2), the fractional error in Q is:",
+            "options": [
+                "(2Δa/a) + (1/2)(Δb/b)",
+                "(2Δa/a) - (1/2)(Δb/b)",
+                "(Δa/a) + (Δb/b)",
+                "2Δa + (1/2)Δb"
+            ],
+            "answerIndex": 0,
+            "explanation": "Relative errors always add, regardless of division or negative powers. The exponent drops down as a positive multiplier."
+        },
+        {
+            "question": "If the slope of y vs x graph is m ± Δm, the percentage error in m is:",
+            "options": [
+                "Δm",
+                "(Δm/m) × 100%",
+                "Δm × 100",
+                "m/Δm"
+            ],
+            "answerIndex": 1,
+            "explanation": "Percentage error is calculated by dividing the absolute error (Δm) by the measured value (m) and multiplying by 100%."
+        },
+        {
+            "question": "A straight line with large slope uncertainty indicates:",
+            "options": [
+                "high accuracy",
+                "poor experimental precision",
+                "systematic correction",
+                "required linearization"
+            ],
+            "answerIndex": 1,
+            "explanation": "High uncertainty in the slope means the data points are heavily scattered, which is a sign of poor precision."
+        },
+        {
+            "question": "The difference between a measured value and the true value is called:",
+            "options": [
+                "Precision",
+                "Uncertainty",
+                "Error",
+                "Bias"
+            ],
+            "answerIndex": 2,
+            "explanation": "Error is strictly defined as the deviation of the measured experimental value from the actual or true value."
+        },
+        {
+            "question": "Parallax error is a type of:",
+            "options": [
+                "Systematic error",
+                "Random error",
+                "Zero error",
+                "Observation/Reading error"
+            ],
+            "answerIndex": 3,
+            "explanation": "Parallax occurs when the scale is read from an angle rather than straight on, classifying it as a reading or observation error."
+        },
+        {
+            "question": "A student measures g as 9.5 m/s^2. The standard value is 9.8 m/s^2. The percentage error is approximately:",
+            "options": [
+                "3%",
+                "3.1%",
+                "30%",
+                "0.03%"
+            ],
+            "answerIndex": 1,
+            "explanation": "Percentage Error = (|9.5 - 9.8| / 9.8) * 100 = (0.3 / 9.8) * 100 ≈ 3.06%, which rounds to 3.1%."
+        },
+        {
+            "question": "Precision refers to:",
+            "options": [
+                "How close a reading is to the true value.",
+                "The agreement among repeated measurements.",
+                "The scale of the instrument.",
+                "The fractional error."
+            ],
+            "answerIndex": 1,
+            "explanation": "Precision describes how close multiple measurements of the same quantity are to each other (consistency)."
+        },
+        {
+            "question": "Which of the following reduces random errors?",
+            "options": [
+                "Zeroing the instrument",
+                "Taking repeated measurements and finding the average",
+                "Changing the instrument",
+                "Linearizing the graph"
+            ],
+            "answerIndex": 1,
+            "explanation": "Random errors fluctuate above and below the true value. Taking an average mathematically cancels out these fluctuations."
+        },
+        {
+            "question": "If length L = 20 ± 0.2 cm and width W = 10 ± 0.1 cm, the absolute uncertainty in L + W is:",
+            "options": [
+                "0.1 cm",
+                "0.2 cm",
+                "0.3 cm",
+                "30 cm"
+            ],
+            "answerIndex": 2,
+            "explanation": "When adding or subtracting quantities, their absolute uncertainties simply add up: 0.2 + 0.1 = 0.3 cm."
+        },
+        {
+            "question": "If mass m = 10 ± 1 kg, the relative uncertainty is:",
+            "options": [
+                "1",
+                "0.1",
+                "10%",
+                "10"
+            ],
+            "answerIndex": 1,
+            "explanation": "Relative uncertainty is the absolute uncertainty divided by the measured value: 1 / 10 = 0.1."
+        },
+        {
+            "question": "An ammeter consistently reads 0.2 A when no current flows. This is an example of:",
+            "options": [
+                "Random error",
+                "Systematic error",
+                "Human error",
+                "Fractional error"
+            ],
+            "answerIndex": 1,
+            "explanation": "A consistent offset in one direction (like a zero error) is a systematic error."
+        },
+        {
+            "question": "The least count of an instrument determines its:",
+            "options": [
+                "Accuracy",
+                "Precision",
+                "Percentage error",
+                "True value"
+            ],
+            "answerIndex": 1,
+            "explanation": "The smallest value an instrument can measure (least count) limits how precisely a measurement can be stated."
+        },
+        {
+            "question": "The relative uncertainty in V = π * r^2 * h is:",
+            "options": [
+                "(2Δr/r) + (Δh/h)",
+                "π * ((2Δr/r) + (Δh/h))",
+                "(Δr/r) + (Δh/h)",
+                "(2Δr/r) - (Δh/h)"
+            ],
+            "answerIndex": 0,
+            "explanation": "Constants like π have no uncertainty. The powers become multipliers for relative errors, and errors always add."
+        },
+        {
+            "question": "To find the percentage difference between two experimental values A and B:",
+            "options": [
+                "(|A-B| / A) × 100",
+                "(|A-B| / Average) × 100",
+                "(|A-B| / True Value) × 100",
+                "|A-B| × 100"
+            ],
+            "answerIndex": 1,
+            "explanation": "Percentage difference compares two experimental values using their average as the denominator."
+        },
+        {
+            "question": "A large degree of precision implies a large degree of accuracy.",
+            "options": [
+                "True",
+                "False",
+                "Only for digital instruments",
+                "Only if random error is zero"
+            ],
+            "answerIndex": 1,
+            "explanation": "False. You can have measurements that are very close to each other (precise) but far from the true value (inaccurate) due to a systematic error."
+        },
+        {
+            "question": "The dominant error affecting Vernier caliper measurements of internal diameter is usually:",
+            "options": [
+                "parallax error",
+                "least count",
+                "error propagation",
+                "zero error"
+            ],
+            "answerIndex": 3,
+            "explanation": "Zero error is a critical factor in Vernier caliper readings and must be accounted for before concluding any measurement."
+        },
+        {
+            "question": "If the Vernier zero lies 0.03 cm to the left of the main scale zero, the zero error is:",
+            "options": [
+                "+0.03 cm",
+                "-0.03 cm",
+                "0.00 cm",
+                "undefined"
+            ],
+            "answerIndex": 1,
+            "explanation": "When the Vernier zero is to the left of the main zero, the jaws are completely closed but reading below 0, meaning the error is negative."
+        },
+        {
+            "question": "The corrected reading from a Vernier caliper with negative zero error is obtained by:",
+            "options": [
+                "subtracting the zero error magnitude",
+                "adding the zero error magnitude",
+                "ignoring zero error",
+                "rounding off value"
+            ],
+            "answerIndex": 1,
+            "explanation": "A negative zero error means the instrument is reading less than the actual value. You must add the magnitude back to get the true reading."
+        },
+        {
+            "question": "The least count of a micrometer screw gauge is typically:",
+            "options": [
+                "0.1 cm",
+                "0.01 cm",
+                "0.01 mm",
+                "0.001 mm"
+            ],
+            "answerIndex": 2,
+            "explanation": "A standard micrometer has a pitch of 0.5 mm and 50 divisions on the thimble. Least count = 0.5/50 = 0.01 mm."
+        },
+        {
+            "question": "The main scale of a micrometer reads 7.00 mm and the thimble scale reads 47. If the least count is 0.01 mm, the reading is:",
+            "options": [
+                "7.047 mm",
+                "7.47 mm",
+                "7.00 mm",
+                "11.7 mm"
+            ],
+            "answerIndex": 1,
+            "explanation": "Total reading = Main scale + (Thimble reading × Least count) = 7.00 + (47 × 0.01) = 7.47 mm."
+        },
+        {
+            "question": "Backlash error in a micrometer screw gauge is caused by:",
+            "options": [
+                "parallax",
+                "wear and tear of screw threads",
+                "temperature changes",
+                "zero error"
+            ],
+            "answerIndex": 1,
+            "explanation": "Backlash is the loose motion of the screw threads due to wear and tear, causing errors when reversing direction."
+        },
+        {
+            "question": "A Vernier scale has 10 divisions that coincide with 9 main scale divisions of 0.1 cm. The least count is:",
+            "options": [
+                "0.1 cm",
+                "0.01 cm",
+                "0.001 cm",
+                "0.05 cm"
+            ],
+            "answerIndex": 1,
+            "explanation": "Least Count = 1 MSD - 1 VSD = 0.1 cm - (9/10 × 0.1 cm) = 0.1 - 0.09 = 0.01 cm."
+        },
+        {
+            "question": "The uncertainty in the intercept of a straight-line graph is minimized when:",
+            "options": [
+                "scale is enlarged",
+                "graph passes through origin",
+                "points are near origin",
+                "slope uncertainty is minimized"
+            ],
+            "answerIndex": 2,
+            "explanation": "If data points are collected closer to the origin (y-axis), the extrapolation distance is shorter, reducing intercept uncertainty."
+        },
+        {
+            "question": "The most appropriate instrument to measure the internal diameter of a test tube is:",
+            "options": [
+                "Meter rule",
+                "Micrometer screw gauge",
+                "Vernier caliper",
+                "Tape rule"
+            ],
+            "answerIndex": 2,
+            "explanation": "The Vernier caliper has upper (internal) jaws specifically designed to measure internal diameters."
+        },
+        {
+            "question": "If a micrometer reads 0.02 mm when fully closed, and a wire measures 2.54 mm, the actual diameter is:",
+            "options": [
+                "2.56 mm",
+                "2.52 mm",
+                "2.54 mm",
+                "2.50 mm"
+            ],
+            "answerIndex": 1,
+            "explanation": "The reading of 0.02 mm when closed is a positive zero error. It must be subtracted from the final reading: 2.54 - 0.02 = 2.52 mm."
+        },
+        {
+            "question": "The simple pendulum behaves as a simple harmonic oscillator only when:",
+            "options": [
+                "external force is applied",
+                "mass of bob is negligible",
+                "sinθ ≈ θ",
+                "string is inextensible"
+            ],
+            "answerIndex": 2,
+            "explanation": "Simple harmonic motion requires a linear restoring force. This is only true for a pendulum if the angle is small enough that sinθ ≈ θ."
+        },
+        {
+            "question": "The slope of a T^2 versus L graph is equal to:",
+            "options": [
+                "g / 4π^2",
+                "4π^2 / g",
+                "2πg",
+                "1/g"
+            ],
+            "answerIndex": 1,
+            "explanation": "From T^2 = (4π^2 / g) * L, plotting T^2 on the Y-axis and L on the X-axis gives a slope of 4π^2 / g."
+        },
+        {
+            "question": "The experimentally determined value of g is most sensitive to errors in measuring:",
+            "options": [
+                "amplitude",
+                "time period",
+                "length of the pendulum",
+                "mass of the bob"
+            ],
+            "answerIndex": 1,
+            "explanation": "Because time period T is squared in the formula g = 4π^2 L / T^2, any percentage error in T is doubled in the final calculation for g."
+        },
+        {
+            "question": "The restoring force in a simple pendulum is directly proportional to displacement only when:",
+            "options": [
+                "the string is heavy",
+                "air resistance is zero",
+                "the bob is massive",
+                "the oscillation amplitude is small"
+            ],
+            "answerIndex": 3,
+            "explanation": "For large amplitudes, the restoring force mg*sinθ is not proportional to θ. Small amplitudes ensure linear proportionality."
+        },
+        {
+            "question": "Random errors in pendulum experiments are best minimized by:",
+            "options": [
+                "taking repeated measurements",
+                "using heavier bobs",
+                "increasing amplitude",
+                "using longer strings"
+            ],
+            "answerIndex": 0,
+            "explanation": "Taking multiple readings of the time for 20 oscillations and averaging them reduces random human reaction errors."
+        },
+        {
+            "question": "What is the unit of the slope of a T^2 vs L graph?",
+            "options": [
+                "s^2/m",
+                "m/s^2",
+                "s/m",
+                "dimensionless"
+            ],
+            "answerIndex": 0,
+            "explanation": "Slope = change in Y / change in X. The Y-axis is T^2 (seconds squared) and the X-axis is L (meters), yielding s^2/m."
+        },
+        {
+            "question": "If the length of a pendulum is quadrupled, its period:",
+            "options": [
+                "doubles",
+                "halves",
+                "quadruples",
+                "remains the same"
+            ],
+            "answerIndex": 0,
+            "explanation": "Period T is proportional to the square root of L. If L is multiplied by 4, T is multiplied by √4, which is 2."
+        },
+        {
+            "question": "The acceleration due to gravity g on the moon is 1/6th that of Earth. A pendulum's period on the moon will be:",
+            "options": [
+                "6 times longer",
+                "√6 times longer",
+                "√6 times shorter",
+                "unaffected"
+            ],
+            "answerIndex": 1,
+            "explanation": "T is inversely proportional to √g. If g becomes g/6, T becomes √(1/(1/6)) = √6 times longer."
+        },
+        {
+            "question": "Why do we measure the time for 20 oscillations instead of 1?",
+            "options": [
+                "To reduce systematic error",
+                "To reduce human reaction time error",
+                "To increase the amplitude",
+                "To allow the pendulum to stabilize"
+            ],
+            "answerIndex": 1,
+            "explanation": "Human reaction time at the start and stop of a stopwatch introduces a random error. Spreading this error over 20 oscillations minimizes its effect on a single period."
+        },
+        {
+            "question": "The approximation sinθ ≈ θ is valid when the angular displacement is:",
+            "options": [
+                "very small",
+                "maximum",
+                "at resonance",
+                "greater than 30°"
+            ],
+            "answerIndex": 0,
+            "explanation": "The small-angle approximation holds true for angles generally less than 15 degrees."
+        },
+        {
+            "question": "The length of the pendulum L is measured from the pivot to the:",
+            "options": [
+                "top of the bob",
+                "bottom of the bob",
+                "center of mass of the bob",
+                "halfway down the string"
+            ],
+            "answerIndex": 2,
+            "explanation": "The effective length of a simple pendulum must be taken down to the center of mass (the middle) of the oscillating bob."
+        },
+        {
+            "question": "In a pendulum experiment, if T = 2.0 s, the frequency of oscillation is:",
+            "options": [
+                "2.0 Hz",
+                "0.5 Hz",
+                "4.0 Hz",
+                "1.0 Hz"
+            ],
+            "answerIndex": 1,
+            "explanation": "Frequency is the reciprocal of the period. f = 1 / T = 1 / 2.0 = 0.5 Hz."
+        },
+        {
+            "question": "Which of the following does NOT affect the period of a simple pendulum?",
+            "options": [
+                "Length of string",
+                "Acceleration due to gravity",
+                "Mass of the bob",
+                "All of the above affect it"
+            ],
+            "answerIndex": 2,
+            "explanation": "As proven by Galileo and Newton, the period is independent of the mass of the bob."
+        },
+        {
+            "question": "If a graph of T vs √L is plotted, what does the slope represent?",
+            "options": [
+                "4π^2 / g",
+                "2π / √g",
+                "g",
+                "2π"
+            ],
+            "answerIndex": 1,
+            "explanation": "T = (2π / √g) * √L. By plotting T on Y and √L on X, the slope is the constant multiplier 2π / √g."
+        },
+        {
+            "question": "For a pendulum of length 1m, the period is approximately: (take g = π^2)",
+            "options": [
+                "1 s",
+                "2 s",
+                "4 s",
+                "0.5 s"
+            ],
+            "answerIndex": 1,
+            "explanation": "T = 2π√(L/g) = 2π√(1/π^2) = 2π(1/π) = 2 seconds."
+        },
+        {
+            "question": "The collision phase of a ballistic pendulum experiment is analyzed using which fundamental principle?",
+            "options": [
+                "Conservation of mechanical energy",
+                "Conservation of linear momentum",
+                "Conservation of power",
+                "Conservation of angular momentum"
+            ],
+            "answerIndex": 1,
+            "explanation": "During the brief impact, inelastic deformation occurs and energy is lost as heat, so only linear momentum is conserved."
+        },
+        {
+            "question": "If a bullet of mass m embeds into a block of mass M moving with initial velocity v_o, the immediate velocity after impact is given by:",
+            "options": [
+                "m*v_o / (M+m)",
+                "M*v_o / (M+m)",
+                "2m*v_o / M",
+                "√(2gh/m)"
+            ],
+            "answerIndex": 0,
+            "explanation": "By conservation of momentum: m*v_o + M(0) = (M+m)v_final. Therefore, v_final = m*v_o / (M+m)."
+        },
+        {
+            "question": "The reason kinetic energy is not conserved during the impact in a ballistic pendulum is due to:",
+            "options": [
+                "conversion to gravitational potential energy",
+                "air resistance only",
+                "internal deformation and heat loss",
+                "conservation of impulse"
+            ],
+            "answerIndex": 2,
+            "explanation": "The bullet embedding itself into the block is a perfectly inelastic collision, causing kinetic energy to be lost as heat and deformation."
+        },
+        {
+            "question": "The maximum vertical rise h of a ballistic pendulum after collision is obtained by applying:",
+            "options": [
+                "Newton's second law",
+                "impulse-momentum theorem",
+                "Hooke's law",
+                "conservation of mechanical energy"
+            ],
+            "answerIndex": 3,
+            "explanation": "After the collision, the combined mass swings upward. During this swing, kinetic energy is converted completely into gravitational potential energy."
+        },
+        {
+            "question": "The expression v_o = ((M+m)/m)√(2gh) assumes which ideal condition?",
+            "options": [
+                "uniform circular motion",
+                "negligible energy loss after collision",
+                "perfect elasticity of materials",
+                "absence of gravity"
+            ],
+            "answerIndex": 1,
+            "explanation": "The term √(2gh) comes from setting 1/2(M+m)v^2 = (M+m)gh, which assumes no mechanical energy is lost to air resistance or pivot friction during the swing."
+        },
+        {
+            "question": "The dominant source of systematic error in a ballistic pendulum experiment arises from:",
+            "options": [
+                "pivot friction and air resistance",
+                "parallax only",
+                "random fluctuation of time",
+                "readability of the scale"
+            ],
+            "answerIndex": 0,
+            "explanation": "Pivot friction and air resistance consistently rob the system of energy during the swing, resulting in a lower measured height."
+        },
+        {
+            "question": "The ballistic pendulum method becomes unreliable for very small bullet masses because:",
+            "options": [
+                "gravity becomes negligible",
+                "the angular deflection becomes too small",
+                "time measurement dominates",
+                "collision becomes elastic"
+            ],
+            "answerIndex": 1,
+            "explanation": "A very light bullet transfers very little momentum to a massive block, resulting in a tiny swing height that is difficult to measure accurately."
+        },
+        {
+            "question": "In a ballistic pendulum, what type of collision occurs?",
+            "options": [
+                "Perfectly elastic",
+                "Perfectly inelastic",
+                "Partially elastic",
+                "Super elastic"
+            ],
+            "answerIndex": 1,
+            "explanation": "The bullet embeds itself into the block and they move together with a common velocity, defining a perfectly inelastic collision."
+        },
+        {
+            "question": "During the swing of the ballistic pendulum (post-collision), what energy transformation occurs?",
+            "options": [
+                "Potential to Kinetic",
+                "Kinetic to Thermal",
+                "Kinetic to Potential",
+                "Chemical to Kinetic"
+            ],
+            "answerIndex": 2,
+            "explanation": "The kinetic energy gained immediately after the collision is transformed into gravitational potential energy as the pendulum rises to its maximum height."
+        },
+        {
+            "question": "If a bullet of 10g hits a pendulum of 990g, and they rise to a height where their velocity at the lowest point was 2 m/s, the initial velocity of the bullet was:",
+            "options": [
+                "20 m/s",
+                "200 m/s",
+                "100 m/s",
+                "50 m/s"
+            ],
+            "answerIndex": 1,
+            "explanation": "v_o = ((M+m)/m) * v = ((990+10)/10) * 2 = (1000/10) * 2 = 100 * 2 = 200 m/s."
+        },
+        {
+            "question": "Hooke's law remains valid only up to the:",
+            "options": [
+                "yield point",
+                "breaking point",
+                "limit of proportionality",
+                "ultimate stress"
+            ],
+            "answerIndex": 2,
+            "explanation": "Hooke's law states F is proportional to extension. This strict linear proportionality ends at the limit of proportionality."
+        },
+        {
+            "question": "Permanent deformation of a spring occurs when the applied load exceeds the:",
+            "options": [
+                "limit of proportionality",
+                "elastic limit",
+                "yield stress",
+                "safe working load"
+            ],
+            "answerIndex": 1,
+            "explanation": "Beyond the elastic limit, the material undergoes plastic deformation and will not return to its original length when the load is removed."
+        },
+        {
+            "question": "The dynamic method of determining spring constant relies on:",
+            "options": [
+                "simple harmonic motion",
+                "uniform circular motion",
+                "rotational equilibrium",
+                "projectile motion"
+            ],
+            "answerIndex": 0,
+            "explanation": "The dynamic method involves displacing the mass and measuring the period of the resulting simple harmonic oscillations."
+        },
+        {
+            "question": "The time period of a mass-spring system is given by:",
+            "options": [
+                "T = 2π√(k/m)",
+                "T = √(m/k)",
+                "T = (2πk)/m",
+                "T = 2π√(m/k)"
+            ],
+            "answerIndex": 3,
+            "explanation": "The correct formula for the period of an oscillating spring-mass system is T = 2π√(m/k)."
+        },
+        {
+            "question": "The non-zero intercept in a T^2 versus m graph for a dynamic spring experiment is due to:",
+            "options": [
+                "effective mass of the spring",
+                "pivot friction",
+                "air resistance",
+                "error in stopwatch"
+            ],
+            "answerIndex": 0,
+            "explanation": "The spring itself has mass which contributes to the oscillation. This effective mass creates a negative x-intercept on the graph."
+        },
+        {
+            "question": "The most critical precaution in Hooke's law experiment is to ensure that:",
+            "options": [
+                "the scale is horizontal",
+                "readings are taken quickly",
+                "loads are added gradually",
+                "the spring is long"
+            ],
+            "answerIndex": 2,
+            "explanation": "Loads must be added gradually to prevent exceeding the elastic limit and permanently deforming the spring."
+        },
+        {
+            "question": "The slope of a Force (F) vs Extension (x) graph represents:",
+            "options": [
+                "Work done",
+                "Spring constant (k)",
+                "Effective mass",
+                "Elastic limit"
+            ],
+            "answerIndex": 1,
+            "explanation": "Since F = kx, the ratio F/x (which is the slope of the graph) gives the spring constant k."
+        },
+        {
+            "question": "The area under a Force-Extension graph represents:",
+            "options": [
+                "Spring constant",
+                "Strain",
+                "Work done (Elastic Potential Energy)",
+                "Pressure"
+            ],
+            "answerIndex": 2,
+            "explanation": "The area under an F-x graph is 1/2 * F * x, which is the formula for the elastic potential energy or work done in stretching the spring."
+        },
+        {
+            "question": "If two identical springs of constant k are connected in series, the effective spring constant is:",
+            "options": [
+                "2k",
+                "k/2",
+                "k",
+                "k^2"
+            ],
+            "answerIndex": 1,
+            "explanation": "Springs in series are less stiff. The formula is 1/k_eff = 1/k + 1/k = 2/k, so k_eff = k/2."
+        },
+        {
+            "question": "A spring stretches by 10 cm under a load of 5 N. Its spring constant is:",
+            "options": [
+                "50 N/m",
+                "0.5 N/m",
+                "500 N/m",
+                "2 N/m"
+            ],
+            "answerIndex": 0,
+            "explanation": "First convert cm to m: 10 cm = 0.1 m. k = F/x = 5 N / 0.1 m = 50 N/m."
+        },
+        {
+            "question": "For an object sliding down a smooth inclined plane of angle θ, the acceleration is:",
+            "options": [
+                "g cosθ",
+                "g sinθ",
+                "g tanθ",
+                "g"
+            ],
+            "answerIndex": 1,
+            "explanation": "On a frictionless incline, the only force driving the object down the plane is the parallel component of gravity: mg sinθ. So, ma = mg sinθ, giving a = g sinθ."
+        },
+        {
+            "question": "If friction is present on the inclined plane, the net acceleration down the plane is:",
+            "options": [
+                "g(sinθ - μcosθ)",
+                "g(sinθ + μcosθ)",
+                "g sinθ",
+                "μg cosθ"
+            ],
+            "answerIndex": 0,
+            "explanation": "The downward force is mg*sinθ and the opposing friction is μ*mg*cosθ. Net force = mg(sinθ - μcosθ) = ma."
+        },
+        {
+            "question": "A cart is released from rest on an incline. The relationship between distance L and time t is:",
+            "options": [
+                "L = at",
+                "L = (1/2)at^2",
+                "L = 2at^2",
+                "L = at^2"
+            ],
+            "answerIndex": 1,
+            "explanation": "Using the kinematic equation s = ut + 1/2at^2, since it starts from rest (u=0), distance L = 1/2at^2."
+        },
+        {
+            "question": "In the free fall experiment, plotting y (distance) versus t^2 yields a straight line. The slope is equal to:",
+            "options": [
+                "g",
+                "2g",
+                "g/2",
+                "1/g"
+            ],
+            "answerIndex": 2,
+            "explanation": "From y = 1/2gt^2, plotting y on the Y-axis and t^2 on the X-axis means the slope is 1/2g."
+        },
+        {
+            "question": "How do you find g from the slope of a y vs t^2 graph?",
+            "options": [
+                "g = slope",
+                "g = slope / 2",
+                "g = 2 × slope",
+                "g = √slope"
+            ],
+            "answerIndex": 2,
+            "explanation": "Since slope = g/2, multiplying the slope by 2 gives the value of g."
+        },
+        {
+            "question": "Acceleration due to gravity at the equator is:",
+            "options": [
+                "Equal to the poles",
+                "Slightly less than at the poles",
+                "Slightly greater than at the poles",
+                "Zero"
+            ],
+            "answerIndex": 1,
+            "explanation": "Gravity is weaker at the equator (approx 9.78 m/s^2) due to the earth's rotation and equatorial bulge, compared to the poles (approx 9.83 m/s^2)."
+        },
+        {
+            "question": "In an inclined plane experiment, raising the angle θ causes the acceleration to:",
+            "options": [
+                "Decrease",
+                "Remain constant",
+                "Increase",
+                "Become zero"
+            ],
+            "answerIndex": 2,
+            "explanation": "Since a = g sinθ, and sinθ increases as θ goes from 0 to 90 degrees, the acceleration increases."
+        },
+        {
+            "question": "Newton's second law states that acceleration is:",
+            "options": [
+                "proportional to mass",
+                "inversely proportional to net force",
+                "inversely proportional to mass",
+                "equal to velocity over time"
+            ],
+            "answerIndex": 2,
+            "explanation": "a = F/m. Acceleration is directly proportional to net force and inversely proportional to mass."
+        },
+        {
+            "question": "The normal force on an object of mass m resting on an incline of angle θ is:",
+            "options": [
+                "mg",
+                "mg sinθ",
+                "mg cosθ",
+                "mg tanθ"
+            ],
+            "answerIndex": 2,
+            "explanation": "The component of weight perpendicular to the incline is mg cosθ, which is perfectly balanced by the normal force."
+        },
+        {
+            "question": "If an object falls freely from rest, what is its velocity after 2 seconds? (take g = 10 m/s^2)",
+            "options": [
+                "5 m/s",
+                "10 m/s",
+                "20 m/s",
+                "40 m/s"
+            ],
+            "answerIndex": 2,
+            "explanation": "Using v = u + gt. Since u = 0, v = 10 * 2 = 20 m/s."
+        },
+        {
+            "question": "Density is defined as an intensive property, meaning:",
+            "options": [
+                "It depends on the mass of the object.",
+                "It depends on the volume of the object.",
+                "It does not depend on the amount of matter present.",
+                "It is always equal to 1."
+            ],
+            "answerIndex": 2,
+            "explanation": "Intensive properties (like density, temperature, and color) do not change when you alter the size or amount of the sample."
+        },
+        {
+            "question": "1 g/cm^3 is equivalent to:",
+            "options": [
+                "10 kg/m^3",
+                "100 kg/m^3",
+                "1000 kg/m^3",
+                "0.001 kg/m^3"
+            ],
+            "answerIndex": 2,
+            "explanation": "To convert g/cm^3 to kg/m^3, multiply by 1000. 1 g/cm^3 = 1000 kg/m^3."
+        },
+        {
+            "question": "To find the volume of an irregular solid, the best method is:",
+            "options": [
+                "Vernier caliper measurements",
+                "Displacement of liquid method",
+                "Weighing it on a balance",
+                "Using a micrometer"
+            ],
+            "answerIndex": 1,
+            "explanation": "Irregular shapes cannot be measured with geometric formulas, so submerging them and measuring the displaced liquid volume is required."
+        },
+        {
+            "question": "An object will float in water if its density is:",
+            "options": [
+                "Greater than 1000 kg/m^3",
+                "Exactly 1000 kg/m^3",
+                "Less than 1000 kg/m^3",
+                "Irrelevant to floating"
+            ],
+            "answerIndex": 2,
+            "explanation": "Objects with a density lower than the fluid they are in (water is 1000 kg/m^3) will experience an upthrust greater than their weight, causing them to float."
+        },
+        {
+            "question": "The reciprocal of density is known as:",
+            "options": [
+                "Relative density",
+                "Specific gravity",
+                "Specific volume",
+                "Upthrust"
+            ],
+            "answerIndex": 2,
+            "explanation": "Density is mass/volume. Its reciprocal is volume/mass, which is defined as specific volume."
+        },
+        {
+            "question": "The general lens equation relates focal length f, object distance u, and image distance v as:",
+            "options": [
+                "f = u + v",
+                "1/f = 1/u + 1/v",
+                "1/f = 1/u - 1/v",
+                "f = uv"
+            ],
+            "answerIndex": 1,
+            "explanation": "The standard thin lens equation is 1/f = 1/u + 1/v."
+        },
+        {
+            "question": "A convex lens forms a real, inverted, and diminished image when the object is placed:",
+            "options": [
+                "at f",
+                "between f and 2f",
+                "at 2f",
+                "beyond 2f"
+            ],
+            "answerIndex": 3,
+            "explanation": "When an object is placed at a distance greater than 2f from a convex lens, the image forms between f and 2f on the other side and is real, inverted, and diminished."
+        },
+        {
+            "question": "The power of a lens is measured in Diopters (Δ). It is calculated as:",
+            "options": [
+                "P = f (in meters)",
+                "P = 1/f (in cm)",
+                "P = 1/f (in meters)",
+                "P = u × v"
+            ],
+            "answerIndex": 2,
+            "explanation": "Power is the reciprocal of focal length. For the answer to be in Diopters, the focal length MUST be in meters."
+        },
+        {
+            "question": "In an experiment to find the focal length of a convex lens, plotting 1/v (Y-axis) vs 1/u (X-axis) gives a straight line. The intercepts on the axes represent:",
+            "options": [
+                "f",
+                "1/f",
+                "2f",
+                "v/u"
+            ],
+            "answerIndex": 1,
+            "explanation": "Because 1/v = -1/u + 1/f, the y-intercept (when 1/u = 0) is 1/f. The x-intercept (when 1/v = 0) is also 1/f."
+        },
+        {
+            "question": "If an object is placed at exactly 2f from a convex lens, the image formed is:",
+            "options": [
+                "Magnified",
+                "Diminished",
+                "Same size as the object",
+                "Virtual"
+            ],
+            "answerIndex": 2,
+            "explanation": "Placing the object at 2f produces a real, inverted image at exactly 2f on the opposite side, which is the exact same size as the object."
+        },
+        {
+            "question": "When balancing a meter rule on a knife edge, the principle applied is:",
+            "options": [
+                "Principle of moments",
+                "Conservation of energy",
+                "Hooke's Law",
+                "Archimedes' principle"
+            ],
+            "answerIndex": 0,
+            "explanation": "The sum of clockwise moments must equal the sum of counter-clockwise moments for the ruler to balance (rotational equilibrium)."
+        },
+        {
+            "question": "Relative density is defined as:",
+            "options": [
+                "Density of substance / Density of water",
+                "Density of water / Density of substance",
+                "Mass / Volume",
+                "Weight in air / Weight in water"
+            ],
+            "answerIndex": 0,
+            "explanation": "Relative density (or specific gravity) compares a substance's density directly to a reference standard, typically water."
+        },
+        {
+            "question": "Why is the center of gravity of a uniform meter rule assumed to be at the 50cm mark?",
+            "options": [
+                "Because wood is heavy",
+                "Because mass is uniformly distributed",
+                "Because of zero error",
+                "Because the rule is exactly 1m long"
+            ],
+            "answerIndex": 1,
+            "explanation": "For any uniform, symmetrical object, the center of gravity lies exactly at its geometric center."
+        },
+        {
+            "question": "In an experiment, if x is measured as 5.0 ± 0.1 and y as 2.0 ± 0.1, the absolute uncertainty of x - y is:",
+            "options": [
+                "0.0",
+                "0.1",
+                "0.2",
+                "-0.2"
+            ],
+            "answerIndex": 2,
+            "explanation": "Even when subtracting the base values (5.0 - 2.0), the uncertainties always ADD to account for the worst-case scenario: 0.1 + 0.1 = 0.2."
+        },
+        {
+            "question": "You are asked to determine the volume of a wire. Which combination of instruments is best?",
+            "options": [
+                "Meter rule for length, Vernier caliper for diameter",
+                "Tape measure for length, Meter rule for diameter",
+                "Meter rule for length, Micrometer screw gauge for diameter",
+                "Micrometer for both"
+            ],
+            "answerIndex": 2,
+            "explanation": "A wire's length is macroscopic (meter rule), but its diameter is microscopic and requires high precision (micrometer screw gauge)."
+        }
+    ]
+}

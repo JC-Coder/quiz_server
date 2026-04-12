@@ -9,6 +9,7 @@ export const faculties = [
   { value: "PHY101", label: "PHY 101 - General Physics I" },
   { value: "STA111", label: "STA 111 - Introduction to Statistics" },
   { value: "GST121", label: "GST 121 - Use of Library, Study Skills and ICT" },
+  {value: 'PHY107', label: 'PHY 107 - General Practical Physics I'},
 ];
 
 export const questionCounts = [10, 20, 30, 50, 70, 100];
