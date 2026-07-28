@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageContainer from '../components/PageContainer';
-import { faculties, quizModes } from '../constants/options';
+import { courses, departments, levels, quizModes } from '../constants/options';
 import { getProgressSnapshot, formatSavedAt } from '../utils/progress';
 import {
   loadPendingSessions,
@@ -84,9 +84,14 @@ function ProgressPage() {
               const snapshot = getProgressSnapshot(session);
               if (!snapshot) return null;
 
-              const facultyLabel =
-                faculties.find((item) => item.value === session.setup?.category)?.label ??
+              const courseLabel =
+                courses.find((item) => item.value === session.setup?.category)?.label ??
                 session.setup?.category;
+              const departmentLabel =
+                departments.find((item) => item.value === session.setup?.department)?.label ??
+                'Not recorded';
+              const levelLabel =
+                levels.find((item) => item.value === session.setup?.level)?.label ?? 'Not recorded';
               const modeLabel =
                 quizModes.find((item) => item.value === session.setup?.mode)?.title ?? 'Unknown mode';
 
@@ -95,10 +100,18 @@ function ProgressPage() {
                   key={session.id}
                   className="rounded-3xl border border-slate-100 bg-white p-6 shadow-sm"
                 >
-                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                    <div>
+                      <p className="text-xs font-black uppercase tracking-widest text-slate-400">
+                        Department & Level
+                      </p>
+                      <p className="mt-2 text-base font-bold text-slate-900">
+                        {departmentLabel} · {levelLabel}
+                      </p>
+                    </div>
                     <div>
                       <p className="text-xs font-black uppercase tracking-widest text-slate-400">Course</p>
-                      <p className="mt-2 text-base font-bold text-slate-900">{facultyLabel}</p>
+                      <p className="mt-2 text-base font-bold text-slate-900">{courseLabel}</p>
                     </div>
                     <div>
                       <p className="text-xs font-black uppercase tracking-widest text-slate-400">Mode</p>

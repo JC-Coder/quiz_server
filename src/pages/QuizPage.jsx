@@ -98,7 +98,10 @@ function QuizPage() {
             </p>
           </div>
           <div className="text-right">
-            <Link to="/setup" className="text-xs font-bold text-slate-400 hover:text-slate-600">
+            <Link
+              to="/setup"
+              className="inline-flex min-h-10 items-center justify-center rounded-xl border border-slate-200 bg-white px-4 text-sm font-bold text-slate-600 shadow-sm transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
+            >
               Quit Quiz
             </Link>
           </div>

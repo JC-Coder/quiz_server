@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const benefits = [
   {
     number: '01',
-    title: 'Choose a course',
-    description: 'Select the Miva course you want to practise and choose how many questions to answer.',
+    title: 'Choose your programme',
+    description: 'Select your department, level, and course, then choose how many questions to answer.',
   },
   {
     number: '02',
@@ -74,7 +74,7 @@ function HomePage() {
               </h1>
 
               <p className="mt-7 max-w-[560px] text-[17px] leading-8 text-[#596171] sm:text-lg">
-                Choose a course, answer practice questions, and review the correct answers before your exam.
+                Choose your department, level, and course, then practise with answers and explanations.
               </p>
 
               <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -166,7 +166,7 @@ function HomePage() {
           <div>
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#1265e8]">How it works</p>
             <h2 className="mt-4 text-3xl font-black leading-[1.08] tracking-[-0.04em] text-[#151c2b] sm:text-4xl lg:whitespace-nowrap lg:text-[clamp(2.5rem,4vw,3rem)]">
-              Choose a course and start practising.
+              Find your course and start practising.
             </h2>
           </div>
 
@@ -191,7 +191,7 @@ function HomePage() {
               Start a Miva practice test.
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-white/75">
-              Choose your course, test mode, and number of questions. You can stop and continue later.
+              Choose your department, level, course, and test mode. You can stop and continue later.
             </p>
             <Link
               to="/setup"

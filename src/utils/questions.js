@@ -1,4 +1,4 @@
-import { faculties } from "../constants/options";
+import { courses } from "../constants/options";
 
 const questionModules = import.meta.glob("../data/questions/*.json", {
   eager: true,
@@ -20,7 +20,7 @@ function normalizeQuestion(rawQuestion) {
 
 export function getQuestionCatalog() {
   const questions = [];
-  const activeFacultyValues = new Set(faculties.map((f) => f.value));
+  const activeCourseValues = new Set(courses.map((course) => course.value));
 
   // loads every JSON file in src/data/questions automatically
   Object.values(questionModules).forEach((moduleValue) => {
@@ -29,7 +29,7 @@ export function getQuestionCatalog() {
     // Handle the new structured format: { courseDetails, questions }
     if (!Array.isArray(rawData) && rawData?.questions) {
       const category = rawData.courseDetails?.id;
-      if (!category || !activeFacultyValues.has(category)) return;
+      if (!category || !activeCourseValues.has(category)) return;
 
       rawData.questions.forEach((entry, index) => {
         const normalized = normalizeQuestion({
@@ -55,7 +55,7 @@ export function getQuestionCatalog() {
           normalized.id &&
           normalized.category &&
           normalized.question &&
-          activeFacultyValues.has(normalized.category)
+          activeCourseValues.has(normalized.category)
         ) {
           questions.push(normalized);
         }
@@ -64,17 +64,9 @@ export function getQuestionCatalog() {
   });
 
   const categories = new Set(questions.map((question) => question.category));
-  const defaultMap = new Map(faculties.map((item) => [item.value, item.label]));
+  const courseOptions = courses.filter((course) => categories.has(course.value));
 
-  // keeps constant options first, then adds new categories found in JSON files
-  const facultyOptions = faculties.concat(
-    [...categories]
-      .filter((category) => !defaultMap.has(category))
-      .map((category) => ({ value: category, label: category }))
-      .sort((left, right) => left.label.localeCompare(right.label)),
-  );
-
-  return { questions, facultyOptions };
+  return { questions, courseOptions };
 }
 
 function shuffle(items) {
