@@ -1,0 +1,1208 @@
+{
+  "courseDetails": {
+    "id": "MCM108",
+    "name": "Introduction to Electronic Media"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best defines broadcasting?",
+      "options": [
+        "Distribution of content to a dispersed audience through electronic means",
+        "A face-to-face communication process",
+        "The private exchange of letters",
+        "A system limited to newspapers"
+      ],
+      "answerIndex": 0,
+      "explanation": "Broadcasting distributes sound, images, or both to many people who may be geographically separated."
+    },
+    {
+      "id": 2,
+      "question": "Which earlier technology provided an important foundation for later electronic communication?",
+      "options": [
+        "The printing press only",
+        "The telegraph",
+        "The typewriter",
+        "The loudspeaker"
+      ],
+      "answerIndex": 1,
+      "explanation": "The telegraph made long-distance electronic communication possible before the telephone and radio developed."
+    },
+    {
+      "id": 3,
+      "question": "Who is associated with the invention of the telephone in 1876?",
+      "options": [
+        "Guglielmo Marconi",
+        "Reginald Fessenden",
+        "Alexander Graham Bell",
+        "Lee De Forest"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alexander Graham Bell made major advances that led to the telephone in 1876."
+    },
+    {
+      "id": 4,
+      "question": "Guglielmo Marconi is important in broadcasting history because he successfully transmitted an early wireless message in",
+      "options": [
+        "1844",
+        "1876",
+        "1906",
+        "1895"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course material identifies Marconi’s successful wireless message in 1895 as a landmark in radio communication."
+    },
+    {
+      "id": 5,
+      "question": "Reginald Fessenden’s 1906 achievement mainly improved radio by transmitting",
+      "options": [
+        "The human voice",
+        "Colour pictures",
+        "Digital files",
+        "Television credits"
+      ],
+      "answerIndex": 0,
+      "explanation": "Fessenden successfully transmitted the human voice, making radio transmission more practical."
+    },
+    {
+      "id": 6,
+      "question": "Lee De Forest’s Audion vacuum tube helped radio broadcasting by making signals",
+      "options": [
+        "Only visual",
+        "Clearer and stronger",
+        "Shorter and private",
+        "Independent of electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Audion vacuum tube improved the clarity and strength of radio signals."
+    },
+    {
+      "id": 7,
+      "question": "Regular colour television transmission began in the period identified in the course material as",
+      "options": [
+        "1906",
+        "1920",
+        "1954",
+        "1976"
+      ],
+      "answerIndex": 2,
+      "explanation": "The material states that regular colour transmission began in 1954."
+    },
+    {
+      "id": 8,
+      "question": "The replacement of cathode-ray-tube televisions by LCD displays illustrates the influence of",
+      "options": [
+        "Colonial administration",
+        "Radio hand signals",
+        "Audience censorship",
+        "Digital and display technology"
+      ],
+      "answerIndex": 3,
+      "explanation": "Flat-panel LCD displays reflect technological change in television hardware and viewing quality."
+    },
+    {
+      "id": 9,
+      "question": "In the Nigerian broadcasting history presented in the PDF, early radio broadcasting served the colonial government mainly by",
+      "options": [
+        "Keeping people informed about events in the empire",
+        "Promoting private ownership",
+        "Replacing all newspapers",
+        "Providing only sports commentary"
+      ],
+      "answerIndex": 0,
+      "explanation": "Early broadcasts relayed information, including news about the British Empire and World War II."
+    },
+    {
+      "id": 10,
+      "question": "The early Nigerian system in which programmes were received and relayed to local audiences was called",
+      "options": [
+        "Streaming",
+        "Re-diffusion",
+        "Pay-per-view",
+        "Non-linear editing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Re-diffusion involved receiving broadcast signals and transmitting them to local audiences."
+    },
+    {
+      "id": 11,
+      "question": "The Nigerian Broadcasting Service was established in",
+      "options": [
+        "1933",
+        "1957",
+        "1951",
+        "1976"
+      ],
+      "answerIndex": 2,
+      "explanation": "The NBS was established in 1951 and enabled more local Nigerian broadcasting content."
+    },
+    {
+      "id": 12,
+      "question": "In 1957, the Nigerian Broadcasting Service became the",
+      "options": [
+        "British Broadcasting Corporation",
+        "Nigerian Television Authority",
+        "Federal Radio Corporation of Nigeria",
+        "Nigerian Broadcasting Corporation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The NBS evolved into the Nigerian Broadcasting Corporation in 1957."
+    },
+    {
+      "id": 13,
+      "question": "Western Nigeria Television, established in 1959, was located in",
+      "options": [
+        "Ibadan",
+        "Abuja",
+        "Lagos",
+        "Kaduna"
+      ],
+      "answerIndex": 0,
+      "explanation": "WNTV was established in Ibadan and is identified in the material as Africa’s first television station."
+    },
+    {
+      "id": 14,
+      "question": "The Nigerian Television Authority was established in",
+      "options": [
+        "1951",
+        "1976",
+        "1992",
+        "1959"
+      ],
+      "answerIndex": 1,
+      "explanation": "The NTA was established in 1976 to oversee television broadcasting in Nigeria."
+    },
+    {
+      "id": 15,
+      "question": "The major Nigerian broadcasting change associated with Decree No. 38 of 1992 was",
+      "options": [
+        "The invention of television",
+        "The end of all radio broadcasting",
+        "Deregulation and permission for private ownership",
+        "The creation of the BBC"
+      ],
+      "answerIndex": 2,
+      "explanation": "Decree No. 38 deregulated broadcasting and broke the government’s monopoly on the airwaves."
+    },
+    {
+      "id": 16,
+      "question": "Which group represents the main structural participants in the broadcast industry?",
+      "options": [
+        "Actors, tourists, and retailers only",
+        "Printers, librarians, and booksellers",
+        "Courts, hospitals, and banks",
+        "Content creators, networks, distributors, and regulators"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course describes creators, networks, distribution channels, and regulatory bodies as connected parts of the industry."
+    },
+    {
+      "id": 17,
+      "question": "A production company that creates documentaries is functioning primarily as a",
+      "options": [
+        "Content creator",
+        "Regulatory body",
+        "Distribution channel",
+        "Transmission antenna"
+      ],
+      "answerIndex": 0,
+      "explanation": "Content creators produce programmes such as documentaries, news, drama, and live shows."
+    },
+    {
+      "id": 18,
+      "question": "Terrestrial broadcasting normally refers to transmission",
+      "options": [
+        "Only through subscription websites",
+        "Through traditional over-the-air signals",
+        "Only from satellites in orbit",
+        "Through printed scripts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Terrestrial broadcasting uses land-based transmitters to send signals over the air."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is an example of internet broadcasting?",
+      "options": [
+        "A printed timetable",
+        "A postal newsletter",
+        "An online streaming platform",
+        "A studio wall"
+      ],
+      "answerIndex": 2,
+      "explanation": "Internet broadcasting delivers audio or video through online platforms, often on demand."
+    },
+    {
+      "id": 20,
+      "question": "In Nigeria, the body that oversees broadcasting regulation is the",
+      "options": [
+        "BBC",
+        "FCC",
+        "NTA",
+        "National Broadcasting Commission"
+      ],
+      "answerIndex": 3,
+      "explanation": "The National Broadcasting Commission, or NBC, regulates the Nigerian broadcasting sector."
+    },
+    {
+      "id": 21,
+      "question": "A broadcast licence is primarily intended to ensure that a station",
+      "options": [
+        "Operates within legal and regulatory requirements",
+        "Can avoid all content rules",
+        "Has unlimited airtime",
+        "Never competes with another station"
+      ],
+      "answerIndex": 0,
+      "explanation": "Licensing places a station within the legal framework governing broadcast operations."
+    },
+    {
+      "id": 22,
+      "question": "A key economic source of revenue for commercial television is",
+      "options": [
+        "Audience silence",
+        "Advertising airtime",
+        "Studio lighting",
+        "Radio frequency alone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Commercial broadcasters commonly earn revenue by selling advertising time."
+    },
+    {
+      "id": 23,
+      "question": "A public-service benefit of broadcasting during a natural disaster is to",
+      "options": [
+        "Hide safety information",
+        "Stop all communication",
+        "Provide timely information that can help maintain order",
+        "Promote only entertainment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Broadcasting can quickly distribute warnings, instructions, and verified updates during crises."
+    },
+    {
+      "id": 24,
+      "question": "A content quota requiring a station to transmit a percentage of local programmes is an example of",
+      "options": [
+        "Colour grading",
+        "Sound design",
+        "Audience measurement",
+        "Regulation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Content quotas are regulatory requirements used to support standards or local production."
+    },
+    {
+      "id": 25,
+      "question": "Which situation best illustrates digital disruption in broadcasting?",
+      "options": [
+        "Viewers increasingly use streaming services instead of scheduled television",
+        "A station uses a microphone",
+        "A presenter reads a script",
+        "A producer prepares a budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "Online platforms can change audience habits and create competition for traditional broadcasters."
+    },
+    {
+      "id": 26,
+      "question": "The primary function of a broadcast microphone is to convert",
+      "options": [
+        "Electrical energy into light",
+        "Sound into electrical energy",
+        "Video into furniture",
+        "Radio waves into scripts"
+      ],
+      "answerIndex": 1,
+      "explanation": "A microphone captures sound and converts it into an electrical signal for processing or transmission."
+    },
+    {
+      "id": 27,
+      "question": "For a speaker moving around a large outdoor area, the most suitable microphone type from the course list is generally",
+      "options": [
+        "Uni-directional",
+        "Bi-directional",
+        "Omni-directional",
+        "Hanging"
+      ],
+      "answerIndex": 2,
+      "explanation": "An omni-directional microphone picks up sound from all directions and is useful where sound comes from a wide area."
+    },
+    {
+      "id": 28,
+      "question": "A microphone designed to pick up sound mainly from one direction is",
+      "options": [
+        "Hanging",
+        "Omni-directional",
+        "Bi-directional",
+        "Uni-directional"
+      ],
+      "answerIndex": 3,
+      "explanation": "A uni-directional microphone focuses on sound arriving from one direction."
+    },
+    {
+      "id": 29,
+      "question": "Which microphone is small and clipped to a speaker’s clothing?",
+      "options": [
+        "Personal microphone",
+        "Hanging microphone",
+        "Bi-directional microphone",
+        "Studio boom"
+      ],
+      "answerIndex": 0,
+      "explanation": "A personal microphone is a small clip-on microphone used for individual speakers."
+    },
+    {
+      "id": 30,
+      "question": "A microphone positioned above a performance space to capture a group such as a choir is a",
+      "options": [
+        "Personal microphone",
+        "Hanging microphone",
+        "Uni-directional microphone",
+        "Telephone receiver"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hanging microphones are placed above a space to capture sound from a wider area."
+    },
+    {
+      "id": 31,
+      "question": "Which studio light is focused and bright, highlighting the main subject?",
+      "options": [
+        "Fill light",
+        "Back light",
+        "Key light",
+        "Ambient light"
+      ],
+      "answerIndex": 2,
+      "explanation": "The key light is the focused primary light used to highlight the subject."
+    },
+    {
+      "id": 32,
+      "question": "The main purpose of fill lighting is to",
+      "options": [
+        "Create a broadcast signal",
+        "Transmit audio",
+        "Replace the camera lens",
+        "Reduce harsh shadows with soft general light"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fill light provides softer general illumination and helps reduce strong shadows."
+    },
+    {
+      "id": 33,
+      "question": "Back light helps a television subject by",
+      "options": [
+        "Separating the subject from the background",
+        "Reducing the number of cameras",
+        "Writing the script",
+        "Mixing dialogue"
+      ],
+      "answerIndex": 0,
+      "explanation": "Light from behind gives the subject separation and helps the subject stand out."
+    },
+    {
+      "id": 34,
+      "question": "The two camera classifications specifically identified in the course are",
+      "options": [
+        "Thermal and infrared",
+        "Monochrome and colour",
+        "Analogue and satellite",
+        "Studio and field"
+      ],
+      "answerIndex": 1,
+      "explanation": "The material classifies cameras as monochrome and colour cameras."
+    },
+    {
+      "id": 35,
+      "question": "Compared with monochrome cameras, colour cameras generally require",
+      "options": [
+        "Only sound input",
+        "No lens",
+        "More light to capture images clearly",
+        "Less power in every situation"
+      ],
+      "answerIndex": 2,
+      "explanation": "The course notes that colour cameras need more light for clear image capture."
+    },
+    {
+      "id": 36,
+      "question": "The main functions of a broadcast console include",
+      "options": [
+        "Creating camera lenses",
+        "Casting actors and scouting locations",
+        "Writing laws and issuing licences",
+        "Amplifying, mixing, and modulating sound"
+      ],
+      "answerIndex": 3,
+      "explanation": "The console manages sound signals by amplifying, mixing, and modulating them."
+    },
+    {
+      "id": 37,
+      "question": "The adjustable controls used on a console to change the level of a sound source are called",
+      "options": [
+        "Faders",
+        "Storyboards",
+        "Pixels",
+        "Props"
+      ],
+      "answerIndex": 0,
+      "explanation": "Faders are sliders used to adjust the level of audio sources."
+    },
+    {
+      "id": 38,
+      "question": "A transmitter prepares a broadcast signal by generating, amplifying, and",
+      "options": [
+        "Printing it in a newspaper",
+        "Modulating it before sending it to an antenna",
+        "Editing the presenter’s script",
+        "Converting it into furniture"
+      ],
+      "answerIndex": 1,
+      "explanation": "The transmitter processes the signal and sends it to the antenna for radiation to the audience."
+    },
+    {
+      "id": 39,
+      "question": "In the production chain, the antenna primarily serves to",
+      "options": [
+        "Write the programme proposal",
+        "Record actors’ dialogue",
+        "Broadcast the processed signal to the audience",
+        "Set the lighting mood"
+      ],
+      "answerIndex": 2,
+      "explanation": "The antenna radiates the processed radio or television signal to receivers."
+    },
+    {
+      "id": 40,
+      "question": "A low-frequency noise problem caused by alternating current leaking into an audio signal is called",
+      "options": [
+        "Echo",
+        "Roll",
+        "Fade",
+        "Hum"
+      ],
+      "answerIndex": 3,
+      "explanation": "Hum is unwanted low-frequency noise associated with electrical interference."
+    },
+    {
+      "id": 41,
+      "question": "A sound that bounces off one surface is known as an",
+      "options": [
+        "Echo",
+        "Absorption",
+        "Airtime",
+        "AVO"
+      ],
+      "answerIndex": 0,
+      "explanation": "An echo is a reflected sound from one surface; reverberation involves reflections from more than one surface."
+    },
+    {
+      "id": 42,
+      "question": "In radio jargon, to fade a sound means to",
+      "options": [
+        "Start a new station",
+        "Slowly turn it down",
+        "Record a video",
+        "Increase it suddenly"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fade means to gradually reduce the level of music or a microphone."
+    },
+    {
+      "id": 43,
+      "question": "In radio jargon, “roll” means to",
+      "options": [
+        "End the programme",
+        "Lower all faders",
+        "Bring on a sound or song",
+        "Change the station licence"
+      ],
+      "answerIndex": 2,
+      "explanation": "Roll is an instruction to play or bring in a sound element such as a song or effect."
+    },
+    {
+      "id": 44,
+      "question": "The red On-Air light indicates that",
+      "options": [
+        "The studio is empty",
+        "The camera needs more light",
+        "The programme has ended",
+        "The microphones are live"
+      ],
+      "answerIndex": 3,
+      "explanation": "The On-Air indicator warns people that live microphones are open and background noise must be avoided."
+    },
+    {
+      "id": 45,
+      "question": "In radio scheduling, the 24-hour clock represents 1:00 p.m. as",
+      "options": [
+        "1300",
+        "1200",
+        "0100",
+        "2300"
+      ],
+      "answerIndex": 0,
+      "explanation": "1:00 p.m. is 13:00 in the 24-hour clock."
+    },
+    {
+      "id": 46,
+      "question": "The three broad stages of radio production are",
+      "options": [
+        "Research, printing, and distribution",
+        "Pre-production, production, and post-production",
+        "Casting, shooting, and exhibition",
+        "Writing, advertising, and sales"
+      ],
+      "answerIndex": 1,
+      "explanation": "Radio production begins with planning, moves to recording or live transmission, and ends with post-production where required."
+    },
+    {
+      "id": 47,
+      "question": "Which activity belongs primarily to radio pre-production?",
+      "options": [
+        "Final audio mastering",
+        "Broadcasting the finished programme",
+        "Selecting topics and organising guests",
+        "Removing mistakes from recorded audio"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pre-production involves planning the programme, selecting topics, writing scripts, and arranging guests and resources."
+    },
+    {
+      "id": 48,
+      "question": "The stage in which actual recording or live transmission takes place is",
+      "options": [
+        "Audience research",
+        "Pre-production",
+        "Post-production",
+        "Production"
+      ],
+      "answerIndex": 3,
+      "explanation": "Production is the execution stage where the programme is recorded or transmitted live."
+    },
+    {
+      "id": 49,
+      "question": "Editing recorded radio content is part of",
+      "options": [
+        "Post-production",
+        "Production",
+        "Pre-production",
+        "Transmission licensing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Post-production polishes recorded content by editing, adding effects, and adjusting audio quality."
+    },
+    {
+      "id": 50,
+      "question": "Which radio-production element can create suspense through a deliberate pause?",
+      "options": [
+        "Lighting",
+        "Silence",
+        "Colour grading",
+        "Scenery"
+      ],
+      "answerIndex": 1,
+      "explanation": "Strategic silence can create suspense, signal transitions, or give listeners time to reflect."
+    },
+    {
+      "id": 51,
+      "question": "In radio storytelling, sound effects are especially important because they",
+      "options": [
+        "Replace every scriptwriter",
+        "Make microphones unnecessary",
+        "Create vivid images in listeners’ minds",
+        "Prevent all technical problems"
+      ],
+      "answerIndex": 2,
+      "explanation": "Listeners cannot see the scene, so sound effects help them imagine places, actions, and transitions."
+    },
+    {
+      "id": 52,
+      "question": "Who is primarily responsible for overseeing a radio programme from pre-production through post-production?",
+      "options": [
+        "The audience",
+        "The presenter",
+        "The set designer",
+        "The producer"
+      ],
+      "answerIndex": 3,
+      "explanation": "The producer coordinates the complete production process and ensures that objectives and deadlines are met."
+    },
+    {
+      "id": 53,
+      "question": "The radio team member who guides the show, introduces segments, and interviews guests is the",
+      "options": [
+        "Presenter",
+        "Sound engineer",
+        "Editor",
+        "Transmitter operator"
+      ],
+      "answerIndex": 0,
+      "explanation": "The presenter is the on-air voice who connects the programme’s segments and audience."
+    },
+    {
+      "id": 54,
+      "question": "The person responsible for setting microphones, controlling levels, and mixing sound is the",
+      "options": [
+        "Scriptwriter",
+        "Sound engineer",
+        "Producer",
+        "Director of photography"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sound engineer handles the technical quality and balance of audio."
+    },
+    {
+      "id": 55,
+      "question": "The radio scriptwriter’s main responsibility is to",
+      "options": [
+        "Design the studio furniture",
+        "Operate the transmitter only",
+        "Develop programme content and structure dialogue or questions",
+        "Issue broadcast licences"
+      ],
+      "answerIndex": 2,
+      "explanation": "The scriptwriter creates content, dialogue, interview questions, and the programme’s flow."
+    },
+    {
+      "id": 56,
+      "question": "A key challenge of a live radio programme is that",
+      "options": [
+        "All errors can be corrected after transmission",
+        "It does not use sound",
+        "It never needs a script",
+        "Strict timing and coordination are required"
+      ],
+      "answerIndex": 3,
+      "explanation": "Live broadcasting occurs in real time, so timing and coordination are essential because mistakes cannot simply be edited out."
+    },
+    {
+      "id": 57,
+      "question": "A radio script should use short, clear sentences mainly because",
+      "options": [
+        "Listeners may need to understand the message on the first hearing",
+        "Radio audiences cannot hear voices",
+        "Long words increase signal strength",
+        "Scripts are always read silently"
+      ],
+      "answerIndex": 0,
+      "explanation": "Radio listeners cannot inspect a page while listening, so clarity on first hearing is important."
+    },
+    {
+      "id": 58,
+      "question": "The five Ws used to make a radio message complete are who, what, when, where, and",
+      "options": [
+        "Which",
+        "Why",
+        "Whether",
+        "Whom"
+      ],
+      "answerIndex": 1,
+      "explanation": "The five Ws are Who, What, When, Where, and Why; some programmes may also require How."
+    },
+    {
+      "id": 59,
+      "question": "A conversational tone in radio writing is intended to",
+      "options": [
+        "Eliminate the need for research",
+        "Make every sentence legalistic",
+        "Make listeners feel personally addressed and connected",
+        "Make the script longer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Writing as if speaking to one listener makes the broadcast more natural and engaging."
+    },
+    {
+      "id": 60,
+      "question": "Recency in radio scriptwriting means that the content should be",
+      "options": [
+        "Unrelated to current audiences",
+        "Copied from an old programme",
+        "Limited to historical facts",
+        "Timely and up to date"
+      ],
+      "answerIndex": 3,
+      "explanation": "Recency keeps news and other programme content relevant to present circumstances."
+    },
+    {
+      "id": 61,
+      "question": "The correct order of the three main television production stages in the course is",
+      "options": [
+        "Pre-production, production, post-production",
+        "Post-production, pre-production, production",
+        "Production, post-production, pre-production",
+        "Production, pre-production, post-production"
+      ],
+      "answerIndex": 0,
+      "explanation": "Planning comes first, filming or recording follows, and editing and finishing come afterward."
+    },
+    {
+      "id": 62,
+      "question": "A storyboard is best described as",
+      "options": [
+        "A list of broadcast laws",
+        "A visual sequence showing how scenes will appear",
+        "A sound mixer setting",
+        "A station’s advertising invoice"
+      ],
+      "answerIndex": 1,
+      "explanation": "Storyboards visually represent the script and help plan the sequence and appearance of scenes."
+    },
+    {
+      "id": 63,
+      "question": "Location scouting is undertaken mainly to",
+      "options": [
+        "Select a station frequency",
+        "Mix audio after filming",
+        "Find a suitable and accessible place for filming",
+        "Create subtitles automatically"
+      ],
+      "answerIndex": 2,
+      "explanation": "The production team checks whether a location fits the script and can accommodate the crew and equipment."
+    },
+    {
+      "id": 64,
+      "question": "Budgeting and scheduling are normally completed during",
+      "options": [
+        "Audience reception",
+        "Live transmission",
+        "Post-production only",
+        "Pre-production"
+      ],
+      "answerIndex": 3,
+      "explanation": "Budgeting and scheduling prepare the project financially and temporally before filming begins."
+    },
+    {
+      "id": 65,
+      "question": "During television production, the director is chiefly responsible for",
+      "options": [
+        "The overall creative vision and directing the crew",
+        "Selling all advertising slots",
+        "Writing every law",
+        "Repairing every microphone"
+      ],
+      "answerIndex": 0,
+      "explanation": "The director makes creative decisions and guides actors and crew so the production achieves its vision."
+    },
+    {
+      "id": 66,
+      "question": "Which television production role normally manages logistics, budget, and scheduling?",
+      "options": [
+        "Editor",
+        "Producer",
+        "Set designer",
+        "Presenter"
+      ],
+      "answerIndex": 1,
+      "explanation": "The producer oversees the project from start to finish and manages its practical resources."
+    },
+    {
+      "id": 67,
+      "question": "The set designer creates",
+      "options": [
+        "The radio frequency spectrum",
+        "The station’s legal licence",
+        "The visual environment in which the programme takes place",
+        "The final audience survey"
+      ],
+      "answerIndex": 2,
+      "explanation": "Set designers build or arrange scenery that matches the script’s visual requirements."
+    },
+    {
+      "id": 68,
+      "question": "In post-production, colour grading adjusts the footage’s",
+      "options": [
+        "Dialogue and interview questions",
+        "Studio guest list",
+        "Broadcast licence and ownership",
+        "Colours, contrast, and brightness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Colour grading refines the visual appearance by adjusting colour, contrast, and brightness."
+    },
+    {
+      "id": 69,
+      "question": "Non-linear editing software is useful because it allows editors to",
+      "options": [
+        "Experiment with different programme versions efficiently",
+        "Broadcast without any equipment",
+        "Replace all actors with graphics",
+        "Avoid planning entirely"
+      ],
+      "answerIndex": 0,
+      "explanation": "Digital non-linear editing makes it easier to rearrange and test footage during post-production."
+    },
+    {
+      "id": 70,
+      "question": "Virtual sets commonly combine green-screen technology with",
+      "options": [
+        "Printed newspapers",
+        "Computer-generated imagery",
+        "Telephone wires only",
+        "Unedited radio signals"
+      ],
+      "answerIndex": 1,
+      "explanation": "Virtual sets use green screens and computer-generated backgrounds to create realistic environments."
+    },
+    {
+      "id": 71,
+      "question": "In television production, “talent” refers to",
+      "options": [
+        "The programme budget",
+        "Only the station’s electrical cables",
+        "People who appear on camera, such as presenters or actors",
+        "The master-control room"
+      ],
+      "answerIndex": 2,
+      "explanation": "Talent includes on-camera presenters, actors, news anchors, and similar performers."
+    },
+    {
+      "id": 72,
+      "question": "The rehearse-record method involves",
+      "options": [
+        "Using sound effects without images",
+        "Transmitting without preparation",
+        "Editing only after a live broadcast",
+        "Rehearsing scenes and recording them in segments"
+      ],
+      "answerIndex": 3,
+      "explanation": "Scenes are rehearsed first and then recorded segment by segment, allowing detailed preparation."
+    },
+    {
+      "id": 73,
+      "question": "Which production method transmits a programme in real time?",
+      "options": [
+        "Live broadcasting",
+        "Rehearse-record",
+        "Basic retakes",
+        "Non-linear editing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Live broadcasting sends the programme to the audience as it happens."
+    },
+    {
+      "id": 74,
+      "question": "Basic retakes are useful because they allow a production team to",
+      "options": [
+        "Avoid all rehearsals",
+        "Stop recording and correct an error by re-shooting a scene",
+        "Transmit from any location without equipment",
+        "Remove the need for a director"
+      ],
+      "answerIndex": 1,
+      "explanation": "Basic retakes provide a chance to correct mistakes without re-shooting the entire programme."
+    },
+    {
+      "id": 75,
+      "question": "A close-up shot is particularly effective for",
+      "options": [
+        "Replacing the sound engineer",
+        "Showing the entire country at once",
+        "Directing attention to a character’s facial expression",
+        "Measuring the station’s revenue"
+      ],
+      "answerIndex": 2,
+      "explanation": "A close-up limits the visual field and highlights details such as facial expression."
+    },
+    {
+      "id": 76,
+      "question": "In television, program control is the area where the director",
+      "options": [
+        "Sells radio receivers",
+        "Builds all physical scenery",
+        "Writes the media law",
+        "Selects and organises the audio and visual elements"
+      ],
+      "answerIndex": 3,
+      "explanation": "Program control is the centre for managing what the audience sees and hears during production."
+    },
+    {
+      "id": 77,
+      "question": "Switching in television production means",
+      "options": [
+        "Choosing and arranging video images from different sources",
+        "Changing a script from English to French",
+        "Adjusting only the studio lights",
+        "Transmitting radio through a telephone"
+      ],
+      "answerIndex": 0,
+      "explanation": "A switcher selects which camera or video source is sent to air at a given moment."
+    },
+    {
+      "id": 78,
+      "question": "The character generator is used to create and manage",
+      "options": [
+        "Microphone directionality",
+        "On-screen text such as titles and credits",
+        "The programme budget",
+        "Outdoor weather reports"
+      ],
+      "answerIndex": 1,
+      "explanation": "A character generator produces text graphics displayed over television pictures."
+    },
+    {
+      "id": 79,
+      "question": "The audio control booth is responsible for",
+      "options": [
+        "Issuing licences to stations",
+        "Choosing camera locations only",
+        "Managing microphones, mixers, and television sound",
+        "Creating physical sets"
+      ],
+      "answerIndex": 2,
+      "explanation": "Audio control manages the sound sources and keeps audio levels balanced with the picture."
+    },
+    {
+      "id": 80,
+      "question": "Master control in a television station functions as the hub that",
+      "options": [
+        "Controls audience opinions",
+        "Writes every programme script",
+        "Records only interviews",
+        "Schedules and transmits programme inputs at the correct time"
+      ],
+      "answerIndex": 3,
+      "explanation": "Master control handles programme inputs, commercials, and live transmissions and ensures correct timing and standards."
+    },
+    {
+      "id": 81,
+      "question": "In television jargon, 1080i is associated with",
+      "options": [
+        "High-definition television resolution",
+        "A radio hand signal",
+        "A type of studio furniture",
+        "A legal defence"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course lists 720p and 1080i as higher-quality HDTV resolutions."
+    },
+    {
+      "id": 82,
+      "question": "RGB in television imaging stands for",
+      "options": [
+        "Radio, graphics, broadcast",
+        "Red, green, and blue",
+        "Recording, gain, balance",
+        "Relay, ground, bandwidth"
+      ],
+      "answerIndex": 1,
+      "explanation": "Red, green, and blue are the primary component colours used to create images on screen."
+    },
+    {
+      "id": 83,
+      "question": "Streaming differs from downloading because streaming allows a user to",
+      "options": [
+        "Receive only printed content",
+        "Use no data at all",
+        "Watch or listen while data is still being delivered",
+        "Edit every file before opening it"
+      ],
+      "answerIndex": 2,
+      "explanation": "Streaming delivers a continuous flow that can be consumed while delivery is in progress."
+    },
+    {
+      "id": 84,
+      "question": "In television terminology, a field is",
+      "options": [
+        "A legal document",
+        "A type of audio cable",
+        "A camera’s colour setting",
+        "A location outside the studio"
+      ],
+      "answerIndex": 3,
+      "explanation": "The course defines a field as a location outside the regular studio."
+    },
+    {
+      "id": 85,
+      "question": "If a presenter is reading narration over accompanying pictures, the technique is called",
+      "options": [
+        "Voice-over",
+        "Back light",
+        "Reverberation",
+        "Fade-out"
+      ],
+      "answerIndex": 0,
+      "explanation": "Voice-over is narration delivered over visuals or other programme material."
+    },
+    {
+      "id": 86,
+      "question": "A programme proposal is primarily used to present the producer’s plan, including the objective, format, and",
+      "options": [
+        "Final broadcast rating",
+        "Tentative budget",
+        "Private phone messages",
+        "Complete audience transcript"
+      ],
+      "answerIndex": 1,
+      "explanation": "The course identifies the objective, show format, and tentative budget as typical proposal elements."
+    },
+    {
+      "id": 87,
+      "question": "The first creative step in developing a television programme is usually",
+      "options": [
+        "Master control transmission",
+        "Final colour grading",
+        "Programme ideation",
+        "Audience complaint handling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Programme ideation generates and refines the concept that becomes the basis of production."
+    },
+    {
+      "id": 88,
+      "question": "A producer watching a shoot to ensure that the overall look and flow still match the concept is performing",
+      "options": [
+        "Script plagiarism",
+        "Antenna modulation",
+        "Audience censorship",
+        "Production evaluation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The producer observes the production and provides feedback so the work remains aligned with its original purpose."
+    },
+    {
+      "id": 89,
+      "question": "A television scriptwriter should conduct research primarily to",
+      "options": [
+        "Present accurate information and strengthen credibility",
+        "Copy another programme’s wording",
+        "Eliminate the need for revision",
+        "Avoid considering the audience"
+      ],
+      "answerIndex": 0,
+      "explanation": "Research gives the writer accurate knowledge and helps produce credible, engaging content."
+    },
+    {
+      "id": 90,
+      "question": "Following a station’s script layout is important because it",
+      "options": [
+        "Guarantees that every programme is live",
+        "Maintains consistency with the station’s house style",
+        "Replaces story research",
+        "Prevents all editing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each station may have preferred formatting and style conventions that writers are expected to follow."
+    },
+    {
+      "id": 91,
+      "question": "Originality in television scriptwriting requires a writer to",
+      "options": [
+        "Ignore local experiences",
+        "Use sensationalism in every story",
+        "Develop authentic content rather than copy another script",
+        "Avoid rewriting the draft"
+      ],
+      "answerIndex": 2,
+      "explanation": "Original, authentic work is both ethically sound and more likely to reflect the intended audience and environment."
+    },
+    {
+      "id": 92,
+      "question": "Why should a television scriptwriter pay attention to audience perspective?",
+      "options": [
+        "It removes the need for a format",
+        "Viewers cannot see television pictures",
+        "Audience preferences never affect programming",
+        "Television viewers often have limited attention spans"
+      ],
+      "answerIndex": 3,
+      "explanation": "Concise, engaging scenes help retain television viewers whose attention may be shorter than that of readers."
+    },
+    {
+      "id": 93,
+      "question": "Outside broadcasting is the transmission of a programme",
+      "options": [
+        "From a location outside the regular studio",
+        "Only from a radio receiver",
+        "After all audiences leave",
+        "Exclusively through newspapers"
+      ],
+      "answerIndex": 0,
+      "explanation": "Outside broadcasting uses a mobile production setup to cover events or programmes away from the studio."
+    },
+    {
+      "id": 94,
+      "question": "An OB unit is best described as",
+      "options": [
+        "A permanent studio wall",
+        "A mobile production unit with equipment and crew",
+        "A type of broadcast law",
+        "A television audience group"
+      ],
+      "answerIndex": 1,
+      "explanation": "An outside-broadcast unit carries the equipment and personnel needed to produce from the field."
+    },
+    {
+      "id": 95,
+      "question": "Electronic News Gathering is especially associated with",
+      "options": [
+        "Designing studio furniture",
+        "Writing fictional scripts only",
+        "Collecting audio and video news material in the field",
+        "Adjusting colour after broadcast"
+      ],
+      "answerIndex": 2,
+      "explanation": "ENG is a field-gathering approach used for news and other location-based coverage."
+    },
+    {
+      "id": 96,
+      "question": "A studio manager’s important live-broadcast responsibility is to",
+      "options": [
+        "Decide the meaning of every news story",
+        "Replace every presenter",
+        "Write all audience comments",
+        "Help ensure equipment and technical operations work smoothly"
+      ],
+      "answerIndex": 3,
+      "explanation": "Studio managers support the technical and operational side of productions and respond to problems quickly."
+    },
+    {
+      "id": 97,
+      "question": "The National Broadcasting Commission in Nigeria was created by",
+      "options": [
+        "Decree No. 38 of 1992",
+        "The 1951 NBS Act",
+        "The 1976 NTA schedule",
+        "A television script"
+      ],
+      "answerIndex": 0,
+      "explanation": "The course and the NBC Act identify Decree No. 38 of 1992 as the establishing instrument for the Commission."
+    },
+    {
+      "id": 98,
+      "question": "Defamation law mainly protects a person’s",
+      "options": [
+        "Right to ignore all evidence",
+        "Reputation from false and damaging statements",
+        "Access to studio lighting",
+        "Choice of camera angle"
+      ],
+      "answerIndex": 1,
+      "explanation": "Defamation concerns false statements that harm reputation, so broadcasters must verify damaging allegations carefully."
+    },
+    {
+      "id": 99,
+      "question": "When reporting a sensitive allegation, the most responsible first step is to",
+      "options": [
+        "Remove the accused person’s response",
+        "Broadcast the rumour immediately",
+        "Verify the facts and avoid presenting an unproven claim as established truth",
+        "Use the most sensational wording"
+      ],
+      "answerIndex": 2,
+      "explanation": "Accuracy, verification, fairness, and careful language reduce the risk of unethical or unlawful reporting."
+    },
+    {
+      "id": 100,
+      "question": "The central legal and ethical challenge in broadcasting is to balance freedom of expression with",
+      "options": [
+        "The use of longer scripts",
+        "Unlimited commercial advertising",
+        "The elimination of all regulation",
+        "Accountability and the protection of people and society"
+      ],
+      "answerIndex": 3,
+      "explanation": "Media laws seek to protect expression while requiring broadcasters to operate responsibly and within legal limits."
+    }
+  ]
+}

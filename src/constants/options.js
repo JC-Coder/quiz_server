@@ -58,6 +58,12 @@ export const courses = [
     level: LEVEL_IDS.LEVEL_100,
   },
   {
+    value: "MCM108",
+    label: "MCM 108 - Introduction to Electronic Media",
+    departments: [DEPARTMENT_IDS.MASS_COMMUNICATION],
+    level: LEVEL_IDS.LEVEL_100,
+  },
+  {
     value: "PHY107",
     label: "PHY 107 - General Practical Physics I",
     departments: [DEPARTMENT_IDS.COMPUTER_SCIENCE],
