@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageContainer from '../components/PageContainer';
-import { courses, departments, levels, quizModes } from '../constants/options';
+import { departments, levels, quizModes } from '../constants/options';
 import { getProgressSnapshot, formatSavedAt } from '../utils/progress';
+import { getQuestionCatalog } from '../utils/questions';
 import {
   loadPendingSessions,
   migrateLegacySessionIfPresent,
   removeSessionById,
   saveSessions
 } from '../utils/sessions';
+
+const { courseOptions } = getQuestionCatalog();
 
 function ProgressPage() {
   const [sessions, setSessions] = useState([]);
@@ -85,7 +88,7 @@ function ProgressPage() {
               if (!snapshot) return null;
 
               const courseLabel =
-                courses.find((item) => item.value === session.setup?.category)?.label ??
+                courseOptions.find((item) => item.value === session.setup?.category)?.label ??
                 session.setup?.category;
               const departmentLabel =
                 departments.find((item) => item.value === session.setup?.department)?.label ??

@@ -1,7 +1,10 @@
 {
   "courseDetails": {
-    "id": "MCM108",
-    "name": "Introduction to Electronic Media"
+    "code": "MCM108",
+    "title": "Introduction to Electronic Media",
+    "description": "A 100-level Mass Communication course introducing radio, television, broadcasting history, production, equipment, terminology, programming, and media laws.",
+    "departments": ["mass-communication"],
+    "level": "100"
   },
   "questions": [
     {

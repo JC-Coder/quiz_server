@@ -1,7 +1,10 @@
 {
   "courseDetails": {
-    "id": "STA111",
-    "name": "Introduction to Statistics"
+    "code": "STA111",
+    "title": "Introduction to Statistics",
+    "description": "A 100-level Computer Science foundation course covering data collection, presentation, descriptive statistics, probability, sampling, estimation, and hypothesis testing.",
+    "departments": ["computer-science"],
+    "level": "100"
   },
   "questions": [
     {

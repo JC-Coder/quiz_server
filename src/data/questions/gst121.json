@@ -1,7 +1,10 @@
 {
   "courseDetails": {
-    "id": "GST121",
-    "name": "Use of Library, Study Skills and ICT"
+    "code": "GST121",
+    "title": "Use of Library, Study Skills and ICT",
+    "description": "A 100-level foundation course covering library services, information sources, study skills, research practice, referencing, and basic ICT.",
+    "departments": ["computer-science", "mass-communication"],
+    "level": "100"
   },
   "questions": [
     {

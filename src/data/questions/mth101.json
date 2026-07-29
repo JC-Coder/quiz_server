@@ -1,7 +1,10 @@
 {
   "courseDetails": {
-    "id": "MTH101",
-    "name": "Elementary Mathematics I"
+    "code": "MTH101",
+    "title": "Elementary Mathematics I",
+    "description": "A 100-level Computer Science foundation course covering sets, functions, algebra, sequences, matrices, calculus, and elementary mathematical reasoning.",
+    "departments": ["computer-science"],
+    "level": "100"
   },
   "questions": [
     {

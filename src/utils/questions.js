@@ -1,8 +1,29 @@
-import { courses } from "../constants/options";
-
 const questionModules = import.meta.glob("../data/questions/*.json", {
   eager: true,
 });
+
+function normalizeCourseDetails(rawDetails) {
+  if (!rawDetails || typeof rawDetails !== "object") return null;
+
+  const rawCode = String(rawDetails.code ?? rawDetails.id ?? "").trim();
+  const title = String(rawDetails.title ?? rawDetails.name ?? "").trim();
+  const rawDepartments = rawDetails.departments ?? rawDetails.department ?? [];
+  const departments = (Array.isArray(rawDepartments) ? rawDepartments : [rawDepartments])
+    .map((department) => String(department).trim())
+    .filter(Boolean);
+  const level = String(rawDetails.level ?? "").trim();
+
+  if (!rawCode || !title || departments.length === 0 || !level) return null;
+
+  const value = rawCode.replace(/\s+/g, "").toUpperCase();
+
+  return {
+    value,
+    label: `${rawCode} - ${title}`,
+    departments,
+    level,
+  };
+}
 
 function normalizeQuestion(rawQuestion) {
   if (!rawQuestion || typeof rawQuestion !== "object") return null;
@@ -20,23 +41,24 @@ function normalizeQuestion(rawQuestion) {
 
 export function getQuestionCatalog() {
   const questions = [];
-  const activeCourseValues = new Set(courses.map((course) => course.value));
+  const courseOptionsByValue = new Map();
 
-  // loads every JSON file in src/data/questions automatically
+  // Load each question bank and use its metadata as the course catalog.
   Object.values(questionModules).forEach((moduleValue) => {
     const rawData = moduleValue?.default ?? moduleValue;
 
     // Handle the new structured format: { courseDetails, questions }
     if (!Array.isArray(rawData) && rawData?.questions) {
-      const category = rawData.courseDetails?.id;
-      if (!category || !activeCourseValues.has(category)) return;
+      const course = normalizeCourseDetails(rawData.courseDetails);
+      if (!course) return;
+      courseOptionsByValue.set(course.value, course);
 
       rawData.questions.forEach((entry, index) => {
         const normalized = normalizeQuestion({
           ...entry,
-          category,
+          category: course.value,
           // Generate an id if it's missing from the new simplified structure
-          id: entry.id ?? `${category}-${index + 1}`,
+          id: entry.id ?? `${course.value}-${index + 1}`,
         });
 
         if (normalized && normalized.question) {
@@ -51,12 +73,11 @@ export function getQuestionCatalog() {
       rawData.forEach((entry) => {
         const normalized = normalizeQuestion(entry);
         if (
-          normalized &&
-          normalized.id &&
-          normalized.category &&
-          normalized.question &&
-          activeCourseValues.has(normalized.category)
-        ) {
+            normalized &&
+            normalized.id &&
+            normalized.category &&
+            normalized.question
+          ) {
           questions.push(normalized);
         }
       });
@@ -64,7 +85,9 @@ export function getQuestionCatalog() {
   });
 
   const categories = new Set(questions.map((question) => question.category));
-  const courseOptions = courses.filter((course) => categories.has(course.value));
+  const courseOptions = [...courseOptionsByValue.values()].filter((course) =>
+    categories.has(course.value),
+  );
 
   return { questions, courseOptions };
 }

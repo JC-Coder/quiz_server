@@ -1,7 +1,10 @@
 {
   "courseDetails": {
-    "id": "PHY101",
-    "name": "General Physics I"
+    "code": "PHY101",
+    "title": "General Physics I",
+    "description": "A 100-level Computer Science foundation course covering mechanics, motion, forces, work, energy, waves, heat, and basic physical principles.",
+    "departments": ["computer-science"],
+    "level": "100"
   },
   "questions": [
     {

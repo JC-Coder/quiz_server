@@ -1,0 +1,1211 @@
+{
+    "courseDetails": {
+        "code": "CMS102",
+        "title": "Writing for the Media",
+        "description": "A 100-level Mass Communication course covering media-writing responsibilities, grammar and syntax, platform-specific styles, research and reference materials, print and script structures, news and feature writing, opinion ethics, and multimedia storytelling.",
+        "departments": ["mass-communication"],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the mass media writer's most fundamental responsibility before publishing a story?",
+            "options": [
+                "Publishing before competitors without checking facts",
+                "Promoting the writer's personal interests",
+                "Gathering and verifying accurate information",
+                "Making the story as long as possible"
+            ],
+            "answerIndex": 2,
+            "explanation": "A media writer must confirm information through research, interviews, and fact-checking because accuracy builds public trust and prevents misinformation."
+        },
+        {
+            "id": 2,
+            "question": "Why should a media writer adapt the tone and length of a story for different platforms?",
+            "options": [
+                "Longer content is always more credible",
+                "All platforms legally require identical wording",
+                "Adaptation removes the need for research",
+                "Each platform has different audience habits and communication requirements"
+            ],
+            "answerIndex": 3,
+            "explanation": "Radio, television, print, and digital media are consumed differently, so writers adjust language, tone, structure, and length to suit each medium."
+        },
+        {
+            "id": 3,
+            "question": "A reporter receives a dramatic claim from an anonymous social media account. What should the reporter do first?",
+            "options": [
+                "Verify the claim through credible and independent sources",
+                "Remove the source's name and treat it as confirmed",
+                "Rewrite it as personal opinion",
+                "Publish it immediately and correct it later"
+            ],
+            "answerIndex": 0,
+            "explanation": "Speed does not replace verification. The claim should be checked against reliable evidence and independent sources before publication."
+        },
+        {
+            "id": 4,
+            "question": "Which action best demonstrates that a media writer understands audience needs?",
+            "options": [
+                "Choosing language and examples appropriate to the target readers",
+                "Using the same technical vocabulary for every audience",
+                "Ignoring feedback from readers",
+                "Writing only about topics the writer personally enjoys"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audience awareness helps a writer select suitable language, examples, detail, and tone so the message is relevant and understandable."
+        },
+        {
+            "id": 5,
+            "question": "Which practice is inconsistent with ethical media writing?",
+            "options": [
+                "Presenting an unverified rumour as a confirmed fact",
+                "Respecting legitimate privacy concerns",
+                "Correcting a factual error promptly",
+                "Avoiding plagiarism"
+            ],
+            "answerIndex": 0,
+            "explanation": "Ethical writing requires accuracy, verification, respect for privacy, and honesty. Presenting rumours as facts misleads the audience."
+        },
+        {
+            "id": 6,
+            "question": "Why is engaging content important in a crowded media environment?",
+            "options": [
+                "It guarantees that every reader agrees with the writer",
+                "It helps capture and retain the audience's attention",
+                "It removes the need for a clear structure",
+                "It allows facts to be replaced with entertainment"
+            ],
+            "answerIndex": 1,
+            "explanation": "Clear, relatable, and compelling storytelling helps a message stand out while still preserving accuracy and ethical standards."
+        },
+        {
+            "id": 7,
+            "question": "Which combination best describes the work of a responsible mass media writer?",
+            "options": [
+                "Writing only for print and ignoring audience feedback",
+                "Copying popular stories, exaggerating claims, and avoiding corrections",
+                "Focusing on speed, opinion, and commercial gain alone",
+                "Researching, writing clearly, adapting to platforms, and observing ethics"
+            ],
+            "answerIndex": 3,
+            "explanation": "The role combines information gathering, verification, audience awareness, platform adaptation, clear writing, and ethical judgement."
+        },
+        {
+            "id": 8,
+            "question": "A television script merely repeats every detail already visible on screen. What is the main weakness?",
+            "options": [
+                "The words fail to complement the visuals",
+                "The programme contains too many verified facts",
+                "The writer has used the inverted pyramid",
+                "The script is too objective"
+            ],
+            "answerIndex": 0,
+            "explanation": "Television writing should add context, explanation, or meaning to the pictures rather than simply describing what viewers can already see."
+        },
+        {
+            "id": 9,
+            "question": "Which sentence shows correct subject-verb agreement?",
+            "options": [
+                "The journalists writing their reports every morning.",
+                "The journalists write their reports every morning.",
+                "The journalist write their report every morning.",
+                "The journalists writes their reports every morning."
+            ],
+            "answerIndex": 1,
+            "explanation": "The plural subject 'journalists' correctly takes the plural verb 'write'."
+        },
+        {
+            "id": 10,
+            "question": "Which revision maintains consistent past tense?",
+            "options": [
+                "The reporter had interview the witness and submits the story.",
+                "The reporter interviewed the witness and submitted the story.",
+                "The reporter interviews the witness and submitted the story.",
+                "The reporter interviewed the witness and submits the story."
+            ],
+            "answerIndex": 1,
+            "explanation": "Both actions occurred in the past, so 'interviewed' and 'submitted' maintain a clear timeline."
+        },
+        {
+            "id": 11,
+            "question": "What is the main function of syntax in media writing?",
+            "options": [
+                "Selecting the station's broadcast frequency",
+                "Determining the legal ownership of a newspaper",
+                "Measuring the size of an audience",
+                "Arranging words and phrases so sentences are logical and clear"
+            ],
+            "answerIndex": 3,
+            "explanation": "Syntax concerns word and phrase arrangement. Proper syntax makes the intended meaning easier to understand."
+        },
+        {
+            "id": 12,
+            "question": "Which sentence contains a dangling modifier?",
+            "options": [
+                "Hoping to publish quickly, the article was written before noon.",
+                "Before noon, the journalist carefully completed the article.",
+                "The journalist finished the article before noon because the deadline was near.",
+                "Hoping to publish quickly, the journalist finished the article before noon."
+            ],
+            "answerIndex": 0,
+            "explanation": "The opening phrase logically describes the journalist, not the article. The sentence wrongly makes the article appear to be doing the hoping."
+        },
+        {
+            "id": 13,
+            "question": "Which option is a sentence fragment?",
+            "options": [
+                "The journalist reported from the flooded community.",
+                "The journalist interviewed residents and recorded their experiences.",
+                "While reporting from the flooded community, the journalist interviewed residents.",
+                "While reporting from the flooded community."
+            ],
+            "answerIndex": 3,
+            "explanation": "The phrase begins with a dependent clause but does not contain an independent clause that completes the thought."
+        },
+        {
+            "id": 14,
+            "question": "Which sentence is written in the clearest active voice?",
+            "options": [
+                "The headline was approved by the editor.",
+                "The editor approved the headline.",
+                "Approval of the headline was made by the editor.",
+                "The headline had been approved by the editor."
+            ],
+            "answerIndex": 1,
+            "explanation": "In active voice, the subject performs the action directly: the editor approved the headline."
+        },
+        {
+            "id": 15,
+            "question": "When is passive voice most justifiable in media writing?",
+            "options": [
+                "When the person performing the action is unknown or unimportant",
+                "When a sentence should be made as long as possible",
+                "Whenever the writer wants to hide every source",
+                "Whenever the subject is a journalist"
+            ],
+            "answerIndex": 0,
+            "explanation": "Active voice is generally clearer, but passive voice can be useful when the doer is unknown, irrelevant, or less important than the action."
+        },
+        {
+            "id": 16,
+            "question": "Which punctuation mark is most suitable for introducing a list after a complete clause?",
+            "options": [
+                "A colon",
+                "A question mark",
+                "An apostrophe",
+                "A hyphen"
+            ],
+            "answerIndex": 0,
+            "explanation": "A colon introduces a list, explanation, or elaboration after a complete clause."
+        },
+        {
+            "id": 17,
+            "question": "Which punctuation mark can correctly link two closely related independent clauses?",
+            "options": [
+                "A semicolon",
+                "A full stop followed by no new sentence",
+                "A quotation mark",
+                "An apostrophe"
+            ],
+            "answerIndex": 0,
+            "explanation": "A semicolon can join two closely related independent clauses without using a coordinating conjunction."
+        },
+        {
+            "id": 18,
+            "question": "Which sentence is a compound sentence?",
+            "options": [
+                "The protest ended peacefully.",
+                "The protest ended peacefully, and the police left the scene.",
+                "Ending peacefully after several hours.",
+                "Although the protest ended peacefully, the police remained nearby."
+            ],
+            "answerIndex": 1,
+            "explanation": "A compound sentence contains two independent clauses joined here by the coordinating conjunction 'and'."
+        },
+        {
+            "id": 19,
+            "question": "Which sentence is complex?",
+            "options": [
+                "The peaceful protest ended.",
+                "The protest was peaceful, and the crowd dispersed.",
+                "Although the protest was peaceful, the police remained on standby.",
+                "The protest was peaceful."
+            ],
+            "answerIndex": 2,
+            "explanation": "A complex sentence has one dependent clause and at least one independent clause."
+        },
+        {
+            "id": 20,
+            "question": "Why does broadcast writing usually use conversational and simple language?",
+            "options": [
+                "Simple language is required only for advertisements",
+                "The audience normally hears the message rather than reading it repeatedly",
+                "Listeners can always pause a live bulletin",
+                "Broadcast scripts must contain more jargon than print"
+            ],
+            "answerIndex": 1,
+            "explanation": "Listeners often have one opportunity to understand a broadcast, so natural, direct language improves comprehension."
+        },
+        {
+            "id": 21,
+            "question": "What is a major advantage of the inverted pyramid in newspaper writing?",
+            "options": [
+                "It requires the conclusion to contain all essential facts",
+                "It is designed mainly for personal essays",
+                "Readers receive the most important information first",
+                "It prevents editors from shortening articles"
+            ],
+            "answerIndex": 2,
+            "explanation": "The structure begins with the key facts, allowing readers to understand the story quickly and editors to trim from the bottom."
+        },
+        {
+            "id": 22,
+            "question": "Which feature is especially associated with digital media writing?",
+            "options": [
+                "Short paragraphs, subheadings, hyperlinks, and relevant keywords",
+                "No concern for searchability",
+                "Only long uninterrupted paragraphs",
+                "Complete avoidance of images and video"
+            ],
+            "answerIndex": 0,
+            "explanation": "Digital writing is designed for screen reading and discovery, so it uses scannable structure, links, multimedia, and SEO."
+        },
+        {
+            "id": 23,
+            "question": "How have character limits on social media influenced media writing?",
+            "options": [
+                "They require every post to use academic language",
+                "They make fact-checking unnecessary",
+                "They encourage concise and attention-grabbing messages",
+                "They eliminate the need for visual content"
+            ],
+            "answerIndex": 2,
+            "explanation": "Limited space pushes writers to communicate quickly and directly while using hooks, hashtags, and visuals strategically."
+        },
+        {
+            "id": 24,
+            "question": "What does convergence journalism require from a modern media writer?",
+            "options": [
+                "The ability to think and work across several media formats",
+                "Writing the same version of a story for every platform",
+                "Avoidance of images, audio, and video",
+                "Exclusive concentration on printed newspapers"
+            ],
+            "answerIndex": 0,
+            "explanation": "Convergence combines text, audio, images, video, and interactive elements, so writers need adaptable multimedia skills."
+        },
+        {
+            "id": 25,
+            "question": "A web article is divided into short paragraphs with descriptive subheadings. What audience behaviour is the writer addressing?",
+            "options": [
+                "Readers prefer all information hidden in footnotes",
+                "Readers cannot understand headlines",
+                "Readers often scan screens instead of reading every word in sequence",
+                "Online audiences reject concise writing"
+            ],
+            "answerIndex": 2,
+            "explanation": "Scannable formatting lets users locate key information quickly on screens."
+        },
+        {
+            "id": 26,
+            "question": "What should a television writer do when strong visuals already show the main action?",
+            "options": [
+                "Describe every visible movement word for word",
+                "Replace the visuals with a long written paragraph",
+                "Use the script to add context or information the pictures do not provide",
+                "Remove all narration regardless of the story"
+            ],
+            "answerIndex": 2,
+            "explanation": "Effective television writing complements rather than duplicates the images."
+        },
+        {
+            "id": 27,
+            "question": "A science reporter understands a medical study but is writing for the general public. What is the best approach?",
+            "options": [
+                "Copy the study's technical wording without explanation",
+                "Replace the evidence with personal experience",
+                "Omit important limitations to make the story exciting",
+                "Explain the findings accurately in clear, non-technical language"
+            ],
+            "answerIndex": 3,
+            "explanation": "Science and health writers must understand specialised material and translate it accurately without unnecessary jargon."
+        },
+        {
+            "id": 28,
+            "question": "Why should a business reporter understand financial statements and market trends?",
+            "options": [
+                "To convert every business story into political commentary",
+                "To avoid discussing the significance of company results",
+                "To explain what financial figures mean and how they affect the wider economy",
+                "To report figures without checking their context"
+            ],
+            "answerIndex": 2,
+            "explanation": "Economic knowledge helps the reporter interpret numbers rather than merely repeat them."
+        },
+        {
+            "id": 29,
+            "question": "Which background knowledge is most useful when covering an election?",
+            "options": [
+                "Only computer programming languages",
+                "Only film criticism and fashion trends",
+                "Political systems, history, parties, voting patterns, and social issues",
+                "Only advertising design"
+            ],
+            "answerIndex": 2,
+            "explanation": "Political journalism requires context so the reporter can explain the importance of parties, issues, policies, and voting behaviour."
+        },
+        {
+            "id": 30,
+            "question": "A journalist covering a new artificial intelligence system should explain both how it works and what else?",
+            "options": [
+                "The writer's unrelated political preferences",
+                "Its possible social effects, such as privacy concerns and job automation",
+                "Why all technology is automatically beneficial",
+                "Only the colour of the company's logo"
+            ],
+            "answerIndex": 1,
+            "explanation": "Technology reporting should connect technical details with wider ethical, economic, and social implications."
+        },
+        {
+            "id": 31,
+            "question": "What enables an arts reporter to produce more than a surface-level review of an exhibition?",
+            "options": [
+                "Describing only the size of the venue",
+                "Avoiding any background research",
+                "Using financial statistics as the sole basis of the review",
+                "Knowledge of art history, cultural context, and social trends"
+            ],
+            "answerIndex": 3,
+            "explanation": "Cultural knowledge allows the writer to interpret meaning, style, historical influence, and social significance."
+        },
+        {
+            "id": 32,
+            "question": "Why does environmental journalism often require cross-disciplinary knowledge?",
+            "options": [
+                "Environmental stories contain no factual claims",
+                "Environmental issues involve science, public policy, and economic consequences",
+                "Only photographs are needed to explain climate issues",
+                "Environmental reporting is identical to celebrity reporting"
+            ],
+            "answerIndex": 1,
+            "explanation": "A complete environmental story may need scientific explanation, policy analysis, and discussion of costs or economic effects."
+        },
+        {
+            "id": 33,
+            "question": "Which reference material is most suitable as a starting point for general background on an unfamiliar topic?",
+            "options": [
+                "A random anonymous message",
+                "An encyclopaedia",
+                "An unverified comment section",
+                "A personal advertisement"
+            ],
+            "answerIndex": 1,
+            "explanation": "Encyclopaedias provide broad introductory information, though recent developments should be checked elsewhere."
+        },
+        {
+            "id": 34,
+            "question": "What is the main journalistic use of a specialised dictionary?",
+            "options": [
+                "Verifying the meaning and correct use of technical terms",
+                "Supplying current election results",
+                "Providing eyewitness testimony",
+                "Replacing all subject experts"
+            ],
+            "answerIndex": 0,
+            "explanation": "Legal, medical, and other specialised dictionaries help writers understand and use field-specific language accurately."
+        },
+        {
+            "id": 35,
+            "question": "Why is an interview classified as a primary source?",
+            "options": [
+                "It provides first-hand information from an expert, witness, or participant",
+                "It contains only the journalist's interpretation",
+                "It is always published in a textbook",
+                "It summarises several old newspaper articles"
+            ],
+            "answerIndex": 0,
+            "explanation": "An interview gives direct testimony, perspectives, and quotations from someone with relevant knowledge or experience."
+        },
+        {
+            "id": 36,
+            "question": "Which source is generally best for detailed peer-reviewed findings on a scientific subject?",
+            "options": [
+                "An entertainment advert",
+                "An anonymous social media meme",
+                "A fictional short story",
+                "A scholarly journal"
+            ],
+            "answerIndex": 3,
+            "explanation": "Scholarly journals publish expert research that has usually undergone peer review, making them valuable for specialised reporting."
+        },
+        {
+            "id": 37,
+            "question": "A journalist wants to compare today's flood with similar floods reported ten years ago. Which source is most useful?",
+            "options": [
+                "A spelling dictionary",
+                "A trusted news archive",
+                "A product brochure",
+                "A blank notebook"
+            ],
+            "answerIndex": 1,
+            "explanation": "News archives provide historical reports that help journalists compare events and add context."
+        },
+        {
+            "id": 38,
+            "question": "Which reference source is most appropriate for current population, health, or economic figures?",
+            "options": [
+                "A personal diary",
+                "A reliable statistical database",
+                "A feature film",
+                "An unsourced opinion column"
+            ],
+            "answerIndex": 1,
+            "explanation": "Government and recognised research databases provide concrete, current data for stories involving numbers."
+        },
+        {
+            "id": 39,
+            "question": "How should a journalist use a quick online reference such as Wikipedia?",
+            "options": [
+                "Treat every statement as final and unquestionable",
+                "Quote it without checking its cited sources",
+                "Use it instead of official documents in all cases",
+                "Use it for orientation, then cross-check important claims with authoritative sources"
+            ],
+            "answerIndex": 3,
+            "explanation": "Open online tools can help identify leads, but journalists should verify facts through official records, recognised databases, or other credible sources."
+        },
+        {
+            "id": 40,
+            "question": "What was a major limitation of the typewriter compared with a word processor?",
+            "options": [
+                "It could not produce readable text",
+                "It required internet access",
+                "It automatically changed the writer's meaning",
+                "Correcting mistakes could require retyping entire sections"
+            ],
+            "answerIndex": 3,
+            "explanation": "Typewriters produced legible copy but offered little editing flexibility, so substantial corrections often meant retyping."
+        },
+        {
+            "id": 41,
+            "question": "Why do many field reporters still carry a notebook and pen?",
+            "options": [
+                "They automatically verify every fact",
+                "They record high-quality video",
+                "They remain portable and usable when power or internet access fails",
+                "They can publish directly to a website"
+            ],
+            "answerIndex": 2,
+            "explanation": "Traditional tools are reliable backups in situations where digital devices are unavailable or impractical."
+        },
+        {
+            "id": 42,
+            "question": "What was the main advantage of a tape recorder during an interview?",
+            "options": [
+                "It replaced the need to obtain consent in all situations",
+                "It provided background knowledge on every subject",
+                "It automatically wrote the final article",
+                "It captured the conversation for accurate quotation and later transcription"
+            ],
+            "answerIndex": 3,
+            "explanation": "Recorded audio reduces dependence on memory and handwritten notes when checking direct quotations."
+        },
+        {
+            "id": 43,
+            "question": "Which word-processor feature most directly supports team editing at the same time?",
+            "options": [
+                "A printed index",
+                "A mechanical ink ribbon",
+                "Real-time cloud collaboration",
+                "A landline dial"
+            ],
+            "answerIndex": 2,
+            "explanation": "Cloud tools such as Google Docs allow several authorised users to edit and comment on the same document simultaneously."
+        },
+        {
+            "id": 44,
+            "question": "What is the function of transcription software in media work?",
+            "options": [
+                "Converting recorded speech into written text",
+                "Selecting newspaper page size",
+                "Replacing every source with artificial quotes",
+                "Turning text into studio lighting"
+            ],
+            "answerIndex": 0,
+            "explanation": "Transcription software speeds up the conversion of interviews and recorded events into editable text."
+        },
+        {
+            "id": 45,
+            "question": "Which digital resource is most suitable for quickly locating academic papers and archived information?",
+            "options": [
+                "A typewriter ribbon",
+                "A studio spotlight",
+                "A paper-only telephone directory",
+                "Online research databases and search tools"
+            ],
+            "answerIndex": 3,
+            "explanation": "Search engines, Google Scholar, JSTOR, and digital archives make research and fact-checking faster."
+        },
+        {
+            "id": 46,
+            "question": "What is the best general principle for choosing between traditional and digital writing tools?",
+            "options": [
+                "Digital tools should always replace every traditional tool",
+                "Traditional tools are always faster than digital tools",
+                "Use whichever tool is most fashionable, regardless of conditions",
+                "Use the tool that best fits the task and keep suitable backups"
+            ],
+            "answerIndex": 3,
+            "explanation": "Digital tools offer speed and flexibility, while traditional tools can be more dependable during technical failure; effective writers use both appropriately."
+        },
+        {
+            "id": 47,
+            "question": "Which arrangement correctly describes the inverted pyramid?",
+            "options": [
+                "Most important facts first, followed by supporting and less important details",
+                "Facts placed randomly to create suspense",
+                "Background first, opinion second, facts last",
+                "Minor details first and the main fact in the conclusion"
+            ],
+            "answerIndex": 0,
+            "explanation": "The inverted pyramid prioritises essential information at the beginning and places supporting or minor details later."
+        },
+        {
+            "id": 48,
+            "question": "Why can an editor safely shorten an inverted-pyramid news story from the bottom?",
+            "options": [
+                "The headline contains every quotation",
+                "The least essential details are usually placed near the end",
+                "The bottom always contains false information",
+                "The writer repeats the lead in every paragraph"
+            ],
+            "answerIndex": 1,
+            "explanation": "Because information descends in importance, cutting the last paragraphs should preserve the story's core facts."
+        },
+        {
+            "id": 49,
+            "question": "Which topic is most likely to be treated as hard news?",
+            "options": [
+                "A reflective essay about childhood",
+                "A guide to decorating a bedroom",
+                "A newly announced government policy",
+                "A celebrity's favourite holiday memories"
+            ],
+            "answerIndex": 2,
+            "explanation": "Hard news covers timely and consequential events such as policy announcements, disasters, elections, and accidents."
+        },
+        {
+            "id": 50,
+            "question": "Which topic is most likely to be treated as soft news?",
+            "options": [
+                "A sudden change in the national budget",
+                "A feature on a growing lifestyle trend",
+                "An urgent evacuation order",
+                "A breaking court judgment"
+            ],
+            "answerIndex": 1,
+            "explanation": "Soft news generally emphasises human interest, lifestyle, entertainment, analysis, or interpretation rather than urgent events."
+        },
+        {
+            "id": 51,
+            "question": "Which characteristic best describes an effective newspaper headline?",
+            "options": [
+                "Long, vague, and filled with unexplained abbreviations",
+                "Brief, clear, active, and informative",
+                "Composed as a complete background essay",
+                "Written mainly to hide the subject of the story"
+            ],
+            "answerIndex": 1,
+            "explanation": "A headline should attract attention while communicating the story's central point quickly."
+        },
+        {
+            "id": 52,
+            "question": "Why do magazine features often use photographs, illustrations, and infographics?",
+            "options": [
+                "To replace interviews and research",
+                "To enhance the narrative and sustain reader engagement",
+                "To eliminate the need for accurate writing",
+                "To make every article shorter than a news brief"
+            ],
+            "answerIndex": 1,
+            "explanation": "Visuals can clarify information, create mood, and deepen a longer magazine story."
+        },
+        {
+            "id": 53,
+            "question": "What information does a script's scene heading or slug line normally provide?",
+            "options": [
+                "The complete biography of every actor",
+                "Whether the scene is interior or exterior, its location, and the time",
+                "Only the emotional state of the audience",
+                "The final production budget"
+            ],
+            "answerIndex": 1,
+            "explanation": "A slug line such as 'INT. LIVING ROOM – NIGHT' tells the team where and when the scene occurs."
+        },
+        {
+            "id": 54,
+            "question": "What is the purpose of an action line in a script?",
+            "options": [
+                "To describe what happens visibly or physically in the scene",
+                "To provide the audience rating",
+                "To list the station's advertisers",
+                "To show the actor's salary"
+            ],
+            "answerIndex": 0,
+            "explanation": "Action lines describe movements, events, and visible behaviour that the production team must stage or record."
+        },
+        {
+            "id": 55,
+            "question": "Why are character names placed before dialogue in a script?",
+            "options": [
+                "To indicate the location of the scene",
+                "To identify who is speaking",
+                "To show the duration of the programme",
+                "To replace all stage directions"
+            ],
+            "answerIndex": 1,
+            "explanation": "The name clearly assigns each line to the correct performer."
+        },
+        {
+            "id": 56,
+            "question": "What does a parenthetical such as '(angrily)' tell the performer?",
+            "options": [
+                "How the following line should be delivered",
+                "How the article should be indexed online",
+                "Which camera model to purchase",
+                "Where the programme will be transmitted"
+            ],
+            "answerIndex": 0,
+            "explanation": "Parentheticals give brief performance or delivery instructions connected to dialogue."
+        },
+        {
+            "id": 57,
+            "question": "Why are television scripts often divided clearly around acts or commercial breaks?",
+            "options": [
+                "Television scripts contain no action",
+                "Radio laws require television dialogue to stop",
+                "Film scripts cannot include scenes",
+                "Episodic television requires structured timing and break points"
+            ],
+            "answerIndex": 3,
+            "explanation": "Television production frequently works within fixed episode lengths and commercial slots, so structure and timing are explicit."
+        },
+        {
+            "id": 58,
+            "question": "Which element is especially important in a radio script because the audience cannot see the action?",
+            "options": [
+                "Costume sketches only",
+                "Camera lens specifications",
+                "Sound-effect and music cues",
+                "Scene colours"
+            ],
+            "answerIndex": 2,
+            "explanation": "Radio relies on sound, so cues for effects, music, ambience, and vocal delivery help create the scene."
+        },
+        {
+            "id": 59,
+            "question": "What is a likely result of poorly formatted production scripts?",
+            "options": [
+                "Automatic improvement in actors' performances",
+                "Lower need for coordination",
+                "Perfect timing without rehearsal",
+                "Confusion, mistakes, and delays among the production team"
+            ],
+            "answerIndex": 3,
+            "explanation": "Formatting is a shared production language; unclear layout can cause people to misunderstand scenes, cues, dialogue, and technical requirements."
+        },
+        {
+            "id": 60,
+            "question": "What makes website content scannable?",
+            "options": [
+                "Hiding the main point at the end of every page",
+                "Headings, short paragraphs, lists, and clear sections",
+                "Frequent unexplained jargon",
+                "One continuous block of text"
+            ],
+            "answerIndex": 1,
+            "explanation": "Scannable structure helps screen readers locate relevant information quickly."
+        },
+        {
+            "id": 61,
+            "question": "What is the best use of a hyperlink in an online article?",
+            "options": [
+                "Providing relevant additional context without disrupting the main message",
+                "Replacing all explanation in the article",
+                "Hiding the source of factual claims",
+                "Sending readers to unrelated pages"
+            ],
+            "answerIndex": 0,
+            "explanation": "A useful hyperlink supports the story with evidence or further detail while preserving the article's flow."
+        },
+        {
+            "id": 62,
+            "question": "Which tone is most commonly suitable for a personal blog?",
+            "options": [
+                "Conversational and relatable",
+                "Deliberately confusing and impersonal",
+                "Written only in legal terminology",
+                "Entirely bureaucratic and distant"
+            ],
+            "answerIndex": 0,
+            "explanation": "Blogs commonly build connection through an informal, approachable voice."
+        },
+        {
+            "id": 63,
+            "question": "Why are regular updates useful for a blog?",
+            "options": [
+                "They prevent any reader interaction",
+                "They encourage readers to return and help build a community",
+                "They make accuracy unnecessary",
+                "They remove the need for a clear topic"
+            ],
+            "answerIndex": 1,
+            "explanation": "Fresh, consistent posts maintain audience interest and create an ongoing relationship with readers."
+        },
+        {
+            "id": 64,
+            "question": "What responsibility accompanies the use of comment sections on a blog?",
+            "options": [
+                "Treating comments as verified news reports",
+                "Deleting every opinion that differs from the writer's",
+                "Moderating discussion so it remains respectful and relevant",
+                "Allowing harassment to increase traffic"
+            ],
+            "answerIndex": 2,
+            "explanation": "Interaction can strengthen engagement, but moderation protects the quality and safety of discussion."
+        },
+        {
+            "id": 65,
+            "question": "What is the main purpose of hashtags in social media writing?",
+            "options": [
+                "Replacing the need for a message",
+                "Preventing users from finding related content",
+                "Categorising posts and improving discoverability",
+                "Increasing the grammatical complexity of a post"
+            ],
+            "answerIndex": 2,
+            "explanation": "Relevant hashtags connect posts with topics and help interested users discover them."
+        },
+        {
+            "id": 66,
+            "question": "A news organisation combines a short article, an infographic, and a video interview on one page. What principle is it applying?",
+            "options": [
+                "Print-only production",
+                "Tense inconsistency",
+                "Multimedia integration",
+                "Passive sourcing"
+            ],
+            "answerIndex": 2,
+            "explanation": "Digital platforms can combine complementary media forms to explain a story more dynamically."
+        },
+        {
+            "id": 67,
+            "question": "What is the primary purpose of the lead in a hard-news article?",
+            "options": [
+                "To provide only the least important details",
+                "To present the reporter's personal conclusion",
+                "To list every source before stating the event",
+                "To summarise the most important facts at the beginning"
+            ],
+            "answerIndex": 3,
+            "explanation": "The lead gives readers the core of the story immediately, often answering the most important of the 5Ws and H."
+        },
+        {
+            "id": 68,
+            "question": "Which set correctly represents the 5Ws and H?",
+            "options": [
+                "Who, which, whether, writing, why, and headline",
+                "Who, what, where, when, why, and how",
+                "What, width, web, wording, witness, and history",
+                "Where, whom, whose, will, was, and has"
+            ],
+            "answerIndex": 1,
+            "explanation": "These six questions help journalists identify and communicate the essential facts of an event."
+        },
+        {
+            "id": 69,
+            "question": "Which type of lead is most appropriate for a breaking report about a major earthquake?",
+            "options": [
+                "A fictional dialogue lead",
+                "A review lead",
+                "A summary lead",
+                "A personal-essay lead"
+            ],
+            "answerIndex": 2,
+            "explanation": "Hard news normally needs a concise summary lead that communicates the central facts quickly."
+        },
+        {
+            "id": 70,
+            "question": "Which type of lead may begin by creating a mood or describing a scene?",
+            "options": [
+                "A database lead",
+                "A legal notice lead",
+                "A correction lead",
+                "A feature lead"
+            ],
+            "answerIndex": 3,
+            "explanation": "Feature leads can use description, atmosphere, or narrative to draw readers into softer or more in-depth stories."
+        },
+        {
+            "id": 71,
+            "question": "What is normally included in the body of a news article?",
+            "options": [
+                "The writer's unsupported personal beliefs",
+                "Only the headline repeated several times",
+                "Technical instructions for printing the newspaper",
+                "Supporting facts, quotations, attribution, data, and background"
+            ],
+            "answerIndex": 3,
+            "explanation": "The body expands the lead with evidence, context, source material, and increasingly less important details."
+        },
+        {
+            "id": 72,
+            "question": "Why is attribution important in news writing?",
+            "options": [
+                "It tells readers where information or opinion came from",
+                "It removes the need to verify claims",
+                "It allows journalists to invent quotations",
+                "It guarantees that a source is correct"
+            ],
+            "answerIndex": 0,
+            "explanation": "Attribution identifies the source, supports transparency, and separates the journalist's voice from another person's claim."
+        },
+        {
+            "id": 73,
+            "question": "Which practice best supports objectivity in a disputed public issue?",
+            "options": [
+                "Presenting relevant evidence and fairly representing multiple credible perspectives",
+                "Describing one side's opinion as unquestionable fact",
+                "Selecting only statements that support the reporter's preference",
+                "Using anonymous rumours as the main evidence"
+            ],
+            "answerIndex": 0,
+            "explanation": "Balanced reporting and clear attribution help audiences evaluate an issue without the reporter imposing a personal conclusion."
+        },
+        {
+            "id": 74,
+            "question": "Which sentence is clearest for a general news audience?",
+            "options": [
+                "The council approved the road project on Monday.",
+                "The municipal deliberative entity effectuated authorisation of the infrastructural undertaking.",
+                "On Monday, in relation to the road project, approval was something the council did.",
+                "There was, by the council, an approval that occurred regarding a project involving a road."
+            ],
+            "answerIndex": 0,
+            "explanation": "The sentence uses familiar words, active voice, and a direct subject-verb-object structure."
+        },
+        {
+            "id": 75,
+            "question": "Why do conventional news articles often lack a traditional argumentative conclusion?",
+            "options": [
+                "Every article must end with the reporter's opinion",
+                "The headline legally serves as the conclusion",
+                "Their purpose is to present information, with minor details commonly placed last",
+                "Journalists are not allowed to finish sentences"
+            ],
+            "answerIndex": 2,
+            "explanation": "News stories usually end with lesser details, a quotation, or a forward-looking statement rather than an essay-style argument."
+        },
+        {
+            "id": 76,
+            "question": "An editor removes the final two paragraphs of an inverted-pyramid report to fit the page. Why should the report still make sense?",
+            "options": [
+                "The headline contains the entire body",
+                "The essential information should already appear earlier",
+                "The final paragraphs are required to repeat the lead exactly",
+                "News articles place their main facts only in captions"
+            ],
+            "answerIndex": 1,
+            "explanation": "The inverted pyramid orders facts by importance, so the core story survives trimming from the bottom."
+        },
+        {
+            "id": 77,
+            "question": "What most clearly distinguishes a feature article from a hard-news report?",
+            "options": [
+                "A feature cannot include interviews",
+                "A feature must always be shorter than a news brief",
+                "A feature usually explores a subject in greater depth through narrative, analysis, or human interest",
+                "A feature may never contain facts"
+            ],
+            "answerIndex": 2,
+            "explanation": "Features offer more flexible structure, description, personality, and depth while still requiring accurate reporting."
+        },
+        {
+            "id": 78,
+            "question": "A writer wants to explore the life, personality, and achievements of a community leader. Which feature type fits best?",
+            "options": [
+                "A how-to feature",
+                "A product review",
+                "A statistical bulletin",
+                "A profile feature"
+            ],
+            "answerIndex": 3,
+            "explanation": "Profile features use interviews, observation, and background research to reveal the character and significance of a person or group."
+        },
+        {
+            "id": 79,
+            "question": "Which feature type is designed around ordered practical instructions?",
+            "options": [
+                "A human-interest feature",
+                "A profile feature",
+                "A how-to feature",
+                "A trend feature"
+            ],
+            "answerIndex": 2,
+            "explanation": "How-to features guide readers through a task using clear steps, examples, and often visual aids."
+        },
+        {
+            "id": 80,
+            "question": "A story centres on a family's recovery after a disaster and aims to create emotional connection. What type is it?",
+            "options": [
+                "A human-interest feature",
+                "A technical manual",
+                "A hard-news brief only",
+                "A dictionary entry"
+            ],
+            "answerIndex": 0,
+            "explanation": "Human-interest features focus on personal challenges, achievements, or touching experiences that resonate emotionally."
+        },
+        {
+            "id": 81,
+            "question": "Which statement best describes a personal essay?",
+            "options": [
+                "It is an anonymous statistical report",
+                "It uses the writer's own experience and reflection, often in the first person",
+                "It gives only step-by-step instructions",
+                "It must exclude all personal feelings"
+            ],
+            "answerIndex": 1,
+            "explanation": "Personal essays are introspective features built around the writer's observations, experiences, and lessons."
+        },
+        {
+            "id": 82,
+            "question": "Which feature type normally requires extensive documents, interviews, evidence, and fact-checking to reveal hidden wrongdoing?",
+            "options": [
+                "A routine weather brief",
+                "A personal diary entry",
+                "An investigative feature",
+                "A travel feature"
+            ],
+            "answerIndex": 2,
+            "explanation": "Investigative features uncover significant information through sustained research, verification, and evidence."
+        },
+        {
+            "id": 83,
+            "question": "A writer examines why a new social-media behaviour is spreading and what effects it may have. Which feature type is most suitable?",
+            "options": [
+                "A how-to feature",
+                "A breaking-news alert",
+                "A trend feature",
+                "A profile feature"
+            ],
+            "answerIndex": 2,
+            "explanation": "Trend features analyse emerging or continuing patterns, their causes, implications, data, and expert views."
+        },
+        {
+            "id": 84,
+            "question": "What should a balanced review feature contain?",
+            "options": [
+                "An evidence-based assessment of both strengths and weaknesses",
+                "Only praise supplied by the manufacturer",
+                "Unverified attacks on the creator",
+                "A plot summary with no evaluation"
+            ],
+            "answerIndex": 0,
+            "explanation": "A useful review evaluates the subject fairly and supports recommendations with reasons and experience."
+        },
+        {
+            "id": 85,
+            "question": "How does observation strengthen feature research?",
+            "options": [
+                "It allows the writer to invent scenes",
+                "It guarantees access to private information",
+                "It captures atmosphere, behaviour, sensory detail, and real-life interaction",
+                "It replaces the need to verify factual claims"
+            ],
+            "answerIndex": 2,
+            "explanation": "Careful observation provides vivid details that interviews and documents may not reveal."
+        },
+        {
+            "id": 86,
+            "question": "During an interview, a source mentions an unexpected but important experience. What should the feature writer do?",
+            "options": [
+                "Ignore it because it was not in the prepared list",
+                "End the interview immediately",
+                "Listen actively and ask a relevant follow-up question",
+                "Change the quotation to fit the original plan"
+            ],
+            "answerIndex": 2,
+            "explanation": "Prepared questions provide direction, but active listening allows the writer to explore valuable unplanned material."
+        },
+        {
+            "id": 87,
+            "question": "Which sentence best demonstrates 'show, don't tell' in character development?",
+            "options": [
+                "Amina was emotional.",
+                "The writer says that Amina was very sad.",
+                "Amina gripped the letter, took a slow breath, and wiped her eyes.",
+                "Amina had feelings about the letter."
+            ],
+            "answerIndex": 2,
+            "explanation": "Actions and sensory details reveal emotion more vividly than simply naming it."
+        },
+        {
+            "id": 88,
+            "question": "What ethical principle requires an opinion writer to use correct and verifiable evidence?",
+            "options": [
+                "Popularity",
+                "Sensationalism",
+                "Anonymity",
+                "Accuracy"
+            ],
+            "answerIndex": 3,
+            "explanation": "Opinion pieces may be subjective, but any factual claims used to support them must still be accurate and verifiable."
+        },
+        {
+            "id": 89,
+            "question": "What does fairness require when an opinion article addresses a contentious issue?",
+            "options": [
+                "Allowing rumours to replace documented facts",
+                "Representing relevant opposing viewpoints honestly",
+                "Ignoring every argument that challenges the writer",
+                "Pretending all evidence has equal quality"
+            ],
+            "answerIndex": 1,
+            "explanation": "Fairness means engaging opposing perspectives accurately and respectfully rather than misrepresenting or concealing them."
+        },
+        {
+            "id": 90,
+            "question": "How can an opinion writer demonstrate transparency?",
+            "options": [
+                "Avoid identifying the basis of an argument",
+                "Clearly distinguish personal judgement from factual claims",
+                "Present every personal belief as established fact",
+                "Hide the evidence used in the article"
+            ],
+            "answerIndex": 1,
+            "explanation": "Phrases and sourcing can make clear what is the writer's view and what is supported by evidence."
+        },
+        {
+            "id": 91,
+            "question": "What does accountability require after an opinion writer discovers a factual error?",
+            "options": [
+                "Correct the error promptly and openly",
+                "Delete all evidence without explanation",
+                "Blame readers for misunderstanding it",
+                "Leave it unchanged to protect the writer's image"
+            ],
+            "answerIndex": 0,
+            "explanation": "Accountability means accepting responsibility for claims and correcting mistakes when they are identified."
+        },
+        {
+            "id": 92,
+            "question": "What is cherry-picking in opinion writing?",
+            "options": [
+                "Checking a claim through several independent sources",
+                "Quoting an opposing view accurately",
+                "Separating facts from opinions",
+                "Selecting only evidence that supports a position while ignoring relevant contrary evidence"
+            ],
+            "answerIndex": 3,
+            "explanation": "Cherry-picking creates a misleading picture by presenting a selective sample of the available evidence."
+        },
+        {
+            "id": 93,
+            "question": "What is false equivalency?",
+            "options": [
+                "Using several verified statistics",
+                "Correcting a misleading comparison",
+                "Explaining why one source is more reliable",
+                "Presenting two unequal positions as though the evidence supporting them were equal"
+            ],
+            "answerIndex": 3,
+            "explanation": "False equivalency can mislead readers by giving unsupported or weak claims the same weight as well-established evidence."
+        },
+        {
+            "id": 94,
+            "question": "Which consequence can follow from publishing an unsupported allegation that damages a person's reputation?",
+            "options": [
+                "Guaranteed growth in public trust",
+                "Automatic protection because it appeared in an opinion column",
+                "Removal of all ethical responsibility",
+                "Loss of credibility and possible defamation proceedings"
+            ],
+            "answerIndex": 3,
+            "explanation": "Opinion labels do not excuse false harmful factual claims; the writer may lose trust and face legal consequences."
+        },
+        {
+            "id": 95,
+            "question": "What makes interactive storytelling different from a purely linear article?",
+            "options": [
+                "It contains no text",
+                "It can only be distributed in print",
+                "The audience can participate, explore options, or control parts of the experience",
+                "It prevents users from accessing additional information"
+            ],
+            "answerIndex": 2,
+            "explanation": "Interactive stories let users click, choose, respond, or explore material rather than follow only one fixed path."
+        },
+        {
+            "id": 96,
+            "question": "In a multimedia story, what should text do when an image already communicates the basic visual information?",
+            "options": [
+                "Add context, explanation, or details that complement the image",
+                "Ignore the main subject",
+                "Become longer than every other element combined",
+                "Repeat the image's obvious content word for word"
+            ],
+            "answerIndex": 0,
+            "explanation": "Multimedia elements should work together; text should deepen understanding rather than duplicate what is already visible."
+        },
+        {
+            "id": 97,
+            "question": "Which visual format is best suited to simplifying a complex set of statistics?",
+            "options": [
+                "A long block of dialogue",
+                "An infographic",
+                "An uncaptioned decorative photograph",
+                "A scene heading"
+            ],
+            "answerIndex": 1,
+            "explanation": "Infographics organise data visually, helping audiences identify patterns and understand complex information quickly."
+        },
+        {
+            "id": 98,
+            "question": "Why should online videos usually include captions or subtitles?",
+            "options": [
+                "To replace the need for accurate audio",
+                "To increase the length of every clip",
+                "To make the video impossible to understand without sound",
+                "To improve accessibility and support viewing in different environments"
+            ],
+            "answerIndex": 3,
+            "explanation": "Captions support people with hearing difficulties and viewers watching without sound, while also reinforcing comprehension."
+        },
+        {
+            "id": 99,
+            "question": "What is the purpose of a storyboard in multimedia production?",
+            "options": [
+                "Choosing the legal owner of the platform",
+                "Calculating the journalist's salary",
+                "Replacing all research and scripting",
+                "Planning how text, images, video, and interactive elements will be sequenced"
+            ],
+            "answerIndex": 3,
+            "explanation": "A storyboard helps creators visualise the structure, placement, and relationship of different media elements before production."
+        },
+        {
+            "id": 100,
+            "question": "Which SEO practice is most appropriate for a web article?",
+            "options": [
+                "Using relevant keywords naturally and writing an informative meta description",
+                "Avoiding descriptive headlines and summaries",
+                "Repeating one keyword in every sentence",
+                "Hiding unrelated keywords in the article"
+            ],
+            "answerIndex": 0,
+            "explanation": "Effective SEO improves discoverability without damaging readability; relevant keywords and clear meta descriptions help search engines and users understand the page."
+        }
+    ]
+}
