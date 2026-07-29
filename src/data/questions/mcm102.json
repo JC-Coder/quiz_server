@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "MCM 102",
+        "title": "Principles of Public Relations",
+        "description": "A 100-level Mass Communication course covering the foundations, objectives, ethics, theories, planning, media relations, internal communication, public-sector and non-profit PR, and evaluation of public relations activities.",
+        "departments": [
+            "mass-communication"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which definition best reflects Grunig and Hunt's view of public relations?",
+            "options": [
+                "The purchase of media space to increase sales",
+                "The one-way distribution of favourable publicity",
+                "The management of communication between an organisation and its publics",
+                "The design of products for selected markets"
+            ],
+            "answerIndex": 2,
+            "explanation": "Grunig and Hunt defined PR as managing communication between an organisation and its publics, shifting attention towards strategic relationship management."
+        },
+        {
+            "id": 2,
+            "question": "What major idea did the PRSA's 2012 definition emphasise?",
+            "options": [
+                "Building mutually beneficial relationships between organisations and their publics",
+                "Replacing research with intuition",
+                "Using only paid advertising channels",
+                "Limiting communication to senior management"
+            ],
+            "answerIndex": 0,
+            "explanation": "The PRSA definition presents PR as a strategic communication process that builds relationships benefiting both the organisation and its publics."
+        },
+        {
+            "id": 3,
+            "question": "Which early PR pioneer issued the Declaration of Principles in 1906?",
+            "options": [
+                "Edward Bernays",
+                "James Grunig",
+                "Scott Cutlip",
+                "Ivy Lee"
+            ],
+            "answerIndex": 3,
+            "explanation": "Ivy Lee's Declaration of Principles promoted openness, accuracy, and honest dealings with the press."
+        },
+        {
+            "id": 4,
+            "question": "What was Edward Bernays especially known for contributing to public relations?",
+            "options": [
+                "Establishing the first Nigerian PR institute",
+                "Applying psychological and social-science ideas to shape public opinion",
+                "Creating the Barcelona Principles",
+                "Inventing social media monitoring"
+            ],
+            "answerIndex": 1,
+            "explanation": "Bernays applied insights from psychology and social science to persuasion and public-opinion management."
+        },
+        {
+            "id": 5,
+            "question": "Which organisation was established in 1900 and is commonly identified as the first public relations agency?",
+            "options": [
+                "The Publicity Bureau",
+                "The Public Relations Society of America",
+                "The International Public Relations Association",
+                "The National Broadcasting Commission"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Publicity Bureau, founded in 1900, is commonly described in the course as the first modern PR agency."
+        },
+        {
+            "id": 6,
+            "question": "What development most clearly marked the professionalisation of PR in the mid-twentieth century?",
+            "options": [
+                "The complete abandonment of print media",
+                "The replacement of PR by advertising",
+                "The formation of professional bodies and university PR programmes",
+                "The end of organisational communication"
+            ],
+            "answerIndex": 2,
+            "explanation": "Bodies such as PRSA and IPRA, together with formal PR education, helped establish PR as a recognised profession."
+        },
+        {
+            "id": 7,
+            "question": "Which statement best distinguishes early PR from contemporary strategic PR?",
+            "options": [
+                "Early PR relied on social media, while modern PR avoids technology",
+                "Early PR was mainly one-way publicity, while contemporary PR emphasises relationships and strategy",
+                "Early PR focused on employees, while modern PR ignores internal publics",
+                "Early PR measured outcomes, while modern PR rejects evaluation"
+            ],
+            "answerIndex": 1,
+            "explanation": "Early practice concentrated on getting information out; modern PR is planned, interactive, ethical, and relationship-focused."
+        },
+        {
+            "id": 8,
+            "question": "How did the digital revolution change public relations most directly?",
+            "options": [
+                "It removed the need for reputation management",
+                "It made journalists irrelevant in every situation",
+                "It restricted PR to printed publications",
+                "It enabled real-time, two-way engagement with publics"
+            ],
+            "answerIndex": 3,
+            "explanation": "Digital platforms allow organisations and publics to interact directly and continuously, creating a 24-hour communication environment."
+        },
+        {
+            "id": 9,
+            "question": "Why is public relations described as a continuous process?",
+            "options": [
+                "Every campaign must run permanently without review",
+                "PR can only be practised by full-time journalists",
+                "Relationships and public perceptions require ongoing management",
+                "An organisation must publish a press release every day"
+            ],
+            "answerIndex": 2,
+            "explanation": "PR is not a single event; organisations must repeatedly listen, communicate, evaluate, and maintain stakeholder relationships."
+        },
+        {
+            "id": 10,
+            "question": "Which statement best captures the strategic nature of modern PR?",
+            "options": [
+                "PR activities are deliberately planned to support organisational goals",
+                "PR messages are released randomly whenever publicity is available",
+                "PR is limited to responding after crises occur",
+                "PR decisions are made without research or evaluation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Strategic PR uses research, objectives, planning, execution, and evaluation to contribute to wider organisational goals."
+        },
+        {
+            "id": 11,
+            "question": "Which PR objective focuses on helping an organisation become recognisable to its target publics?",
+            "options": [
+                "Reducing stakeholder contact",
+                "Building brand awareness",
+                "Eliminating media coverage",
+                "Restricting internal communication"
+            ],
+            "answerIndex": 1,
+            "explanation": "Brand awareness helps an organisation stand out and become familiar to the people it seeks to reach."
+        },
+        {
+            "id": 12,
+            "question": "What is the primary purpose of media relations in PR?",
+            "options": [
+                "To buy every available advertising space",
+                "To prevent journalists from asking questions",
+                "To replace all direct stakeholder communication",
+                "To build productive relationships with journalists and secure credible coverage"
+            ],
+            "answerIndex": 3,
+            "explanation": "Media relations involves working with journalists, bloggers, and other intermediaries to support accurate and favourable coverage."
+        },
+        {
+            "id": 13,
+            "question": "A company identifies possible product-safety complaints before they occur and prepares response messages. Which PR function is illustrated?",
+            "options": [
+                "Crisis anticipation and planning",
+                "Employee recruitment",
+                "Market price setting",
+                "Routine product distribution"
+            ],
+            "answerIndex": 0,
+            "explanation": "Crisis management begins before a crisis through risk identification, preparation, designated responsibilities, and response planning."
+        },
+        {
+            "id": 14,
+            "question": "Why is transparent communication especially important during a crisis?",
+            "options": [
+                "It guarantees that the organisation will receive no criticism",
+                "It allows the organisation to hide uncertain facts",
+                "It helps maintain credibility by providing timely and honest information",
+                "It replaces the need to listen to stakeholders"
+            ],
+            "answerIndex": 2,
+            "explanation": "Honest, timely updates reduce rumours and show that the organisation is taking responsibility."
+        },
+        {
+            "id": 15,
+            "question": "Which activity best demonstrates community relations?",
+            "options": [
+                "Purchasing television airtime for a product advert",
+                "Partnering with local groups to support a community health programme",
+                "Changing the company's wholesale price",
+                "Closing all channels for public feedback"
+            ],
+            "answerIndex": 1,
+            "explanation": "Community relations builds goodwill through participation, sponsorship, volunteering, partnerships, and social responsibility."
+        },
+        {
+            "id": 16,
+            "question": "How does corporate social responsibility support public relations?",
+            "options": [
+                "It guarantees positive coverage regardless of conduct",
+                "It allows a company to avoid accountability",
+                "It focuses only on increasing short-term sales",
+                "It demonstrates an organisation's commitment to social and environmental responsibilities"
+            ],
+            "answerIndex": 3,
+            "explanation": "Credible CSR initiatives show that an organisation contributes to broader social goals and can strengthen stakeholder trust."
+        },
+        {
+            "id": 17,
+            "question": "What most directly strengthens organisational credibility?",
+            "options": [
+                "Accurate information, ethical conduct, and consistent messaging",
+                "Frequent exaggeration and secrecy",
+                "Different claims on every platform",
+                "Avoiding corrections when mistakes occur"
+            ],
+            "answerIndex": 0,
+            "explanation": "Credibility grows when communication is truthful, actions are ethical, and messages remain coherent across channels."
+        },
+        {
+            "id": 18,
+            "question": "Which statement correctly compares PR and advertising?",
+            "options": [
+                "PR always controls final media wording more than advertising",
+                "Advertising is always two-way, while PR is never interactive",
+                "PR often relies on earned credibility, while advertising pays for controlled message placement",
+                "PR and advertising have identical objectives and methods"
+            ],
+            "answerIndex": 2,
+            "explanation": "Advertising purchases space or time and offers high message control; PR often gains third-party coverage with less control but greater perceived credibility."
+        },
+        {
+            "id": 19,
+            "question": "Which statement best distinguishes PR from marketing?",
+            "options": [
+                "PR is only concerned with sales, while marketing manages government relations",
+                "Marketing uses research, while PR never does",
+                "PR uses communication, while marketing does not",
+                "PR manages relationships with broad stakeholder groups, while marketing concentrates mainly on customers and exchange"
+            ],
+            "answerIndex": 3,
+            "explanation": "PR addresses employees, media, investors, communities, regulators, and customers; marketing primarily aims to create and satisfy customer demand."
+        },
+        {
+            "id": 20,
+            "question": "How can PR support a marketing campaign without becoming advertising?",
+            "options": [
+                "By purchasing all media placements directly",
+                "By generating credible media coverage and stakeholder interest around the product",
+                "By setting the retail price of the product",
+                "By replacing product development decisions"
+            ],
+            "answerIndex": 1,
+            "explanation": "PR can amplify marketing through earned media, influencer relations, events, and reputation-building rather than paid placement alone."
+        },
+        {
+            "id": 21,
+            "question": "Which principle requires PR practitioners to provide information that is accurate and not misleading?",
+            "options": [
+                "Honesty and transparency",
+                "Message saturation",
+                "Selective disclosure",
+                "Competitive secrecy"
+            ],
+            "answerIndex": 0,
+            "explanation": "Honesty and transparency are central to credibility and require accurate, accessible, and timely communication."
+        },
+        {
+            "id": 22,
+            "question": "What does serving the public interest require from a PR practitioner?",
+            "options": [
+                "Defending the organisation regardless of harm",
+                "Ignoring all stakeholder concerns",
+                "Considering the wider social effects of organisational decisions",
+                "Publishing only messages that increase profit"
+            ],
+            "answerIndex": 2,
+            "explanation": "Ethical PR balances organisational interests with the legitimate needs, safety, and welfare of the public."
+        },
+        {
+            "id": 23,
+            "question": "Which action best demonstrates integrity in public relations?",
+            "options": [
+                "Deleting criticism without investigation",
+                "Admitting and correcting a material error in an official statement",
+                "Inventing statistics to strengthen a campaign",
+                "Concealing a known public-safety risk"
+            ],
+            "answerIndex": 1,
+            "explanation": "Integrity requires consistency between ethical principles, communication, and conduct, including correcting mistakes."
+        },
+        {
+            "id": 24,
+            "question": "Why is two-way communication valuable in PR?",
+            "options": [
+                "It gives the organisation complete control over public opinion",
+                "It removes the need for planning",
+                "It prevents publics from expressing disagreement",
+                "It enables dialogue, feedback, and mutual understanding"
+            ],
+            "answerIndex": 3,
+            "explanation": "Two-way communication allows organisations to listen and adapt instead of merely transmitting messages."
+        },
+        {
+            "id": 25,
+            "question": "A campaign uses images and language that respect different ethnic, religious, and social groups. Which principle is being applied?",
+            "options": [
+                "Press agentry",
+                "Message secrecy",
+                "Diversity and inclusivity",
+                "Market exclusion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Inclusive PR recognises differences among publics and avoids stereotypes, exclusion, or culturally insensitive communication."
+        },
+        {
+            "id": 26,
+            "question": "When does PR become strategic according to the approach discussed in the course?",
+            "options": [
+                "When it identifies publics that can help or hinder organisational goals",
+                "When it produces the largest number of press releases",
+                "When it operates separately from management",
+                "When it focuses only on short-term publicity"
+            ],
+            "answerIndex": 0,
+            "explanation": "Strategic PR identifies consequential publics and manages communication in ways that support long-term organisational goals."
+        },
+        {
+            "id": 27,
+            "question": "What is stakeholder mapping?",
+            "options": [
+                "Listing only the organisation's paying customers",
+                "Ranking media outlets by advertising price",
+                "Drawing the physical location of company offices",
+                "Identifying groups that affect or are affected by an organisation"
+            ],
+            "answerIndex": 3,
+            "explanation": "Stakeholder mapping identifies relevant groups such as employees, customers, investors, regulators, communities, and media."
+        },
+        {
+            "id": 28,
+            "question": "Why are stakeholders prioritised in strategic PR?",
+            "options": [
+                "Every stakeholder must receive an identical message",
+                "Their influence and potential impact on organisational goals differ",
+                "Only hostile stakeholders matter",
+                "Prioritisation eliminates the need for engagement"
+            ],
+            "answerIndex": 1,
+            "explanation": "Prioritisation helps allocate attention and resources according to stakeholder power, interest, urgency, and relevance."
+        },
+        {
+            "id": 29,
+            "question": "Which research activity involves monitoring social, political, economic, and technological developments?",
+            "options": [
+                "Environmental scanning",
+                "Copy editing",
+                "Media buying",
+                "Product packaging"
+            ],
+            "answerIndex": 0,
+            "explanation": "Environmental scanning tracks external trends, risks, and opportunities that may affect the organisation."
+        },
+        {
+            "id": 30,
+            "question": "What is proactive issues management designed to achieve?",
+            "options": [
+                "Create publicity after every crisis",
+                "Avoid all communication with critics",
+                "Identify and address emerging concerns before they become crises",
+                "Delay decisions until public pressure becomes severe"
+            ],
+            "answerIndex": 2,
+            "explanation": "Issues management uses scanning, risk assessment, scenario planning, and stakeholder engagement to prevent escalation."
+        },
+        {
+            "id": 31,
+            "question": "In the RACE framework, what does the first letter represent?",
+            "options": [
+                "Reach",
+                "Reputation",
+                "Response",
+                "Research"
+            ],
+            "answerIndex": 3,
+            "explanation": "In the course's PR planning framework, RACE stands for Research, Action, Communication, and Evaluation."
+        },
+        {
+            "id": 32,
+            "question": "What is the main purpose of a situation analysis in a PR plan?",
+            "options": [
+                "To select slogans before gathering evidence",
+                "To assess internal and external factors affecting the communication problem",
+                "To calculate only advertising costs",
+                "To write the final evaluation report first"
+            ],
+            "answerIndex": 1,
+            "explanation": "Situation analysis establishes the starting point and can use tools such as SWOT and PESTLE."
+        },
+        {
+            "id": 33,
+            "question": "Which item is an internal factor in a SWOT analysis?",
+            "options": [
+                "A new government regulation",
+                "A competitor entering the market",
+                "A weakness in the organisation's communication capacity",
+                "A change in public attitudes"
+            ],
+            "answerIndex": 2,
+            "explanation": "Strengths and weaknesses are internal; opportunities and threats arise mainly from the external environment."
+        },
+        {
+            "id": 34,
+            "question": "Which factor belongs to a PESTLE analysis?",
+            "options": [
+                "Legal changes affecting organisational communication",
+                "The personal preference of one copywriter",
+                "The colour of the office furniture",
+                "The number of staff birthdays in a month"
+            ],
+            "answerIndex": 0,
+            "explanation": "PESTLE reviews Political, Economic, Social, Technological, Legal, and Environmental factors."
+        },
+        {
+            "id": 35,
+            "question": "Which objective is SMART?",
+            "options": [
+                "Improve our image soon",
+                "Make everyone like the organisation",
+                "Get much more media coverage whenever possible",
+                "Increase positive brand sentiment among first-year students by 15% within six months"
+            ],
+            "answerIndex": 3,
+            "explanation": "A SMART objective is specific, measurable, achievable, relevant, and time-bound."
+        },
+        {
+            "id": 36,
+            "question": "An objective stating that students should recognise a new university policy is primarily at which level?",
+            "options": [
+                "Attitude",
+                "Awareness",
+                "Action",
+                "Profit"
+            ],
+            "answerIndex": 1,
+            "explanation": "Awareness objectives concern what the audience should know; attitude concerns feelings, and action concerns behaviour."
+        },
+        {
+            "id": 37,
+            "question": "Why are audience personas useful in PR planning?",
+            "options": [
+                "They clarify audience needs, motivations, and media habits",
+                "They guarantee that all stakeholders behave alike",
+                "They replace real audience research",
+                "They make one message suitable for everyone"
+            ],
+            "answerIndex": 0,
+            "explanation": "Personas help planners visualise audience segments and tailor messages and channels appropriately."
+        },
+        {
+            "id": 38,
+            "question": "Which statement correctly distinguishes strategy from tactics?",
+            "options": [
+                "Strategy is a single social media post, while tactics are long-term goals",
+                "Strategy and tactics are identical terms",
+                "Strategy is the overall approach, while tactics are the specific actions used to execute it",
+                "Tactics define the problem, while strategy only records costs"
+            ],
+            "answerIndex": 2,
+            "explanation": "A strategy gives direction; tactics include concrete activities such as events, media pitches, videos, or stakeholder meetings."
+        },
+        {
+            "id": 39,
+            "question": "What does the PESO model represent?",
+            "options": [
+                "Public, External, Social, and Organisational media",
+                "Paid, Earned, Shared, and Owned media",
+                "Planning, Evaluation, Strategy, and Objectives",
+                "Promotion, Engagement, Sales, and Outreach"
+            ],
+            "answerIndex": 1,
+            "explanation": "PESO helps PR planners combine complementary media channels in a balanced communication approach."
+        },
+        {
+            "id": 40,
+            "question": "What do the Barcelona Principles encourage PR practitioners to prioritise?",
+            "options": [
+                "Counting media impressions as the only measure",
+                "Using quantitative data and rejecting qualitative evidence",
+                "Evaluating a campaign only after all records are lost",
+                "Measuring outcomes rather than relying only on outputs"
+            ],
+            "answerIndex": 3,
+            "explanation": "The Barcelona Principles promote meaningful outcome measurement using both quantitative and qualitative methods."
+        },
+        {
+            "id": 41,
+            "question": "Which PR model seeks publicity and attention with little concern for balanced information?",
+            "options": [
+                "Public information model",
+                "Two-way symmetrical model",
+                "Press agentry or publicity model",
+                "Stakeholder model"
+            ],
+            "answerIndex": 2,
+            "explanation": "The press agentry model is one-way and publicity-driven, often focusing on attention and persuasion."
+        },
+        {
+            "id": 42,
+            "question": "Which model uses one-way communication to distribute generally factual organisational information?",
+            "options": [
+                "Public information model",
+                "Press agentry model",
+                "Two-way asymmetrical model",
+                "Two-way symmetrical model"
+            ],
+            "answerIndex": 0,
+            "explanation": "The public information model disseminates factual information but does not primarily seek dialogue or feedback."
+        },
+        {
+            "id": 43,
+            "question": "What characterises the two-way asymmetrical model?",
+            "options": [
+                "Both parties adapt equally through dialogue",
+                "Research is used to persuade publics mainly in the organisation's favour",
+                "No audience research is conducted",
+                "The organisation communicates only through paid advertising"
+            ],
+            "answerIndex": 1,
+            "explanation": "Two-way asymmetrical PR uses feedback and research, but mainly to make persuasion more effective for the organisation."
+        },
+        {
+            "id": 44,
+            "question": "What characterises the two-way symmetrical model?",
+            "options": [
+                "One-way factual distribution",
+                "Manipulative publicity without research",
+                "Complete organisational control of stakeholder responses",
+                "Dialogue and mutual adjustment between the organisation and its publics"
+            ],
+            "answerIndex": 3,
+            "explanation": "The symmetrical model aims at mutual understanding, negotiation, and adaptation rather than one-sided persuasion."
+        },
+        {
+            "id": 45,
+            "question": "According to Excellence Theory, where should PR be positioned in an organisation?",
+            "options": [
+                "Within strategic management and decision-making",
+                "Outside the organisation as an occasional vendor",
+                "Only within the advertising sales unit",
+                "At the lowest level with no management access"
+            ],
+            "answerIndex": 0,
+            "explanation": "Excellence Theory argues that PR contributes most when integrated into management and strategic decisions."
+        },
+        {
+            "id": 46,
+            "question": "A company holds town-hall meetings, listens to community concerns, and changes part of its policy. Which model is illustrated?",
+            "options": [
+                "Press agentry",
+                "Public information",
+                "Two-way symmetrical communication",
+                "One-way propaganda"
+            ],
+            "answerIndex": 2,
+            "explanation": "The company engages in dialogue and adapts based on stakeholder feedback, which reflects symmetrical communication."
+        },
+        {
+            "id": 47,
+            "question": "What does Systems Theory emphasise in public relations?",
+            "options": [
+                "Organisations can ignore external feedback",
+                "Only internal departments influence reputation",
+                "Publics have no effect on organisational survival",
+                "Organisations are open and interdependent with their environments"
+            ],
+            "answerIndex": 3,
+            "explanation": "Systems Theory views organisations as interacting with and adapting to stakeholders and environmental forces."
+        },
+        {
+            "id": 48,
+            "question": "Which theory focuses on identifying and managing relationships with groups affected by organisational actions?",
+            "options": [
+                "Cultivation Theory",
+                "Stakeholder Theory",
+                "Agenda-setting Theory",
+                "Social Learning Theory"
+            ],
+            "answerIndex": 1,
+            "explanation": "Stakeholder Theory directs attention to groups that affect or are affected by organisational decisions."
+        },
+        {
+            "id": 49,
+            "question": "What does agenda-setting theory suggest PR may influence?",
+            "options": [
+                "The private beliefs of every individual with certainty",
+                "The legal validity of organisational policies",
+                "Which issues audiences consider important",
+                "The price of all advertised products"
+            ],
+            "answerIndex": 2,
+            "explanation": "Agenda setting concerns issue salience: repeated attention can influence what the public sees as important."
+        },
+        {
+            "id": 50,
+            "question": "What is the central concern of cultivation theory?",
+            "options": [
+                "Long-term media exposure can shape perceptions of social reality",
+                "Audiences immediately copy every media message",
+                "PR campaigns always produce direct sales",
+                "Stakeholders only respond to face-to-face communication"
+            ],
+            "answerIndex": 0,
+            "explanation": "Cultivation theory examines the gradual effect of repeated media representations on audience perceptions."
+        },
+        {
+            "id": 51,
+            "question": "Which traditional PR channel combines sound and, in television, visual presentation for wide reach?",
+            "options": [
+                "Direct mail",
+                "Broadcast media",
+                "White papers",
+                "Internal memoranda"
+            ],
+            "answerIndex": 1,
+            "explanation": "Radio and television can reach large audiences and use sound or audiovisual presentation for impact."
+        },
+        {
+            "id": 52,
+            "question": "Why do press releases remain useful in the digital era?",
+            "options": [
+                "They guarantee publication by every journalist",
+                "They give PR practitioners total control of media coverage",
+                "They eliminate the need for contact details",
+                "They provide an organised, official source of newsworthy information"
+            ],
+            "answerIndex": 3,
+            "explanation": "A well-prepared release gives journalists verified facts, quotations, context, and organisational contact information."
+        },
+        {
+            "id": 53,
+            "question": "Which channel is most suitable for a highly detailed technical explanation?",
+            "options": [
+                "A white paper or webinar",
+                "A five-second audio tag",
+                "A single-word social post",
+                "A brief event invitation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Complex messages need formats that allow explanation, evidence, and audience questions."
+        },
+        {
+            "id": 54,
+            "question": "What is a major advantage of social media as a PR channel?",
+            "options": [
+                "Complete protection from criticism",
+                "Automatic accuracy of all user content",
+                "Direct, real-time engagement with publics",
+                "Guaranteed access to every demographic"
+            ],
+            "answerIndex": 2,
+            "explanation": "Social platforms enable rapid dialogue, community building, feedback, and direct distribution without relying solely on traditional gatekeepers."
+        },
+        {
+            "id": 55,
+            "question": "What is earned media?",
+            "options": [
+                "Content published on an organisation's own website",
+                "Advertising space purchased by the organisation",
+                "Private messages sent to employees",
+                "Unpaid coverage or discussion gained through newsworthiness and relationships"
+            ],
+            "answerIndex": 3,
+            "explanation": "Earned media includes organic news coverage, reviews, mentions, and discussions generated without buying the placement."
+        },
+        {
+            "id": 56,
+            "question": "Why must cultural context influence channel selection?",
+            "options": [
+                "Culture determines that only one channel may be used",
+                "Communication habits and interpretations differ across communities",
+                "Every region interprets all symbols identically",
+                "Cultural analysis is relevant only to advertising"
+            ],
+            "answerIndex": 1,
+            "explanation": "Cultural sensitivity helps practitioners choose accessible channels and avoid messages that may be misunderstood or offensive."
+        },
+        {
+            "id": 57,
+            "question": "What is the primary focus of lobbying?",
+            "options": [
+                "Selling products directly to consumers",
+                "Producing entertainment for the general public",
+                "Influencing specific legislation, regulations, or policy decisions",
+                "Managing only employee newsletters"
+            ],
+            "answerIndex": 2,
+            "explanation": "Lobbying usually involves direct engagement with policymakers concerning specific policies or legislation."
+        },
+        {
+            "id": 58,
+            "question": "How is advocacy generally broader than lobbying?",
+            "options": [
+                "It may influence public opinion as well as policy through campaigns and mobilisation",
+                "It is limited to private meetings with legislators",
+                "It excludes media engagement",
+                "It cannot address social causes"
+            ],
+            "answerIndex": 0,
+            "explanation": "Advocacy can include awareness campaigns, grassroots action, media engagement, education, and policy proposals."
+        },
+        {
+            "id": 59,
+            "question": "Which activity is most clearly a lobbying tactic?",
+            "options": [
+                "Organising a public awareness concert",
+                "Presenting a policy brief directly to legislators",
+                "Publishing a community storytelling video",
+                "Holding an employee social event"
+            ],
+            "answerIndex": 1,
+            "explanation": "Direct interaction with lawmakers to influence a specific policy is a typical lobbying activity."
+        },
+        {
+            "id": 60,
+            "question": "Which ethical concern can arise when lobbyists have unequal access to decision-makers?",
+            "options": [
+                "All policy decisions automatically become transparent",
+                "Public participation always increases equally",
+                "Misinformation becomes impossible",
+                "Some interests may gain disproportionate influence"
+            ],
+            "answerIndex": 3,
+            "explanation": "Unequal access can distort representation, create undue influence, and reduce trust in policymaking."
+        },
+        {
+            "id": 61,
+            "question": "Why should a PR practitioner research a journalist's beat before pitching?",
+            "options": [
+                "To align the story with the journalist's area of interest",
+                "To avoid including any news value",
+                "To send an identical pitch to every reporter",
+                "To determine the price of advertising space"
+            ],
+            "answerIndex": 0,
+            "explanation": "A tailored pitch is more relevant and more likely to receive attention than a mass, unrelated message."
+        },
+        {
+            "id": 62,
+            "question": "What behaviour most helps a PR professional become a trusted media source?",
+            "options": [
+                "Sending repeated messages after a journalist declines",
+                "Withholding key facts until publication",
+                "Providing accurate information promptly and consistently",
+                "Offering only exaggerated promotional claims"
+            ],
+            "answerIndex": 2,
+            "explanation": "Reliability, accuracy, responsiveness, and honesty build long-term trust with journalists."
+        },
+        {
+            "id": 63,
+            "question": "Which structure places the most important facts first in a press release?",
+            "options": [
+                "Chronological suspense structure",
+                "Problem-solution essay structure",
+                "Circular narrative structure",
+                "The inverted pyramid"
+            ],
+            "answerIndex": 3,
+            "explanation": "The inverted pyramid begins with the key facts, followed by supporting details in decreasing order of importance."
+        },
+        {
+            "id": 64,
+            "question": "What is normally included in the boilerplate of a press release?",
+            "options": [
+                "A confidential list of journalists",
+                "A brief standard description of the organisation",
+                "The journalist's final headline",
+                "The full campaign budget"
+            ],
+            "answerIndex": 1,
+            "explanation": "The boilerplate gives reusable background information about the organisation near the end of the release."
+        },
+        {
+            "id": 65,
+            "question": "How does a media kit differ from a press release?",
+            "options": [
+                "A media kit contains less information than a headline",
+                "A press release is always paid advertising",
+                "A media kit contains several supporting resources, while a press release presents one main announcement",
+                "A media kit is used only for internal employees"
+            ],
+            "answerIndex": 2,
+            "explanation": "Media kits may contain fact sheets, biographies, photographs, background documents, releases, and contact information."
+        },
+        {
+            "id": 66,
+            "question": "What is the main purpose of media training for a spokesperson?",
+            "options": [
+                "To deliver key messages clearly and handle difficult questions confidently",
+                "To avoid every interview request",
+                "To memorise false answers",
+                "To control the journalist's final report"
+            ],
+            "answerIndex": 0,
+            "explanation": "Training prepares spokespersons to remain accurate, concise, composed, and consistent under questioning."
+        },
+        {
+            "id": 67,
+            "question": "Which preparation is most important before a press conference?",
+            "options": [
+                "Invite journalists without deciding what will be announced",
+                "Define objectives, prepare materials, select spokespersons, and anticipate questions",
+                "Allow every employee to give a different message",
+                "Avoid checking the venue or technology"
+            ],
+            "answerIndex": 1,
+            "explanation": "Detailed preparation improves message clarity, logistics, spokesperson performance, and media usefulness."
+        },
+        {
+            "id": 68,
+            "question": "What is the main purpose of a professional code of ethics in PR?",
+            "options": [
+                "To guarantee that practitioners never face dilemmas",
+                "To replace all national laws",
+                "To promote organisational interests at any cost",
+                "To guide responsible conduct and protect public trust"
+            ],
+            "answerIndex": 3,
+            "explanation": "Codes set standards such as honesty, fairness, accuracy, confidentiality, and responsibility."
+        },
+        {
+            "id": 69,
+            "question": "A practitioner discovers that a client intends to publish fabricated survey results. What is the most ethical response?",
+            "options": [
+                "Refuse to distribute the false claim and advise correction",
+                "Publish it because the client is paying",
+                "Remove the sample size but retain the false result",
+                "Present the fabrication as an anonymous source"
+            ],
+            "answerIndex": 0,
+            "explanation": "Professional integrity requires refusing deceptive communication and encouraging accurate disclosure."
+        },
+        {
+            "id": 70,
+            "question": "When may confidentiality be ethically limited?",
+            "options": [
+                "Whenever a competitor requests information",
+                "Whenever a journalist wants a faster story",
+                "When keeping information secret would conceal serious unlawful or harmful conduct",
+                "Whenever disclosure could attract publicity"
+            ],
+            "answerIndex": 2,
+            "explanation": "Confidentiality is important, but it does not justify assisting illegality or concealing serious threats to the public."
+        },
+        {
+            "id": 71,
+            "question": "What is the primary purpose of employee communication?",
+            "options": [
+                "To prevent employees from giving feedback",
+                "To communicate only during disciplinary action",
+                "To replace all operational management",
+                "To create understanding and alignment between the organisation and employees"
+            ],
+            "answerIndex": 3,
+            "explanation": "Effective internal communication helps employees understand goals, roles, decisions, and expectations."
+        },
+        {
+            "id": 72,
+            "question": "How can clear internal communication improve productivity?",
+            "options": [
+                "Employees receive more conflicting instructions",
+                "Employees better understand priorities, responsibilities, and procedures",
+                "Managers no longer need to set objectives",
+                "All workplace disagreements disappear automatically"
+            ],
+            "answerIndex": 1,
+            "explanation": "Clarity reduces uncertainty, duplication, errors, and wasted effort."
+        },
+        {
+            "id": 73,
+            "question": "Why is two-way internal communication important for engagement?",
+            "options": [
+                "Employees feel heard and can contribute useful feedback",
+                "It prevents leaders from sharing information",
+                "It ensures every employee agrees with management",
+                "It removes the need for formal channels"
+            ],
+            "answerIndex": 0,
+            "explanation": "Dialogue increases trust, participation, and the sense that employees are valued."
+        },
+        {
+            "id": 74,
+            "question": "During organisational change, what should internal PR prioritise?",
+            "options": [
+                "Rumours and informal leaks",
+                "Silence until every detail is final",
+                "Timely explanations, empathy, feedback channels, and consistent updates",
+                "Different instructions from each department"
+            ],
+            "answerIndex": 2,
+            "explanation": "Transparent communication manages expectations and reduces fear, confusion, and resistance during change."
+        },
+        {
+            "id": 75,
+            "question": "Why should internal messages be segmented?",
+            "options": [
+                "Segmentation allows leaders to conceal all shared goals",
+                "Different roles and departments may need different levels of detail",
+                "Every employee uses the same technical language",
+                "It removes the need for organisational consistency"
+            ],
+            "answerIndex": 1,
+            "explanation": "Segmentation improves relevance while core facts and organisational values remain consistent."
+        },
+        {
+            "id": 76,
+            "question": "What is the value of a multi-channel internal communication approach?",
+            "options": [
+                "It guarantees every channel carries a different message",
+                "It eliminates the need to evaluate communication",
+                "It restricts information to office-based employees",
+                "It reaches employees through formats suited to different needs and work contexts"
+            ],
+            "answerIndex": 3,
+            "explanation": "Email, meetings, intranets, video, mobile alerts, and printed materials can complement one another across a diverse workforce."
+        },
+        {
+            "id": 77,
+            "question": "How can storytelling support internal PR?",
+            "options": [
+                "It replaces factual information with fiction",
+                "It prevents employees from asking questions",
+                "It makes organisational values and goals memorable through relatable examples",
+                "It is useful only for external advertising"
+            ],
+            "answerIndex": 2,
+            "explanation": "Stories can illustrate values, recognise employee contributions, and connect strategy to real experience."
+        },
+        {
+            "id": 78,
+            "question": "What is a major benefit of visual communication inside an organisation?",
+            "options": [
+                "It can simplify complex information and improve recall",
+                "It guarantees that written explanations are never required",
+                "It is understood identically across all cultures",
+                "It removes accessibility concerns"
+            ],
+            "answerIndex": 0,
+            "explanation": "Infographics, diagrams, and videos can improve comprehension when designed clearly and accessibly."
+        },
+        {
+            "id": 79,
+            "question": "Why should internal and external PR messages be coordinated?",
+            "options": [
+                "Internal messages should always contradict public statements",
+                "Employees should learn major decisions from rumours",
+                "External PR has no effect on employees",
+                "Employees and external publics should receive a coherent organisational narrative"
+            ],
+            "answerIndex": 3,
+            "explanation": "Alignment reduces confusion and enables informed employees to act as credible brand ambassadors."
+        },
+        {
+            "id": 80,
+            "question": "Which method best evaluates an internal communication programme?",
+            "options": [
+                "Count only the number of emails sent",
+                "Use surveys, feedback, engagement data, and evidence of understanding",
+                "Assume silence means full understanding",
+                "Evaluate only the design of the newsletter"
+            ],
+            "answerIndex": 1,
+            "explanation": "Evaluation should assess whether messages were received, understood, trusted, and acted upon, not merely distributed."
+        },
+        {
+            "id": 81,
+            "question": "What makes PR in a non-profit organisation distinctive?",
+            "options": [
+                "Non-profits have no stakeholders",
+                "Non-profit PR focuses only on product sales",
+                "Communication is strongly centred on mission, social impact, donors, and community support",
+                "Non-profits do not need reputation management"
+            ],
+            "answerIndex": 2,
+            "explanation": "Non-profit PR must explain the mission, demonstrate impact, attract support, and maintain trust despite limited resources."
+        },
+        {
+            "id": 82,
+            "question": "Why is transparency especially important to donors?",
+            "options": [
+                "They want evidence that funds are used responsibly and produce impact",
+                "It allows the organisation to avoid reporting outcomes",
+                "It guarantees donations without engagement",
+                "It removes the need for financial controls"
+            ],
+            "answerIndex": 0,
+            "explanation": "Regular, honest reporting on income, spending, activities, and outcomes strengthens donor confidence."
+        },
+        {
+            "id": 83,
+            "question": "Why is storytelling powerful in non-profit PR?",
+            "options": [
+                "It allows facts and consent to be ignored",
+                "It connects the mission to human experiences that audiences can understand emotionally",
+                "It guarantees that every story becomes viral",
+                "It replaces accountability reports"
+            ],
+            "answerIndex": 1,
+            "explanation": "Ethical stories make social problems and programme outcomes relatable while supporting the organisation's case for action."
+        },
+        {
+            "id": 84,
+            "question": "What is the main advantage of diversified fundraising channels?",
+            "options": [
+                "They eliminate the need for donor relationships",
+                "They make accountability unnecessary",
+                "They prevent community participation",
+                "They reduce dependence on a single source of income"
+            ],
+            "answerIndex": 3,
+            "explanation": "Using grants, individual donations, events, partnerships, and digital appeals can reduce financial risk."
+        },
+        {
+            "id": 85,
+            "question": "What is the primary goal of building community support for a non-profit?",
+            "options": [
+                "Fostering shared ownership, participation, and collaboration",
+                "Keeping all decisions within the organisation",
+                "Replacing local leaders with external consultants",
+                "Obtaining publicity without community involvement"
+            ],
+            "answerIndex": 0,
+            "explanation": "Community support is strongest when people see the mission as relevant, participate in decisions, and contribute to solutions."
+        },
+        {
+            "id": 86,
+            "question": "How can local leaders strengthen a non-profit's community relations?",
+            "options": [
+                "They guarantee that no disagreement will occur",
+                "They eliminate the need for stakeholder analysis",
+                "They provide credibility, networks, and knowledge of community needs",
+                "They should communicate only with donors outside the community"
+            ],
+            "answerIndex": 2,
+            "explanation": "Trusted teachers, business owners, traditional leaders, and other community figures can improve access and legitimacy."
+        },
+        {
+            "id": 87,
+            "question": "What is the central purpose of public-sector PR?",
+            "options": [
+                "To maximise private profit from government information",
+                "To prevent public scrutiny",
+                "To replace policymaking with publicity",
+                "To manage communication between government institutions and citizens in support of public service"
+            ],
+            "answerIndex": 3,
+            "explanation": "Public-sector PR informs citizens, supports transparency, builds trust, encourages participation, and manages crises."
+        },
+        {
+            "id": 88,
+            "question": "Which challenge is particularly common in public-sector PR?",
+            "options": [
+                "The absence of any legal duties",
+                "Complex bureaucracy and political influence",
+                "Freedom from public scrutiny",
+                "No need to communicate during emergencies"
+            ],
+            "answerIndex": 1,
+            "explanation": "Government communication often operates within administrative procedures, political pressures, legal requirements, and intense public scrutiny."
+        },
+        {
+            "id": 89,
+            "question": "Which strategy best promotes trust in government communication?",
+            "options": [
+                "Delay updates until rumours dominate",
+                "Use technical jargon to discourage questions",
+                "Provide clear, accurate information and create opportunities for public dialogue",
+                "Release different facts through different agencies"
+            ],
+            "answerIndex": 2,
+            "explanation": "Transparency, consistency, responsiveness, and engagement support credibility in public institutions."
+        },
+        {
+            "id": 90,
+            "question": "How can grassroots mobilisation support advocacy?",
+            "options": [
+                "It demonstrates broad public support and encourages participation in policy change",
+                "It limits communication to private legislative meetings",
+                "It prevents media attention",
+                "It replaces research with unverified claims"
+            ],
+            "answerIndex": 0,
+            "explanation": "Grassroots mobilisation engages citizens through petitions, meetings, events, and coordinated action, showing policymakers the depth of support."
+        },
+        {
+            "id": 91,
+            "question": "What is a KPI in public relations?",
+            "options": [
+                "A general slogan with no target",
+                "A specific measurable indicator used to assess PR performance",
+                "A list of journalists invited to an event",
+                "A legal rule governing all communication"
+            ],
+            "answerIndex": 1,
+            "explanation": "Key Performance Indicators translate PR objectives into measurable signs of progress or success."
+        },
+        {
+            "id": 92,
+            "question": "Which metric is an output rather than an outcome?",
+            "options": [
+                "A measurable increase in stakeholder trust",
+                "A change in public behaviour",
+                "Improved employee retention linked to communication",
+                "The number of press releases distributed"
+            ],
+            "answerIndex": 3,
+            "explanation": "Outputs record what PR produced; outcomes measure changes in awareness, attitudes, behaviour, or organisational performance."
+        },
+        {
+            "id": 93,
+            "question": "What does quantitative media analysis examine?",
+            "options": [
+                "Only the emotional meaning of quotations",
+                "The personal intentions of every journalist",
+                "Measurable features such as volume, reach, prominence, and frequency of coverage",
+                "The organisation's internal payroll"
+            ],
+            "answerIndex": 2,
+            "explanation": "Quantitative analysis counts observable media indicators, while qualitative analysis examines tone, framing, message accuracy, and sentiment."
+        },
+        {
+            "id": 94,
+            "question": "What can stakeholder surveys measure in PR evaluation?",
+            "options": [
+                "Awareness, attitudes, perceptions, and reported behaviour",
+                "Only the number of media releases issued",
+                "The exact future actions of every respondent",
+                "Advertising prices across all outlets"
+            ],
+            "answerIndex": 0,
+            "explanation": "Surveys gather structured evidence about what stakeholders know, feel, believe, and say they have done."
+        },
+        {
+            "id": 95,
+            "question": "Which web-analytics result most directly indicates that a PR call to action produced behaviour?",
+            "options": [
+                "The total number of pages on the website",
+                "The age of the website domain",
+                "The number of staff who drafted the message",
+                "The conversion rate for the intended action"
+            ],
+            "answerIndex": 3,
+            "explanation": "A conversion measures completion of a desired action such as registration, donation, download, or enquiry."
+        },
+        {
+            "id": 96,
+            "question": "What is benchmarking in PR evaluation?",
+            "options": [
+                "Replacing campaign objectives after completion",
+                "Comparing performance with past results, competitors, or industry standards",
+                "Counting only positive comments",
+                "Avoiding comparisons to protect reputation"
+            ],
+            "answerIndex": 1,
+            "explanation": "Benchmarking provides a reference point for identifying strengths, gaps, and realistic improvement targets."
+        },
+        {
+            "id": 97,
+            "question": "Why must KPIs align with organisational objectives?",
+            "options": [
+                "Metrics should show whether PR contributes to outcomes the organisation values",
+                "Every available metric should be reported regardless of relevance",
+                "Alignment makes evaluation unnecessary",
+                "PR should measure only media coverage"
+            ],
+            "answerIndex": 0,
+            "explanation": "Relevant KPIs connect communication activity to strategic goals instead of producing disconnected statistics."
+        },
+        {
+            "id": 98,
+            "question": "What should a comprehensive PR report include?",
+            "options": [
+                "Only screenshots of positive coverage",
+                "A list of activities without analysis",
+                "Objectives, KPIs, results, interpretation, and recommendations",
+                "Raw data with no explanation or conclusion"
+            ],
+            "answerIndex": 2,
+            "explanation": "A useful report explains what was intended, what happened, why it matters, and what should be improved."
+        },
+        {
+            "id": 99,
+            "question": "How does storytelling improve a PR evaluation presentation?",
+            "options": [
+                "It allows unfavourable results to be hidden",
+                "It connects data to a clear narrative about the campaign's purpose and impact",
+                "It replaces evidence with emotional claims",
+                "It makes visual aids unnecessary"
+            ],
+            "answerIndex": 1,
+            "explanation": "A coherent narrative helps stakeholders understand the meaning of evidence while the data remains accurate and transparent."
+        },
+        {
+            "id": 100,
+            "question": "Which practice best supports continuous improvement in PR?",
+            "options": [
+                "Repeat the same campaign regardless of results",
+                "Report only favourable data",
+                "End measurement as soon as content is published",
+                "Use evaluation findings to revise future objectives, messages, channels, and tactics"
+            ],
+            "answerIndex": 3,
+            "explanation": "Evaluation creates value when lessons are applied to future planning and execution."
+        }
+    ]
+}
