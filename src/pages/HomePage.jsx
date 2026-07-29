@@ -68,12 +68,12 @@ function HomePage() {
                 Practice questions for Miva students
               </div>
 
-              <h1 className="text-[44px] font-black leading-[0.98] tracking-[-0.055em] text-[#111827] sm:text-[64px] lg:text-[72px]">
+              <h1 className="text-[40px] font-extrabold leading-[1.02] tracking-[-0.045em] text-[#111827] sm:text-[52px] lg:text-[60px]">
                 Prepare for your
                 <span className="mt-2 block text-[#1265e8]">next Miva exam.</span>
               </h1>
 
-              <p className="mt-7 max-w-[560px] text-[17px] leading-8 text-[#596171] sm:text-lg">
+              <p className="mt-6 max-w-[560px] text-base leading-7 text-[#596171] sm:text-[17px]">
                 Choose your department, level, and course, then practise with answers and explanations.
               </p>
 
@@ -165,7 +165,7 @@ function HomePage() {
         <section className="mx-auto max-w-[1180px] px-5 py-16 sm:px-8 sm:py-20">
           <div>
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-[#1265e8]">How it works</p>
-            <h2 className="mt-4 text-3xl font-black leading-[1.08] tracking-[-0.04em] text-[#151c2b] sm:text-4xl lg:whitespace-nowrap lg:text-[clamp(2.5rem,4vw,3rem)]">
+            <h2 className="mt-4 text-3xl font-extrabold leading-[1.12] tracking-[-0.03em] text-[#151c2b] sm:text-4xl lg:text-[40px]">
               Find your course and start practising.
             </h2>
           </div>
@@ -176,8 +176,8 @@ function HomePage() {
                 key={benefit.number}
                 className="border-b border-[#ccd2dc] py-8 md:border-b-0 md:border-r md:px-8 md:py-10 md:first:pl-0 md:last:border-r-0"
               >
-                <span className="text-sm font-black text-[#1265e8]">{benefit.number}</span>
-                <h3 className="mt-7 text-xl font-black tracking-[-0.025em] text-[#1c2433]">{benefit.title}</h3>
+                <span className="text-sm font-extrabold text-[#1265e8]">{benefit.number}</span>
+                <h3 className="mt-7 text-lg font-bold tracking-[-0.015em] text-[#1c2433]">{benefit.title}</h3>
                 <p className="mt-3 max-w-sm text-[15px] leading-7 text-[#687080]">{benefit.description}</p>
               </article>
             ))}
@@ -187,7 +187,7 @@ function HomePage() {
         <section className="px-5 pb-5 sm:px-8 sm:pb-8">
           <div className="mx-auto max-w-[1180px] overflow-hidden rounded-[32px] bg-[#1265e8] px-6 py-14 text-center text-white sm:px-10 sm:py-20">
             <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-white/70">Ready to practise?</p>
-            <h2 className="mx-auto mt-4 max-w-2xl text-4xl font-black leading-[1.05] tracking-[-0.045em] sm:text-5xl">
+            <h2 className="mx-auto mt-4 max-w-2xl text-3xl font-extrabold leading-[1.1] tracking-[-0.035em] sm:text-[40px]">
               Start a Miva practice test.
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-white/75">

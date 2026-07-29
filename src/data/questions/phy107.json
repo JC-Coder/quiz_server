@@ -1,6 +1,6 @@
 {
     "courseDetails": {
-        "code": "PHY107",
+        "code": "PHY 107",
         "title": "General Practical Physics I",
         "description": "A 100-level Computer Science practical course covering measurement, graph work, experimental techniques, error analysis, and laboratory investigations.",
         "departments": ["computer-science"],

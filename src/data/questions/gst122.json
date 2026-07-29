@@ -1,0 +1,1214 @@
+{
+    "courseDetails": {
+        "code": "GST 122",
+        "title": "Communication in English II",
+        "description": "A 100-level course covering core language skills, meaning and vocabulary, grammar, sentence construction, writing processes and forms, comprehension strategies, speaking, listening, note-taking, and logical reasoning.",
+        "departments": [
+            "mass-communication",
+            "computer-science"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which four skills form the basic foundation of effective language communication?",
+            "options": [
+                "Listening, speaking, reading, and writing",
+                "Grammar, spelling, punctuation, and handwriting",
+                "Translation, coding, printing, and editing",
+                "Observation, calculation, drawing, and typing"
+            ],
+            "answerIndex": 0,
+            "explanation": "The course identifies listening, speaking, reading, and writing as the four core language skills."
+        },
+        {
+            "id": 2,
+            "question": "Which statement best distinguishes listening from merely hearing?",
+            "options": [
+                "Listening concerns only written messages, while hearing concerns spoken ones.",
+                "Listening is involuntary, while hearing is always deliberate.",
+                "Hearing requires note-taking, while listening does not involve meaning.",
+                "Listening requires understanding and interpretation, while hearing may occur without conscious engagement."
+            ],
+            "answerIndex": 3,
+            "explanation": "Listening is an active effort to understand and respond; hearing can be passive and involuntary."
+        },
+        {
+            "id": 3,
+            "question": "A student listens to a lecture, identifies its main ideas, and asks a relevant question. Which skill is being demonstrated most clearly?",
+            "options": [
+                "Active listening",
+                "Passive hearing",
+                "Silent reading",
+                "Descriptive writing"
+            ],
+            "answerIndex": 0,
+            "explanation": "The student is engaging with, interpreting, and responding to the spoken message."
+        },
+        {
+            "id": 4,
+            "question": "Which feature is most important in effective speaking?",
+            "options": [
+                "Reading every sentence in a flat tone",
+                "Clear articulation of ideas",
+                "Use of the longest possible words",
+                "Avoidance of eye contact"
+            ],
+            "answerIndex": 1,
+            "explanation": "Effective speaking requires thoughts and information to be expressed clearly and coherently."
+        },
+        {
+            "id": 5,
+            "question": "Reading a research paper and identifying its main findings primarily demonstrates the ability to do what?",
+            "options": [
+                "Comprehend, interpret, and analyse written text",
+                "Replace evidence with personal opinion",
+                "Memorise every sentence exactly",
+                "Convert written information into background music"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reading skill involves understanding, interpreting, and analysing written material."
+        },
+        {
+            "id": 6,
+            "question": "What is the main purpose of writing as a language skill?",
+            "options": [
+                "To avoid organising ideas",
+                "To replace all forms of oral communication",
+                "To reproduce another person's words without acknowledgement",
+                "To convey thoughts, information, and emotions through written language"
+            ],
+            "answerIndex": 3,
+            "explanation": "Writing turns ideas, information, and feelings into meaningful written messages."
+        },
+        {
+            "id": 7,
+            "question": "What is semiotics?",
+            "options": [
+                "The study of sentence length only",
+                "The study of signs and symbols and how they communicate meaning",
+                "The measurement of speaking speed",
+                "The practice of writing formal letters"
+            ],
+            "answerIndex": 1,
+            "explanation": "Semiotics examines signs, symbols, their interpretation, and their role in communication."
+        },
+        {
+            "id": 8,
+            "question": "The dictionary meaning of a word is its what?",
+            "options": [
+                "Figurative contradiction",
+                "Connotative meaning",
+                "Denotative meaning",
+                "Ambiguous meaning"
+            ],
+            "answerIndex": 2,
+            "explanation": "Denotation refers to the direct or literal dictionary meaning of a word."
+        },
+        {
+            "id": 9,
+            "question": "The emotions or cultural associations attached to a word form its what?",
+            "options": [
+                "Grammatical category",
+                "Punctuation value",
+                "Denotative meaning",
+                "Connotative meaning"
+            ],
+            "answerIndex": 3,
+            "explanation": "Connotation consists of implied, emotional, or cultural associations beyond literal meaning."
+        },
+        {
+            "id": 10,
+            "question": "The word 'home' refers literally to a place where someone lives but may also suggest warmth and security. Warmth and security are examples of what?",
+            "options": [
+                "Denotations",
+                "Interjections",
+                "Connotations",
+                "Homophones"
+            ],
+            "answerIndex": 2,
+            "explanation": "They are emotional associations suggested by the word rather than its literal definition."
+        },
+        {
+            "id": 11,
+            "question": "Which pair consists of homophones?",
+            "options": [
+                "Book and library",
+                "Quick and quickly",
+                "Right and write",
+                "Large and small"
+            ],
+            "answerIndex": 2,
+            "explanation": "Homophones sound alike but have different spellings and meanings."
+        },
+        {
+            "id": 12,
+            "question": "Why can homophones create problems in communication?",
+            "options": [
+                "They prevent a sentence from having a verb.",
+                "They always have exactly the same meaning.",
+                "They may sound identical although their meanings and spellings differ.",
+                "They can appear only in mathematical writing."
+            ],
+            "answerIndex": 2,
+            "explanation": "Confusing similar-sounding words can change or obscure the intended meaning."
+        },
+        {
+            "id": 13,
+            "question": "The instruction 'Meet the manager with the report' could mean either that the report should be carried or that the manager has it. What problem does this illustrate?",
+            "options": [
+                "Alliteration",
+                "Concord",
+                "Denotation",
+                "Ambiguity"
+            ],
+            "answerIndex": 3,
+            "explanation": "An ambiguous expression permits more than one reasonable interpretation."
+        },
+        {
+            "id": 14,
+            "question": "Which revision best removes ambiguity from the sentence 'She saw the lecturer with the telescope' when the student used the telescope?",
+            "options": [
+                "The lecturer saw her with the telescope.",
+                "Using the telescope, she saw the lecturer.",
+                "She saw the lecturer, and the telescope.",
+                "She and the telescope saw the lecturer."
+            ],
+            "answerIndex": 1,
+            "explanation": "The revision clearly shows that 'she' used the telescope."
+        },
+        {
+            "id": 15,
+            "question": "Which word is a noun in the sentence 'The diligent student completed the assignment quickly'?",
+            "options": [
+                "completed",
+                "diligent",
+                "quickly",
+                "student"
+            ],
+            "answerIndex": 3,
+            "explanation": "A noun names a person, place, thing, or idea; 'student' names a person."
+        },
+        {
+            "id": 16,
+            "question": "What is the function of a pronoun?",
+            "options": [
+                "It joins two clauses.",
+                "It expresses an action.",
+                "It shows a relationship in time or space.",
+                "It replaces a noun or noun phrase."
+            ],
+            "answerIndex": 3,
+            "explanation": "Pronouns such as he, she, it, and they stand in place of nouns."
+        },
+        {
+            "id": 17,
+            "question": "Which word is the verb in the sentence 'The audience applauded enthusiastically'?",
+            "options": [
+                "the",
+                "audience",
+                "enthusiastically",
+                "applauded"
+            ],
+            "answerIndex": 3,
+            "explanation": "A verb expresses an action or state; 'applauded' expresses the action."
+        },
+        {
+            "id": 18,
+            "question": "Which word is an adjective in the sentence 'The careful editor corrected the article'?",
+            "options": [
+                "careful",
+                "editor",
+                "article",
+                "corrected"
+            ],
+            "answerIndex": 0,
+            "explanation": "The adjective 'careful' modifies the noun 'editor'."
+        },
+        {
+            "id": 19,
+            "question": "In the sentence 'The athlete ran extremely fast,' which word modifies the adverb 'fast'?",
+            "options": [
+                "the",
+                "athlete",
+                "extremely",
+                "ran"
+            ],
+            "answerIndex": 2,
+            "explanation": "An adverb can modify another adverb; 'extremely' modifies 'fast'."
+        },
+        {
+            "id": 20,
+            "question": "Which word is a preposition in the sentence 'The keys are under the table'?",
+            "options": [
+                "table",
+                "are",
+                "keys",
+                "under"
+            ],
+            "answerIndex": 3,
+            "explanation": "A preposition shows the relationship between a noun or pronoun and another element."
+        },
+        {
+            "id": 21,
+            "question": "Which word is a coordinating conjunction?",
+            "options": [
+                "although",
+                "but",
+                "under",
+                "because"
+            ],
+            "answerIndex": 1,
+            "explanation": "'But' is one of the coordinating conjunctions used to connect equal words, phrases, or clauses."
+        },
+        {
+            "id": 22,
+            "question": "Which sentence contains an interjection?",
+            "options": [
+                "The presentation was impressive.",
+                "Wow! That presentation was impressive.",
+                "Because the presentation ended, we left.",
+                "The impressive presentation ended early."
+            ],
+            "answerIndex": 1,
+            "explanation": "'Wow!' expresses strong emotion or surprise and is therefore an interjection."
+        },
+        {
+            "id": 23,
+            "question": "Which option contains only content words?",
+            "options": [
+                "the, of, and, she",
+                "they, very, who, but",
+                "teacher, explain, clear, carefully",
+                "can, between, although, an"
+            ],
+            "answerIndex": 2,
+            "explanation": "Nouns, main verbs, adjectives, and adverbs generally carry the main lexical meaning."
+        },
+        {
+            "id": 24,
+            "question": "Which option contains mainly function words?",
+            "options": [
+                "lecture, explain, difficult, slowly",
+                "the, and, she, under",
+                "student, learn, brilliant, quickly",
+                "research, analyse, useful, thoroughly"
+            ],
+            "answerIndex": 1,
+            "explanation": "Articles, conjunctions, pronouns, and prepositions mainly perform grammatical functions."
+        },
+        {
+            "id": 25,
+            "question": "What must a complete sentence normally contain?",
+            "options": [
+                "Two independent clauses",
+                "A subject and a predicate expressing a complete thought",
+                "At least three adjectives",
+                "A quotation and a colon"
+            ],
+            "answerIndex": 1,
+            "explanation": "A complete sentence ordinarily has a subject and predicate and communicates a complete idea."
+        },
+        {
+            "id": 26,
+            "question": "Which sentence is simple?",
+            "options": [
+                "The students revised, and they relaxed after the test ended.",
+                "The students revised for the examination.",
+                "Although the students revised, they remained anxious.",
+                "The students revised, and the lecturer prepared questions."
+            ],
+            "answerIndex": 1,
+            "explanation": "It contains one independent clause."
+        },
+        {
+            "id": 27,
+            "question": "Which sentence is compound?",
+            "options": [
+                "The match resumed after the rain stopped.",
+                "When the rain stopped, the match resumed.",
+                "The rain stopped, and the match resumed.",
+                "Stopping after the heavy rain."
+            ],
+            "answerIndex": 2,
+            "explanation": "A compound sentence contains two independent clauses joined here by 'and'."
+        },
+        {
+            "id": 28,
+            "question": "Which sentence is complex?",
+            "options": [
+                "Although the road was flooded, the driver continued carefully.",
+                "The careful driver continued.",
+                "The flooded road and careful driver.",
+                "The road was flooded, and the driver continued carefully."
+            ],
+            "answerIndex": 0,
+            "explanation": "It contains a dependent clause and an independent clause."
+        },
+        {
+            "id": 29,
+            "question": "Which sentence is compound-complex?",
+            "options": [
+                "Because the power failed, the class ended.",
+                "Although the power failed, the students continued reading, and the lecturer used a torch.",
+                "The students continued reading quietly.",
+                "The power failed, but the students continued."
+            ],
+            "answerIndex": 1,
+            "explanation": "It has at least two independent clauses and one dependent clause."
+        },
+        {
+            "id": 30,
+            "question": "Which sentence is declarative?",
+            "options": [
+                "Does the library close at six?",
+                "The library closes at six o'clock.",
+                "What a quiet library!",
+                "Please close the library."
+            ],
+            "answerIndex": 1,
+            "explanation": "A declarative sentence makes a statement or provides information."
+        },
+        {
+            "id": 31,
+            "question": "Which sentence is imperative?",
+            "options": [
+                "Did you submit the assignment?",
+                "What a difficult assignment!",
+                "The assignment is due on Friday.",
+                "Submit the assignment before Friday."
+            ],
+            "answerIndex": 3,
+            "explanation": "An imperative sentence gives a command, instruction, or request."
+        },
+        {
+            "id": 32,
+            "question": "Which sentence is interrogative?",
+            "options": [
+                "The meeting ended early.",
+                "What an early ending!",
+                "End the meeting early.",
+                "Why did the meeting end early?"
+            ],
+            "answerIndex": 3,
+            "explanation": "An interrogative sentence asks a question."
+        },
+        {
+            "id": 33,
+            "question": "Which sentence is exclamatory?",
+            "options": [
+                "Was the performance outstanding?",
+                "What an outstanding performance!",
+                "The performance was outstanding.",
+                "Perform the song again."
+            ],
+            "answerIndex": 1,
+            "explanation": "It expresses strong emotion and ends with an exclamation mark."
+        },
+        {
+            "id": 34,
+            "question": "Which statement correctly compares content words and function words?",
+            "options": [
+                "Function words include only nouns and main verbs.",
+                "Content words carry major meaning, while function words mainly show grammatical relationships.",
+                "Function words carry all the meaning, while content words only add punctuation.",
+                "Content words include only pronouns and articles."
+            ],
+            "answerIndex": 1,
+            "explanation": "Lexical content is mainly carried by nouns, main verbs, adjectives, and adverbs; function words organise grammar."
+        },
+        {
+            "id": 35,
+            "question": "What is concord in grammar?",
+            "options": [
+                "The study of signs and symbols",
+                "The process of summarising a passage",
+                "Agreement between related elements in a sentence",
+                "The use of punctuation to end a sentence"
+            ],
+            "answerIndex": 2,
+            "explanation": "Concord refers to grammatical agreement, especially between a subject and its verb."
+        },
+        {
+            "id": 36,
+            "question": "Which sentence has correct subject-verb agreement?",
+            "options": [
+                "The lecturer explain the topic clearly.",
+                "The lecturers explains the topic clearly.",
+                "The lecturer explaining the topic clearly.",
+                "The lecturer explains the topic clearly."
+            ],
+            "answerIndex": 3,
+            "explanation": "The singular subject 'lecturer' correctly takes the singular verb 'explains'."
+        },
+        {
+            "id": 37,
+            "question": "Which sentence is grammatically correct?",
+            "options": [
+                "The student are preparing for the examination.",
+                "The students prepares for the examination.",
+                "The students are preparing for the examination.",
+                "The students is preparing for the examination."
+            ],
+            "answerIndex": 2,
+            "explanation": "The plural subject 'students' agrees with the plural verb 'are'."
+        },
+        {
+            "id": 38,
+            "question": "Choose the correct completion: 'Either the manager or the assistants ___ attending the meeting.'",
+            "options": [
+                "are",
+                "is",
+                "has",
+                "was"
+            ],
+            "answerIndex": 0,
+            "explanation": "Under proximity agreement, the verb agrees with the nearer plural subject 'assistants'."
+        },
+        {
+            "id": 39,
+            "question": "Choose the correct completion: 'Either the assistants or the manager ___ attending the meeting.'",
+            "options": [
+                "are",
+                "is",
+                "were",
+                "have"
+            ],
+            "answerIndex": 1,
+            "explanation": "The nearer subject 'manager' is singular, so the singular verb 'is' is required."
+        },
+        {
+            "id": 40,
+            "question": "Which sentence correctly applies agreement with 'or'?",
+            "options": [
+                "Neither the teachers nor the student have absent.",
+                "Neither the teachers nor the student was absent.",
+                "Neither the teachers nor the student were absent.",
+                "Neither the teachers nor the student are being absent yesterday."
+            ],
+            "answerIndex": 1,
+            "explanation": "The verb agrees with the nearest subject, the singular noun 'student'."
+        },
+        {
+            "id": 41,
+            "question": "Which sentence contains an agreement error?",
+            "options": [
+                "The names of the candidates are on the noticeboard.",
+                "The list of candidates are on the noticeboard.",
+                "The candidates are on the noticeboard.",
+                "The list is on the noticeboard."
+            ],
+            "answerIndex": 1,
+            "explanation": "The head subject is singular 'list', so the verb should be 'is'."
+        },
+        {
+            "id": 42,
+            "question": "Why is correct concord important in communication?",
+            "options": [
+                "It makes every sentence longer.",
+                "It permits several unrelated meanings.",
+                "It eliminates the need for punctuation.",
+                "It improves clarity and credibility."
+            ],
+            "answerIndex": 3,
+            "explanation": "Grammatical agreement helps readers follow the message without being distracted by errors."
+        },
+        {
+            "id": 43,
+            "question": "Which punctuation mark should end a direct question?",
+            "options": [
+                "Question mark",
+                "Semicolon",
+                "Apostrophe",
+                "Colon"
+            ],
+            "answerIndex": 0,
+            "explanation": "A direct question normally ends with a question mark."
+        },
+        {
+            "id": 44,
+            "question": "Which sentence uses a comma correctly to separate items in a list?",
+            "options": [
+                "She bought paper, pens, folders, and clips.",
+                "She, bought paper pens folders and clips.",
+                "She bought paper pens, folders and, clips.",
+                "She bought, paper pens folders and clips."
+            ],
+            "answerIndex": 0,
+            "explanation": "Commas separate the individual items in the series."
+        },
+        {
+            "id": 45,
+            "question": "Which punctuation mark can join two closely related independent clauses without a coordinating conjunction?",
+            "options": [
+                "Apostrophe",
+                "Question mark",
+                "Hyphen",
+                "Semicolon"
+            ],
+            "answerIndex": 3,
+            "explanation": "A semicolon can connect closely related independent clauses."
+        },
+        {
+            "id": 46,
+            "question": "Which sentence correctly uses a colon to introduce a list?",
+            "options": [
+                "Bring these items: a notebook, a pen, and a ruler.",
+                "Bring these items; a notebook, a pen, and a ruler.",
+                "Bring: these items a notebook, a pen, and a ruler.",
+                "Bring these: items, a notebook a pen and a ruler."
+            ],
+            "answerIndex": 0,
+            "explanation": "The colon follows a complete introductory clause and introduces the list."
+        },
+        {
+            "id": 47,
+            "question": "Which sentence correctly uses an apostrophe to show possession?",
+            "options": [
+                "The student's notebook was missing.",
+                "The student,s notebook was missing.",
+                "The students notebook was missing.",
+                "The students' notebook was missing when only one student owned it."
+            ],
+            "answerIndex": 0,
+            "explanation": "The apostrophe before 's' marks possession by one student."
+        },
+        {
+            "id": 48,
+            "question": "What is the primary use of quotation marks?",
+            "options": [
+                "To enclose direct speech or quoted words",
+                "To show a relationship between nouns",
+                "To end every declarative sentence",
+                "To connect compound adjectives"
+            ],
+            "answerIndex": 0,
+            "explanation": "Quotation marks identify words spoken or reproduced directly."
+        },
+        {
+            "id": 49,
+            "question": "Which option uses a hyphen correctly?",
+            "options": [
+                "She is a well-known author.",
+                "She is a well known-author.",
+                "She is a well;known author.",
+                "She-is a well known author."
+            ],
+            "answerIndex": 0,
+            "explanation": "A hyphen joins the compound adjective 'well-known' before the noun."
+        },
+        {
+            "id": 50,
+            "question": "What does an ellipsis usually indicate?",
+            "options": [
+                "Ownership",
+                "A list of equal items",
+                "Omitted words or a trailing-off thought",
+                "A direct question"
+            ],
+            "answerIndex": 2,
+            "explanation": "An ellipsis marks missing material or an unfinished, fading thought."
+        },
+        {
+            "id": 51,
+            "question": "What is the central sentence of a well-developed paragraph commonly called?",
+            "options": [
+                "Topic sentence",
+                "Closing salutation",
+                "Scene heading",
+                "Question tag"
+            ],
+            "answerIndex": 0,
+            "explanation": "The topic sentence states or controls the paragraph's main idea."
+        },
+        {
+            "id": 52,
+            "question": "Which quality means that every sentence in a paragraph relates to one central idea?",
+            "options": [
+                "Interjection",
+                "Unity",
+                "Connotation",
+                "Ambiguity"
+            ],
+            "answerIndex": 1,
+            "explanation": "A unified paragraph keeps all supporting sentences focused on the same controlling idea."
+        },
+        {
+            "id": 53,
+            "question": "Which writing strategy is mainly used to convince the reader to accept a position?",
+            "options": [
+                "Description",
+                "Narration",
+                "Persuasion",
+                "Process analysis"
+            ],
+            "answerIndex": 2,
+            "explanation": "Persuasive writing uses reasons and evidence to influence the reader's judgement or action."
+        },
+        {
+            "id": 54,
+            "question": "Which strategy presents events in a story-like sequence?",
+            "options": [
+                "Narration",
+                "Definition",
+                "Comparison",
+                "Exposition"
+            ],
+            "answerIndex": 0,
+            "explanation": "Narration recounts events, often using characters, setting, and sequence."
+        },
+        {
+            "id": 55,
+            "question": "Which writing strategy relies strongly on sensory details?",
+            "options": [
+                "Problem-solution",
+                "Cause and effect",
+                "Description",
+                "Persuasion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Descriptive writing helps readers imagine a person, place, object, or event through sensory details."
+        },
+        {
+            "id": 56,
+            "question": "What is the main purpose of expository writing?",
+            "options": [
+                "To express emotion without evidence",
+                "To give commands only",
+                "To explain or inform clearly",
+                "To conceal the main idea"
+            ],
+            "answerIndex": 2,
+            "explanation": "Expository writing presents information, explanation, or analysis."
+        },
+        {
+            "id": 57,
+            "question": "A writer discusses how online and face-to-face learning are similar and different. Which strategy is being used?",
+            "options": [
+                "Comparison and contrast",
+                "Free writing",
+                "Definition only",
+                "Chronological narration"
+            ],
+            "answerIndex": 0,
+            "explanation": "The strategy examines similarities and differences between subjects."
+        },
+        {
+            "id": 58,
+            "question": "A paragraph explains how poor drainage leads to flooding. Which organisational strategy is most appropriate?",
+            "options": [
+                "Cause and effect",
+                "Dialogue",
+                "Definition",
+                "Description"
+            ],
+            "answerIndex": 0,
+            "explanation": "The writer links a condition or event with its resulting consequences."
+        },
+        {
+            "id": 59,
+            "question": "A report first identifies traffic congestion and then proposes improved public transport. Which strategy is used?",
+            "options": [
+                "Narration",
+                "Chronological biography",
+                "Classification only",
+                "Problem-solution"
+            ],
+            "answerIndex": 3,
+            "explanation": "The structure presents a problem and then offers one or more solutions."
+        },
+        {
+            "id": 60,
+            "question": "Which activity belongs to pre-writing?",
+            "options": [
+                "Correcting typographical errors after drafting",
+                "Formatting the completed reference list",
+                "Brainstorming and outlining ideas",
+                "Submitting the final document"
+            ],
+            "answerIndex": 2,
+            "explanation": "Pre-writing involves generating, researching, and organising ideas before the draft is written."
+        },
+        {
+            "id": 61,
+            "question": "What is the main benefit of an outline before drafting?",
+            "options": [
+                "It guarantees that no revision will be required.",
+                "It makes the audience irrelevant.",
+                "It organises ideas into a logical structure.",
+                "It replaces research and evidence."
+            ],
+            "answerIndex": 2,
+            "explanation": "An outline helps arrange main points and supporting details coherently."
+        },
+        {
+            "id": 62,
+            "question": "Which activity is most clearly a post-writing task?",
+            "options": [
+                "Choosing a topic",
+                "Researching the intended audience",
+                "Proofreading for spelling and punctuation errors",
+                "Brainstorming possible arguments"
+            ],
+            "answerIndex": 2,
+            "explanation": "Proofreading occurs after drafting and targets surface-level errors."
+        },
+        {
+            "id": 63,
+            "question": "How does editing differ from proofreading?",
+            "options": [
+                "Editing concerns only handwriting, while proofreading concerns only speech.",
+                "Editing is done before choosing a topic, while proofreading replaces drafting.",
+                "Editing and proofreading are unrelated to revision.",
+                "Editing improves ideas and structure, while proofreading checks final surface errors."
+            ],
+            "answerIndex": 3,
+            "explanation": "Editing can involve content and organisation; proofreading is the final check for grammar, spelling, and punctuation."
+        },
+        {
+            "id": 64,
+            "question": "Why is feedback useful during post-writing?",
+            "options": [
+                "It makes revision unnecessary.",
+                "It can reveal weaknesses the writer may not notice.",
+                "It guarantees that every reader will agree.",
+                "It removes the writer's responsibility for accuracy."
+            ],
+            "answerIndex": 1,
+            "explanation": "Constructive feedback provides an external view of clarity, logic, organisation, and correctness."
+        },
+        {
+            "id": 65,
+            "question": "What is a summary?",
+            "options": [
+                "A word-for-word copy of a passage",
+                "A concise version of a longer text containing its main ideas",
+                "A document containing only minor examples",
+                "A personal letter requesting assistance"
+            ],
+            "answerIndex": 1,
+            "explanation": "A summary condenses a source while preserving its essential message."
+        },
+        {
+            "id": 66,
+            "question": "Which detail should normally be omitted from a summary?",
+            "options": [
+                "An essential supporting point",
+                "The central argument",
+                "A major conclusion",
+                "A minor example that does not affect the main idea"
+            ],
+            "answerIndex": 3,
+            "explanation": "Summaries focus on central ideas and remove unnecessary details."
+        },
+        {
+            "id": 67,
+            "question": "Why should a summary generally be written in the student's own words?",
+            "options": [
+                "To add unsupported opinions",
+                "To make it longer than the source",
+                "To change the author's central meaning",
+                "To demonstrate understanding and avoid copying"
+            ],
+            "answerIndex": 3,
+            "explanation": "Paraphrasing shows comprehension and reduces the risk of plagiarism."
+        },
+        {
+            "id": 68,
+            "question": "What should be done first when preparing a summary?",
+            "options": [
+                "Add personal examples.",
+                "Read the source carefully to identify its main idea.",
+                "Copy the longest paragraph.",
+                "Write the final sentence immediately."
+            ],
+            "answerIndex": 1,
+            "explanation": "Accurate summarising begins with understanding the source's thesis and key points."
+        },
+        {
+            "id": 69,
+            "question": "Which feature is expected in a formal letter?",
+            "options": [
+                "Slang in every paragraph",
+                "No clear purpose",
+                "An appropriate salutation and organised body",
+                "The omission of the recipient entirely"
+            ],
+            "answerIndex": 2,
+            "explanation": "Formal letters use a recognised structure and professional language."
+        },
+        {
+            "id": 70,
+            "question": "Before writing a letter, the writer should first identify what?",
+            "options": [
+                "The purpose and intended audience",
+                "The longest possible greeting",
+                "The number of adjectives to include",
+                "The colour of the recipient's office"
+            ],
+            "answerIndex": 0,
+            "explanation": "Purpose and audience determine the format, tone, content, and level of formality."
+        },
+        {
+            "id": 71,
+            "question": "Which section of a letter develops the main message?",
+            "options": [
+                "The salutation",
+                "The address heading only",
+                "The signature only",
+                "The body"
+            ],
+            "answerIndex": 3,
+            "explanation": "The body contains the information, explanation, or request that motivated the letter."
+        },
+        {
+            "id": 72,
+            "question": "What is a report?",
+            "options": [
+                "A structured formal document presenting information, analysis, findings, and conclusions",
+                "A list of unrelated sentences",
+                "A fictional conversation with no evidence",
+                "A short emotional exclamation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reports communicate researched or observed information in an organised formal structure."
+        },
+        {
+            "id": 73,
+            "question": "Which section of a report explains what the evidence shows?",
+            "options": [
+                "Findings or analysis",
+                "Closing salutation",
+                "Greeting",
+                "Postscript"
+            ],
+            "answerIndex": 0,
+            "explanation": "This section presents and interprets the information gathered."
+        },
+        {
+            "id": 74,
+            "question": "Why may charts or tables be included in a report?",
+            "options": [
+                "To make the report informal",
+                "To hide the source of evidence",
+                "To present complex data clearly and efficiently",
+                "To replace every written explanation"
+            ],
+            "answerIndex": 2,
+            "explanation": "Visual displays can make patterns, comparisons, and numerical findings easier to understand."
+        },
+        {
+            "id": 75,
+            "question": "What does SQ3R stand for?",
+            "options": [
+                "Survey, Question, Read, Recite, Review",
+                "Scan, Quote, Rewrite, Repeat, Record",
+                "Study, Qualify, Respond, Recall, Report",
+                "Summarise, Query, Research, Reference, Revise"
+            ],
+            "answerIndex": 0,
+            "explanation": "SQ3R is a five-stage strategy for improving comprehension and retention."
+        },
+        {
+            "id": 76,
+            "question": "During the Survey stage of SQ3R, what should a reader do?",
+            "options": [
+                "Scan headings, subheadings, images, and other organisational features.",
+                "Ignore titles and illustrations.",
+                "Write the final examination immediately.",
+                "Memorise the entire chapter word for word."
+            ],
+            "answerIndex": 0,
+            "explanation": "Surveying provides an overview before detailed reading begins."
+        },
+        {
+            "id": 77,
+            "question": "What is the purpose of the Question stage in SQ3R?",
+            "options": [
+                "To copy the chapter's conclusion",
+                "To answer only questions supplied by another student",
+                "To turn headings and observations into questions that guide reading",
+                "To skip difficult sections"
+            ],
+            "answerIndex": 2,
+            "explanation": "Reader-generated questions create a purpose for the detailed reading stage."
+        },
+        {
+            "id": 78,
+            "question": "During which SQ3R stage does the learner read carefully to answer generated questions?",
+            "options": [
+                "Read",
+                "Review",
+                "Recite",
+                "Survey"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Read stage involves engaging closely with the text to find answers and understand key ideas."
+        },
+        {
+            "id": 79,
+            "question": "What happens during the Recite stage?",
+            "options": [
+                "The learner explains or recalls key ideas without relying fully on the text.",
+                "The learner abandons all earlier questions.",
+                "The learner scans only the headings.",
+                "The learner adds unrelated examples."
+            ],
+            "answerIndex": 0,
+            "explanation": "Recitation tests understanding and strengthens memory through active recall."
+        },
+        {
+            "id": 80,
+            "question": "What is the main aim of the Review stage?",
+            "options": [
+                "To avoid revisiting difficult concepts",
+                "To reinforce learning through notes, summaries, and repeated checking",
+                "To introduce an entirely different topic",
+                "To replace comprehension with memorised punctuation"
+            ],
+            "answerIndex": 1,
+            "explanation": "Review consolidates information and supports long-term retention."
+        },
+        {
+            "id": 81,
+            "question": "What does the word 'lexicon' mean?",
+            "options": [
+                "The vocabulary of a person, language, or field",
+                "A harsh mixture of sounds",
+                "A method of grading assignments",
+                "A formal academic lecture"
+            ],
+            "answerIndex": 0,
+            "explanation": "'Lexicon' refers to the collection of words used by a person, language, or area of knowledge."
+        },
+        {
+            "id": 82,
+            "question": "What is a 'rubric' in an academic context?",
+            "options": [
+                "A reference to a published source",
+                "A grant awarded to a student",
+                "A set of criteria used to assess an assignment or performance",
+                "A noisy mixture of voices"
+            ],
+            "answerIndex": 2,
+            "explanation": "A rubric describes standards or criteria for evaluation and grading."
+        },
+        {
+            "id": 83,
+            "question": "What is peer review?",
+            "options": [
+                "A private conversation between classmates",
+                "A method of replacing all references",
+                "An informal greeting in a letter",
+                "Evaluation of scholarly work by experts in the same field"
+            ],
+            "answerIndex": 3,
+            "explanation": "Peer review uses subject experts to assess the quality and validity of scholarly work."
+        },
+        {
+            "id": 84,
+            "question": "Which term means 'a harsh, discordant mixture of sounds'?",
+            "options": [
+                "Citation",
+                "Synthesis",
+                "Pedagogy",
+                "Cacophony"
+            ],
+            "answerIndex": 3,
+            "explanation": "'Cacophony' describes an unpleasant mixture of sounds."
+        },
+        {
+            "id": 85,
+            "question": "What is a speaking prompt?",
+            "options": [
+                "A chart used in a formal report",
+                "A punctuation mark used to join clauses",
+                "A list of words with identical meanings",
+                "A question or statement designed to elicit a spoken response"
+            ],
+            "answerIndex": 3,
+            "explanation": "Speaking prompts provide a topic or question to which a speaker responds orally."
+        },
+        {
+            "id": 86,
+            "question": "What should a speaker do first when responding to a prompt?",
+            "options": [
+                "Begin speaking before listening to the full prompt.",
+                "Repeat the prompt without answering it.",
+                "Understand the question and identify its key requirements.",
+                "Ignore the audience and context."
+            ],
+            "answerIndex": 2,
+            "explanation": "Accurate response depends on understanding what the prompt asks."
+        },
+        {
+            "id": 87,
+            "question": "Why should a spoken response be adapted to its context?",
+            "options": [
+                "Context determines whether grammar is necessary.",
+                "Different settings require different tones, vocabulary, and levels of formality.",
+                "Formal settings require the use of slang.",
+                "Every audience expects exactly the same response."
+            ],
+            "answerIndex": 1,
+            "explanation": "An academic presentation, interview, and casual discussion call for different delivery choices."
+        },
+        {
+            "id": 88,
+            "question": "What is public speaking?",
+            "options": [
+                "Reading silently in a library",
+                "Delivering a speech or presentation to a live audience",
+                "Listening passively to background music",
+                "Writing a private diary"
+            ],
+            "answerIndex": 1,
+            "explanation": "Public speaking involves communicating information, ideas, or opinions orally to an audience."
+        },
+        {
+            "id": 89,
+            "question": "Which delivery feature helps a speaker avoid sounding monotonous?",
+            "options": [
+                "Avoidance of pauses",
+                "Reading without emphasis",
+                "Constant volume and pitch",
+                "Vocal variety"
+            ],
+            "answerIndex": 3,
+            "explanation": "Changes in pitch, pace, volume, emphasis, and pauses sustain attention and clarify meaning."
+        },
+        {
+            "id": 90,
+            "question": "Which behaviour is most likely to strengthen a public presentation?",
+            "options": [
+                "Facing away from the audience",
+                "Maintaining appropriate eye contact and purposeful body language",
+                "Using an unsuitable tone throughout",
+                "Speaking too quickly to save time"
+            ],
+            "answerIndex": 1,
+            "explanation": "Non-verbal communication supports confidence, engagement, and credibility."
+        },
+        {
+            "id": 91,
+            "question": "What is inductive reasoning?",
+            "options": [
+                "Reasoning in which a true conclusion is guaranteed by valid premises",
+                "Repeating a conclusion as its own proof",
+                "Reasoning from specific observations toward a probable general conclusion",
+                "Replacing evidence with emotion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Induction uses patterns and examples to reach conclusions that are likely but not certain."
+        },
+        {
+            "id": 92,
+            "question": "What is deductive reasoning?",
+            "options": [
+                "Reasoning based only on personal preference",
+                "Reasoning in which a valid argument makes the conclusion necessary if the premises are true",
+                "A method of estimating from a small sample",
+                "A technique for scanning headings"
+            ],
+            "answerIndex": 1,
+            "explanation": "Deduction moves from premises to a conclusion that must follow when the form is valid and premises are true."
+        },
+        {
+            "id": 93,
+            "question": "A researcher observes that five sampled plants grow faster in sunlight and concludes that plants of that type generally grow faster in sunlight. What form of reasoning is this?",
+            "options": [
+                "Deductive reasoning",
+                "Circular reasoning",
+                "Inductive reasoning",
+                "A grammatical concord rule"
+            ],
+            "answerIndex": 2,
+            "explanation": "The researcher generalises from specific observations to a broader probable conclusion."
+        },
+        {
+            "id": 94,
+            "question": "All mammals breathe air. Whales are mammals. Therefore, whales breathe air. What kind of argument is this?",
+            "options": [
+                "Inductive generalisation",
+                "Deductive argument",
+                "Narrative sequence",
+                "Ambiguous statement"
+            ],
+            "answerIndex": 1,
+            "explanation": "The conclusion necessarily follows from the two premises."
+        },
+        {
+            "id": 95,
+            "question": "Which statement describes a hasty generalisation?",
+            "options": [
+                "Using reliable evidence from several independent sources",
+                "Presenting a valid categorical syllogism",
+                "Drawing a broad conclusion from too little or unrepresentative evidence",
+                "Clarifying an ambiguous term"
+            ],
+            "answerIndex": 2,
+            "explanation": "A hasty generalisation makes an unsupported general claim from insufficient evidence."
+        },
+        {
+            "id": 96,
+            "question": "What is a strawman argument?",
+            "options": [
+                "Misrepresenting an opponent's position so it is easier to attack",
+                "Supporting a claim with credible evidence",
+                "Drawing a necessary conclusion from true premises",
+                "Restating a speaker's idea accurately"
+            ],
+            "answerIndex": 0,
+            "explanation": "The strawman fallacy substitutes a distorted version of an argument for the real one."
+        },
+        {
+            "id": 97,
+            "question": "Which action best demonstrates active listening?",
+            "options": [
+                "Checking unrelated messages during the conversation",
+                "Planning a reply without hearing the full message",
+                "Paraphrasing the speaker's point and asking a clarifying question",
+                "Interrupting before the speaker completes a sentence"
+            ],
+            "answerIndex": 2,
+            "explanation": "Paraphrasing and clarification show attention and help confirm understanding."
+        },
+        {
+            "id": 98,
+            "question": "Why is effective listening important in conflict resolution?",
+            "options": [
+                "It encourages participants to interrupt each other.",
+                "It guarantees that one side will win.",
+                "It removes the need for respectful dialogue.",
+                "It allows each side to understand concerns and perspectives before responding."
+            ],
+            "answerIndex": 3,
+            "explanation": "Listening helps people acknowledge viewpoints, reduce misunderstanding, and identify common ground."
+        },
+        {
+            "id": 99,
+            "question": "Which note-taking practice is recommended during a lecture?",
+            "options": [
+                "Write every spoken word regardless of importance.",
+                "Wait until several days later before making any notes.",
+                "Avoid headings and symbols.",
+                "Record main ideas and key details rather than every word verbatim."
+            ],
+            "answerIndex": 3,
+            "explanation": "Selective note-taking captures important information while allowing the learner to keep listening."
+        },
+        {
+            "id": 100,
+            "question": "Which feature belongs to the Cornell note-taking method?",
+            "options": [
+                "Only a list of quotations",
+                "One unbroken paragraph with no headings",
+                "A page reserved entirely for drawings",
+                "Separate areas for notes, cues, and a summary"
+            ],
+            "answerIndex": 3,
+            "explanation": "The Cornell method organises a page into a note area, cue column, and summary section."
+        }
+    ]
+}

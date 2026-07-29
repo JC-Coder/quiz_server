@@ -1,0 +1,1214 @@
+{
+    "courseDetails": {
+        "code": "GST 112",
+        "title": "Nigerian Peoples and Culture",
+        "description": "A 100-level general studies course examining Nigerian cultures and ethnic relations, slavery and colonialism, constitutional and political development, citizenship, human rights, economic change, national integration, popular culture, notable Nigerians, and contemporary social challenges.",
+        "departments": [
+            "mass-communication",
+            "computer-science"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which statement best describes culture?",
+            "options": [
+                "A collection of laws made only by government",
+                "A system of shared behaviours, beliefs, practices, and values",
+                "A person's biological characteristics alone",
+                "The economic output of a country"
+            ],
+            "answerIndex": 1,
+            "explanation": "Culture includes the learned and shared behaviours, beliefs, practices, values, and material expressions of a people."
+        },
+        {
+            "id": 2,
+            "question": "Which component of culture includes tools, buildings, clothing, and other material objects?",
+            "options": [
+                "The technological component",
+                "The ideological component",
+                "The sociological component",
+                "The biological component"
+            ],
+            "answerIndex": 0,
+            "explanation": "The technological component is material culture: the physical objects and techniques a society creates and uses."
+        },
+        {
+            "id": 3,
+            "question": "Institutions, social norms, and patterns of interaction belong mainly to which component of culture?",
+            "options": [
+                "The climatic component",
+                "The technological component",
+                "The sociological component",
+                "The genetic component"
+            ],
+            "answerIndex": 2,
+            "explanation": "The sociological component covers institutions, social organisation, roles, and norms governing relationships."
+        },
+        {
+            "id": 4,
+            "question": "Beliefs, values, and ideas about what is right or meaningful form which component of culture?",
+            "options": [
+                "The demographic component",
+                "The geographical component",
+                "The ideological component",
+                "The technological component"
+            ],
+            "answerIndex": 2,
+            "explanation": "The ideological component consists of beliefs, values, worldviews, and ideas shared by members of a society."
+        },
+        {
+            "id": 5,
+            "question": "What is intergroup relations?",
+            "options": [
+                "Interaction between two or more distinct linguistic and cultural groups",
+                "The study of one individual's private behaviour",
+                "The replacement of all indigenous languages by one language",
+                "The division of a country into electoral wards"
+            ],
+            "answerIndex": 0,
+            "explanation": "Intergroup relations refers to contact and interaction among distinct cultural or linguistic groups."
+        },
+        {
+            "id": 6,
+            "question": "According to the course material, which two factors are central to identifying ethnic groups?",
+            "options": [
+                "Income and occupation",
+                "Age and height",
+                "Culture and language",
+                "Climate and rainfall"
+            ],
+            "answerIndex": 2,
+            "explanation": "Culture and language are presented as the two major factors used in identifying groups."
+        },
+        {
+            "id": 7,
+            "question": "Which set contains indicators of pre-colonial intergroup relations discussed in the course?",
+            "options": [
+                "Weather, census, taxation, and elections",
+                "Traditions of origin, conflict, trade, and religion",
+                "Banking, industry, sports, and tourism",
+                "Roads, courts, schools, and hospitals"
+            ],
+            "answerIndex": 1,
+            "explanation": "The lesson uses shared origin traditions, warfare, commerce, and religious similarities as evidence of interaction."
+        },
+        {
+            "id": 8,
+            "question": "Why is national integration especially important in Nigeria?",
+            "options": [
+                "It eliminates every cultural difference",
+                "It transfers all state powers to traditional rulers",
+                "It helps diverse groups develop unity and a shared national identity",
+                "It prevents citizens from maintaining local identities"
+            ],
+            "answerIndex": 2,
+            "explanation": "National integration seeks unity and cooperation among diverse groups without requiring the disappearance of legitimate cultural identities."
+        },
+        {
+            "id": 9,
+            "question": "The Kanuri and Hausa origin traditions both trace their distant origin to which city?",
+            "options": [
+                "Cairo",
+                "Timbuktu",
+                "Accra",
+                "Baghdad"
+            ],
+            "answerIndex": 3,
+            "explanation": "The course states that both traditions trace their origins to Baghdad, though through different legendary figures."
+        },
+        {
+            "id": 10,
+            "question": "The Yoruba-Benin historical connection is commonly illustrated through which two figures?",
+            "options": [
+                "Saif and Bayajidda",
+                "Ado and Asipa",
+                "Kosoko and Akitoye",
+                "Oranmiyan and Eweka"
+            ],
+            "answerIndex": 3,
+            "explanation": "The course identifies Oranmiyan and Eweka as important figures in traditions connecting Yoruba and Benin."
+        },
+        {
+            "id": 11,
+            "question": "Which conflict was linked to control of trade routes among the Hausa states?",
+            "options": [
+                "The war between Oyo and Benin",
+                "The conflict between Tiv and Ibibio",
+                "The wars between Kano and Katsina",
+                "The war between Efik and Kanuri"
+            ],
+            "answerIndex": 2,
+            "explanation": "Kano and Katsina fought for control of trade routes, showing how conflict also produced intergroup contact."
+        },
+        {
+            "id": 12,
+            "question": "Which people exchanged salt for firewood with the Tiv?",
+            "options": [
+                "The Efik",
+                "The Jukun",
+                "The Yoruba",
+                "The Kanuri"
+            ],
+            "answerIndex": 1,
+            "explanation": "The lesson gives Jukun salt exchanged for Tiv firewood as an example of pre-colonial commerce."
+        },
+        {
+            "id": 13,
+            "question": "Ibibio land served as a trade corridor linking hinterland Igbo communities with which coastal peoples?",
+            "options": [
+                "The Efik and Ijaw",
+                "The Hausa and Fulani",
+                "The Nupe and Jukun",
+                "The Kanuri and Borgu"
+            ],
+            "answerIndex": 0,
+            "explanation": "Its geographical position connected hinterland Igbo traders with coastal Efik and Ijaw communities."
+        },
+        {
+            "id": 14,
+            "question": "What does the spread of Ekpe and Ekpo from the Efik to some Igbo subgroups demonstrate?",
+            "options": [
+                "Complete cultural isolation",
+                "The end of indigenous religion",
+                "The absence of migration and trade",
+                "Cultural diffusion through intergroup contact"
+            ],
+            "answerIndex": 3,
+            "explanation": "Shared religious institutions and symbols indicate cultural borrowing and long-term interaction."
+        },
+        {
+            "id": 15,
+            "question": "Which Nigerian geopolitical zone is described as the most ethnically diverse in the course summary?",
+            "options": [
+                "North Central",
+                "North West",
+                "South East",
+                "South West"
+            ],
+            "answerIndex": 0,
+            "explanation": "North Central contains numerous groups, including Borgu, Nupe, Igala, Tiv, and others."
+        },
+        {
+            "id": 16,
+            "question": "What is slavery in the context of the course material?",
+            "options": [
+                "Voluntary seasonal employment with wages",
+                "Temporary political leadership by election",
+                "A condition in which persons are controlled as property and compelled to serve a master",
+                "A trade agreement between equal communities"
+            ],
+            "answerIndex": 2,
+            "explanation": "Enslaved persons were bought, captured, stolen, or pawned and placed under the extensive control of masters."
+        },
+        {
+            "id": 17,
+            "question": "Why is the Atlantic slave trade also called triangular trade?",
+            "options": [
+                "It involved only three African kingdoms",
+                "It lasted exactly three decades",
+                "It used triangular-shaped ships",
+                "It linked Europe, Africa, and the Americas in a three-part trading system"
+            ],
+            "answerIndex": 3,
+            "explanation": "The trade connected European goods, enslaved Africans, and plantation products across Europe, Africa, and the Americas."
+        },
+        {
+            "id": 18,
+            "question": "Which European power began the Atlantic slave trade from West Africa in the fifteenth century?",
+            "options": [
+                "Portugal",
+                "Germany",
+                "Belgium",
+                "Italy"
+            ],
+            "answerIndex": 0,
+            "explanation": "Portuguese maritime expansion in the fifteenth century began regular European slave trading along the West African coast."
+        },
+        {
+            "id": 19,
+            "question": "What was the Spanish Asiento?",
+            "options": [
+                "A law abolishing plantation labour",
+                "A treaty creating the Royal Niger Company",
+                "A tax imposed by African chiefs on palm oil",
+                "A licence granting the right to supply enslaved Africans to Spanish territories in the Americas"
+            ],
+            "answerIndex": 3,
+            "explanation": "The Asiento was a transferable contract or licence to supply enslaved labour to Spain's American colonies."
+        },
+        {
+            "id": 20,
+            "question": "The dangerous voyage carrying enslaved Africans across the Atlantic was commonly known as what?",
+            "options": [
+                "The Northern Route",
+                "The Great Trek",
+                "The Middle Passage",
+                "The Royal Passage"
+            ],
+            "answerIndex": 2,
+            "explanation": "The Middle Passage was the brutal Atlantic crossing from Africa to the Americas."
+        },
+        {
+            "id": 21,
+            "question": "Which development helped shift European interest from slave trading to so-called legitimate trade?",
+            "options": [
+                "The disappearance of European industries",
+                "Industrial demand for African raw materials and markets",
+                "The end of maritime transport",
+                "A ban on all trade with Africa"
+            ],
+            "answerIndex": 1,
+            "explanation": "Industrial Europe increasingly wanted cash crops and raw materials from Africa and markets for manufactured goods."
+        },
+        {
+            "id": 22,
+            "question": "What followed the British bombardment of Lagos in 1851?",
+            "options": [
+                "Kosoko became the British governor",
+                "The Royal Niger Company lost its charter",
+                "Nigeria immediately became independent",
+                "Akitoye was restored and efforts to suppress slave trading increased"
+            ],
+            "answerIndex": 3,
+            "explanation": "The bombardment removed Kosoko, restored Akitoye, and strengthened British influence and anti-slave-trade policy in Lagos."
+        },
+        {
+            "id": 23,
+            "question": "In what year was Lagos formally annexed by Britain?",
+            "options": [
+                "1849",
+                "1886",
+                "1914",
+                "1861"
+            ],
+            "answerIndex": 3,
+            "explanation": "Lagos was annexed in 1861, becoming a major base for expanding British political influence."
+        },
+        {
+            "id": 24,
+            "question": "In what year did the National African Company receive a Royal Charter and become the Royal Niger Company?",
+            "options": [
+                "1861",
+                "1886",
+                "1900",
+                "1914"
+            ],
+            "answerIndex": 1,
+            "explanation": "The company received its Royal Charter in 1886 and became known as the Royal Niger Company."
+        },
+        {
+            "id": 25,
+            "question": "What was a major strategy of the Royal Niger Company?",
+            "options": [
+                "Encouraging unrestricted competition",
+                "Ending all taxation on rival firms",
+                "Transferring its powers to elected African councils",
+                "Creating a trade monopoly in territories under its control"
+            ],
+            "answerIndex": 3,
+            "explanation": "The company bought or pressured competitors, imposed taxes, controlled imports, and manipulated produce prices."
+        },
+        {
+            "id": 26,
+            "question": "What was the major significance of the Nigerian Council established by Lord Lugard in 1914?",
+            "options": [
+                "It introduced universal adult suffrage",
+                "It granted immediate independence",
+                "It laid an early foundation for constitutional development despite being advisory",
+                "It abolished colonial administration"
+            ],
+            "answerIndex": 2,
+            "explanation": "The Council had only advisory functions, but it marked an early stage in Nigeria's constitutional evolution."
+        },
+        {
+            "id": 27,
+            "question": "Which constitution was Nigeria's first written constitution?",
+            "options": [
+                "The Clifford Constitution of 1922",
+                "The Richards Constitution of 1946",
+                "The Macpherson Constitution of 1951",
+                "The Lyttleton Constitution of 1954"
+            ],
+            "answerIndex": 0,
+            "explanation": "Sir Hugh Clifford introduced Nigeria's first written constitution in 1922."
+        },
+        {
+            "id": 28,
+            "question": "What important principle did the Clifford Constitution introduce?",
+            "options": [
+                "A presidential system",
+                "Universal voting rights",
+                "Complete regional autonomy",
+                "The elective principle"
+            ],
+            "answerIndex": 3,
+            "explanation": "The elective principle enabled a limited number of Nigerians in Lagos and Calabar to elect representatives."
+        },
+        {
+            "id": 29,
+            "question": "What major innovation did the Richards Constitution introduce?",
+            "options": [
+                "Regionalism",
+                "A unitary republic",
+                "Direct presidential elections",
+                "A one-party state"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Richards Constitution organised Nigeria into regions and created regional legislative structures."
+        },
+        {
+            "id": 30,
+            "question": "Why was the Macpherson Constitution considered more consultative than earlier constitutions?",
+            "options": [
+                "It was preceded by wide consultations with Nigerians",
+                "It was drafted solely by the British Parliament",
+                "It abolished all regional legislatures",
+                "It excluded Nigerian representatives"
+            ],
+            "answerIndex": 0,
+            "explanation": "Macpherson sought input through consultations at village, district, provincial, and regional levels."
+        },
+        {
+            "id": 31,
+            "question": "Which constitution formally established a federal system with powers shared between the centre and regions?",
+            "options": [
+                "The Lyttleton Constitution of 1954",
+                "The Clifford Constitution of 1922",
+                "The Richards Constitution",
+                "The Nigerian Council arrangement"
+            ],
+            "answerIndex": 0,
+            "explanation": "The 1954 Lyttleton Constitution clearly divided powers between federal and regional governments."
+        },
+        {
+            "id": 32,
+            "question": "Who founded the Nigerian National Democratic Party in 1923?",
+            "options": [
+                "Ahmadu Bello",
+                "Herbert Macaulay",
+                "Obafemi Awolowo",
+                "Nnamdi Azikiwe"
+            ],
+            "answerIndex": 1,
+            "explanation": "Herbert Macaulay founded the NNDP, widely regarded as Nigeria's first political party."
+        },
+        {
+            "id": 33,
+            "question": "Which political movement began as the Lagos Youth Movement?",
+            "options": [
+                "The Northern People's Congress",
+                "The Nigerian Youth Movement",
+                "The Action Group",
+                "The National Council of Nigeria and the Cameroons"
+            ],
+            "answerIndex": 1,
+            "explanation": "The Lagos Youth Movement broadened its outlook and became the Nigerian Youth Movement."
+        },
+        {
+            "id": 34,
+            "question": "Who were the first president and general secretary of the NCNC respectively?",
+            "options": [
+                "Obafemi Awolowo and Anthony Enahoro",
+                "Herbert Macaulay and Nnamdi Azikiwe",
+                "Ahmadu Bello and Abubakar Tafawa Balewa",
+                "Ernest Ikoli and Samuel Akisanya"
+            ],
+            "answerIndex": 1,
+            "explanation": "When formed in 1944, Herbert Macaulay served as president and Nnamdi Azikiwe as general secretary."
+        },
+        {
+            "id": 35,
+            "question": "The Action Group developed from which cultural organisation?",
+            "options": [
+                "Jamiyya Mutanen Arewa",
+                "The Lagos Youth Movement",
+                "The Zikist Movement",
+                "Egbe Omo Oduduwa"
+            ],
+            "answerIndex": 3,
+            "explanation": "The Action Group grew from Egbe Omo Oduduwa and was formally launched in 1951."
+        },
+        {
+            "id": 36,
+            "question": "Which problem weakened many First Republic political parties?",
+            "options": [
+                "Their refusal to publish newspapers",
+                "Ethnocentrism and the sacrifice of national interest for regional interests",
+                "Their rejection of all regional support",
+                "Their complete absence from elections"
+            ],
+            "answerIndex": 1,
+            "explanation": "Many parties were strongly regionally and ethnically based, which weakened national cohesion."
+        },
+        {
+            "id": 37,
+            "question": "On what date did Nigeria become independent from British colonial rule?",
+            "options": [
+                "1 October 1960",
+                "1 January 1914",
+                "29 July 1966",
+                "1 October 1979"
+            ],
+            "answerIndex": 0,
+            "explanation": "Nigeria attained independence on 1 October 1960."
+        },
+        {
+            "id": 38,
+            "question": "What was the central focus of Nigeria's First National Development Plan, 1962-1968?",
+            "options": [
+                "Agriculture, industry, and education",
+                "Only military expansion",
+                "Only petroleum exports",
+                "Privatisation of all schools"
+            ],
+            "answerIndex": 0,
+            "explanation": "The plan aimed to broaden development through agriculture, industrial growth, and education."
+        },
+        {
+            "id": 39,
+            "question": "Which crop was especially associated with the Western Region's comparative advantage?",
+            "options": [
+                "Groundnut",
+                "Palm oil",
+                "Cocoa",
+                "Cotton"
+            ],
+            "answerIndex": 2,
+            "explanation": "The Western Region's development was strongly linked with cocoa and timber; the East specialised in palm produce and the North in groundnuts."
+        },
+        {
+            "id": 40,
+            "question": "What occurred during Nigeria's first military coup in January 1966?",
+            "options": [
+                "The civilian government was overthrown and several political leaders were killed",
+                "The country returned to civilian rule",
+                "Biafra surrendered to the federal government",
+                "The Lyttleton Constitution was introduced"
+            ],
+            "answerIndex": 0,
+            "explanation": "The coup overthrew the First Republic and killed several senior political and military figures."
+        },
+        {
+            "id": 41,
+            "question": "Why did Decree No. 34 create strong opposition in Northern Nigeria?",
+            "options": [
+                "It created twelve new states",
+                "It replaced the federal structure with a unitary arrangement and raised fears of domination",
+                "It restored the regional constitutions",
+                "It transferred power to elected civilians"
+            ],
+            "answerIndex": 1,
+            "explanation": "Ironsi's unification decree was interpreted as an attempt to centralise power and intensified northern fears."
+        },
+        {
+            "id": 42,
+            "question": "Who became Head of State after the July 1966 countercoup?",
+            "options": [
+                "Murtala Muhammed",
+                "Nnamdi Azikiwe",
+                "Ernest Shonekan",
+                "Yakubu Gowon"
+            ],
+            "answerIndex": 3,
+            "explanation": "Lieutenant Colonel Yakubu Gowon emerged as Head of State following the countercoup."
+        },
+        {
+            "id": 43,
+            "question": "What was a major consequence of the 1966 massacres of easterners in Northern Nigeria?",
+            "options": [
+                "A mass return to the East and stronger support for secession",
+                "Immediate restoration of the First Republic",
+                "The abolition of military government",
+                "The creation of the NCNC"
+            ],
+            "answerIndex": 0,
+            "explanation": "The pogrom caused mass displacement and deepened the crisis that led to Biafran secession."
+        },
+        {
+            "id": 44,
+            "question": "Why did the federal government oppose Biafra's secession?",
+            "options": [
+                "It feared national fragmentation and the loss of oil-producing areas",
+                "It wanted to restore British colonial rule",
+                "It opposed all state creation",
+                "It sought to dissolve the armed forces"
+            ],
+            "answerIndex": 0,
+            "explanation": "Federal leaders defended national unity and were concerned about strategic territory and petroleum resources."
+        },
+        {
+            "id": 45,
+            "question": "How did the creation of twelve states in 1967 affect the Eastern Region?",
+            "options": [
+                "It placed the entire region under one Igbo state",
+                "It immediately ended military rule",
+                "It transferred Lagos to the Eastern Region",
+                "It divided the region and reduced the territorial and economic base available to Biafra"
+            ],
+            "answerIndex": 3,
+            "explanation": "Three states were carved from the East, isolating the core Igbo area from much of the coast and oil-producing minority areas."
+        },
+        {
+            "id": 46,
+            "question": "Who formally surrendered Biafra to the federal government in January 1970?",
+            "options": [
+                "Chukwuemeka Ojukwu",
+                "Philip Effiong",
+                "Aguiyi-Ironsi",
+                "Anthony Enahoro"
+            ],
+            "answerIndex": 1,
+            "explanation": "After Ojukwu left for Ivory Coast, Philip Effiong announced Biafra's surrender."
+        },
+        {
+            "id": 47,
+            "question": "Which list correctly states Gowon's post-war 3Rs policy?",
+            "options": [
+                "Revenue, Representation, and Regionalism",
+                "Reform, Retaliation, and Reparation",
+                "Reconciliation, Reconstruction, and Rehabilitation",
+                "Recovery, Rebellion, and Reorganisation"
+            ],
+            "answerIndex": 2,
+            "explanation": "The 3Rs were intended to reunite the country, rebuild damaged areas, and restore affected lives and livelihoods."
+        },
+        {
+            "id": 48,
+            "question": "Which was presented as a positive legacy of military governments in Nigeria?",
+            "options": [
+                "Permanent respect for civil liberties",
+                "A complete end to corruption",
+                "State creation and major infrastructure projects",
+                "Continuous democratic elections"
+            ],
+            "answerIndex": 2,
+            "explanation": "The course notes state creation, Abuja's development, infrastructure, NYSC, and ECOWAS among claimed positive legacies."
+        },
+        {
+            "id": 49,
+            "question": "Which was a major negative consequence of prolonged military rule?",
+            "options": [
+                "Greater legislative independence",
+                "Regular competitive elections",
+                "Weak checks and balances and widespread human-rights violations",
+                "Permanent constitutional stability"
+            ],
+            "answerIndex": 2,
+            "explanation": "Military rule concentrated power, weakened accountability, and was associated with repression and abuses."
+        },
+        {
+            "id": 50,
+            "question": "Before petroleum became dominant, which sector was the mainstay of Nigeria's economy?",
+            "options": [
+                "Aviation",
+                "Telecommunications",
+                "Tourism",
+                "Agriculture"
+            ],
+            "answerIndex": 3,
+            "explanation": "Agriculture contributed more than half of GDP and employed most of the workforce around independence."
+        },
+        {
+            "id": 51,
+            "question": "What was a major economic mistake associated with the 1970s oil boom?",
+            "options": [
+                "Investing too heavily in cocoa",
+                "Failing to save and diversify during high oil revenues",
+                "Banning all imported goods",
+                "Ending petroleum production"
+            ],
+            "answerIndex": 1,
+            "explanation": "Oil income encouraged dependence and spending without adequate savings or diversification."
+        },
+        {
+            "id": 52,
+            "question": "How did the Structural Adjustment Programme affect local manufacturing according to the course?",
+            "options": [
+                "It eliminated all imported goods",
+                "Currency depreciation and imports made many local products less competitive",
+                "It guaranteed cheap credit to every factory",
+                "It restored regional development corporations"
+            ],
+            "answerIndex": 1,
+            "explanation": "SAP was linked with currency decline and import competition that weakened the manufacturing base."
+        },
+        {
+            "id": 53,
+            "question": "Which factor is identified as a major cause of Nigeria's economic difficulties?",
+            "options": [
+                "Overdependence on crude-oil revenue",
+                "Excessive dependence on cocoa alone before 1900",
+                "The absence of natural resources",
+                "A total lack of arable land"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reliance on oil exposes public revenue and foreign exchange to petroleum-price and production shocks."
+        },
+        {
+            "id": 54,
+            "question": "Which policy would best support economic diversification?",
+            "options": [
+                "Developing manufacturing, agriculture, electricity, and industrial clusters",
+                "Relying more heavily on one export",
+                "Closing all local refineries",
+                "Reducing productive infrastructure"
+            ],
+            "answerIndex": 0,
+            "explanation": "Diversification requires expanding non-oil production and the infrastructure needed by businesses."
+        },
+        {
+            "id": 55,
+            "question": "What is meant by comparative advantage in the regional economy?",
+            "options": [
+                "A region concentrates on goods it can produce relatively efficiently",
+                "Every region produces exactly the same goods",
+                "A government bans trade between regions",
+                "Imports are always cheaper than local goods"
+            ],
+            "answerIndex": 0,
+            "explanation": "Regional specialisation in cocoa, palm produce, and groundnuts reflected different ecological and productive strengths."
+        },
+        {
+            "id": 56,
+            "question": "Which definition best describes human rights?",
+            "options": [
+                "Rights inherent to all human beings regardless of status",
+                "Privileges available only to public officials",
+                "Benefits granted only during elections",
+                "Rules applying only to citizens with property"
+            ],
+            "answerIndex": 0,
+            "explanation": "Human rights belong to people by virtue of being human and are not dependent on race, sex, religion, or other status."
+        },
+        {
+            "id": 57,
+            "question": "Where are fundamental rights mainly set out in Nigeria's 1999 Constitution?",
+            "options": [
+                "Chapter I, Sections 1-5",
+                "Chapter III, Sections 20-25",
+                "Chapter IV, Sections 33-46",
+                "The First Schedule only"
+            ],
+            "answerIndex": 2,
+            "explanation": "Chapter IV of the 1999 Constitution contains the principal enforceable fundamental rights."
+        },
+        {
+            "id": 58,
+            "question": "Which action is an example of an extrajudicial killing?",
+            "options": [
+                "A court imposes a sentence after a fair trial",
+                "A police officer issues a traffic warning",
+                "A citizen files a lawful complaint",
+                "A security agent deliberately kills a suspect without lawful judicial process"
+            ],
+            "answerIndex": 3,
+            "explanation": "Extrajudicial killing occurs outside lawful court procedures and violates the right to life and due process."
+        },
+        {
+            "id": 59,
+            "question": "Which Nigerian law criminalises several forms of domestic violence and provides support mechanisms for survivors?",
+            "options": [
+                "The Clifford Constitution 1922",
+                "The Violence Against Persons (Prohibition) Act 2015",
+                "Decree No. 34 of 1966",
+                "The Royal Niger Company Charter"
+            ],
+            "answerIndex": 1,
+            "explanation": "The VAPP Act 2015 addresses multiple forms of violence and creates mechanisms for reporting and protection."
+        },
+        {
+            "id": 60,
+            "question": "Why does child marriage raise human-rights concerns?",
+            "options": [
+                "It can violate equality, consent, education, health, and protection rights, especially for girls",
+                "It always increases school participation",
+                "It is required by the Nigerian Constitution",
+                "It guarantees equal decision-making power"
+            ],
+            "answerIndex": 0,
+            "explanation": "Child marriage often denies meaningful consent and exposes children, especially girls, to serious educational, health, and equality harms."
+        },
+        {
+            "id": 61,
+            "question": "What is the rule of law?",
+            "options": [
+                "The power of rulers to ignore courts",
+                "A system in which only citizens obey laws",
+                "Government by unwritten personal commands",
+                "The principle that everyone, including government officials, is subject to the law"
+            ],
+            "answerIndex": 3,
+            "explanation": "Rule of law rejects arbitrary government and requires legal supremacy, equality, and judicial protection of rights."
+        },
+        {
+            "id": 62,
+            "question": "Which principle is essential to a democratic society?",
+            "options": [
+                "Permanent military administration",
+                "Government without elections or opposition",
+                "Free participation supported by accountable institutions",
+                "Rule by one ethnic group"
+            ],
+            "answerIndex": 2,
+            "explanation": "Democracy depends on public participation, legitimate elections, accountability, rights, and functioning institutions."
+        },
+        {
+            "id": 63,
+            "question": "A government arrests journalists solely for reporting verified criticism. Which right is most directly threatened?",
+            "options": [
+                "Freedom from taxation",
+                "Freedom of expression and the press",
+                "The right to inherit a title",
+                "The right to control state revenue"
+            ],
+            "answerIndex": 1,
+            "explanation": "Intimidating journalists for legitimate reporting undermines expression, press freedom, and democratic accountability."
+        },
+        {
+            "id": 64,
+            "question": "What is citizenship?",
+            "options": [
+                "Temporary residence in any city",
+                "Membership of a private company",
+                "Legal membership of a state with associated rights, duties, and benefits",
+                "A person's ethnic origin alone"
+            ],
+            "answerIndex": 2,
+            "explanation": "Citizenship creates a formal relationship between an individual and a state."
+        },
+        {
+            "id": 65,
+            "question": "Which chapter of the 1999 Constitution deals extensively with Nigerian citizenship?",
+            "options": [
+                "Chapter IV",
+                "Chapter III",
+                "Chapter VII",
+                "Chapter I"
+            ],
+            "answerIndex": 1,
+            "explanation": "Chapter III sets out citizenship by birth, registration, and naturalisation, as well as loss and renunciation."
+        },
+        {
+            "id": 66,
+            "question": "Which person is most clearly eligible to apply for Nigerian citizenship by registration?",
+            "options": [
+                "Any tourist who has visited Nigeria once",
+                "A foreign child with no Nigerian connection",
+                "Any person who buys Nigerian goods online",
+                "A non-Nigerian woman married to a Nigerian citizen"
+            ],
+            "answerIndex": 3,
+            "explanation": "The constitutional registration route includes a foreign woman married to a Nigerian and certain persons of Nigerian descent."
+        },
+        {
+            "id": 67,
+            "question": "What is naturalisation?",
+            "options": [
+                "Automatic citizenship obtained by visiting a country",
+                "The loss of citizenship after marriage",
+                "The replacement of nationality by ethnicity",
+                "The formal legal process through which a qualified foreigner is granted citizenship"
+            ],
+            "answerIndex": 3,
+            "explanation": "Naturalisation grants citizenship to a foreign national who satisfies statutory conditions."
+        },
+        {
+            "id": 68,
+            "question": "When may the President refuse to register a declaration renouncing Nigerian citizenship?",
+            "options": [
+                "When Nigeria is physically involved in a war",
+                "When the applicant plans to study abroad",
+                "When the applicant moves to another African country",
+                "Whenever the applicant is over thirty years old"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Constitution permits refusal during war or where the declaration would be contrary to public policy."
+        },
+        {
+            "id": 69,
+            "question": "Which action is a civic responsibility under Section 24 of the 1999 Constitution?",
+            "options": [
+                "Respecting the rights of others and contributing positively to national development",
+                "Ignoring lawful taxes",
+                "Refusing to assist lawful authorities",
+                "Disobeying the Constitution when inconvenient"
+            ],
+            "answerIndex": 0,
+            "explanation": "Civic duties include respecting the Constitution and others, protecting public property, paying taxes, and contributing to society."
+        },
+        {
+            "id": 70,
+            "question": "What is the judiciary's basic function in government?",
+            "options": [
+                "Making all national budgets",
+                "Interpreting laws, resolving disputes, and protecting legal rights",
+                "Commanding the armed forces",
+                "Managing political parties"
+            ],
+            "answerIndex": 1,
+            "explanation": "The judiciary is the third arm of government and applies law through courts and judicial decisions."
+        },
+        {
+            "id": 71,
+            "question": "What are reorientation strategies?",
+            "options": [
+                "Plans for creating new mineral deposits",
+                "Rules for changing electoral constituencies only",
+                "Programmes intended to reshape attitudes and behaviour toward positive social goals",
+                "Policies that discourage public education"
+            ],
+            "answerIndex": 2,
+            "explanation": "Reorientation uses campaigns, education, mobilisation, and community outreach to promote desired values and conduct."
+        },
+        {
+            "id": 72,
+            "question": "Which agency succeeded MAMSER and was established by Decree 100 of 1993?",
+            "options": [
+                "The Royal Niger Company",
+                "The Nigerian Youth Movement",
+                "The National Orientation Agency",
+                "The Nigerian Council"
+            ],
+            "answerIndex": 2,
+            "explanation": "The National Orientation Agency succeeded MAMSER and coordinates public orientation and value campaigns."
+        },
+        {
+            "id": 73,
+            "question": "What was the central aim of Operation Feed the Nation?",
+            "options": [
+                "Expanding military recruitment",
+                "Promoting imported food over local farming",
+                "Replacing farmers with trading companies",
+                "Increasing food production and public participation in agriculture"
+            ],
+            "answerIndex": 3,
+            "explanation": "OFN encouraged farming through awareness, training, inputs, and agricultural programmes."
+        },
+        {
+            "id": 74,
+            "question": "Which programme was launched by the Buhari military government to promote discipline and civic order?",
+            "options": [
+                "Operation Feed the Nation",
+                "Mass Mobilisation for Self-Reliance",
+                "War Against Indiscipline",
+                "The Green Revolution"
+            ],
+            "answerIndex": 2,
+            "explanation": "WAI targeted indiscipline, poor sanitation, disorderly conduct, and declining civic values."
+        },
+        {
+            "id": 75,
+            "question": "What was a major criticism of the War Against Indiscipline?",
+            "options": [
+                "It had no public enforcement at all",
+                "It focused exclusively on foreign policy",
+                "Its enforcement was often harsh and high-handed",
+                "It was controlled by elected state assemblies"
+            ],
+            "answerIndex": 2,
+            "explanation": "The campaign achieved visible compliance but was criticised for coercive and authoritarian methods."
+        },
+        {
+            "id": 76,
+            "question": "What was the principal objective of MAMSER?",
+            "options": [
+                "Mobilising citizens for self-reliance, social justice, economic recovery, and nation-building",
+                "Restoring the Atlantic slave trade",
+                "Creating colonial trading monopolies",
+                "Ending all cooperative societies"
+            ],
+            "answerIndex": 0,
+            "explanation": "MAMSER was intended to encourage participation, political education, self-reliance, and national mobilisation."
+        },
+        {
+            "id": 77,
+            "question": "What are austerity measures?",
+            "options": [
+                "Policies requiring unlimited public borrowing",
+                "Policies that raise revenue or reduce government spending during fiscal difficulty",
+                "Programmes that guarantee free imports",
+                "Measures for expanding government waste"
+            ],
+            "answerIndex": 1,
+            "explanation": "Austerity seeks to reduce deficits or debt through spending cuts, higher revenue, or both."
+        },
+        {
+            "id": 78,
+            "question": "Why have many Nigerian reorientation programmes produced limited long-term results?",
+            "options": [
+                "Corruption, weak political will, poor planning, and lack of exemplary leadership",
+                "Citizens are legally forbidden to learn national values",
+                "The programmes always receive unlimited funding",
+                "They focus only on external trade"
+            ],
+            "answerIndex": 0,
+            "explanation": "The course links repeated failure to implementation problems, inconsistency, corruption, and leaders failing to model the values promoted."
+        },
+        {
+            "id": 79,
+            "question": "What was the reconciliation element of Gowon's 3Rs intended to achieve?",
+            "options": [
+                "Punishing every person from the former Eastern Region",
+                "Restoring trust and reintegrating groups after the civil war",
+                "Dividing Nigeria into two permanent countries",
+                "Ending humanitarian support"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reconciliation emphasised forgiveness, dialogue, and reintegration after the Nigeria-Biafra war."
+        },
+        {
+            "id": 80,
+            "question": "What is popular culture?",
+            "options": [
+                "Culture known only to a single secret society",
+                "Widely accessible cultural products and practices consumed by much of society",
+                "Official laws made by the state",
+                "Ancient objects that no one currently uses"
+            ],
+            "answerIndex": 1,
+            "explanation": "Popular culture includes widely consumed music, film, fashion, dance, literature, television, radio, and digital culture."
+        },
+        {
+            "id": 81,
+            "question": "The rise of modern popular culture is closely linked to which historical development?",
+            "options": [
+                "The disappearance of cities",
+                "The end of consumer goods",
+                "The abolition of mass communication",
+                "Industrialisation, urbanisation, capitalism, and the growth of a mass market"
+            ],
+            "answerIndex": 3,
+            "explanation": "The Industrial Revolution created urban working and middle classes and markets for mass-produced cultural goods."
+        },
+        {
+            "id": 82,
+            "question": "Which genres were prominent in the first wave of Nigerian popular music from the 1950s to 1967?",
+            "options": [
+                "Afrobeats, drill, and trap",
+                "Classical opera only",
+                "Techno and house music",
+                "Juju, Apala, and Nigerian Highlife"
+            ],
+            "answerIndex": 3,
+            "explanation": "The first wave retained strong traditional roots and featured Juju, Apala, and Highlife."
+        },
+        {
+            "id": 83,
+            "question": "Which musician made Afrobeat a major force during the second wave of Nigerian popular music?",
+            "options": [
+                "Nwankwo Kanu",
+                "Fela Anikulapo-Kuti",
+                "Herbert Macaulay",
+                "Gani Fawehinmi"
+            ],
+            "answerIndex": 1,
+            "explanation": "Fela developed Afrobeat into a major popular and politically critical musical form."
+        },
+        {
+            "id": 84,
+            "question": "Fuji music emerged mainly as a fusion of which traditions?",
+            "options": [
+                "Reggae and classical opera",
+                "Calypso and country music",
+                "Highlife and European folk",
+                "Apala and Ajisari"
+            ],
+            "answerIndex": 3,
+            "explanation": "The course identifies Fuji as emerging from Apala and Ajisari, with strong Islamic cultural influences."
+        },
+        {
+            "id": 85,
+            "question": "Which development characterised the third wave of Nigerian popular music in the 1980s?",
+            "options": [
+                "The complete disappearance of local performers",
+                "The rise of styles such as Waka, Yo-Pop, and Afro-Juju",
+                "The prohibition of recording labels",
+                "The exclusive use of orchestral music"
+            ],
+            "answerIndex": 1,
+            "explanation": "The third wave produced new hybrid styles and greater efforts to reach international audiences."
+        },
+        {
+            "id": 86,
+            "question": "Which trend is associated with the fourth wave of Nigerian popular music from the 1990s onward?",
+            "options": [
+                "Youth-oriented groups and stronger American musical influence",
+                "A total rejection of recorded music",
+                "The end of music groups",
+                "Exclusive dependence on pre-colonial instruments"
+            ],
+            "answerIndex": 0,
+            "explanation": "The fourth wave featured groups such as Remedies and Plantashun Boiz and greater adoption of global pop idioms."
+        },
+        {
+            "id": 87,
+            "question": "What initially triggered the #EndSARS protests in October 2020?",
+            "options": [
+                "A dispute over regional cocoa prices",
+                "The introduction of the Clifford Constitution",
+                "Allegations of police brutality, extortion, profiling, and extrajudicial violence by SARS",
+                "A campaign to restore military rule"
+            ],
+            "answerIndex": 2,
+            "explanation": "Young Nigerians mobilised against abuses associated with the Special Anti-Robbery Squad."
+        },
+        {
+            "id": 88,
+            "question": "How did the demands of #EndSARS broaden during the protests?",
+            "options": [
+                "They became a campaign for colonial rule",
+                "They focused only on music copyright",
+                "They expanded from police reform to demands for good governance and accountability",
+                "They demanded an end to all elections"
+            ],
+            "answerIndex": 2,
+            "explanation": "The movement increasingly addressed corruption, transparency, justice, and wider governance failures."
+        },
+        {
+            "id": 89,
+            "question": "What role did social media play in #EndSARS?",
+            "options": [
+                "It prevented communication among protesters",
+                "It supported mobilisation, documentation, fundraising, and global amplification",
+                "It was legally unavailable in Nigeria",
+                "It replaced every physical protest with radio drama"
+            ],
+            "answerIndex": 1,
+            "explanation": "Digital platforms helped coordinate activities, share evidence, and attract domestic and international attention."
+        },
+        {
+            "id": 90,
+            "question": "Why is Nigeria's large youth population politically significant?",
+            "options": [
+                "Young people are constitutionally barred from political participation",
+                "Young people form a major voting and mobilisation bloc capable of shaping national politics",
+                "It means elections are no longer necessary",
+                "It removes the need for employment policies"
+            ],
+            "answerIndex": 1,
+            "explanation": "With a large share of the population, youth engagement or exclusion can strongly affect political stability and elections."
+        },
+        {
+            "id": 91,
+            "question": "Why is Herbert Macaulay often called the father of Nigerian nationalism?",
+            "options": [
+                "He pioneered organised political agitation and founded the NNDP",
+                "He led the 1966 countercoup",
+                "He established the Royal Niger Company",
+                "He introduced the Structural Adjustment Programme"
+            ],
+            "answerIndex": 0,
+            "explanation": "Macaulay was an early nationalist leader and founded Nigeria's first major political party."
+        },
+        {
+            "id": 92,
+            "question": "Which contribution is most closely associated with Funmilayo Ransome-Kuti?",
+            "options": [
+                "Commanding federal forces in the civil war",
+                "Creating the Royal Niger Company",
+                "Introducing the Lyttleton Constitution",
+                "Mobilising women and resisting colonial taxation and political oppression"
+            ],
+            "answerIndex": 3,
+            "explanation": "She organised women, challenged colonial authorities, and became a major advocate for political and gender rights."
+        },
+        {
+            "id": 93,
+            "question": "How does the Nigerian diaspora contribute importantly to national development?",
+            "options": [
+                "By eliminating all local industries",
+                "By preventing international education",
+                "Through remittances, knowledge transfer, investment, and professional networks",
+                "Only by participating in traditional festivals"
+            ],
+            "answerIndex": 2,
+            "explanation": "Diaspora communities provide funds, expertise, investment connections, advocacy, and other forms of national support."
+        },
+        {
+            "id": 94,
+            "question": "What is the key distinction between crime and deviance?",
+            "options": [
+                "Crime is always acceptable, while deviance is always violent",
+                "Deviance is punished only by courts, while crime is not",
+                "Crime violates formal law, while deviance violates social norms and may not always be illegal",
+                "There is no meaningful distinction"
+            ],
+            "answerIndex": 2,
+            "explanation": "Crime is defined by legal rules; deviance is behaviour that departs from social expectations, whether or not prohibited by law."
+        },
+        {
+            "id": 95,
+            "question": "According to rational choice theory, why may a person commit a crime?",
+            "options": [
+                "Criminal behaviour is inherited automatically",
+                "All crime results only from labelling",
+                "The person cannot evaluate consequences",
+                "The person weighs expected benefits against risks and costs"
+            ],
+            "answerIndex": 3,
+            "explanation": "Rational choice theory views offending as a decision based on perceived rewards, costs, and likelihood of punishment."
+        },
+        {
+            "id": 96,
+            "question": "Which theory holds that criminal behaviour can be learned by observing and imitating others?",
+            "options": [
+                "Functionalism",
+                "Social learning theory",
+                "Naturalisation theory",
+                "Comparative advantage theory"
+            ],
+            "answerIndex": 1,
+            "explanation": "Social learning theory explains crime through exposure to models, reinforcement, and imitation."
+        },
+        {
+            "id": 97,
+            "question": "What was the original character of the Pyrates Confraternity founded at the University of Ibadan?",
+            "options": [
+                "A kidnapping organisation formed for ransom",
+                "A government police unit",
+                "A colonial trading company",
+                "A patriotic and philanthropic group opposed to elitism and foreign social norms"
+            ],
+            "answerIndex": 3,
+            "explanation": "The original confraternity had reformist and social ideals, although later campus cultism developed violent forms."
+        },
+        {
+            "id": 98,
+            "question": "Which factor is identified as a cause of kidnapping in Nigeria?",
+            "options": [
+                "Universal access to stable employment",
+                "The absence of firearms",
+                "Unemployment and the use of violent groups for political or financial purposes",
+                "Excessive trust in law enforcement"
+            ],
+            "answerIndex": 2,
+            "explanation": "Economic desperation, political sponsorship, insecurity, and criminal profit motives contribute to kidnapping."
+        },
+        {
+            "id": 99,
+            "question": "Which is a major social consequence of kidnapping and armed robbery?",
+            "options": [
+                "Greater public confidence and investment",
+                "A reduction in security costs",
+                "Automatic social unity",
+                "Fear, loss of trust, economic disruption, and harm to victims"
+            ],
+            "answerIndex": 3,
+            "explanation": "These crimes cause deaths and trauma, weaken trust, disrupt business and travel, and increase insecurity."
+        },
+        {
+            "id": 100,
+            "question": "Which response is most likely to reduce social vices sustainably?",
+            "options": [
+                "Relying only on public slogans",
+                "Ignoring corruption and youth unemployment",
+                "Combining effective law enforcement with employment, education, justice, and community prevention",
+                "Treating every young person as a criminal"
+            ],
+            "answerIndex": 2,
+            "explanation": "A durable response must address immediate security threats and underlying economic, political, educational, and social causes."
+        }
+    ]
+}

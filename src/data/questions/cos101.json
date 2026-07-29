@@ -1,6 +1,6 @@
 {
   "courseDetails": {
-    "code": "COS101",
+    "code": "COS 101",
     "title": "Introduction to Computing",
     "description": "A 100-level Computer Science course introducing computer hardware, software, data representation, programming, networks, and information technology.",
     "departments": ["computer-science"],
