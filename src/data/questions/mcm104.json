@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "MCM 104",
+        "title": "Introduction to News Writing",
+        "description": "A 100-level Mass Communication course covering the meaning and functions of news, news values, newsroom roles, ethical reporting, news gathering, source evaluation, story structure, specialised reporting, editing, media law, digital journalism, and multimedia distribution.",
+        "departments": [
+            "mass-communication"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which description best defines news?",
+            "options": [
+                "A fictional account written mainly for entertainment",
+                "Any private message exchanged between two people",
+                "Relevant information about recent events or developments of public interest",
+                "A paid message promoting a product or service"
+            ],
+            "answerIndex": 2,
+            "explanation": "News concerns recent or newly significant events that are relevant to a substantial part of the public."
+        },
+        {
+            "id": 2,
+            "question": "Which news value is strongest when an event has just occurred?",
+            "options": [
+                "Proximity",
+                "Prominence",
+                "Human interest",
+                "Timeliness"
+            ],
+            "answerIndex": 3,
+            "explanation": "Timeliness refers to recency. The more current an event is, the greater its usual news value."
+        },
+        {
+            "id": 3,
+            "question": "A fire occurring in a reader’s neighbourhood is likely to receive attention mainly because of which news value?",
+            "options": [
+                "Unusualness",
+                "Proximity",
+                "Prominence",
+                "Conflict"
+            ],
+            "answerIndex": 1,
+            "explanation": "Proximity increases interest because audiences tend to care more about events that occur near them geographically or emotionally."
+        },
+        {
+            "id": 4,
+            "question": "A new policy affects every public university student in the country. Which news value is most evident?",
+            "options": [
+                "Novelty",
+                "Impact",
+                "Proximity",
+                "Entertainment"
+            ],
+            "answerIndex": 1,
+            "explanation": "Impact measures how many people an event affects and how significantly it affects them."
+        },
+        {
+            "id": 5,
+            "question": "A dispute between two political parties is especially newsworthy because it contains what?",
+            "options": [
+                "Continuity",
+                "Advertising",
+                "Conflict",
+                "Routine"
+            ],
+            "answerIndex": 2,
+            "explanation": "Disagreements and clashes create conflict, a recognised news value that often attracts audience attention."
+        },
+        {
+            "id": 6,
+            "question": "Why would the resignation of a famous governor attract substantial news coverage?",
+            "options": [
+                "It is necessarily humorous",
+                "It is always local to every audience",
+                "It involves a prominent person",
+                "It contains no public consequence"
+            ],
+            "answerIndex": 2,
+            "explanation": "Prominence makes the actions of famous or influential individuals more newsworthy."
+        },
+        {
+            "id": 7,
+            "question": "A goat being elected honorary mayor of a small town would mainly demonstrate which news value?",
+            "options": [
+                "Continuity",
+                "Objectivity",
+                "Unusualness",
+                "Attribution"
+            ],
+            "answerIndex": 2,
+            "explanation": "Unusual or unexpected events stand out from ordinary experience and therefore attract coverage."
+        },
+        {
+            "id": 8,
+            "question": "A story about a child rescuing neighbours during a flood relies strongly on which news value?",
+            "options": [
+                "Defamation",
+                "Embargo",
+                "Convergence",
+                "Human interest"
+            ],
+            "answerIndex": 3,
+            "explanation": "Human-interest stories evoke emotion by focusing on personal courage, suffering, achievement, or survival."
+        },
+        {
+            "id": 9,
+            "question": "Which activity best illustrates the watchdog function of news?",
+            "options": [
+                "Publishing only official celebrations",
+                "Repeating advertisements during a bulletin",
+                "Investigating and exposing misuse of public funds",
+                "Avoiding questions about powerful institutions"
+            ],
+            "answerIndex": 2,
+            "explanation": "The watchdog role holds authorities and powerful institutions accountable through scrutiny and investigation."
+        },
+        {
+            "id": 10,
+            "question": "When a report explains the scientific background of an epidemic, news is performing which function?",
+            "options": [
+                "Entertaining advertisers",
+                "Educating the public",
+                "Protecting sources from all questions",
+                "Replacing public debate"
+            ],
+            "answerIndex": 1,
+            "explanation": "News educates when it provides context and explanations that help audiences understand complex issues."
+        },
+        {
+            "id": 11,
+            "question": "During an approaching storm, a station broadcasts evacuation routes and safety instructions. Which function of news is most evident?",
+            "options": [
+                "Product placement",
+                "Crisis communication",
+                "Celebrity promotion",
+                "Literary criticism"
+            ],
+            "answerIndex": 1,
+            "explanation": "During emergencies, news can quickly provide life-saving information and coordinate public response."
+        },
+        {
+            "id": 12,
+            "question": "How does news serve as a historical record?",
+            "options": [
+                "It predicts every future event accurately",
+                "It removes all disagreement from society",
+                "It documents events that can later be studied in archives",
+                "It prevents reports from being updated"
+            ],
+            "answerIndex": 2,
+            "explanation": "Published reports and broadcasts preserve documented accounts of past events and developments."
+        },
+        {
+            "id": 13,
+            "question": "Which subject is most typical of hard news?",
+            "options": [
+                "A profile of a popular musician",
+                "A guide to weekend fashion",
+                "A reflective travel story",
+                "An urgent report on a new national budget"
+            ],
+            "answerIndex": 3,
+            "explanation": "Hard news covers serious, timely, and consequential subjects such as politics, crime, economics, and emergencies."
+        },
+        {
+            "id": 14,
+            "question": "Which description best fits soft news?",
+            "options": [
+                "Live reporting of a major earthquake",
+                "A factual alert about a national emergency",
+                "An immediate court judgment affecting millions",
+                "Less urgent content focused on lifestyle, entertainment, or human interest"
+            ],
+            "answerIndex": 3,
+            "explanation": "Soft news is generally less formal and less urgent, often using a feature-oriented or personal approach."
+        },
+        {
+            "id": 15,
+            "question": "What most clearly distinguishes investigative news?",
+            "options": [
+                "It reports only sporting results",
+                "It avoids documents and interviews",
+                "It uses extensive research to uncover hidden wrongdoing or suppressed facts",
+                "It is always published as a short social-media caption"
+            ],
+            "answerIndex": 2,
+            "explanation": "Investigative journalism goes beyond routine reporting to reveal important information, often about corruption or injustice."
+        },
+        {
+            "id": 16,
+            "question": "What is breaking news?",
+            "options": [
+                "Urgent reporting of an important event as it unfolds",
+                "A story published every year without changes",
+                "A paid announcement from an advertiser",
+                "A long historical essay with no recent development"
+            ],
+            "answerIndex": 0,
+            "explanation": "Breaking news provides real-time or near-real-time updates about urgent events of high public interest."
+        },
+        {
+            "id": 17,
+            "question": "Which item is an example of opinion news?",
+            "options": [
+                "A verified emergency alert",
+                "An editorial interpreting a government decision",
+                "A straight report of election totals",
+                "A weather observation from an official station"
+            ],
+            "answerIndex": 1,
+            "explanation": "Editorials, commentaries, and opinion columns analyse or interpret events from an identified viewpoint."
+        },
+        {
+            "id": 18,
+            "question": "What is a reporter’s central role in a newsroom?",
+            "options": [
+                "Approving every advertisement personally",
+                "Designing all printing machines",
+                "Gathering, verifying, and communicating newsworthy information",
+                "Representing one political party in every story"
+            ],
+            "answerIndex": 2,
+            "explanation": "Reporters find information, verify it, interview sources, and turn it into accurate news for the public."
+        },
+        {
+            "id": 19,
+            "question": "Why must reporters manage their time effectively?",
+            "options": [
+                "They should avoid filing stories promptly",
+                "They work under deadlines while gathering and verifying information",
+                "They are expected to write only when no event is occurring",
+                "Time management replaces the need for accuracy"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reporting combines interviews, research, writing, and verification under strict publication or broadcast deadlines."
+        },
+        {
+            "id": 20,
+            "question": "Which action demonstrates impartiality by a reporter?",
+            "options": [
+                "Presenting relevant viewpoints fairly and allowing the audience to assess them",
+                "Supporting a preferred side without disclosure",
+                "Removing facts that weaken the reporter’s opinion",
+                "Using insults against one source"
+            ],
+            "answerIndex": 0,
+            "explanation": "Impartial reporting avoids taking sides and represents relevant perspectives accurately."
+        },
+        {
+            "id": 21,
+            "question": "Why is transparency important in reporting?",
+            "options": [
+                "It permits reporters to invent anonymous quotations",
+                "It guarantees that every source is correct",
+                "It removes the need to correct mistakes",
+                "It helps audiences understand how information was obtained and what limitations exist"
+            ],
+            "answerIndex": 3,
+            "explanation": "Transparency supports trust by clarifying sources, methods, uncertainty, and possible limitations."
+        },
+        {
+            "id": 22,
+            "question": "A reporter receives an important claim from one person. What is the most responsible next step?",
+            "options": [
+                "Publish the claim as established fact immediately",
+                "Delete the source’s name and stop checking",
+                "Seek corroboration from reliable evidence or additional sources",
+                "Add dramatic details to make it stronger"
+            ],
+            "answerIndex": 2,
+            "explanation": "Corroboration reduces the risk of publishing a false or misleading single-source claim."
+        },
+        {
+            "id": 23,
+            "question": "What is the purpose of a newsroom editor?",
+            "options": [
+                "To prevent all reporters from using sources",
+                "To improve accuracy, clarity, structure, and compliance with publication standards",
+                "To convert every news story into an advertisement",
+                "To replace factual reporting with personal opinion"
+            ],
+            "answerIndex": 1,
+            "explanation": "Editors review and refine stories, verify key details, and ensure they meet ethical and house-style requirements."
+        },
+        {
+            "id": 24,
+            "question": "What does a news editor commonly consider when selecting stories?",
+            "options": [
+                "News value, audience relevance, available space or time, and public importance",
+                "Only the reporter’s personal preference",
+                "The number of adjectives in each story",
+                "Whether every story praises an institution"
+            ],
+            "answerIndex": 0,
+            "explanation": "News selection involves editorial judgement about significance, timeliness, relevance, and practical constraints."
+        },
+        {
+            "id": 25,
+            "question": "How can reporters influence public perception?",
+            "options": [
+                "The facts, voices, context, and framing they select affect how issues are understood",
+                "They have no influence once a story is published",
+                "Only advertisements shape audience understanding",
+                "Perception depends entirely on headline font size"
+            ],
+            "answerIndex": 0,
+            "explanation": "Journalistic choices about emphasis and context can shape what audiences notice and how they interpret events."
+        },
+        {
+            "id": 26,
+            "question": "What is a journalist’s primary ethical duty?",
+            "options": [
+                "To maximise controversy regardless of facts",
+                "To protect every institution from criticism",
+                "To support private interests without disclosure",
+                "To report the truth as accurately as possible"
+            ],
+            "answerIndex": 3,
+            "explanation": "Truth and accuracy are foundational duties because public trust depends on reliable information."
+        },
+        {
+            "id": 27,
+            "question": "Why is journalistic independence important?",
+            "options": [
+                "It allows journalists to refuse all evidence",
+                "It requires reporters to work without editors",
+                "It helps reporters avoid improper influence and conflicts of interest",
+                "It makes corrections unnecessary"
+            ],
+            "answerIndex": 2,
+            "explanation": "Independence enables journalists to serve the public rather than hidden political, financial, or personal interests."
+        },
+        {
+            "id": 28,
+            "question": "Which action best demonstrates accountability?",
+            "options": [
+                "Silently leaving a known error online",
+                "Blaming the audience for the mistake",
+                "Deleting the entire archive to hide the error",
+                "Promptly correcting a significant factual error and explaining the correction"
+            ],
+            "answerIndex": 3,
+            "explanation": "Accountability requires journalists to take responsibility for their work and correct errors openly."
+        },
+        {
+            "id": 29,
+            "question": "What does the ethical principle of minimising harm require?",
+            "options": [
+                "Suppressing every uncomfortable fact",
+                "Naming vulnerable victims in all circumstances",
+                "Publishing allegations before verification",
+                "Considering avoidable damage while still reporting information of legitimate public interest"
+            ],
+            "answerIndex": 3,
+            "explanation": "Journalists should balance the public need for information against unnecessary harm to individuals and communities."
+        },
+        {
+            "id": 30,
+            "question": "Why may a journalist withhold the identity of a sexual-assault survivor?",
+            "options": [
+                "To protect the survivor’s privacy and reduce further harm",
+                "To make the report less accurate",
+                "Because names are never allowed in journalism",
+                "To prevent authorities from investigating"
+            ],
+            "answerIndex": 0,
+            "explanation": "Protecting vulnerable people is a common application of the duty to minimise harm."
+        },
+        {
+            "id": 31,
+            "question": "Which sentence is the most objective?",
+            "options": [
+                "The careless authorities finally reopened the terrible road.",
+                "Everyone knows the officials handled the incident badly.",
+                "The obviously dishonest officers delayed traffic for no reason.",
+                "Police said the road was reopened at 6 p.m. after investigators left the scene."
+            ],
+            "answerIndex": 3,
+            "explanation": "The objective sentence attributes a verifiable statement without adding the writer’s judgement."
+        },
+        {
+            "id": 32,
+            "question": "Which revision is the clearest and most concise?",
+            "options": [
+                "The project was, on the day that was Monday, approved by the council members.",
+                "On Monday, it was the council that was responsible for the approval of the project in question.",
+                "The council approved the project on Monday.",
+                "The council, which is the body concerned, gave an approval regarding the said project on Monday."
+            ],
+            "answerIndex": 2,
+            "explanation": "Clear news writing uses direct language and removes unnecessary words."
+        },
+        {
+            "id": 33,
+            "question": "Why should journalists avoid jargon when writing for a general audience?",
+            "options": [
+                "Jargon always makes a report legally unsafe",
+                "Readers prefer sentences they cannot interpret",
+                "Jargon automatically creates objectivity",
+                "Unexplained specialist terms can make the story difficult to understand"
+            ],
+            "answerIndex": 3,
+            "explanation": "Journalists should translate technical language into accessible terms without distorting meaning."
+        },
+        {
+            "id": 34,
+            "question": "A reporter writes that a proposal is “ridiculous” without attributing the word to a source. What is the main problem?",
+            "options": [
+                "The sentence uses too few words",
+                "The proposal is necessarily confidential",
+                "The reporter has inserted personal judgement into a news report",
+                "The statement is a secondary source"
+            ],
+            "answerIndex": 2,
+            "explanation": "Unattributed evaluative language can reveal bias and undermine objectivity."
+        },
+        {
+            "id": 35,
+            "question": "What is the best way to improve the accuracy of a statistic in a story?",
+            "options": [
+                "Check it against the original reliable source and confirm its context",
+                "Round it upward to create impact",
+                "Use it without naming where it came from",
+                "Replace it with an estimate from memory"
+            ],
+            "answerIndex": 0,
+            "explanation": "Accuracy requires checking figures against authoritative evidence and ensuring they are not presented out of context."
+        },
+        {
+            "id": 36,
+            "question": "What is a structured interview?",
+            "options": [
+                "An interview that follows a planned sequence of standard questions",
+                "A completely spontaneous conversation with no preparation",
+                "An observation conducted without speaking",
+                "A review of previously published articles only"
+            ],
+            "answerIndex": 0,
+            "explanation": "Structured interviews use a formal, consistent question order and are useful when comparability is important."
+        },
+        {
+            "id": 37,
+            "question": "What is the main advantage of an unstructured interview?",
+            "options": [
+                "It guarantees every answer is brief",
+                "It prevents follow-up questions",
+                "It removes the need for active listening",
+                "It allows a flexible, free-flowing exploration of the subject"
+            ],
+            "answerIndex": 3,
+            "explanation": "Unstructured interviews permit the discussion to develop naturally and can reveal unexpected insights."
+        },
+        {
+            "id": 38,
+            "question": "How does a semi-structured interview work?",
+            "options": [
+                "It consists entirely of yes-or-no questions",
+                "It is conducted without a topic",
+                "It combines prepared questions with flexible follow-up questions",
+                "It uses only questions submitted by advertisers"
+            ],
+            "answerIndex": 2,
+            "explanation": "Semi-structured interviews provide direction while allowing the reporter to pursue important new information."
+        },
+        {
+            "id": 39,
+            "question": "Why should a journalist research an interviewee before the interview?",
+            "options": [
+                "To ask informed questions and avoid wasting time on easily available facts",
+                "To decide the answers the interviewee must give",
+                "To remove the need to listen during the interview",
+                "To guarantee the interviewee agrees with the reporter"
+            ],
+            "answerIndex": 0,
+            "explanation": "Preparation improves question quality and helps the journalist recognise significant or inconsistent answers."
+        },
+        {
+            "id": 40,
+            "question": "Which question is most likely to produce a detailed answer?",
+            "options": [
+                "What challenges did you face while implementing the policy?",
+                "Did you implement the policy?",
+                "Was the meeting good?",
+                "Can you answer yes or no?"
+            ],
+            "answerIndex": 0,
+            "explanation": "Open-ended questions invite explanation, examples, and detail rather than a one-word response."
+        },
+        {
+            "id": 41,
+            "question": "Why is active listening essential during an interview?",
+            "options": [
+                "It allows the reporter to ignore unexpected information",
+                "It helps the reporter understand answers and ask meaningful follow-ups",
+                "It eliminates the need to take notes",
+                "It ensures all questions remain identical"
+            ],
+            "answerIndex": 1,
+            "explanation": "Active listening helps the reporter notice important details, contradictions, and opportunities for clarification."
+        },
+        {
+            "id": 42,
+            "question": "What should a journalist do when an interviewee gives an unclear answer?",
+            "options": [
+                "Rewrite the answer as the journalist prefers",
+                "Assume the intended meaning",
+                "Publish the ambiguity as a verified fact",
+                "Ask a polite clarifying follow-up question"
+            ],
+            "answerIndex": 3,
+            "explanation": "Clarification reduces misunderstanding and improves the accuracy of quotations and paraphrases."
+        },
+        {
+            "id": 43,
+            "question": "What is non-participant observation?",
+            "options": [
+                "The journalist joins the group as an active member",
+                "The journalist observes events without becoming directly involved",
+                "The journalist publishes before arriving",
+                "The journalist gathers only anonymous opinions online"
+            ],
+            "answerIndex": 1,
+            "explanation": "Non-participant observation preserves distance while allowing the reporter to witness behaviour and events."
+        },
+        {
+            "id": 44,
+            "question": "What is a major strength of observation in news gathering?",
+            "options": [
+                "It automatically reveals every hidden motive",
+                "It makes corroboration unnecessary",
+                "It provides direct details about actions, surroundings, and atmosphere",
+                "It guarantees the journalist has no bias"
+            ],
+            "answerIndex": 2,
+            "explanation": "Firsthand observation can make a report vivid and authentic by capturing details that sources may overlook."
+        },
+        {
+            "id": 45,
+            "question": "What is a common limitation of observation?",
+            "options": [
+                "It can never provide sensory detail",
+                "The reporter may misinterpret what is seen because of limited context or bias",
+                "It always takes less time than every other method",
+                "It produces only secondary information"
+            ],
+            "answerIndex": 1,
+            "explanation": "Observation is selective and may not explain causes, motives, or events outside the journalist’s view."
+        },
+        {
+            "id": 46,
+            "question": "Which item is a primary source?",
+            "options": [
+                "An eyewitness interviewed about an accident",
+                "A textbook analysing road safety",
+                "A documentary summarising earlier reports",
+                "A newspaper column interpreting the accident"
+            ],
+            "answerIndex": 0,
+            "explanation": "An eyewitness gives a direct, firsthand account of the event."
+        },
+        {
+            "id": 47,
+            "question": "Which item is a secondary source?",
+            "options": [
+                "An official election result sheet",
+                "A scholarly article analysing previously collected election data",
+                "A candidate’s live speech",
+                "A reporter’s direct observation at a polling station"
+            ],
+            "answerIndex": 1,
+            "explanation": "Secondary sources interpret, explain, or analyse information that originated elsewhere."
+        },
+        {
+            "id": 48,
+            "question": "What is source verification?",
+            "options": [
+                "Checking a source’s identity, knowledge, reliability, and supporting evidence",
+                "Accepting every statement because it is confident",
+                "Hiding the source from editors",
+                "Changing a source’s words to improve the story"
+            ],
+            "answerIndex": 0,
+            "explanation": "Verification helps determine whether the source is genuine, informed, consistent, and supported by evidence."
+        },
+        {
+            "id": 49,
+            "question": "What is the best reason to protect a confidential source?",
+            "options": [
+                "Disclosure could expose the source to serious harm for providing important information",
+                "The source wants to avoid all factual checking",
+                "Anonymous claims are automatically true",
+                "The reporter wants to make the story mysterious"
+            ],
+            "answerIndex": 0,
+            "explanation": "Confidentiality may be justified when a credible source faces genuine risk and the information serves the public interest."
+        },
+        {
+            "id": 50,
+            "question": "What is the inverted pyramid structure?",
+            "options": [
+                "An arrangement that presents the most important facts first and less important details later",
+                "A structure that hides the main point until the final paragraph",
+                "A method that orders all events alphabetically",
+                "A feature technique based only on dialogue"
+            ],
+            "answerIndex": 0,
+            "explanation": "The inverted pyramid ranks information in descending order of importance."
+        },
+        {
+            "id": 51,
+            "question": "Why did the telegraph contribute to the development of the inverted pyramid?",
+            "options": [
+                "Reporters placed crucial facts first in case transmission was interrupted",
+                "Telegraph messages allowed unlimited detail at no cost",
+                "The telegraph was mainly used to transmit photographs",
+                "Editors could not shorten telegraph reports"
+            ],
+            "answerIndex": 0,
+            "explanation": "Early telegraph transmission could fail or be cut, so essential information had to be sent first."
+        },
+        {
+            "id": 52,
+            "question": "What is the lead or lede of a news story?",
+            "options": [
+                "The opening paragraph containing the most important information",
+                "The final correction printed after publication",
+                "The list of every source’s telephone number",
+                "A caption placed beneath a photograph"
+            ],
+            "answerIndex": 0,
+            "explanation": "The lead gives readers the core of the story immediately."
+        },
+        {
+            "id": 53,
+            "question": "Which set contains the 5Ws and H?",
+            "options": [
+                "Who, which, whose, whether, while, and however",
+                "Who, what, where, when, why, and how",
+                "What, width, weight, word, work, and headline",
+                "Where, write, wrong, world, web, and history"
+            ],
+            "answerIndex": 1,
+            "explanation": "These questions identify the essential facts a news lead may need to address."
+        },
+        {
+            "id": 54,
+            "question": "Which description best fits a summary lead?",
+            "options": [
+                "An opening that delays the main fact for several pages",
+                "A concise opening that presents the central facts of a hard-news event",
+                "A list of unrelated quotations",
+                "A final paragraph offering the writer’s opinion"
+            ],
+            "answerIndex": 1,
+            "explanation": "Summary leads quickly communicate the most important 5Ws and H, particularly in hard news."
+        },
+        {
+            "id": 55,
+            "question": "Which opening is most characteristic of a feature lead?",
+            "options": [
+                "A raw list of statistics without context",
+                "A legal disclaimer before any information",
+                "A complete bibliography in the first paragraph",
+                "A descriptive scene that draws the reader into a human-interest story"
+            ],
+            "answerIndex": 3,
+            "explanation": "Feature leads may build mood, introduce a character, or tell an anecdote before explaining the central point."
+        },
+        {
+            "id": 56,
+            "question": "What is the main purpose of a news headline?",
+            "options": [
+                "To exaggerate details that are not in the story",
+                "To include every background fact",
+                "To summarise the story’s central point clearly and attract appropriate attention",
+                "To conceal the subject until the final paragraph"
+            ],
+            "answerIndex": 2,
+            "explanation": "A good headline is concise, accurate, specific, and faithful to the story."
+        },
+        {
+            "id": 57,
+            "question": "Which headline is the strongest for a straight-news report?",
+            "options": [
+                "You Will Not Believe What the Council Did!",
+                "A Very Interesting Thing Happened Yesterday",
+                "Community Matters and Other Things",
+                "Council Approves New Community Health Centre"
+            ],
+            "answerIndex": 3,
+            "explanation": "The strong headline uses an active verb and states the central development clearly without sensationalism."
+        },
+        {
+            "id": 58,
+            "question": "Why are strong verbs useful in headlines?",
+            "options": [
+                "They allow unsupported opinions to appear factual",
+                "They make the action clear and keep the headline concise",
+                "They remove the need for a story body",
+                "They make all events sound humorous"
+            ],
+            "answerIndex": 1,
+            "explanation": "Strong active verbs communicate the main action quickly and directly."
+        },
+        {
+            "id": 59,
+            "question": "What belongs in the body of a news story?",
+            "options": [
+                "Only the reporter’s personal beliefs",
+                "Supporting facts, quotations, attribution, context, and background",
+                "The publication’s entire history",
+                "Unrelated details arranged randomly"
+            ],
+            "answerIndex": 1,
+            "explanation": "The body expands and supports the information introduced in the lead."
+        },
+        {
+            "id": 60,
+            "question": "Why are quotations used in a news story?",
+            "options": [
+                "They allow the reporter to avoid verification",
+                "They should replace every factual sentence",
+                "They make attribution unnecessary",
+                "They provide authentic voices, evidence, and a human dimension"
+            ],
+            "answerIndex": 3,
+            "explanation": "Relevant quotations can add credibility, emotion, expertise, or firsthand perspective when accurately attributed."
+        },
+        {
+            "id": 61,
+            "question": "What is attribution?",
+            "options": [
+                "Identifying the source of information, a claim, or a quotation",
+                "Removing all names from the story",
+                "Converting a quotation into the reporter’s opinion",
+                "Placing the least important fact first"
+            ],
+            "answerIndex": 0,
+            "explanation": "Attribution tells readers who supplied the information and helps them assess its credibility."
+        },
+        {
+            "id": 62,
+            "question": "Why can editors trim an inverted-pyramid story from the bottom?",
+            "options": [
+                "The bottom always contains false information",
+                "The lead is repeated word for word in every paragraph",
+                "The least essential information is normally placed near the end",
+                "Headlines contain every minor detail"
+            ],
+            "answerIndex": 2,
+            "explanation": "Descending importance allows less important material to be removed without destroying the core story."
+        },
+        {
+            "id": 63,
+            "question": "How do news stories commonly end?",
+            "options": [
+                "With a compulsory essay-style restatement of every point",
+                "With a less important detail, a relevant quotation, or a forward-looking statement",
+                "With the reporter declaring which side is correct",
+                "With the lead copied exactly"
+            ],
+            "answerIndex": 1,
+            "explanation": "Straight news usually does not require a formal argumentative conclusion; the final paragraph may offer closure or future direction."
+        },
+        {
+            "id": 64,
+            "question": "Which sequence best reflects a typical straight-news structure?",
+            "options": [
+                "Conclusion, bibliography, title page, and abstract",
+                "Minor detail, opinion, headline, and lead",
+                "Headline, lead, body in descending importance, and less essential closing material",
+                "Quotation list, advertisement, lead, and index"
+            ],
+            "answerIndex": 2,
+            "explanation": "This sequence reflects the headline and inverted-pyramid organisation used in straight news."
+        },
+        {
+            "id": 65,
+            "question": "What is beat reporting?",
+            "options": [
+                "Reporting any topic once without preparation",
+                "Writing only anonymous opinion columns",
+                "Repeating stories from another outlet",
+                "Consistent coverage of a particular subject area or institution"
+            ],
+            "answerIndex": 3,
+            "explanation": "A beat is an assigned area such as politics, health, education, crime, sports, or business."
+        },
+        {
+            "id": 66,
+            "question": "What is a major benefit of specialising in a beat?",
+            "options": [
+                "The reporter no longer needs objectivity",
+                "All sources become automatically trustworthy",
+                "The reporter develops subject knowledge and reliable contacts over time",
+                "The reporter can ignore developments outside office hours"
+            ],
+            "answerIndex": 2,
+            "explanation": "Specialisation improves depth, context, source access, and the ability to identify meaningful developments."
+        },
+        {
+            "id": 67,
+            "question": "Which topic belongs most directly to the political beat?",
+            "options": [
+                "A league football final",
+                "A clinical trial of a new vaccine",
+                "A review of a music album",
+                "A parliamentary debate on electoral reform"
+            ],
+            "answerIndex": 3,
+            "explanation": "Political reporters cover government, elections, parties, public policy, and political institutions."
+        },
+        {
+            "id": 68,
+            "question": "What is a key responsibility of a crime reporter?",
+            "options": [
+                "Report accurately while respecting legal processes and the rights of suspects and victims",
+                "Declare every suspect guilty before trial",
+                "Publish rumours from any police contact",
+                "Reveal vulnerable victims’ identities automatically"
+            ],
+            "answerIndex": 0,
+            "explanation": "Crime reporting requires careful sourcing, legal awareness, fairness, and sensitivity."
+        },
+        {
+            "id": 69,
+            "question": "What should a business reporter do with complex financial terminology?",
+            "options": [
+                "Repeat the jargon without explanation",
+                "Replace the figures with personal opinion",
+                "Remove all economic context",
+                "Explain it in accurate, accessible language for the intended audience"
+            ],
+            "answerIndex": 3,
+            "explanation": "Business journalism should translate specialist concepts without oversimplifying or distorting them."
+        },
+        {
+            "id": 70,
+            "question": "Which challenge is especially important in health reporting?",
+            "options": [
+                "Avoiding all expert sources",
+                "Treating correlation as proof of causation",
+                "Promoting untested treatments as established cures",
+                "Communicating medical evidence accurately without causing unnecessary alarm"
+            ],
+            "answerIndex": 3,
+            "explanation": "Health stories can affect public behaviour, so reporters must explain evidence, uncertainty, risks, and limitations responsibly."
+        },
+        {
+            "id": 71,
+            "question": "What most clearly distinguishes feature writing from hard news?",
+            "options": [
+                "Feature writing contains no facts",
+                "Hard news never uses quotations",
+                "Feature writing allows greater narrative depth, description, and creative structure",
+                "Features must always cover events occurring that day"
+            ],
+            "answerIndex": 2,
+            "explanation": "Features explore subjects more deeply and often use storytelling techniques, while hard news prioritises urgent facts."
+        },
+        {
+            "id": 72,
+            "question": "Which structure is most typical of hard news?",
+            "options": [
+                "A fictional three-act structure",
+                "A diary arranged only by emotion",
+                "A bibliography-first structure",
+                "The inverted pyramid"
+            ],
+            "answerIndex": 3,
+            "explanation": "Hard news normally presents the most important information first for speed and clarity."
+        },
+        {
+            "id": 73,
+            "question": "Why may a feature writer use descriptive language?",
+            "options": [
+                "To replace factual accuracy",
+                "To make the source impossible to identify",
+                "To create vivid scenes and deepen audience engagement",
+                "To turn every report into an advertisement"
+            ],
+            "answerIndex": 2,
+            "explanation": "Description can help readers visualise people, places, and experiences, but it must remain truthful."
+        },
+        {
+            "id": 74,
+            "question": "Why must beat reporters maintain objectivity despite their expertise?",
+            "options": [
+                "Expertise permits them to omit opposing evidence",
+                "Long-term contacts must control the final story",
+                "Knowledge should improve accuracy, not turn reporting into advocacy for preferred sources",
+                "Objectivity applies only to general reporters"
+            ],
+            "answerIndex": 2,
+            "explanation": "Specialisation creates close relationships, so reporters must guard against capture, favouritism, and conflicts of interest."
+        },
+        {
+            "id": 75,
+            "question": "Why does broadcast writing favour short, conversational sentences?",
+            "options": [
+                "Audiences usually hear the information once and must understand it immediately",
+                "Broadcast audiences read footnotes during transmission",
+                "Long sentences improve audio quality",
+                "Conversational language prevents all errors"
+            ],
+            "answerIndex": 0,
+            "explanation": "Broadcast copy is written for the ear, so clarity, brevity, and natural phrasing are essential."
+        },
+        {
+            "id": 76,
+            "question": "How does magazine writing commonly differ from straight newspaper news?",
+            "options": [
+                "It never uses research",
+                "It often permits more depth, creativity, description, and visual presentation",
+                "It must always be shorter than a news brief",
+                "It cannot include quotations"
+            ],
+            "answerIndex": 1,
+            "explanation": "Magazine articles often provide extended analysis and storytelling supported by strong visuals."
+        },
+        {
+            "id": 77,
+            "question": "What makes online content scannable?",
+            "options": [
+                "Dense blocks of text with no breaks",
+                "Long introductions that delay the main point",
+                "Removing all headings and links",
+                "Subheadings, short paragraphs, bullet points, and highlighted key information"
+            ],
+            "answerIndex": 3,
+            "explanation": "Online readers often scan, so visual structure helps them locate important information quickly."
+        },
+        {
+            "id": 78,
+            "question": "What is the best use of a hyperlink in an online news article?",
+            "options": [
+                "To provide relevant evidence or additional context without overcrowding the main text",
+                "To send readers to unrelated advertising",
+                "To replace all source verification",
+                "To hide the origin of a quotation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Useful links deepen understanding and show supporting sources while preserving readability."
+        },
+        {
+            "id": 79,
+            "question": "Why should social-media news posts be tailored to the platform?",
+            "options": [
+                "Platforms differ in audience behaviour, length, visual style, and interaction features",
+                "Every platform requires identical wording",
+                "Only print audiences care about accuracy",
+                "Platform adaptation means changing the facts"
+            ],
+            "answerIndex": 0,
+            "explanation": "The same verified story may need different formats for X, Facebook, Instagram, or other platforms."
+        },
+        {
+            "id": 80,
+            "question": "What should remain unchanged when adapting one story for print, broadcast, and digital platforms?",
+            "options": [
+                "The length of every sentence",
+                "The verified core facts",
+                "The number of hyperlinks",
+                "The visual layout"
+            ],
+            "answerIndex": 1,
+            "explanation": "Format and style may change by medium, but factual accuracy and meaning must remain consistent."
+        },
+        {
+            "id": 81,
+            "question": "What is defamation?",
+            "options": [
+                "A false statement communicated to others that harms a person’s reputation",
+                "Any criticism of a public policy",
+                "A verified fact that someone dislikes",
+                "A private thought never communicated"
+            ],
+            "answerIndex": 0,
+            "explanation": "Defamation law protects reputation from false and damaging published or spoken claims."
+        },
+        {
+            "id": 82,
+            "question": "What is the difference between libel and slander?",
+            "options": [
+                "Libel is written or recorded defamation, while slander is spoken defamation",
+                "Libel is always true, while slander is always false",
+                "Libel concerns government, while slander concerns business",
+                "Libel is ethical, while slander is legal"
+            ],
+            "answerIndex": 0,
+            "explanation": "The distinction is based mainly on the form in which the defamatory statement is communicated."
+        },
+        {
+            "id": 83,
+            "question": "When may public interest outweigh an individual’s privacy?",
+            "options": [
+                "Whenever the story might attract many clicks",
+                "When disclosure reveals information of genuine importance to public welfare or accountability",
+                "Whenever a source offers private photographs",
+                "Whenever the person is unknown"
+            ],
+            "answerIndex": 1,
+            "explanation": "Public interest requires a legitimate societal benefit, not mere curiosity or commercial appeal."
+        },
+        {
+            "id": 84,
+            "question": "What is a conflict of interest in journalism?",
+            "options": [
+                "A disagreement between two quoted sources",
+                "A story containing more than one viewpoint",
+                "A personal or financial interest that could improperly influence professional judgement",
+                "A deadline shared by several reporters"
+            ],
+            "answerIndex": 2,
+            "explanation": "Conflicts can undermine independence or create the appearance that coverage is biased."
+        },
+        {
+            "id": 85,
+            "question": "How should a journalist handle a significant personal conflict of interest?",
+            "options": [
+                "Hide it from everyone",
+                "Disclose it to the editor and withdraw or apply safeguards where necessary",
+                "Accept gifts and promise favourable coverage",
+                "Remove all opposing evidence from the story"
+            ],
+            "answerIndex": 1,
+            "explanation": "Disclosure and appropriate reassignment or safeguards protect editorial independence and public trust."
+        },
+        {
+            "id": 86,
+            "question": "What is contempt of court in a reporting context?",
+            "options": [
+                "Criticising a completed court judgment",
+                "Publishing material that improperly interferes with the administration of justice",
+                "Reporting the public location of a courthouse",
+                "Explaining the meaning of a legal term"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reports that prejudice active proceedings or disobey court restrictions may amount to contempt."
+        },
+        {
+            "id": 87,
+            "question": "What does incitement involve?",
+            "options": [
+                "A balanced debate about public policy",
+                "A report quoting verified election results",
+                "A correction of an earlier mistake",
+                "Communication that encourages imminent unlawful violence or harmful action"
+            ],
+            "answerIndex": 3,
+            "explanation": "Freedom of expression has legal limits, including direct encouragement of imminent violence."
+        },
+        {
+            "id": 88,
+            "question": "What is the main purpose of self-editing?",
+            "options": [
+                "To avoid checking facts",
+                "To improve clarity, accuracy, coherence, and style before formal editorial review",
+                "To add unsupported claims",
+                "To prevent anyone else from reviewing the story"
+            ],
+            "answerIndex": 1,
+            "explanation": "Self-editing allows the writer to detect weaknesses and refine the draft before submission."
+        },
+        {
+            "id": 89,
+            "question": "Why can taking a short break before editing improve the process?",
+            "options": [
+                "It guarantees every source changes their statement",
+                "It removes the need for proofreading",
+                "It helps the writer return with a fresher and more critical perspective",
+                "It automatically shortens the article"
+            ],
+            "answerIndex": 2,
+            "explanation": "Distance from the draft makes errors, repetition, and unclear passages easier to notice."
+        },
+        {
+            "id": 90,
+            "question": "Why is reading a draft aloud useful?",
+            "options": [
+                "It verifies every statistic automatically",
+                "It replaces source checking",
+                "It makes legal review unnecessary",
+                "It reveals awkward phrasing, missing words, and problems with rhythm"
+            ],
+            "answerIndex": 3,
+            "explanation": "Hearing the text often exposes problems that silent reading misses."
+        },
+        {
+            "id": 91,
+            "question": "What is collaborative editing?",
+            "options": [
+                "Several people work together to review and improve a story",
+                "One reporter publishes without review",
+                "Sources rewrite the story to favour themselves",
+                "An algorithm selects only the headline"
+            ],
+            "answerIndex": 0,
+            "explanation": "Collaboration draws on multiple perspectives to improve accuracy, clarity, structure, and consistency."
+        },
+        {
+            "id": 92,
+            "question": "What is the purpose of a final read-through by a senior editor?",
+            "options": [
+                "To introduce new unverified allegations",
+                "To ensure the polished story meets factual, ethical, legal, and house-style standards",
+                "To remove every quotation",
+                "To change the central facts for dramatic effect"
+            ],
+            "answerIndex": 1,
+            "explanation": "The final review checks readiness for publication after revisions and corrections have been made."
+        },
+        {
+            "id": 93,
+            "question": "What is search engine optimisation in digital journalism?",
+            "options": [
+                "Paying sources to share the story",
+                "Repeating one keyword in every sentence",
+                "Changing facts to match popular searches",
+                "The ethical use of structure, keywords, links, and metadata to improve an article’s discoverability"
+            ],
+            "answerIndex": 3,
+            "explanation": "SEO helps search engines understand and surface relevant articles without sacrificing quality or accuracy."
+        },
+        {
+            "id": 94,
+            "question": "What is keyword stuffing?",
+            "options": [
+                "Adding a clear descriptive headline",
+                "Excessive and unnatural repetition of search terms to manipulate ranking",
+                "Linking to an official source",
+                "Writing a concise meta description"
+            ],
+            "answerIndex": 1,
+            "explanation": "Keyword stuffing damages readability and is a poor SEO practice; keywords should be used naturally."
+        },
+        {
+            "id": 95,
+            "question": "How can artificial intelligence assist a newsroom?",
+            "options": [
+                "It guarantees that all generated content is correct",
+                "It eliminates ethical responsibility from editors",
+                "It can automate routine reports or support tasks such as transcription and fact-checking",
+                "It makes human verification unnecessary"
+            ],
+            "answerIndex": 2,
+            "explanation": "AI can improve efficiency, but journalists must verify outputs and remain accountable for published content."
+        },
+        {
+            "id": 96,
+            "question": "What is data journalism?",
+            "options": [
+                "Using datasets and analysis to discover, verify, and explain news stories",
+                "Publishing numbers without interpretation",
+                "Replacing all interviews with advertising data",
+                "Writing fiction about statistics"
+            ],
+            "answerIndex": 0,
+            "explanation": "Data journalism finds patterns and evidence in data, then presents them accurately and clearly to audiences."
+        },
+        {
+            "id": 97,
+            "question": "What is multi-platform publishing?",
+            "options": [
+                "Publishing one story in only one place",
+                "Allowing algorithms to change verified facts",
+                "Distributing adapted versions of news through websites, apps, social media, newsletters, print, or broadcast",
+                "Using the same layout on every device"
+            ],
+            "answerIndex": 2,
+            "explanation": "A multi-platform approach expands reach while requiring format-specific presentation and consistent facts."
+        },
+        {
+            "id": 98,
+            "question": "How do social-media algorithms affect news distribution?",
+            "options": [
+                "They verify every claim before it appears",
+                "They guarantee equal visibility for all stories",
+                "They prevent audience personalisation",
+                "They influence which stories users see based partly on engagement and platform rules"
+            ],
+            "answerIndex": 3,
+            "explanation": "Algorithms shape visibility and can reward engagement, affecting how outlets package and promote stories."
+        },
+        {
+            "id": 99,
+            "question": "What is news personalisation?",
+            "options": [
+                "Tailoring the news shown to users according to preferences or behaviour",
+                "Randomly removing every local report",
+                "Printing the same front page for everyone",
+                "Blocking all stories that contain data"
+            ],
+            "answerIndex": 0,
+            "explanation": "Personalisation can increase relevance but may also narrow exposure to diverse viewpoints."
+        },
+        {
+            "id": 100,
+            "question": "How can virtual or augmented reality contribute to journalism?",
+            "options": [
+                "By replacing verification with simulation",
+                "By creating immersive experiences that help audiences explore a reported environment or event",
+                "By converting every story into a game",
+                "By preventing audiences from viewing evidence"
+            ],
+            "answerIndex": 1,
+            "explanation": "VR and AR can deepen engagement and understanding when used accurately, transparently, and ethically."
+        }
+    ]
+}

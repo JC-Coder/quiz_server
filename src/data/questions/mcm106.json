@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "MCM 106",
+        "title": "African Communication Systems",
+        "description": "A 100-level Mass Communication course examining traditional and modern African communication methods, including oral traditions, symbols, institutions, folk and instrumental media, esoteric practices, political communication, diaspora adaptation, digital transformation, and cultural preservation.",
+        "departments": [
+            "mass-communication"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which statement best describes African communication systems?",
+            "options": [
+                "They combine traditional and modern methods shaped by local culture and social structures.",
+                "They consist only of written communication introduced during colonial rule.",
+                "They are identical across all African communities.",
+                "They reject modern technologies in favour of ritual communication."
+            ],
+            "answerIndex": 0,
+            "explanation": "African communication systems are diverse and hybrid. They combine oral, symbolic, institutional, spiritual, and modern technological forms according to local values and circumstances."
+        },
+        {
+            "id": 2,
+            "question": "Which feature is most strongly associated with traditional African communication?",
+            "options": [
+                "Communal participation and face-to-face interaction",
+                "Individual ownership of all public messages",
+                "Complete dependence on private digital devices",
+                "Communication restricted to written government documents"
+            ],
+            "answerIndex": 0,
+            "explanation": "Traditional communication commonly takes place in shared settings and encourages collective participation, discussion, and social responsibility."
+        },
+        {
+            "id": 3,
+            "question": "Why are elders often regarded as communication gatekeepers in traditional African societies?",
+            "options": [
+                "They communicate only with people outside the community.",
+                "They manufacture all musical instruments used by the community.",
+                "They prevent younger people from participating in communal discussions.",
+                "They preserve cultural knowledge and guide how important messages are interpreted and transmitted."
+            ],
+            "answerIndex": 3,
+            "explanation": "Elders are respected custodians of history, customs, proverbs, and communal values, so they often validate and explain important messages."
+        },
+        {
+            "id": 4,
+            "question": "What does a hybrid communication system in post-colonial Africa refer to?",
+            "options": [
+                "The use of only drums and town criers in urban centres",
+                "The coexistence of traditional practices with modern media and digital technologies",
+                "The separation of oral communication from every form of technology",
+                "The replacement of all indigenous languages by one European language"
+            ],
+            "answerIndex": 1,
+            "explanation": "Post-colonial African communication frequently blends oral traditions, community institutions, radio, television, mobile phones, and social media."
+        },
+        {
+            "id": 5,
+            "question": "Which development most directly expanded the speed and reach of contemporary African communication?",
+            "options": [
+                "The abandonment of broadcasting",
+                "The restriction of information to royal palaces",
+                "The disappearance of local languages",
+                "The growth of mobile phones and digital media"
+            ],
+            "answerIndex": 3,
+            "explanation": "Mobile and digital technologies allow messages to move quickly across long distances, although access remains unequal."
+        },
+        {
+            "id": 6,
+            "question": "Why do traditional communication methods remain important in some low-literacy communities?",
+            "options": [
+                "They communicate only abstract academic concepts.",
+                "They require every participant to own a computer.",
+                "They use familiar oral, visual, and performative forms that do not depend heavily on reading.",
+                "They prevent immediate feedback from the audience."
+            ],
+            "answerIndex": 2,
+            "explanation": "Storytelling, songs, symbols, gestures, drums, and public announcements can be understood without advanced literacy and often permit direct feedback."
+        },
+        {
+            "id": 7,
+            "question": "Which statement best distinguishes many traditional systems from modern mass communication?",
+            "options": [
+                "Traditional systems are often collective and locally contextual, while modern mass media can reach dispersed audiences.",
+                "Traditional systems never use symbols, while modern media use only symbols.",
+                "Traditional systems have unlimited reach, while modern media remain within one village.",
+                "Traditional systems are always written, while modern media are always oral."
+            ],
+            "answerIndex": 0,
+            "explanation": "Traditional communication is usually embedded in local relationships and communal settings; modern mass media can distribute messages widely to audiences who are not physically present."
+        },
+        {
+            "id": 8,
+            "question": "How did colonialism affect African communication systems?",
+            "options": [
+                "It had no influence on African languages or communication practices.",
+                "It eliminated all written communication from Africa.",
+                "It suppressed or altered some indigenous systems while introducing new languages and media institutions.",
+                "It made every African community use the same traditional symbols."
+            ],
+            "answerIndex": 2,
+            "explanation": "Colonial rule changed language use, education, administration, newspapers, and broadcasting, while many indigenous practices survived or adapted."
+        },
+        {
+            "id": 9,
+            "question": "What is a proverb in the context of African oral communication?",
+            "options": [
+                "A written government decree that must be obeyed",
+                "A short, often metaphorical saying that expresses cultural wisdom or a moral lesson",
+                "A musical instrument used to summon a gathering",
+                "A secret code understood only by diviners"
+            ],
+            "answerIndex": 1,
+            "explanation": "Proverbs condense experience and values into memorable expressions used in teaching, counselling, speeches, and everyday conversation."
+        },
+        {
+            "id": 10,
+            "question": "Why are proverbs useful in conflict resolution?",
+            "options": [
+                "They prevent elders from contributing to reconciliation.",
+                "They can offer criticism or advice indirectly without humiliating the parties involved.",
+                "They always identify one party as guilty before discussion.",
+                "They remove the need to understand the dispute."
+            ],
+            "answerIndex": 1,
+            "explanation": "Because proverbs communicate through culturally accepted imagery, they can reduce confrontation and encourage reflection."
+        },
+        {
+            "id": 11,
+            "question": "The proverb 'It takes a village to raise a child' mainly communicates the value of what?",
+            "options": [
+                "Military authority",
+                "Individual isolation",
+                "Communal responsibility",
+                "Commercial competition"
+            ],
+            "answerIndex": 2,
+            "explanation": "The proverb stresses that child development and socialisation are shared responsibilities within the wider community."
+        },
+        {
+            "id": 12,
+            "question": "Who is a griot in many West African societies?",
+            "options": [
+                "An oral historian and performer who preserves genealogy, history, and cultural memory",
+                "A trader who interprets market prices",
+                "A colonial official responsible for newspaper licensing",
+                "A judge who communicates only through written law"
+            ],
+            "answerIndex": 0,
+            "explanation": "Griots use storytelling, praise poetry, music, and song to preserve and transmit histories and genealogies."
+        },
+        {
+            "id": 13,
+            "question": "Which feature makes African storytelling an interactive communication form?",
+            "options": [
+                "The message is transmitted without any cultural context.",
+                "Audience members may respond, sing, ask questions, or participate in the performance.",
+                "The storyteller refuses all audience reaction.",
+                "Every story must be read silently from a book."
+            ],
+            "answerIndex": 1,
+            "explanation": "Traditional storytelling often involves call-and-response, song, movement, and discussion, making the audience active participants."
+        },
+        {
+            "id": 14,
+            "question": "What is one major educational function of folktales?",
+            "options": [
+                "They teach social norms and the consequences of moral choices through memorable narratives.",
+                "They provide exact scientific measurements for agriculture.",
+                "They replace all forms of formal education.",
+                "They are used only to entertain visiting foreigners."
+            ],
+            "answerIndex": 0,
+            "explanation": "Folktales frequently use human or animal characters to demonstrate virtues, faults, and expected behaviour."
+        },
+        {
+            "id": 15,
+            "question": "Why are songs important channels of oral communication?",
+            "options": [
+                "They can transmit only entertainment and no social meaning.",
+                "They preserve collective memory and communicate values, history, and emotion.",
+                "They eliminate the need for communal participation.",
+                "They are understood only when translated into writing."
+            ],
+            "answerIndex": 1,
+            "explanation": "Songs accompany work, ceremonies, worship, protest, and storytelling, helping communities remember and share experiences."
+        },
+        {
+            "id": 16,
+            "question": "An elder uses a proverb during counselling instead of directly accusing a young person. What communication advantage is being used?",
+            "options": [
+                "Anonymous mass distribution",
+                "Technological amplification",
+                "Diplomatic and non-confrontational expression",
+                "Legal compulsion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Indirect proverbial language can communicate correction while preserving respect and social harmony."
+        },
+        {
+            "id": 17,
+            "question": "What is the main function of symbols in African non-verbal communication?",
+            "options": [
+                "They represent shared beliefs, values, identities, and historical meanings.",
+                "They remove the need for cultural interpretation.",
+                "They are used only as decoration without messages.",
+                "They have exactly the same meaning in every society."
+            ],
+            "answerIndex": 0,
+            "explanation": "Symbols communicate meaning through culturally recognised objects, colours, patterns, plants, animals, and marks."
+        },
+        {
+            "id": 18,
+            "question": "Adinkra symbols are especially associated with which people?",
+            "options": [
+                "The Maasai people of Kenya and Tanzania",
+                "The Akan people of Ghana and Côte d'Ivoire",
+                "The Shona people of Zimbabwe",
+                "The Fulani people of the Sahel"
+            ],
+            "answerIndex": 1,
+            "explanation": "Adinkra is an Akan visual system that expresses philosophical ideas, proverbs, and social values."
+        },
+        {
+            "id": 19,
+            "question": "What lesson is expressed by the Sankofa symbol?",
+            "options": [
+                "Prosperity can be achieved without learning.",
+                "Political authority belongs only to warriors.",
+                "The past should be revisited to gain knowledge for the future.",
+                "All traditions should be abandoned for modernity."
+            ],
+            "answerIndex": 2,
+            "explanation": "Sankofa emphasises learning from history and recovering valuable knowledge rather than forgetting the past."
+        },
+        {
+            "id": 20,
+            "question": "What does the Adinkra expression 'Gye Nyame' signify?",
+            "options": [
+                "The authority of a town crier",
+                "The beginning of a harvest dance",
+                "The importance of market exchange",
+                "The omnipotence or supremacy of God"
+            ],
+            "answerIndex": 3,
+            "explanation": "Gye Nyame means 'except for God' or 'God alone' and reflects strong spiritual belief in divine supremacy."
+        },
+        {
+            "id": 21,
+            "question": "Why is the baobab often called the 'tree of life' in African symbolism?",
+            "options": [
+                "It represents longevity, resilience, survival, and communal wisdom.",
+                "It symbolises secrecy in modern digital communication.",
+                "It is used only to mark military boundaries.",
+                "It represents the rejection of community gatherings."
+            ],
+            "answerIndex": 0,
+            "explanation": "The baobab survives harsh conditions, serves many practical uses, and often functions as a meeting place, making it a symbol of life and endurance."
+        },
+        {
+            "id": 22,
+            "question": "What does the presentation of kola nut commonly communicate in many African settings?",
+            "options": [
+                "A prohibition against visitors",
+                "Hospitality, trust, and social unity",
+                "The end of a court proceeding",
+                "A declaration of war"
+            ],
+            "answerIndex": 1,
+            "explanation": "Kola nut rituals welcome guests and strengthen bonds during meetings and ceremonies."
+        },
+        {
+            "id": 23,
+            "question": "In many African symbolic systems, white commonly represents what?",
+            "options": [
+                "Political censorship",
+                "Purity and spirituality",
+                "Danger and sacrifice",
+                "Economic rivalry"
+            ],
+            "answerIndex": 1,
+            "explanation": "Although meanings vary by culture, white is frequently associated with purity, peace, ancestors, or spirituality."
+        },
+        {
+            "id": 24,
+            "question": "Body marks and traditional tattoos can function as communication because they may indicate what?",
+            "options": [
+                "Only the person's age in exact years",
+                "The market price of agricultural goods",
+                "Identity, status, group membership, or spiritual protection",
+                "Access to digital broadcasting services"
+            ],
+            "answerIndex": 2,
+            "explanation": "Such marks can convey culturally understood information about belonging, rank, life stage, or spiritual meaning."
+        },
+        {
+            "id": 25,
+            "question": "Why is the palace an important communication institution in many traditional African societies?",
+            "options": [
+                "It serves only as a private residence with no public role.",
+                "It is mainly a venue for foreign commercial advertising.",
+                "It replaces every market and religious institution.",
+                "It is a centre of political authority, decision-making, and cultural preservation."
+            ],
+            "answerIndex": 3,
+            "explanation": "Chiefs and kings make or approve decisions at the palace, while messengers and town criers help communicate them to the community."
+        },
+        {
+            "id": 26,
+            "question": "What communication function does a market square commonly perform beyond buying and selling?",
+            "options": [
+                "It operates only as a written archive.",
+                "It limits messages to religious leaders alone.",
+                "It enables informal exchange of news, ideas, and community updates.",
+                "It prevents interaction among different social groups."
+            ],
+            "answerIndex": 2,
+            "explanation": "Because many people meet there, the market becomes a grassroots information network as well as an economic venue."
+        },
+        {
+            "id": 27,
+            "question": "Which venue is most closely associated with collective deliberation and community participation?",
+            "options": [
+                "A private bedroom",
+                "A closed commercial warehouse",
+                "A communal assembly",
+                "An isolated farm hut"
+            ],
+            "answerIndex": 2,
+            "explanation": "Assemblies allow elders, leaders, and community members to discuss issues, express concerns, and reach decisions."
+        },
+        {
+            "id": 28,
+            "question": "What is a major communication role of traditional courts?",
+            "options": [
+                "Producing entertainment programmes for television",
+                "Interpreting customs, resolving disputes, and reinforcing social norms",
+                "Replacing all religious ceremonies",
+                "Teaching only foreign languages"
+            ],
+            "answerIndex": 1,
+            "explanation": "Traditional courts communicate accepted standards of conduct through judgement, mediation, and explanation of customary law."
+        },
+        {
+            "id": 29,
+            "question": "Why are elders influential in traditional dispute settlement?",
+            "options": [
+                "They are the only people permitted to trade in markets.",
+                "They own all modern media organisations.",
+                "They communicate decisions without listening to any party.",
+                "They are expected to understand customary law, history, and community values."
+            ],
+            "answerIndex": 3,
+            "explanation": "Their knowledge of precedent and custom helps them interpret disputes in ways the community regards as legitimate."
+        },
+        {
+            "id": 30,
+            "question": "What is the communication role of a town crier?",
+            "options": [
+                "To record television programmes for later broadcast",
+                "To interpret sacred palm nuts during divination",
+                "To deliver public announcements to members of the community",
+                "To teach secret languages to every visitor"
+            ],
+            "answerIndex": 2,
+            "explanation": "Town criers move through public spaces and use voice, bells, gongs, or drums to make official information widely known."
+        },
+        {
+            "id": 31,
+            "question": "Religious leaders function as communication intermediaries when they do what?",
+            "options": [
+                "Publish election results without verification",
+                "Replace chiefs in every political decision",
+                "Interpret and convey messages believed to come from ancestors, deities, or spirits",
+                "Ban all symbolic communication"
+            ],
+            "answerIndex": 2,
+            "explanation": "Priests and diviners mediate between physical and spiritual realms and explain spiritual messages to the community."
+        },
+        {
+            "id": 32,
+            "question": "Why do festivals and ceremonies serve as communication venues?",
+            "options": [
+                "They prevent the use of music, dance, and symbols.",
+                "They transmit history and values while strengthening collective identity.",
+                "They isolate individuals from shared traditions.",
+                "They allow only written communication."
+            ],
+            "answerIndex": 1,
+            "explanation": "Festivals bring people together and use performance, ritual, dress, and speech to reinforce cultural narratives and social bonds."
+        },
+        {
+            "id": 33,
+            "question": "In African folk media, dance functions mainly as what?",
+            "options": [
+                "A method of producing written laws",
+                "A purely physical activity without communicative meaning",
+                "A replacement for all spoken language",
+                "A medium for storytelling, emotion, identity, and social messages"
+            ],
+            "answerIndex": 3,
+            "explanation": "Dance movements, costumes, rhythms, and formations can communicate history, values, gender roles, bravery, grief, or celebration."
+        },
+        {
+            "id": 34,
+            "question": "The Zulu Indlamu dance is commonly associated with what?",
+            "options": [
+                "Commercial negotiation in market squares",
+                "Bravery, strength, and warrior tradition",
+                "The interpretation of Adinkra symbols",
+                "Silent meditation and private reading"
+            ],
+            "answerIndex": 1,
+            "explanation": "Indlamu is a vigorous traditional dance associated with warrior identity and important cultural celebrations."
+        },
+        {
+            "id": 35,
+            "question": "Why is the talking drum considered a communication instrument?",
+            "options": [
+                "It is used exclusively inside modern recording studios.",
+                "It produces only one unchanging note.",
+                "It communicates by displaying written words.",
+                "It can imitate tonal speech patterns and transmit recognised messages."
+            ],
+            "answerIndex": 3,
+            "explanation": "In tonal-language communities, skilled drummers vary pitch and rhythm to reproduce speech-like patterns and send messages."
+        },
+        {
+            "id": 36,
+            "question": "What does the Homowo festival in Ghana commemorate?",
+            "options": [
+                "The beginning of colonial broadcasting",
+                "The invention of digital social media",
+                "A military conquest by the Zulu",
+                "A community's historical struggle against hunger and its triumph through harvest"
+            ],
+            "answerIndex": 3,
+            "explanation": "Homowo, often interpreted as 'hooting at hunger,' remembers hardship and celebrates survival, unity, and abundance."
+        },
+        {
+            "id": 37,
+            "question": "Why are animal characters frequently used in African folk drama and fables?",
+            "options": [
+                "They symbolise human qualities and make moral lessons memorable.",
+                "They prevent audiences from discussing the story.",
+                "They are required for every political announcement.",
+                "They ensure the story contains no cultural meaning."
+            ],
+            "answerIndex": 0,
+            "explanation": "Animals can represent cleverness, greed, bravery, or foolishness, allowing stories to examine human behaviour indirectly."
+        },
+        {
+            "id": 38,
+            "question": "What makes folk media a 'living archive'?",
+            "options": [
+                "It stores information only in computer databases.",
+                "It prevents traditions from changing over time.",
+                "It is available only in national museums.",
+                "It preserves history and values through repeated communal performance and participation."
+            ],
+            "answerIndex": 3,
+            "explanation": "Songs, dances, stories, festivals, and rituals carry memory across generations, especially where written records are limited."
+        },
+        {
+            "id": 39,
+            "question": "How does folk media differ from impersonal mass media?",
+            "options": [
+                "It always reaches a larger international audience.",
+                "It depends entirely on expensive technology.",
+                "It prohibits immediate audience feedback.",
+                "It is usually embedded in a specific cultural context and involves direct communal participation."
+            ],
+            "answerIndex": 3,
+            "explanation": "Folk media is closely tied to community relationships, shared meanings, and interactive performance."
+        },
+        {
+            "id": 40,
+            "question": "A community uses a song during an initiation ceremony to teach new responsibilities. Which folk-media function is illustrated?",
+            "options": [
+                "Audience fragmentation",
+                "Socialisation into a new life stage",
+                "Commercial product placement",
+                "Digital misinformation"
+            ],
+            "answerIndex": 1,
+            "explanation": "Initiation music and performance educate participants about expected roles, values, and responsibilities as they enter a new status."
+        },
+        {
+            "id": 41,
+            "question": "Which instrument category produces sound mainly through the vibration of its own material?",
+            "options": [
+                "Membranophones",
+                "Idiophones",
+                "Aerophones",
+                "Electronic transmitters"
+            ],
+            "answerIndex": 1,
+            "explanation": "Idiophones such as bells, rattles, and xylophones sound when their material vibrates."
+        },
+        {
+            "id": 42,
+            "question": "Which category includes drums whose sound is produced by a stretched membrane?",
+            "options": [
+                "Iconographs",
+                "Aerophones",
+                "Idiophones",
+                "Membranophones"
+            ],
+            "answerIndex": 3,
+            "explanation": "Membranophones produce sound through a vibrating membrane; drums are the most familiar examples."
+        },
+        {
+            "id": 43,
+            "question": "Which group of instruments produces sound through vibrating air?",
+            "options": [
+                "Aerophones",
+                "Idiophones",
+                "Pictographs",
+                "Membranophones"
+            ],
+            "answerIndex": 0,
+            "explanation": "Horns and flutes are aerophones because a moving column of air creates the sound."
+        },
+        {
+            "id": 44,
+            "question": "What is a common spiritual function of bells in Yoruba practices?",
+            "options": [
+                "Measuring the duration of a market transaction",
+                "Signalling sacred presence or divine communication",
+                "Replacing every form of drumming",
+                "Displaying a written genealogy"
+            ],
+            "answerIndex": 1,
+            "explanation": "Bells may mark ritual moments and symbolically connect the physical setting with spiritual forces."
+        },
+        {
+            "id": 45,
+            "question": "The amadinda is best described as what?",
+            "options": [
+                "A Ugandan xylophone used in communal and cultural performance",
+                "A Yoruba divination chain",
+                "A Ghanaian royal stool",
+                "A modern radio transmitter"
+            ],
+            "answerIndex": 0,
+            "explanation": "The amadinda is a traditional Ugandan xylophone whose interlocking melodies can support community performance and cultural narrative."
+        },
+        {
+            "id": 46,
+            "question": "Why is the talking drum effective for long-distance messaging in some West African communities?",
+            "options": [
+                "Its meaning never depends on cultural knowledge.",
+                "It can be heard only by spiritual leaders.",
+                "It automatically translates speech into text.",
+                "Its changing pitch can reproduce tonal patterns similar to spoken language."
+            ],
+            "answerIndex": 3,
+            "explanation": "Skilled drummers manipulate tension, pitch, and rhythm to imitate speech patterns understood by listeners familiar with the code."
+        },
+        {
+            "id": 47,
+            "question": "What is one communicative use of animal horns in Maasai culture?",
+            "options": [
+                "Announcing important events or the arrival of a leader",
+                "Recording oral histories permanently",
+                "Teaching children to read colonial languages",
+                "Interpreting cowrie-shell positions"
+            ],
+            "answerIndex": 0,
+            "explanation": "Horns can call people together, signal authority, and mark significant communal occasions."
+        },
+        {
+            "id": 48,
+            "question": "Traditional Fulani flutes are associated with which function?",
+            "options": [
+                "Printing political newspapers",
+                "Replacing every form of vocal song",
+                "Conducting court trials",
+                "Communicating with nature, soothing animals, and marking spiritual or life-stage transitions"
+            ],
+            "answerIndex": 3,
+            "explanation": "Flute music among herders can calm livestock and carry social or spiritual meaning connected with nature and transition."
+        },
+        {
+            "id": 49,
+            "question": "What is esoteric communication?",
+            "options": [
+                "Communication using hidden, restricted, or sacred codes known to particular people",
+                "A system based only on commercial advertising",
+                "Any message transmitted through national television",
+                "Communication that is always open to every member of the public"
+            ],
+            "answerIndex": 0,
+            "explanation": "Esoteric communication includes secret languages, divination, oracles, and sacred practices accessible to initiates or specialists."
+        },
+        {
+            "id": 50,
+            "question": "Which practice seeks knowledge or guidance from spiritual forces through rituals and interpretation?",
+            "options": [
+                "Market bargaining",
+                "Divination",
+                "Audience measurement",
+                "Mass printing"
+            ],
+            "answerIndex": 1,
+            "explanation": "Divination interprets signs, tools, dreams, patterns, or possession as messages from ancestors, deities, or spirits."
+        },
+        {
+            "id": 51,
+            "question": "In Ifá divination, what is the title of the trained diviner?",
+            "options": [
+                "Sangoma",
+                "Griot",
+                "Babalawo",
+                "Town crier"
+            ],
+            "answerIndex": 2,
+            "explanation": "A Babalawo, meaning roughly 'father of secrets,' interprets Ifá signs and Odu verses in Yoruba practice."
+        },
+        {
+            "id": 52,
+            "question": "Which items are commonly used in Ifá divination?",
+            "options": [
+                "Sacred palm nuts or an Opele chain",
+                "A radio set and microphone",
+                "A printing press and newspaper",
+                "A royal stool and a spear"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Babalawo casts palm nuts or uses the Opele chain, then interprets the resulting pattern through Odu Ifá."
+        },
+        {
+            "id": 53,
+            "question": "What is Odu Ifá?",
+            "options": [
+                "A law that regulates broadcasting",
+                "A market association for traditional traders",
+                "A body of verses used to interpret divination patterns and provide guidance",
+                "A type of West African dance"
+            ],
+            "answerIndex": 2,
+            "explanation": "Each Ifá pattern is connected to Odu verses containing stories, wisdom, warnings, and possible solutions."
+        },
+        {
+            "id": 54,
+            "question": "In Zulu culture, a diviner who may practise 'throwing the bones' is called what?",
+            "options": [
+                "Sangoma",
+                "Okomfo",
+                "Asantehene",
+                "Babalawo"
+            ],
+            "answerIndex": 0,
+            "explanation": "A Sangoma interprets arrangements of bones, shells, and other objects as messages concerning health, relationships, ancestors, or disputes."
+        },
+        {
+            "id": 55,
+            "question": "What distinguishes spirit-possession divination?",
+            "options": [
+                "The diviner enters a trance in which a spirit or deity is believed to speak through the person.",
+                "The message is determined by public voting.",
+                "The practice excludes music, ritual, and drumming.",
+                "The diviner communicates only through printed textbooks."
+            ],
+            "answerIndex": 0,
+            "explanation": "Ritual, music, and drumming may induce a trance, after which the possessed diviner delivers advice, warnings, or prophecies."
+        },
+        {
+            "id": 56,
+            "question": "Among the Akan, what is an Okomfo?",
+            "options": [
+                "A priest or spiritual guide who may communicate through spirit possession",
+                "A royal messenger who distributes newspapers",
+                "A musician who plays only the amadinda",
+                "A market official responsible for prices"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Okomfo serves as a religious intermediary and may enter trance during ceremonies so a deity or ancestral spirit can communicate."
+        },
+        {
+            "id": 57,
+            "question": "Why can divination have a psychological or therapeutic role?",
+            "options": [
+                "It prevents people from discussing family problems.",
+                "It removes all uncertainty from future events.",
+                "It allows people to express burdens and receive culturally meaningful reassurance or guidance.",
+                "It guarantees that every illness has a physical cure."
+            ],
+            "answerIndex": 2,
+            "explanation": "Consultation can provide comfort, explanation, and a sense of direction within a worldview that connects physical, emotional, and spiritual well-being."
+        },
+        {
+            "id": 58,
+            "question": "Why does radio remain especially important in many rural African communities?",
+            "options": [
+                "It is relatively accessible and can broadcast in local languages over wide areas.",
+                "It requires every listener to have broadband internet.",
+                "It communicates only through images.",
+                "It is limited to entertainment and cannot provide public information."
+            ],
+            "answerIndex": 0,
+            "explanation": "Radio reaches dispersed audiences, can use indigenous languages, and carries news, health information, music, and cultural programmes."
+        },
+        {
+            "id": 59,
+            "question": "How has radio helped preserve oral storytelling?",
+            "options": [
+                "By limiting cultural programmes to foreign languages",
+                "By broadcasting folktales, proverbs, songs, and local-language narratives to wider audiences",
+                "By prohibiting storytellers from using traditional performance styles",
+                "By converting every story into a silent written document"
+            ],
+            "answerIndex": 1,
+            "explanation": "Radio adapts the voice and performance qualities of oral tradition while extending its reach beyond a single gathering."
+        },
+        {
+            "id": 60,
+            "question": "What role does Nollywood play in African communication?",
+            "options": [
+                "It functions mainly as a traditional court.",
+                "It prevents African stories from reaching international viewers.",
+                "It adapts African myths, folktales, proverbs, and social experiences into visual stories for broad audiences.",
+                "It replaces every indigenous language with silent film."
+            ],
+            "answerIndex": 2,
+            "explanation": "Nollywood bridges oral traditions and screen media, circulating African narratives locally and globally."
+        },
+        {
+            "id": 61,
+            "question": "Which digital development made internet content more accessible to many Africans, including people outside major cities?",
+            "options": [
+                "A ban on social media platforms",
+                "The replacement of phones with town criers",
+                "The complete disappearance of the digital divide",
+                "The spread of mobile devices and more affordable data access"
+            ],
+            "answerIndex": 3,
+            "explanation": "Mobile-first internet access expanded participation, although cost, coverage, electricity, and digital literacy remain challenges."
+        },
+        {
+            "id": 62,
+            "question": "How can social media support indigenous-language preservation?",
+            "options": [
+                "It automatically removes every local-language word.",
+                "Users can create posts, videos, lessons, and conversations in local languages.",
+                "It allows communication only in one global language.",
+                "It prevents younger people from encountering cultural material."
+            ],
+            "answerIndex": 1,
+            "explanation": "Digital spaces can normalise local-language use and connect speakers, learners, and diaspora communities."
+        },
+        {
+            "id": 63,
+            "question": "What did the #EndSARS movement demonstrate about social media?",
+            "options": [
+                "It can be used only for commercial entertainment.",
+                "It can mobilise citizens, document events, and amplify demands for social change.",
+                "It makes grassroots participation impossible.",
+                "It removes the risk of misinformation entirely."
+            ],
+            "answerIndex": 1,
+            "explanation": "The campaign showed how hashtags and networked communication can coordinate protest, spread evidence, and attract global attention."
+        },
+        {
+            "id": 64,
+            "question": "What is the digital divide?",
+            "options": [
+                "A method of interpreting sacred symbols",
+                "The difference between drums and flutes",
+                "The separation of hard news from soft news",
+                "Unequal access to devices, connectivity, skills, or affordable digital services"
+            ],
+            "answerIndex": 3,
+            "explanation": "The digital divide limits who can benefit from online communication and can deepen rural, income, gender, or educational inequalities."
+        },
+        {
+            "id": 65,
+            "question": "Which action best uses digital media for cultural preservation?",
+            "options": [
+                "Replacing every local story with imported content",
+                "Deleting the names of storytellers and communities",
+                "Creating a searchable archive of recorded folktales in their original languages",
+                "Restricting access to all cultural recordings without reason"
+            ],
+            "answerIndex": 2,
+            "explanation": "Digital archives can preserve voice, language, performance, and context for research and future generations when managed respectfully."
+        },
+        {
+            "id": 66,
+            "question": "What is a possible risk of moving traditional communication online?",
+            "options": [
+                "Online communication eliminates all privacy concerns.",
+                "Digital platforms guarantee equal access for all communities.",
+                "Every cultural practice becomes automatically more authentic.",
+                "Cultural expressions may be removed from context, misrepresented, or commercialised."
+            ],
+            "answerIndex": 3,
+            "explanation": "Digital reach brings opportunities but also risks distortion, appropriation, loss of sacred boundaries, and unequal control over cultural content."
+        },
+        {
+            "id": 67,
+            "question": "Which people were central to political communication in many traditional African systems?",
+            "options": [
+                "Computer programmers",
+                "Chiefs, elders, and councils",
+                "Only foreign correspondents",
+                "Advertising agencies"
+            ],
+            "answerIndex": 1,
+            "explanation": "Traditional leaders mediated disputes, announced decisions, represented the community, and guided collective deliberation."
+        },
+        {
+            "id": 68,
+            "question": "What was the purpose of public assemblies such as the Asanteman Council?",
+            "options": [
+                "To replace oral communication with silent reading",
+                "To sell imported consumer products",
+                "To conduct only private spiritual rituals",
+                "To provide a forum for collective discussion and political decision-making"
+            ],
+            "answerIndex": 3,
+            "explanation": "Assemblies allowed representatives and community members to raise concerns and participate in governance."
+        },
+        {
+            "id": 69,
+            "question": "Why were town criers important to traditional political administration?",
+            "options": [
+                "They made all decisions without consulting leaders.",
+                "They ensured official decisions and announcements reached the wider community.",
+                "They preserved information only through secret writing.",
+                "They communicated exclusively with foreign governments."
+            ],
+            "answerIndex": 1,
+            "explanation": "Town criers served as public information channels where electronic or print distribution was unavailable."
+        },
+        {
+            "id": 70,
+            "question": "What political meaning did the Asantehene's stool communicate?",
+            "options": [
+                "The price of goods in the market",
+                "The private wealth of every citizen",
+                "The beginning of a radio broadcast",
+                "Royal authority, continuity, and the identity of the political community"
+            ],
+            "answerIndex": 3,
+            "explanation": "Royal regalia such as stools can embody office, legitimacy, ancestry, and collective identity."
+        },
+        {
+            "id": 71,
+            "question": "How did newspapers contribute to African independence movements?",
+            "options": [
+                "They allowed nationalists to criticise colonial policies and promote political reform.",
+                "They were used only for agricultural weather reports.",
+                "They prevented political leaders from addressing the public.",
+                "They replaced all political debate with entertainment."
+            ],
+            "answerIndex": 0,
+            "explanation": "Print media created spaces for nationalist arguments, mobilisation, public education, and criticism of colonial rule."
+        },
+        {
+            "id": 72,
+            "question": "What is a major political communication role of radio today?",
+            "options": [
+                "Preventing citizens from hearing campaign information",
+                "Limiting communication to urban elites with internet access",
+                "Voter education and public discussion in languages accessible to local communities",
+                "Replacing electoral institutions"
+            ],
+            "answerIndex": 2,
+            "explanation": "Radio can explain voting procedures, host debates, and reach audiences in areas where internet or television access is limited."
+        },
+        {
+            "id": 73,
+            "question": "Citizen journalism on social media refers to what?",
+            "options": [
+                "Ordinary people documenting and sharing newsworthy events through digital platforms",
+                "Traditional leaders communicating exclusively through drums",
+                "Journalists refusing to use eyewitness material",
+                "Only government officials publishing legal documents"
+            ],
+            "answerIndex": 0,
+            "explanation": "Phones and social platforms allow citizens to report events, although verification remains essential."
+        },
+        {
+            "id": 74,
+            "question": "How can misinformation harm political communication?",
+            "options": [
+                "It can distort public understanding, inflame conflict, and manipulate participation.",
+                "It guarantees balanced public debate.",
+                "It affects only entertainment content.",
+                "It automatically increases trust in institutions."
+            ],
+            "answerIndex": 0,
+            "explanation": "False or misleading claims can influence voting, protest, policy attitudes, and intergroup relations."
+        },
+        {
+            "id": 75,
+            "question": "What effect can the digital divide have on democratic participation?",
+            "options": [
+                "It prevents wealthy urban groups from using social media.",
+                "It makes traditional communication unnecessary everywhere.",
+                "It can exclude poorly connected groups from information and online political engagement.",
+                "It guarantees equal access to all campaign messages."
+            ],
+            "answerIndex": 2,
+            "explanation": "When access is unequal, online political communication may privilege connected citizens and underrepresent rural or low-income communities."
+        },
+        {
+            "id": 76,
+            "question": "Why is oral storytelling still important in African diaspora communities?",
+            "options": [
+                "It helps transmit heritage, identity, family history, and values across generations.",
+                "It can function only within the African continent.",
+                "It discourages younger people from learning about ancestry.",
+                "It replaces every modern form of communication."
+            ],
+            "answerIndex": 0,
+            "explanation": "Diaspora storytelling connects people to origins while adapting themes and settings to new environments."
+        },
+        {
+            "id": 77,
+            "question": "Which music genres illustrate African cultural influence in the diaspora?",
+            "options": [
+                "Afrobeats, reggae, and hip-hop",
+                "Only electronic alert tones",
+                "Only military marching music",
+                "Only European classical opera"
+            ],
+            "answerIndex": 0,
+            "explanation": "These genres carry African rhythmic, oral, political, and performance traditions while evolving in transnational settings."
+        },
+        {
+            "id": 78,
+            "question": "How do language schools support diaspora cultural preservation?",
+            "options": [
+                "They replace all African languages with one colonial language.",
+                "They help younger generations learn and use ancestral languages.",
+                "They teach only symbolic dance movements.",
+                "They prohibit communication with older relatives."
+            ],
+            "answerIndex": 1,
+            "explanation": "Language programmes counter intergenerational language loss and strengthen access to songs, stories, rituals, and family communication."
+        },
+        {
+            "id": 79,
+            "question": "What role do cultural organisations commonly play in diaspora communities?",
+            "options": [
+                "They eliminate communication between generations.",
+                "They prevent members from adapting traditions.",
+                "They organise events, language classes, mentorship, and advocacy.",
+                "They function only as commercial banks."
+            ],
+            "answerIndex": 2,
+            "explanation": "Cultural organisations create structures through which heritage can be taught, celebrated, defended, and adapted."
+        },
+        {
+            "id": 80,
+            "question": "How can religious institutions support cultural continuity in the diaspora?",
+            "options": [
+                "By incorporating familiar languages, music, rituals, and communal practices",
+                "By replacing oral traditions with private advertising",
+                "By banning every cultural expression from worship",
+                "By discouraging community support networks"
+            ],
+            "answerIndex": 0,
+            "explanation": "Religious gatherings can provide regular spaces for heritage languages, performance, values, and social support."
+        },
+        {
+            "id": 81,
+            "question": "Which challenge most directly threatens cultural communication across diaspora generations?",
+            "options": [
+                "Language loss and weakening knowledge of ancestral traditions",
+                "Lack of any contact with digital technology worldwide",
+                "Too many traditional public assemblies in rural villages",
+                "Excessive use of talking drums for long-distance messages"
+            ],
+            "answerIndex": 0,
+            "explanation": "Assimilation and differing experiences between generations can reduce fluency, knowledge, and interest in inherited practices."
+        },
+        {
+            "id": 82,
+            "question": "How do YouTube and TikTok help diaspora communities preserve culture?",
+            "options": [
+                "They restrict cultural content to one neighbourhood.",
+                "They guarantee that all content is historically accurate.",
+                "They prevent interaction between creators and audiences.",
+                "They enable people to share language lessons, music, dance, recipes, and stories globally."
+            ],
+            "answerIndex": 3,
+            "explanation": "Digital platforms extend cultural teaching and performance across distance, though accuracy and context still require care."
+        },
+        {
+            "id": 83,
+            "question": "What does balancing tradition with adaptation mean in diaspora communication?",
+            "options": [
+                "Abandoning heritage completely to achieve assimilation",
+                "Copying every practice without considering present circumstances",
+                "Keeping culture secret from younger generations",
+                "Preserving core cultural meanings while modifying forms to suit a new environment"
+            ],
+            "answerIndex": 3,
+            "explanation": "Continuity often depends on thoughtful change, such as adapting ceremonies, language teaching, music, and gatherings without losing central values."
+        },
+        {
+            "id": 84,
+            "question": "How does urbanisation commonly affect traditional communal communication?",
+            "options": [
+                "It prevents languages from mixing.",
+                "It removes the need for mobile communication.",
+                "It guarantees stronger use of every rural oral tradition.",
+                "It reduces time for face-to-face gatherings and increases individualised digital communication."
+            ],
+            "answerIndex": 3,
+            "explanation": "Urban schedules, mobility, and individualism can weaken regular communal gatherings while increasing reliance on phones and online platforms."
+        },
+        {
+            "id": 85,
+            "question": "What is Sheng an example of?",
+            "options": [
+                "A Ghanaian harvest festival",
+                "A sacred Yoruba divination verse",
+                "An urban mixed language or dialect shaped by contact among languages",
+                "A traditional Ugandan xylophone"
+            ],
+            "answerIndex": 2,
+            "explanation": "Sheng developed in Kenya through the mixing of languages in urban environments and illustrates linguistic adaptation."
+        },
+        {
+            "id": 86,
+            "question": "What is one consequence of shortening traditional ceremonies in cities?",
+            "options": [
+                "Every indigenous language gains more speakers.",
+                "The digital divide disappears.",
+                "The ceremony automatically becomes more authentic.",
+                "Some cultural meanings, performances, or participation may be reduced."
+            ],
+            "answerIndex": 3,
+            "explanation": "Moving ceremonies indoors or compressing them for urban schedules can make participation easier but may remove elements that carried context."
+        },
+        {
+            "id": 87,
+            "question": "How can cultural centres preserve communication traditions in urban areas?",
+            "options": [
+                "By excluding young people from all activities",
+                "By hosting storytelling, language classes, festivals, music, and dance programmes",
+                "By teaching only imported commercial content",
+                "By replacing oral activities with silent examinations"
+            ],
+            "answerIndex": 1,
+            "explanation": "Cultural centres create organised spaces where displaced or urbanised communities can practise and teach traditions."
+        },
+        {
+            "id": 88,
+            "question": "Why are indigenous languages at risk in some formal education systems?",
+            "options": [
+                "Indigenous languages cannot express modern ideas.",
+                "Schools may prioritise colonial or dominant languages over local languages.",
+                "Oral traditions always prevent literacy development.",
+                "Students are unable to learn more than one language."
+            ],
+            "answerIndex": 1,
+            "explanation": "Language policy and prestige can marginalise local languages, reducing their intergenerational transmission and formal use."
+        },
+        {
+            "id": 89,
+            "question": "Which educational approach best supports African communication diversity?",
+            "options": [
+                "Teaching only through imported films",
+                "A multilingual model that uses indigenous languages alongside wider languages of instruction",
+                "Removing cultural examples from the curriculum",
+                "A complete ban on students' home languages"
+            ],
+            "answerIndex": 1,
+            "explanation": "Multilingual education can connect formal learning with students' cultural backgrounds while retaining access to national or international languages."
+        },
+        {
+            "id": 90,
+            "question": "How can language apps create an opportunity for cultural preservation?",
+            "options": [
+                "They prevent diaspora learners from accessing lessons.",
+                "They guarantee perfect translation of all cultural meanings.",
+                "They provide accessible tools for learning, practising, and documenting indigenous languages.",
+                "They make community teachers unnecessary in every case."
+            ],
+            "answerIndex": 2,
+            "explanation": "Apps and online classes can widen access, especially for youth and diaspora users, though community knowledge remains essential."
+        },
+        {
+            "id": 91,
+            "question": "Fusion music and spoken-word poetry demonstrate which response to cultural change?",
+            "options": [
+                "The disappearance of oral performance",
+                "A return to communication without any technology",
+                "Total rejection of African cultural materials",
+                "Creative adaptation of traditional forms to contemporary audiences"
+            ],
+            "answerIndex": 3,
+            "explanation": "Artists combine inherited rhythms, languages, proverbs, and storytelling with modern genres to maintain relevance."
+        },
+        {
+            "id": 92,
+            "question": "How can AI translation tools support African communication?",
+            "options": [
+                "They make human interpretation unnecessary in sensitive situations.",
+                "They always understand cultural context perfectly.",
+                "They can help bridge language barriers in multilingual communities.",
+                "They remove the need to protect indigenous languages."
+            ],
+            "answerIndex": 2,
+            "explanation": "Translation tools can expand access, but accuracy, dialect variation, and cultural nuance still require human review."
+        },
+        {
+            "id": 93,
+            "question": "What is a major benefit of automatic transcription for oral traditions?",
+            "options": [
+                "It can convert recorded speech into searchable text for access, study, and preservation.",
+                "It removes the need to obtain consent from communities.",
+                "It prevents audio recordings from being archived.",
+                "It guarantees that every speaker's meaning is translated correctly."
+            ],
+            "answerIndex": 0,
+            "explanation": "Transcription supports documentation and accessibility, although names, tonal languages, and cultural expressions must be checked carefully."
+        },
+        {
+            "id": 94,
+            "question": "How can virtual reality contribute to cultural communication?",
+            "options": [
+                "It makes physical cultural practices permanently unnecessary.",
+                "It guarantees that sacred practices will not be misused.",
+                "It can be used only for written communication.",
+                "It can provide immersive experiences of ceremonies, heritage sites, and storytelling settings."
+            ],
+            "answerIndex": 3,
+            "explanation": "VR can recreate spaces and events for education and preservation, but ethical limits and community control are important."
+        },
+        {
+            "id": 95,
+            "question": "What is the purpose of hashtags such as #AfricanLanguagesMatter?",
+            "options": [
+                "To prevent content from reaching global audiences",
+                "To replace language teaching with advertising",
+                "To restrict cultural discussions to private messages",
+                "To raise awareness and organise online support for indigenous-language preservation"
+            ],
+            "answerIndex": 3,
+            "explanation": "Hashtags group related content, connect advocates, and make cultural campaigns more discoverable."
+        },
+        {
+            "id": 96,
+            "question": "Why are digital archives valuable to African communication research?",
+            "options": [
+                "They ensure cultural materials can never be altered or lost.",
+                "They should always make sacred knowledge publicly downloadable.",
+                "They can preserve recordings, stories, images, and documents for future access.",
+                "They remove the need for metadata and community context."
+            ],
+            "answerIndex": 2,
+            "explanation": "Well-managed archives protect fragile materials and support education, but ownership, consent, access rules, and description are essential."
+        },
+        {
+            "id": 97,
+            "question": "What role can community radio play in the future of African communication?",
+            "options": [
+                "It must replace all digital platforms.",
+                "It prevents local people from contributing to programmes.",
+                "It can provide locally relevant information and promote indigenous-language use.",
+                "It can reach only international audiences."
+            ],
+            "answerIndex": 2,
+            "explanation": "Community radio combines accessible technology with local participation, language, and cultural knowledge."
+        },
+        {
+            "id": 98,
+            "question": "What is a key ethical risk in commercialising traditional practices online?",
+            "options": [
+                "Commercial platforms cannot influence cultural meaning.",
+                "The content will automatically become more accurate.",
+                "Sacred or complex traditions may be oversimplified, misrepresented, or exploited.",
+                "Community ownership will always be strengthened."
+            ],
+            "answerIndex": 2,
+            "explanation": "Seeking views or profit can detach practices from context and exclude the communities that created them."
+        },
+        {
+            "id": 99,
+            "question": "Which strategy best balances tradition and modernity?",
+            "options": [
+                "Replacing local experts entirely with automated systems",
+                "Publishing every sacred practice without permission",
+                "Using new technologies under community guidance to preserve meaning, language, and cultural ownership",
+                "Rejecting all technology regardless of its benefits"
+            ],
+            "answerIndex": 2,
+            "explanation": "A balanced approach uses technology as a tool while respecting custodians, consent, context, and cultural authority."
+        },
+        {
+            "id": 100,
+            "question": "A project records elders telling folktales, obtains community consent, adds translations, and stores both audio and text online. What does this best illustrate?",
+            "options": [
+                "A secret-language initiation ceremony",
+                "Responsible digital preservation of oral heritage",
+                "The elimination of oral communication",
+                "Political censorship through mass media"
+            ],
+            "answerIndex": 1,
+            "explanation": "The project preserves voice and performance, improves accessibility, and respects community participation and consent."
+        }
+    ]
+}
