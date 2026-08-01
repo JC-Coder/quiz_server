@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "PHY 102",
+        "title": "General Physics II",
+        "description": "A 100-level course covering electric charge, electric fields and potential, capacitance, direct and alternating-current circuits, magnetism, electromagnetic induction, waves, inductance, and transformers.",
+        "departments": [
+            "computer-science"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which statement best defines electric charge?",
+            "options": [
+                "A measure of the temperature of a conductor",
+                "The rate at which an object performs mechanical work",
+                "The amount of mass contained in an object",
+                "A property of matter that causes it to experience electric forces"
+            ],
+            "answerIndex": 3,
+            "explanation": "Electric charge is a fundamental property of matter responsible for electric attraction and repulsion."
+        },
+        {
+            "id": 2,
+            "question": "How do two positively charged particles interact when brought close together?",
+            "options": [
+                "They repel each other",
+                "They become electrically neutral",
+                "They exchange protons until their charges reverse",
+                "They attract each other"
+            ],
+            "answerIndex": 0,
+            "explanation": "Like charges repel, whereas unlike charges attract."
+        },
+        {
+            "id": 3,
+            "question": "Why is an ordinary uncharged object described as electrically neutral?",
+            "options": [
+                "All its electrons have escaped",
+                "Its protons have no electric charge",
+                "It contains no protons or electrons",
+                "It contains equal total positive and negative charge"
+            ],
+            "answerIndex": 3,
+            "explanation": "A neutral object normally has equal positive charge from protons and negative charge from electrons."
+        },
+        {
+            "id": 4,
+            "question": "What happens to the net charge of a neutral object when it gains electrons?",
+            "options": [
+                "It remains neutral in every case",
+                "It becomes negatively charged",
+                "Its protons become negatively charged",
+                "It becomes positively charged"
+            ],
+            "answerIndex": 1,
+            "explanation": "Electrons carry negative charge, so gaining electrons produces an excess of negative charge."
+        },
+        {
+            "id": 5,
+            "question": "What does the quantisation of electric charge mean?",
+            "options": [
+                "Charge can have any value with no smallest unit",
+                "Only positive charge can be measured",
+                "Electric charge is always uniformly distributed",
+                "Charge occurs in integer multiples of the elementary charge"
+            ],
+            "answerIndex": 3,
+            "explanation": "Quantisation means q = ne, where n is an integer and e is the elementary charge, approximately 1.6 × 10^-19 C in magnitude."
+        },
+        {
+            "id": 6,
+            "question": "Which statement expresses conservation of electric charge?",
+            "options": [
+                "The total charge of an isolated system remains constant",
+                "The charge of an electron increases with speed",
+                "Charge disappears whenever two opposite charges meet",
+                "Positive charge can be created without an equal change elsewhere"
+            ],
+            "answerIndex": 0,
+            "explanation": "Charge may be transferred between bodies, but the total charge in an isolated system does not change."
+        },
+        {
+            "id": 7,
+            "question": "When two different materials are rubbed together and electrons move from one to the other, the charging method is called what?",
+            "options": [
+                "Charging by friction",
+                "Charging by conduction",
+                "Charging by electromagnetic radiation",
+                "Charging by induction"
+            ],
+            "answerIndex": 0,
+            "explanation": "Frictional charging results from electron transfer when two materials are rubbed together."
+        },
+        {
+            "id": 8,
+            "question": "Which feature distinguishes charging by induction from charging by conduction?",
+            "options": [
+                "Induction can charge an object without direct contact with the charged body",
+                "Induction requires both bodies to be rubbed together",
+                "Conduction always leaves the neutral body oppositely charged",
+                "Conduction never transfers electrons"
+            ],
+            "answerIndex": 0,
+            "explanation": "Conduction involves direct contact, while induction uses charge separation and usually grounding without contact with the inducing charge."
+        },
+        {
+            "id": 9,
+            "question": "According to Coulomb's law, the magnitude of the force between two point charges is proportional to what?",
+            "options": [
+                "The product of the charges divided by the square of their separation",
+                "The difference between the charges divided by their separation",
+                "The sum of the charges multiplied by their separation",
+                "The product of the charges multiplied by the square of their separation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Coulomb's law is F = k|q1q2|/r^2."
+        },
+        {
+            "id": 10,
+            "question": "Two charges of +2 μC and +3 μC are separated by 0.30 m. Using k = 9.0 × 10^9 N·m^2/C^2, what is the force between them?",
+            "options": [
+                "1.80 N, repulsive",
+                "0.20 N, attractive",
+                "0.60 N, repulsive",
+                "0.60 N, attractive"
+            ],
+            "answerIndex": 2,
+            "explanation": "F = kq1q2/r^2 = (9.0 × 10^9)(2 × 10^-6)(3 × 10^-6)/(0.30)^2 = 0.60 N. Both charges are positive, so the force is repulsive."
+        },
+        {
+            "id": 11,
+            "question": "The force between two point charges is 200 N. If their separation is doubled while the charges remain unchanged, what is the new force?",
+            "options": [
+                "200 N",
+                "100 N",
+                "400 N",
+                "50 N"
+            ],
+            "answerIndex": 3,
+            "explanation": "Because F is proportional to 1/r^2, doubling r reduces the force by 2^2 = 4: 200/4 = 50 N."
+        },
+        {
+            "id": 12,
+            "question": "What does the principle of superposition state for several electric forces acting on one charge?",
+            "options": [
+                "The magnitudes are multiplied together",
+                "The net force is the vector sum of the individual forces",
+                "Only the force from the nearest charge is considered",
+                "All forces cancel regardless of direction"
+            ],
+            "answerIndex": 1,
+            "explanation": "Each source charge acts independently, and the resultant is found by vector addition."
+        },
+        {
+            "id": 13,
+            "question": "A 2.0 C test charge experiences an electric force of 10,500 N. What is the electric-field magnitude?",
+            "options": [
+                "2,500 N/C",
+                "21,000 N/C",
+                "10,500 N/C",
+                "5,250 N/C"
+            ],
+            "answerIndex": 3,
+            "explanation": "E = F/q = 10,500/2.0 = 5,250 N/C."
+        },
+        {
+            "id": 14,
+            "question": "What is the electric-field magnitude 0.30 m from a +4.0 nC point charge? Use k = 9.0 × 10^9 N·m^2/C^2.",
+            "options": [
+                "1,200 N/C",
+                "120 N/C",
+                "400 N/C",
+                "40 N/C"
+            ],
+            "answerIndex": 2,
+            "explanation": "E = kQ/r^2 = (9.0 × 10^9)(4.0 × 10^-9)/(0.30)^2 = 400 N/C."
+        },
+        {
+            "id": 15,
+            "question": "What is the direction of the electric field produced by an isolated negative point charge?",
+            "options": [
+                "Clockwise around the charge",
+                "Radially outward from the charge",
+                "Perpendicular to every radius",
+                "Radially inward toward the charge"
+            ],
+            "answerIndex": 3,
+            "explanation": "Electric-field direction is defined by the force on a positive test charge, which is attracted toward a negative source charge."
+        },
+        {
+            "id": 16,
+            "question": "What does a greater density of electric-field lines in a diagram indicate?",
+            "options": [
+                "A reversal of the source charge",
+                "A region of zero potential only",
+                "A weaker electric field",
+                "A stronger electric field"
+            ],
+            "answerIndex": 3,
+            "explanation": "Closely spaced field lines represent greater field magnitude."
+        },
+        {
+            "id": 17,
+            "question": "A uniform electric field of 200 N/C points east. What force acts on an electron of charge -1.6 × 10^-19 C?",
+            "options": [
+                "3.2 × 10^-17 N east",
+                "0 N because an electron is a point particle",
+                "1.25 × 10^21 N west",
+                "3.2 × 10^-17 N west"
+            ],
+            "answerIndex": 3,
+            "explanation": "F = qE. The magnitude is (1.6 × 10^-19)(200) = 3.2 × 10^-17 N. A negative charge experiences force opposite the field, so the force is west."
+        },
+        {
+            "id": 18,
+            "question": "Why are metals generally good electrical conductors?",
+            "options": [
+                "They contain no electrons",
+                "Their resistance is always infinite",
+                "Their protons move freely between atoms",
+                "They contain charge carriers that can move relatively freely"
+            ],
+            "answerIndex": 3,
+            "explanation": "In conductors, mobile electrons can move through the material under an electric field."
+        },
+        {
+            "id": 19,
+            "question": "Which statement best describes an electrical insulator?",
+            "options": [
+                "It always has zero resistance",
+                "It strongly resists the movement of electric charge",
+                "It allows electrons to flow as freely as a metal",
+                "It creates electric charge continuously"
+            ],
+            "answerIndex": 1,
+            "explanation": "Insulators have very few mobile charge carriers and therefore high resistance to charge flow."
+        },
+        {
+            "id": 20,
+            "question": "What is the electric field inside a conductor in electrostatic equilibrium?",
+            "options": [
+                "Equal to the field just outside in every direction",
+                "Infinite",
+                "Zero",
+                "Dependent only on the conductor's mass"
+            ],
+            "answerIndex": 2,
+            "explanation": "Free charges redistribute until the internal electric field becomes zero."
+        },
+        {
+            "id": 21,
+            "question": "Capacitance is defined by which relationship?",
+            "options": [
+                "C = IR",
+                "C = QV",
+                "C = Q/V",
+                "C = V/Q^2"
+            ],
+            "answerIndex": 2,
+            "explanation": "Capacitance is charge stored per unit potential difference: C = Q/V."
+        },
+        {
+            "id": 22,
+            "question": "A 5 μF capacitor is connected across a 12 V battery. How much charge is stored?",
+            "options": [
+                "2.4 μC",
+                "60 μC",
+                "17 μC",
+                "0.60 μC"
+            ],
+            "answerIndex": 1,
+            "explanation": "Q = CV = (5 μF)(12 V) = 60 μC."
+        },
+        {
+            "id": 23,
+            "question": "Two capacitors of 3 μF and 5 μF are connected in parallel. What is their equivalent capacitance?",
+            "options": [
+                "1.875 μF",
+                "2 μF",
+                "8 μF",
+                "15 μF"
+            ],
+            "answerIndex": 2,
+            "explanation": "Parallel capacitances add directly: Ceq = 3 + 5 = 8 μF."
+        },
+        {
+            "id": 24,
+            "question": "Two capacitors of 10 μF and 20 μF are connected in series. What is their equivalent capacitance?",
+            "options": [
+                "15 μF",
+                "6.67 μF",
+                "30 μF",
+                "200 μF"
+            ],
+            "answerIndex": 1,
+            "explanation": "For two series capacitors, Ceq = C1C2/(C1 + C2) = (10 × 20)/30 = 6.67 μF."
+        },
+        {
+            "id": 25,
+            "question": "What is the energy stored in a 2 μF capacitor charged to 100 V?",
+            "options": [
+                "0.01 J",
+                "0.02 J",
+                "1.00 J",
+                "0.10 J"
+            ],
+            "answerIndex": 0,
+            "explanation": "U = 1/2 CV^2 = 0.5(2 × 10^-6)(100)^2 = 0.01 J."
+        },
+        {
+            "id": 26,
+            "question": "What is the main effect of inserting a dielectric of relative permittivity κ fully between the plates of an isolated parallel-plate capacitor?",
+            "options": [
+                "Its capacitance increases by a factor of κ",
+                "Its capacitance becomes zero",
+                "Its plate area decreases by a factor of κ",
+                "Its stored charge must reverse sign"
+            ],
+            "answerIndex": 0,
+            "explanation": "A dielectric polarises and reduces the effective field for a given charge, increasing capacitance to C = κC0."
+        },
+        {
+            "id": 27,
+            "question": "Electromotive force, ε, is best defined as what?",
+            "options": [
+                "Charge stored per unit voltage",
+                "Current supplied per unit resistance",
+                "Force exerted per unit mass",
+                "Energy supplied by a source per unit charge"
+            ],
+            "answerIndex": 3,
+            "explanation": "EMF is the work or energy supplied by the source per coulomb, measured in volts."
+        },
+        {
+            "id": 28,
+            "question": "For a cell of EMF ε and internal resistance r delivering current I, what is its terminal voltage?",
+            "options": [
+                "V = ε + Ir",
+                "V = ε - Ir",
+                "V = ε/(I + r)",
+                "V = Ir only"
+            ],
+            "answerIndex": 1,
+            "explanation": "While the cell supplies current, Ir is the voltage lost inside the source, so V = ε - Ir."
+        },
+        {
+            "id": 29,
+            "question": "A battery has EMF 12 V and internal resistance 1 Ω. If it supplies 2 A, what is its terminal voltage?",
+            "options": [
+                "14 V",
+                "12 V",
+                "6 V",
+                "10 V"
+            ],
+            "answerIndex": 3,
+            "explanation": "V = ε - Ir = 12 - (2)(1) = 10 V."
+        },
+        {
+            "id": 30,
+            "question": "A charge of 2 C has electric potential energy of 20 J at a point. What is the electric potential there?",
+            "options": [
+                "10 V",
+                "40 V",
+                "5 V",
+                "20 V"
+            ],
+            "answerIndex": 0,
+            "explanation": "V = U/q = 20/2 = 10 J/C = 10 V."
+        },
+        {
+            "id": 31,
+            "question": "A 0.70 m conducting rod moves at 1.0 m/s perpendicular to a 20 T magnetic field. What motional EMF is produced?",
+            "options": [
+                "20.7 V",
+                "28 V",
+                "0.035 V",
+                "14 V"
+            ],
+            "answerIndex": 3,
+            "explanation": "For perpendicular motion, |ε| = BLv = (20)(0.70)(1.0) = 14 V."
+        },
+        {
+            "id": 32,
+            "question": "An electric dipole consists of charges ±5 nC separated by 2 cm. What is its dipole moment magnitude?",
+            "options": [
+                "5.0 × 10^-10 C·m",
+                "1.0 × 10^-10 C·m",
+                "2.5 × 10^-10 C·m",
+                "1.0 × 10^-7 C·m"
+            ],
+            "answerIndex": 1,
+            "explanation": "p = qd = (5 × 10^-9)(0.02) = 1.0 × 10^-10 C·m."
+        },
+        {
+            "id": 33,
+            "question": "An electric dipole with p = 3 × 10^-3 C·m is placed at 90° in an electric field of 2,000 N/C. What torque acts on it?",
+            "options": [
+                "16 N·m",
+                "6 N·m",
+                "0.006 N·m",
+                "0 N·m"
+            ],
+            "answerIndex": 1,
+            "explanation": "τ = pE sinθ = (3 × 10^-3)(2000)sin90° = 6 N·m. The torque is maximum at 90°."
+        },
+        {
+            "id": 34,
+            "question": "Which equation states Ohm's law for an ohmic resistor?",
+            "options": [
+                "R = VI",
+                "P = V/R",
+                "V = IR",
+                "V = I/R"
+            ],
+            "answerIndex": 2,
+            "explanation": "Ohm's law relates potential difference, current, and resistance as V = IR."
+        },
+        {
+            "id": 35,
+            "question": "Resistors of 2 Ω, 3 Ω, and 6 Ω are connected in series. What is the total resistance?",
+            "options": [
+                "4 Ω",
+                "11 Ω",
+                "12 Ω",
+                "1 Ω"
+            ],
+            "answerIndex": 1,
+            "explanation": "Series resistances add: Rtotal = 2 + 3 + 6 = 11 Ω."
+        },
+        {
+            "id": 36,
+            "question": "Resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. What is their equivalent resistance?",
+            "options": [
+                "1.09 Ω",
+                "1 Ω",
+                "11 Ω",
+                "12 Ω"
+            ],
+            "answerIndex": 1,
+            "explanation": "1/R = 1/2 + 1/3 + 1/6 = 1, so R = 1 Ω."
+        },
+        {
+            "id": 37,
+            "question": "A 10 V battery is connected to 2 Ω and 3 Ω resistors in series. What current flows?",
+            "options": [
+                "0.2 A",
+                "5 A",
+                "3 A",
+                "2 A"
+            ],
+            "answerIndex": 3,
+            "explanation": "Rtotal = 2 + 3 = 5 Ω, so I = V/R = 10/5 = 2 A."
+        },
+        {
+            "id": 38,
+            "question": "A 5 Ω resistor carries a current of 2 A. What power does it dissipate?",
+            "options": [
+                "20 W",
+                "7 W",
+                "10 W",
+                "5 W"
+            ],
+            "answerIndex": 0,
+            "explanation": "P = I^2R = (2)^2(5) = 20 W."
+        },
+        {
+            "id": 39,
+            "question": "What is the equivalent resistance of 4 Ω and 12 Ω connected in parallel?",
+            "options": [
+                "8 Ω",
+                "4 Ω",
+                "3 Ω",
+                "16 Ω"
+            ],
+            "answerIndex": 2,
+            "explanation": "R = R1R2/(R1 + R2) = (4 × 12)/(4 + 12) = 3 Ω."
+        },
+        {
+            "id": 40,
+            "question": "Three resistors of 5 Ω, 10 Ω, and 15 Ω are in series across 60 V. What is the circuit current?",
+            "options": [
+                "4 A",
+                "1 A",
+                "3 A",
+                "2 A"
+            ],
+            "answerIndex": 3,
+            "explanation": "Rtotal = 30 Ω, so I = 60/30 = 2 A."
+        },
+        {
+            "id": 41,
+            "question": "Kirchhoff's current law is based on which principle?",
+            "options": [
+                "Conservation of charge",
+                "Quantisation of magnetic flux",
+                "Conservation of momentum",
+                "Conservation of angular velocity"
+            ],
+            "answerIndex": 0,
+            "explanation": "At a junction, the total current entering equals the total current leaving because charge does not accumulate there."
+        },
+        {
+            "id": 42,
+            "question": "Currents of 5 A and 3 A enter a junction. If there is only one outgoing branch, what current leaves the junction?",
+            "options": [
+                "5 A",
+                "3 A",
+                "8 A",
+                "2 A"
+            ],
+            "answerIndex": 2,
+            "explanation": "By Kirchhoff's current law, Iout = 5 + 3 = 8 A."
+        },
+        {
+            "id": 43,
+            "question": "According to Kirchhoff's voltage law, what is the algebraic sum of potential changes around a closed loop?",
+            "options": [
+                "Always positive",
+                "Equal to the total resistance",
+                "Equal to the largest EMF",
+                "Zero"
+            ],
+            "answerIndex": 3,
+            "explanation": "Kirchhoff's voltage law expresses conservation of energy: the algebraic sum of all rises and drops in a loop is zero."
+        },
+        {
+            "id": 44,
+            "question": "A circuit loop contains a 20 V battery and known voltage drops of 5 V and 10 V. What additional voltage drop completes the loop?",
+            "options": [
+                "10 V",
+                "25 V",
+                "5 V",
+                "15 V"
+            ],
+            "answerIndex": 2,
+            "explanation": "KVL gives 20 - 5 - 10 - V = 0, so V = 5 V."
+        },
+        {
+            "id": 45,
+            "question": "A battery has EMF 12 V and terminal voltage 10 V while supplying 2 A. What is its internal resistance?",
+            "options": [
+                "2 Ω",
+                "1 Ω",
+                "5 Ω",
+                "0.2 Ω"
+            ],
+            "answerIndex": 1,
+            "explanation": "V = ε - Ir, so r = (ε - V)/I = (12 - 10)/2 = 1 Ω."
+        },
+        {
+            "id": 46,
+            "question": "For the alternating voltage v = 20 sin(50t) V, what is the peak voltage?",
+            "options": [
+                "10 V",
+                "20 V",
+                "70 V",
+                "50 V"
+            ],
+            "answerIndex": 1,
+            "explanation": "In v = V0 sin(ωt), the coefficient V0 is the peak value, so V0 = 20 V."
+        },
+        {
+            "id": 47,
+            "question": "The instantaneous current is i = 30 sin(50t) A. What is its RMS value?",
+            "options": [
+                "42.4 A",
+                "15 A",
+                "21.2 A",
+                "30 A"
+            ],
+            "answerIndex": 2,
+            "explanation": "Irms = I0/√2 = 30/√2 ≈ 21.2 A."
+        },
+        {
+            "id": 48,
+            "question": "A household supply has an RMS voltage of 120 V. What is its approximate peak voltage?",
+            "options": [
+                "240 V",
+                "120 V",
+                "85 V",
+                "170 V"
+            ],
+            "answerIndex": 3,
+            "explanation": "V0 = √2 Vrms = 1.414(120) ≈ 170 V."
+        },
+        {
+            "id": 49,
+            "question": "An AC device operates at 220 V RMS and 5.0 A RMS. What are the corresponding peak values?",
+            "options": [
+                "156 V and 3.54 A",
+                "440 V and 10.0 A",
+                "311 V and 7.07 A",
+                "220 V and 5.0 A"
+            ],
+            "answerIndex": 2,
+            "explanation": "Peak values are √2 times RMS values: V0 ≈ 311 V and I0 ≈ 7.07 A."
+        },
+        {
+            "id": 50,
+            "question": "What is the phase relationship between voltage and current in a purely resistive AC circuit?",
+            "options": [
+                "Current leads voltage by 90°",
+                "They are in phase",
+                "They differ by 180°",
+                "Current lags voltage by 90°"
+            ],
+            "answerIndex": 1,
+            "explanation": "For a pure resistor, voltage and current reach zero and maximum values together."
+        },
+        {
+            "id": 51,
+            "question": "In a purely inductive AC circuit, how does current relate to voltage?",
+            "options": [
+                "Current is always zero",
+                "Current is in phase with voltage",
+                "Current leads voltage by 90°",
+                "Current lags voltage by 90°"
+            ],
+            "answerIndex": 3,
+            "explanation": "For an ideal inductor, voltage leads current by 90°, so current lags voltage."
+        },
+        {
+            "id": 52,
+            "question": "In a purely capacitive AC circuit, how does current relate to voltage?",
+            "options": [
+                "Current leads voltage by 90°",
+                "Current lags voltage by 90°",
+                "Current differs from voltage by 180°",
+                "Current is in phase with voltage"
+            ],
+            "answerIndex": 0,
+            "explanation": "For an ideal capacitor, current reaches its maximum one-quarter cycle before voltage."
+        },
+        {
+            "id": 53,
+            "question": "What is the inductive reactance of a 0.10 H inductor connected to a 50 Hz supply?",
+            "options": [
+                "5.0 Ω",
+                "15.9 Ω",
+                "31.4 Ω",
+                "314 Ω"
+            ],
+            "answerIndex": 2,
+            "explanation": "XL = 2πfL = 2π(50)(0.10) ≈ 31.4 Ω."
+        },
+        {
+            "id": 54,
+            "question": "In a series RLC circuit, I = 3 mA, R = 1000 Ω, VL = 30 V, and VC = 18 V. What is the supply voltage?",
+            "options": [
+                "12.37 V",
+                "3.95 V",
+                "51.00 V",
+                "32.67 V"
+            ],
+            "answerIndex": 0,
+            "explanation": "VR = IR = 0.003(1000) = 3 V. The net reactive voltage is 30 - 18 = 12 V, so V = √(3^2 + 12^2) = √153 ≈ 12.37 V."
+        },
+        {
+            "id": 55,
+            "question": "What does a phasor represent in AC circuit analysis?",
+            "options": [
+                "The magnitude and phase of a sinusoidal quantity",
+                "Only the instantaneous resistance of a circuit",
+                "A constant DC voltage with no direction",
+                "The total charge that passes in one cycle"
+            ],
+            "answerIndex": 0,
+            "explanation": "A phasor is a rotating-vector representation used to compare sinusoidal magnitudes and phase angles."
+        },
+        {
+            "id": 56,
+            "question": "What is the resonance condition in a series RLC circuit?",
+            "options": [
+                "R = 0 for every resonant circuit",
+                "XL = XC",
+                "R = XL + XC",
+                "XL = 0 and XC = 0 separately"
+            ],
+            "answerIndex": 1,
+            "explanation": "At resonance, inductive and capacitive reactances cancel, leaving a purely resistive impedance."
+        },
+        {
+            "id": 57,
+            "question": "A series RLC circuit has L = 0.10 H and C = 100 μF. What is its resonant frequency?",
+            "options": [
+                "About 503 Hz",
+                "About 50.3 Hz",
+                "About 159 Hz",
+                "About 5.03 Hz"
+            ],
+            "answerIndex": 1,
+            "explanation": "f0 = 1/(2π√LC) = 1/[2π√((0.10)(100 × 10^-6))] ≈ 50.3 Hz."
+        },
+        {
+            "id": 58,
+            "question": "At resonance, what is the impedance of an ideal series RLC circuit?",
+            "options": [
+                "It equals the resistance R",
+                "It is infinite",
+                "It is zero regardless of R",
+                "It equals XL + XC"
+            ],
+            "answerIndex": 0,
+            "explanation": "Since XL - XC = 0 at resonance, Z = √(R^2 + 0^2) = R."
+        },
+        {
+            "id": 59,
+            "question": "What is the power factor of a series RLC circuit at resonance?",
+            "options": [
+                "1/√2",
+                "1",
+                "It depends only on the value of the capacitor",
+                "0"
+            ],
+            "answerIndex": 1,
+            "explanation": "At resonance, voltage and current are in phase, so cosφ = 1. Doubling R does not change this resonance power factor."
+        },
+        {
+            "id": 60,
+            "question": "Which expression gives average power in a sinusoidal AC circuit?",
+            "options": [
+                "P = Vrms Irms cosφ",
+                "P = Vrms/Irms",
+                "P = V0I0 sinφ",
+                "P = I0^2/XC for every circuit"
+            ],
+            "answerIndex": 0,
+            "explanation": "Average AC power is the product of RMS voltage, RMS current, and the power factor cosφ."
+        },
+        {
+            "id": 61,
+            "question": "What is the average power consumed by an ideal inductor or ideal capacitor over a complete AC cycle?",
+            "options": [
+                "VrmsIrms",
+                "Maximum possible power",
+                "Zero",
+                "Twice the peak power"
+            ],
+            "answerIndex": 2,
+            "explanation": "Ideal reactive components store and return energy; with a 90° phase difference, cos90° = 0."
+        },
+        {
+            "id": 62,
+            "question": "A series RLC circuit has R = 6 Ω and impedance Z = 10 Ω. What is its power factor?",
+            "options": [
+                "0.60",
+                "0.40",
+                "1.67",
+                "6.0"
+            ],
+            "answerIndex": 0,
+            "explanation": "Power factor cosφ = R/Z = 6/10 = 0.60."
+        },
+        {
+            "id": 63,
+            "question": "Outside a bar magnet, in what direction do magnetic-field lines run?",
+            "options": [
+                "Clockwise around both poles regardless of orientation",
+                "In straight lines that end midway between the poles",
+                "From the north pole to the south pole",
+                "From the south pole to the north pole only"
+            ],
+            "answerIndex": 2,
+            "explanation": "Magnetic-field lines emerge from the north pole and enter the south pole outside the magnet, forming closed loops."
+        },
+        {
+            "id": 64,
+            "question": "What happens when a bar magnet is cut into two pieces?",
+            "options": [
+                "One piece becomes only north and the other only south",
+                "Each piece becomes electrically charged but nonmagnetic",
+                "Each piece becomes a smaller magnet with north and south poles",
+                "Both pieces lose all magnetism immediately"
+            ],
+            "answerIndex": 2,
+            "explanation": "Magnetic poles occur in pairs; cutting a magnet produces smaller dipoles rather than isolated poles."
+        },
+        {
+            "id": 65,
+            "question": "What is the magnetic dipole moment of a single-turn current loop of area A carrying current I?",
+            "options": [
+                "μ = qvB",
+                "μ = I/A",
+                "μ = BA",
+                "μ = IA"
+            ],
+            "answerIndex": 3,
+            "explanation": "For one turn, magnetic dipole moment equals current times loop area; for N turns, μ = NIA."
+        },
+        {
+            "id": 66,
+            "question": "At what angle between magnetic dipole moment μ and magnetic field B is the torque maximum?",
+            "options": [
+                "0°",
+                "45°",
+                "180°",
+                "90°"
+            ],
+            "answerIndex": 3,
+            "explanation": "τ = μB sinθ, which is maximum when sinθ = 1 at 90°."
+        },
+        {
+            "id": 67,
+            "question": "What is the magnitude of the magnetic force on a charge q moving with speed v at angle θ to a magnetic field B?",
+            "options": [
+                "F = |q|v/B",
+                "F = |q|B cosθ/v",
+                "F = |q|vB sinθ",
+                "F = qE only"
+            ],
+            "answerIndex": 2,
+            "explanation": "The magnetic part of the Lorentz force depends on the component of velocity perpendicular to B."
+        },
+        {
+            "id": 68,
+            "question": "When does a moving charged particle experience zero magnetic force in a nonzero uniform magnetic field?",
+            "options": [
+                "Only when its charge is positive",
+                "Whenever its velocity is perpendicular to the field",
+                "When its velocity is parallel or antiparallel to the field",
+                "Whenever its speed is doubled"
+            ],
+            "answerIndex": 2,
+            "explanation": "F = |q|vB sinθ; for θ = 0° or 180°, sinθ = 0."
+        },
+        {
+            "id": 69,
+            "question": "Which equation gives the total Lorentz force on a charge in electric and magnetic fields?",
+            "options": [
+                "F = q(E + v × B)",
+                "F = q(E × B)",
+                "F = mv^2/q",
+                "F = qE/B"
+            ],
+            "answerIndex": 0,
+            "explanation": "The Lorentz force combines the electric force qE and magnetic force q(v × B)."
+        },
+        {
+            "id": 70,
+            "question": "Why does a magnetic force alone do no work on a charged particle?",
+            "options": [
+                "The force is always parallel to displacement",
+                "Every charged particle has zero mass",
+                "The force is perpendicular to the particle's velocity",
+                "The magnetic field has no direction"
+            ],
+            "answerIndex": 2,
+            "explanation": "A perpendicular force changes the direction of velocity but not the particle's speed or kinetic energy."
+        },
+        {
+            "id": 71,
+            "question": "A 2 C charge moves at 3 m/s perpendicular to a 4 T magnetic field. What magnetic force acts on it?",
+            "options": [
+                "6 N",
+                "24 N",
+                "48 N",
+                "12 N"
+            ],
+            "answerIndex": 1,
+            "explanation": "F = qvB sin90° = (2)(3)(4) = 24 N."
+        },
+        {
+            "id": 72,
+            "question": "How are the electric field, magnetic field, and direction of travel related in an electromagnetic wave?",
+            "options": [
+                "Only the magnetic field has a direction",
+                "All three directions are mutually perpendicular",
+                "The electric and magnetic fields are parallel but perpendicular to travel",
+                "All three are parallel"
+            ],
+            "answerIndex": 1,
+            "explanation": "An electromagnetic wave is transverse: E is perpendicular to B, and both are perpendicular to propagation."
+        },
+        {
+            "id": 73,
+            "question": "Which equation relates electromagnetic-wave speed c, frequency f, and wavelength λ in vacuum?",
+            "options": [
+                "c = f/λ",
+                "c = λ/f^2",
+                "c = fλ",
+                "c = f + λ"
+            ],
+            "answerIndex": 2,
+            "explanation": "Wave speed equals frequency multiplied by wavelength."
+        },
+        {
+            "id": 74,
+            "question": "Which sequence lists electromagnetic radiation in order of increasing frequency?",
+            "options": [
+                "Radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray",
+                "Gamma ray, X-ray, ultraviolet, visible, infrared, microwave, radio",
+                "Microwave, radio, visible, infrared, ultraviolet, gamma ray, X-ray",
+                "Radio, infrared, microwave, visible, X-ray, ultraviolet, gamma ray"
+            ],
+            "answerIndex": 0,
+            "explanation": "Frequency increases from radio waves through microwaves, infrared, visible, ultraviolet, X-rays, and gamma rays."
+        },
+        {
+            "id": 75,
+            "question": "What is the wavelength in vacuum of a 100 MHz electromagnetic wave? Use c = 3.0 × 10^8 m/s.",
+            "options": [
+                "300 m",
+                "3.0 m",
+                "0.30 m",
+                "30 m"
+            ],
+            "answerIndex": 1,
+            "explanation": "λ = c/f = (3.0 × 10^8)/(100 × 10^6) = 3.0 m."
+        },
+        {
+            "id": 76,
+            "question": "Why can electromagnetic waves travel through empty space?",
+            "options": [
+                "They are mechanical vibrations of a material medium",
+                "Their speed becomes zero in a vacuum",
+                "They require air molecules to carry electric charge",
+                "They consist of self-propagating changing electric and magnetic fields"
+            ],
+            "answerIndex": 3,
+            "explanation": "Unlike mechanical waves, electromagnetic waves do not require a material medium."
+        },
+        {
+            "id": 77,
+            "question": "In an ideal LC oscillator, energy continually changes between which two forms?",
+            "options": [
+                "Electric energy in the capacitor and magnetic energy in the inductor",
+                "Thermal energy and chemical energy only",
+                "Gravitational energy and nuclear energy",
+                "Kinetic energy of the resistor and elastic energy of the wire"
+            ],
+            "answerIndex": 0,
+            "explanation": "The capacitor stores electric-field energy and the inductor stores magnetic-field energy."
+        },
+        {
+            "id": 78,
+            "question": "If the frequency of an electromagnetic wave in vacuum is doubled, what happens to its wavelength?",
+            "options": [
+                "It becomes four times larger",
+                "It doubles",
+                "It remains unchanged",
+                "It is halved"
+            ],
+            "answerIndex": 3,
+            "explanation": "Since c = fλ is constant in vacuum, λ is inversely proportional to f."
+        },
+        {
+            "id": 79,
+            "question": "What is self-inductance?",
+            "options": [
+                "The cancellation of all magnetic fields in a coil",
+                "The production of an EMF in a circuit by a change in its own current",
+                "The flow of steady current through a pure resistor",
+                "The production of charge by rubbing two insulators"
+            ],
+            "answerIndex": 1,
+            "explanation": "A changing current changes the coil's magnetic flux and induces an opposing EMF in the same circuit."
+        },
+        {
+            "id": 80,
+            "question": "Which expression gives the self-induced EMF of an inductor?",
+            "options": [
+                "ε = -I(dL/dt) only",
+                "ε = -L(di/dt)",
+                "ε = L/i",
+                "ε = LI"
+            ],
+            "answerIndex": 1,
+            "explanation": "The self-induced EMF is proportional to the rate of change of current, with the minus sign expressing Lenz's law."
+        },
+        {
+            "id": 81,
+            "question": "What is the SI unit of inductance?",
+            "options": [
+                "Farad",
+                "Weber per metre",
+                "Henry",
+                "Tesla"
+            ],
+            "answerIndex": 2,
+            "explanation": "Inductance is measured in henries, symbol H."
+        },
+        {
+            "id": 82,
+            "question": "How much energy is stored in a 0.20 H inductor carrying 3.0 A?",
+            "options": [
+                "1.80 J",
+                "0.90 J",
+                "9.0 J",
+                "0.30 J"
+            ],
+            "answerIndex": 1,
+            "explanation": "U = 1/2 LI^2 = 0.5(0.20)(3.0)^2 = 0.90 J."
+        },
+        {
+            "id": 83,
+            "question": "What is mutual inductance?",
+            "options": [
+                "A capacitor stores charge on two plates",
+                "A changing current in one circuit induces an EMF in another circuit",
+                "A magnet loses both poles when divided",
+                "Two resistors share the same current in series"
+            ],
+            "answerIndex": 1,
+            "explanation": "Mutual inductance describes magnetic coupling between two circuits or coils."
+        },
+        {
+            "id": 84,
+            "question": "Two coils have mutual inductance 0.50 H. If the current in the first changes at 4.0 A/s, what is the induced-EMF magnitude in the second?",
+            "options": [
+                "2.0 V",
+                "0.125 V",
+                "4.5 V",
+                "8.0 V"
+            ],
+            "answerIndex": 0,
+            "explanation": "|ε2| = M|di1/dt| = (0.50)(4.0) = 2.0 V."
+        },
+        {
+            "id": 85,
+            "question": "Which change generally increases the inductance of a coil?",
+            "options": [
+                "Replacing the coil with a straight resistor",
+                "Reducing the number of turns to zero",
+                "Increasing the number of turns and inserting a ferromagnetic core",
+                "Removing all magnetic flux from the coil"
+            ],
+            "answerIndex": 2,
+            "explanation": "More turns and a high-permeability core increase flux linkage for a given current, thereby increasing inductance."
+        },
+        {
+            "id": 86,
+            "question": "A uniform electric field of 2 N/C crosses a flat area of 1 m^2 at 30° to the area vector. What is the electric flux?",
+            "options": [
+                "4.00 N·m^2/C",
+                "1.00 N·m^2/C",
+                "2.00 N·m^2/C",
+                "1.73 N·m^2/C"
+            ],
+            "answerIndex": 3,
+            "explanation": "Φ = EA cosθ = (2)(1)cos30° = 1.73 N·m^2/C."
+        },
+        {
+            "id": 87,
+            "question": "What does Gauss's law state for a closed surface?",
+            "options": [
+                "The net electric flux equals the enclosed charge divided by ε0",
+                "The enclosed charge equals ε0 divided by flux",
+                "The net electric flux always equals zero",
+                "The electric field equals the surface area divided by charge"
+            ],
+            "answerIndex": 0,
+            "explanation": "Gauss's law is ∮E·dA = Qenclosed/ε0."
+        },
+        {
+            "id": 88,
+            "question": "A closed surface is placed in an external electric field but encloses no net charge. What is its net electric flux?",
+            "options": [
+                "Zero",
+                "Always positive",
+                "Equal to the field magnitude",
+                "Infinite"
+            ],
+            "answerIndex": 0,
+            "explanation": "Field lines may enter and leave, but Gauss's law gives net flux Qenclosed/ε0 = 0."
+        },
+        {
+            "id": 89,
+            "question": "Which expression represents Faraday's law for a coil of N turns?",
+            "options": [
+                "ε = NΦB",
+                "ε = IR/N",
+                "ε = qvB",
+                "ε = -N(dΦB/dt)"
+            ],
+            "answerIndex": 3,
+            "explanation": "The induced EMF equals the negative rate of change of magnetic-flux linkage."
+        },
+        {
+            "id": 90,
+            "question": "What does the negative sign in Faraday's law represent?",
+            "options": [
+                "Magnetic flux has no direction",
+                "The induced effect opposes the change in magnetic flux",
+                "The induced voltage is always numerically negative",
+                "The coil must contain negative charge"
+            ],
+            "answerIndex": 1,
+            "explanation": "The minus sign is Lenz's law: the induced current creates a magnetic effect that opposes the change producing it."
+        },
+        {
+            "id": 91,
+            "question": "A bar magnet is held stationary inside a stationary coil. What induced EMF is produced?",
+            "options": [
+                "An EMF that increases without limit",
+                "An alternating EMF even with no motion",
+                "A constant maximum EMF",
+                "Zero, because the magnetic flux is not changing"
+            ],
+            "answerIndex": 3,
+            "explanation": "Faraday's law requires changing magnetic flux; a static magnet and coil produce no induced EMF."
+        },
+        {
+            "id": 92,
+            "question": "Which action increases the magnitude of the EMF induced in a coil?",
+            "options": [
+                "Making the magnetic field weaker and moving more slowly",
+                "Holding the magnet and coil completely stationary",
+                "Reducing the number of turns while keeping all else fixed",
+                "Increasing the number of turns or changing the magnetic flux more rapidly"
+            ],
+            "answerIndex": 3,
+            "explanation": "|ε| = N|dΦB/dt|, so more turns or a faster flux change increases the EMF."
+        },
+        {
+            "id": 93,
+            "question": "The electric potential is V(x) = 3x^2 - x^3. What is the x-component of the electric field at x = 2?",
+            "options": [
+                "6 V/m",
+                "0 V/m",
+                "4 V/m",
+                "2 V/m"
+            ],
+            "answerIndex": 1,
+            "explanation": "Ex = -dV/dx = -(6x - 3x^2). At x = 2, Ex = -(12 - 12) = 0 V/m."
+        },
+        {
+            "id": 94,
+            "question": "What are the three main parts of a basic transformer?",
+            "options": [
+                "Primary coil, secondary coil, and iron core",
+                "Input coil, output coil, and capacitor",
+                "Voltage coil, current coil, and permanent magnet",
+                "Primary coil, secondary coil, and battery"
+            ],
+            "answerIndex": 0,
+            "explanation": "A basic transformer has primary and secondary windings magnetically linked by a core."
+        },
+        {
+            "id": 95,
+            "question": "On what principle does a transformer operate?",
+            "options": [
+                "Electrostatic charging by friction",
+                "Steady-current conduction through an insulator",
+                "Mutual induction produced by alternating magnetic flux",
+                "Conservation of linear momentum"
+            ],
+            "answerIndex": 2,
+            "explanation": "Alternating current in the primary creates changing core flux, which induces EMF in the secondary."
+        },
+        {
+            "id": 96,
+            "question": "For an ideal transformer, which turns-ratio relation is correct?",
+            "options": [
+                "V2/V1 = N2/N1",
+                "V2/V1 = N1/N2",
+                "V2/V1 = I2/I1",
+                "V2V1 = N2/N1"
+            ],
+            "answerIndex": 0,
+            "explanation": "The secondary-to-primary voltage ratio equals the secondary-to-primary turns ratio."
+        },
+        {
+            "id": 97,
+            "question": "Which condition describes a step-up transformer?",
+            "options": [
+                "N2 = 0 and V2 = V1",
+                "N2 > N1 and V2 < V1",
+                "N2 > N1 and V2 > V1",
+                "N2 < N1 and V2 > V1"
+            ],
+            "answerIndex": 2,
+            "explanation": "More turns on the secondary produce a higher secondary voltage."
+        },
+        {
+            "id": 98,
+            "question": "Which relationship holds for an ideal transformer with no power loss?",
+            "options": [
+                "V1V2 = I1I2",
+                "I1/I2 = N1/N2",
+                "V1I1 = V2I2",
+                "V1/I1 = V2I2"
+            ],
+            "answerIndex": 2,
+            "explanation": "Input power equals output power in an ideal transformer. Consequently, voltage and current change inversely."
+        },
+        {
+            "id": 99,
+            "question": "A transformer has 600 primary turns and changes 240 V to 120 V. How many secondary turns are required?",
+            "options": [
+                "300 turns",
+                "150 turns",
+                "1,200 turns",
+                "600 turns"
+            ],
+            "answerIndex": 0,
+            "explanation": "N2/N1 = V2/V1 = 120/240 = 1/2, so N2 = 600/2 = 300 turns."
+        },
+        {
+            "id": 100,
+            "question": "Why is the iron core of a transformer commonly laminated?",
+            "options": [
+                "To increase electrical conduction between core layers",
+                "To make the transformer operate on direct current",
+                "To reduce eddy-current energy losses",
+                "To eliminate the need for a secondary winding"
+            ],
+            "answerIndex": 2,
+            "explanation": "Insulated laminations interrupt circulating eddy-current paths and improve transformer efficiency."
+        }
+    ]
+}
