@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "CSC 106",
+        "title": "Introduction to Web Technologies",
+        "description": "A 100-level course covering the Internet and World Wide Web, web protocols, HTML, CSS, JavaScript, the DOM, libraries and frameworks, PHP, backend development, security, deployment, and emerging web technologies.",
+        "departments": [
+            "computer-science"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which statement best defines web development?",
+            "options": [
+                "The practice of managing telephone networks",
+                "The design of printed documents without digital content",
+                "The process of repairing only computer hardware",
+                "The process of creating websites and web applications for the Internet"
+            ],
+            "answerIndex": 3,
+            "explanation": "Web development covers the creation of websites and web applications, including front-end interfaces and back-end logic."
+        },
+        {
+            "id": 2,
+            "question": "A developer is responsible for the layout, colours, navigation, and visible interaction of an online store. Which role is being performed?",
+            "options": [
+                "Database administration",
+                "Back-end server maintenance only",
+                "Domain name registration",
+                "Front-end development"
+            ],
+            "answerIndex": 3,
+            "explanation": "Front-end development focuses on the user interface and the visual and interactive parts seen in the browser."
+        },
+        {
+            "id": 3,
+            "question": "What is the primary role of a web browser?",
+            "options": [
+                "To manufacture network cables",
+                "To interpret and display web content for the user",
+                "To replace all web servers",
+                "To store every website permanently on the user's device"
+            ],
+            "answerIndex": 1,
+            "explanation": "A browser interprets resources such as HTML, CSS, and JavaScript and renders them in a user-friendly form."
+        },
+        {
+            "id": 4,
+            "question": "Which task is normally performed by a web server?",
+            "options": [
+                "Processing client requests and returning requested web resources",
+                "Providing keyboard input directly to the browser",
+                "Drawing every page manually on the user's monitor",
+                "Converting all websites into desktop applications"
+            ],
+            "answerIndex": 0,
+            "explanation": "A web server receives requests, locates or generates resources, and sends responses to clients."
+        },
+        {
+            "id": 5,
+            "question": "A user clicks a link in a browser. Which sequence correctly describes the client-server interaction that follows?",
+            "options": [
+                "The server sends a request to the browser before the user acts",
+                "The database sends CSS directly to the monitor without a response",
+                "The browser sends an HTTP request, the server processes it and returns a response, and the browser renders the content",
+                "The browser renders the page before contacting any server"
+            ],
+            "answerIndex": 2,
+            "explanation": "The client initiates the request, the server processes it and responds, and the browser displays the returned resources."
+        },
+        {
+            "id": 6,
+            "question": "What does a Uniform Resource Locator identify?",
+            "options": [
+                "The programming language used by a database",
+                "The location or address of a web resource",
+                "The colour scheme of a website",
+                "The amount of memory in a server"
+            ],
+            "answerIndex": 1,
+            "explanation": "A URL is the web address used to locate a resource such as a page, image, or file."
+        },
+        {
+            "id": 7,
+            "question": "A team wants to track code changes, create feature branches, and restore an earlier version when necessary. Which tool category is most appropriate?",
+            "options": [
+                "A version control system",
+                "A spreadsheet calculator",
+                "A DNS resolver only",
+                "A media player"
+            ],
+            "answerIndex": 0,
+            "explanation": "Version control systems such as Git preserve change history and support branching, merging, rollback, and collaboration."
+        },
+        {
+            "id": 8,
+            "question": "A server placed between users and backend servers caches common responses and distributes traffic. What type of server is it?",
+            "options": [
+                "A database table",
+                "A browser extension",
+                "A text editor",
+                "A proxy server"
+            ],
+            "answerIndex": 3,
+            "explanation": "Proxy servers act as intermediaries and may provide caching, load balancing, and security filtering."
+        },
+        {
+            "id": 9,
+            "question": "What is the main purpose of a markup language?",
+            "options": [
+                "To replace every programming language",
+                "To structure and describe data or document content using tags or elements",
+                "To compress all network packets automatically",
+                "To control electrical power supplied to a server"
+            ],
+            "answerIndex": 1,
+            "explanation": "Markup languages provide a standard way to describe document structure and data so that humans and machines can interpret it."
+        },
+        {
+            "id": 10,
+            "question": "Which markup language is designed mainly for storing and exchanging structured data with user-defined tags?",
+            "options": [
+                "FTP",
+                "CSS",
+                "XML",
+                "SMTP"
+            ],
+            "answerIndex": 2,
+            "explanation": "XML represents structured data hierarchically and allows developers to define descriptive tags."
+        },
+        {
+            "id": 11,
+            "question": "A logo must remain sharp when enlarged from a phone screen to a large display. Which format from the course is most suitable?",
+            "options": [
+                "Plain-text FTP",
+                "A raster screenshot stored as unstructured text",
+                "POP3",
+                "SVG"
+            ],
+            "answerIndex": 3,
+            "explanation": "SVG describes vector graphics, so the image can scale without losing quality."
+        },
+        {
+            "id": 12,
+            "question": "Which markup language is specifically intended for mathematical notation and equations on web pages?",
+            "options": [
+                "MathML",
+                "JavaScript",
+                "MIME",
+                "SFTP"
+            ],
+            "answerIndex": 0,
+            "explanation": "MathML is an XML-based markup language for presenting mathematical expressions on the web."
+        },
+        {
+            "id": 13,
+            "question": "What is the main function of the Domain Name System?",
+            "options": [
+                "Styling HTML headings",
+                "Translating domain names into IP addresses",
+                "Executing PHP directly in the browser",
+                "Encrypting every file stored on a computer"
+            ],
+            "answerIndex": 1,
+            "explanation": "DNS resolution maps human-readable domain names to the IP addresses used to locate hosts."
+        },
+        {
+            "id": 14,
+            "question": "Which protocol is primarily used to send outgoing email between mail systems?",
+            "options": [
+                "SMTP",
+                "CSS",
+                "POP3",
+                "SVG"
+            ],
+            "answerIndex": 0,
+            "explanation": "SMTP handles the sending and relaying of email, while POP3 and IMAP are used mainly for retrieving messages."
+        },
+        {
+            "id": 15,
+            "question": "A web application needs a persistent two-way connection so that the server can push live updates to the browser. Which technology best fits this need?",
+            "options": [
+                "A CSS class selector",
+                "POP3",
+                "A static HTML comment",
+                "WebSocket"
+            ],
+            "answerIndex": 3,
+            "explanation": "WebSocket supports persistent, full-duplex communication between a client and server."
+        },
+        {
+            "id": 16,
+            "question": "A developer must transfer a confidential configuration file while encrypting both credentials and file contents. Which protocol should be used?",
+            "options": [
+                "SFTP",
+                "FTP",
+                "Unencrypted SMTP",
+                "Plain HTTP"
+            ],
+            "answerIndex": 0,
+            "explanation": "SFTP transfers files through a secure encrypted connection, unlike ordinary FTP."
+        },
+        {
+            "id": 17,
+            "question": "Which HTML declaration tells the browser that a document uses HTML5?",
+            "options": [
+                "<!DOCTYPE html>",
+                "<html5-version>",
+                "<!-- HTML5 -->",
+                "<document type='web'>"
+            ],
+            "answerIndex": 0,
+            "explanation": "The HTML5 doctype is written as <!DOCTYPE html> at the beginning of the document."
+        },
+        {
+            "id": 18,
+            "question": "Which HTML section normally contains metadata and the page title rather than visible page content?",
+            "options": [
+                "The <body> section",
+                "The <table> element",
+                "The <head> section",
+                "The <footer> element only"
+            ],
+            "answerIndex": 2,
+            "explanation": "The head stores metadata, links to resources, and the title; visible document content is mainly placed in the body."
+        },
+        {
+            "id": 19,
+            "question": "A developer wants to embed a product photograph in a page. Which HTML element should be used?",
+            "options": [
+                "<table>",
+                "<p>",
+                "<img>",
+                "<a>"
+            ],
+            "answerIndex": 2,
+            "explanation": "The <img> element embeds an image, with the source usually specified through its src attribute."
+        },
+        {
+            "id": 20,
+            "question": "Which HTML element groups input controls and defines how their data is submitted?",
+            "options": [
+                "<img>",
+                "<form>",
+                "<ol>",
+                "<span>"
+            ],
+            "answerIndex": 1,
+            "explanation": "The form element contains controls and uses attributes such as action and method to define submission behaviour."
+        },
+        {
+            "id": 21,
+            "question": "Which attribute of an anchor element specifies the destination of a hyperlink?",
+            "options": [
+                "method",
+                "src",
+                "alt",
+                "href"
+            ],
+            "answerIndex": 3,
+            "explanation": "The href attribute contains the URL or target to which an anchor link navigates."
+        },
+        {
+            "id": 22,
+            "question": "A website needs a list of product features that can be scanned quickly, but their order is not important. Which structure is most semantic?",
+            "options": [
+                "An image map",
+                "A table with empty columns",
+                "An unordered list using <ul> and <li>",
+                "A series of unrelated <br> elements"
+            ],
+            "answerIndex": 2,
+            "explanation": "An unordered list represents a collection of items where sequence does not carry meaning."
+        },
+        {
+            "id": 23,
+            "question": "What is the key difference between GET and POST form submission?",
+            "options": [
+                "GET always encrypts data, while POST never can",
+                "GET commonly places submitted data in the URL, while POST sends it in the request body",
+                "GET is a CSS property, while POST is an HTML heading",
+                "POST can only submit images"
+            ],
+            "answerIndex": 1,
+            "explanation": "GET parameters are commonly visible in the query string; POST carries form data in the request body."
+        },
+        {
+            "id": 24,
+            "question": "Which HTML5 attribute can make a form field impossible to submit when it is left empty?",
+            "options": [
+                "download",
+                "charset",
+                "target",
+                "required"
+            ],
+            "answerIndex": 3,
+            "explanation": "The required validation attribute tells the browser that the field must contain a value before submission."
+        },
+        {
+            "id": 25,
+            "question": "Why should an image used for meaningful content include an alt attribute?",
+            "options": [
+                "To select a database server",
+                "To change the HTTP method to POST",
+                "To provide a text alternative for accessibility and unavailable images",
+                "To execute JavaScript automatically"
+            ],
+            "answerIndex": 2,
+            "explanation": "Alternative text helps screen-reader users and provides meaning when the image cannot be displayed."
+        },
+        {
+            "id": 26,
+            "question": "Which CSS selector targets every element with class=\"notice\"?",
+            "options": [
+                "*notice",
+                ".notice",
+                "notice",
+                "#notice"
+            ],
+            "answerIndex": 1,
+            "explanation": "A class selector begins with a period, so .notice selects elements whose class includes notice."
+        },
+        {
+            "id": 27,
+            "question": "Which CSS selector targets the single element whose id is mainHeader?",
+            "options": [
+                "mainHeader",
+                "@mainHeader",
+                ".mainHeader",
+                "#mainHeader"
+            ],
+            "answerIndex": 3,
+            "explanation": "An ID selector begins with # and matches the element carrying that id value."
+        },
+        {
+            "id": 28,
+            "question": "Padding, border, and margin are being adjusted around a paragraph. Which CSS concept is involved?",
+            "options": [
+                "The DNS hierarchy",
+                "The box model",
+                "The email retrieval model",
+                "The REST interface"
+            ],
+            "answerIndex": 1,
+            "explanation": "The CSS box model consists of content, padding, border, and margin."
+        },
+        {
+            "id": 29,
+            "question": "Which part of the CSS box model creates space between the content and its border?",
+            "options": [
+                "Margin",
+                "Padding",
+                "Selector",
+                "Font weight"
+            ],
+            "answerIndex": 1,
+            "explanation": "Padding is the internal space between an element's content and border; margin is outside the border."
+        },
+        {
+            "id": 30,
+            "question": "A developer wants items in a navigation bar arranged in one flexible row with controlled spacing. Which CSS layout is especially suitable?",
+            "options": [
+                "Flexbox",
+                "A database transaction",
+                "XML parsing",
+                "SMTP"
+            ],
+            "answerIndex": 0,
+            "explanation": "Flexbox is designed for one-dimensional alignment and distribution of items along a row or column."
+        },
+        {
+            "id": 31,
+            "question": "Which Flexbox property distributes items along the main axis?",
+            "options": [
+                "text-decoration",
+                "font-family",
+                "border-collapse",
+                "justify-content"
+            ],
+            "answerIndex": 3,
+            "explanation": "justify-content controls alignment and spacing of flex items along the container's main axis."
+        },
+        {
+            "id": 32,
+            "question": "Which CSS feature applies different style rules according to conditions such as screen width?",
+            "options": [
+                "Email headers",
+                "DNS records",
+                "Media queries",
+                "PHP sessions"
+            ],
+            "answerIndex": 2,
+            "explanation": "Media queries are central to responsive design because they apply styles under specified device or viewport conditions."
+        },
+        {
+            "id": 33,
+            "question": "Which unit is relative to the root element's font size?",
+            "options": [
+                "Hz",
+                "rem",
+                "px only",
+                "MB"
+            ],
+            "answerIndex": 1,
+            "explanation": "The rem unit is calculated relative to the root element's font size."
+        },
+        {
+            "id": 34,
+            "question": "A page needs a two-dimensional arrangement of rows and columns. Which CSS system is most appropriate?",
+            "options": [
+                "FTP",
+                "A JavaScript closure",
+                "CSS Grid",
+                "Flexbox used only as an email protocol"
+            ],
+            "answerIndex": 2,
+            "explanation": "CSS Grid is designed for two-dimensional layouts involving both rows and columns."
+        },
+        {
+            "id": 35,
+            "question": "What is JavaScript's primary role in client-side web development?",
+            "options": [
+                "Replacing all HTML structure",
+                "Adding behaviour and interactivity to web pages in the browser",
+                "Managing only physical server hardware",
+                "Resolving domain names"
+            ],
+            "answerIndex": 1,
+            "explanation": "JavaScript executes in the browser to respond to users, modify content, validate input, and perform dynamic operations."
+        },
+        {
+            "id": 36,
+            "question": "Which declaration creates a block-scoped variable whose value may later be reassigned?",
+            "options": [
+                "define",
+                "const only",
+                "<var>",
+                "let"
+            ],
+            "answerIndex": 3,
+            "explanation": "let creates a block-scoped variable and permits reassignment, unlike const."
+        },
+        {
+            "id": 37,
+            "question": "What does the JavaScript operator === check?",
+            "options": [
+                "Whether one number is greater than another",
+                "Equality of both value and data type",
+                "Only whether two variable names are spelled alike",
+                "Assignment of a value"
+            ],
+            "answerIndex": 1,
+            "explanation": "Strict equality compares both value and type, unlike ==, which may perform type conversion."
+        },
+        {
+            "id": 38,
+            "question": "Which loop is most suitable when the number of repetitions is known in advance?",
+            "options": [
+                "A CSS selector",
+                "An HTTP response",
+                "A for loop",
+                "A DNS loop"
+            ],
+            "answerIndex": 2,
+            "explanation": "A for loop conveniently combines initialisation, a condition, and an update for a known iteration pattern."
+        },
+        {
+            "id": 39,
+            "question": "What is a closure in JavaScript?",
+            "options": [
+                "A command that deletes every global variable",
+                "A tag that closes an HTML document",
+                "A function that retains access to variables from its surrounding lexical scope",
+                "A protocol for closing an FTP session"
+            ],
+            "answerIndex": 2,
+            "explanation": "A closure allows a function to continue using variables from the scope in which it was created."
+        },
+        {
+            "id": 40,
+            "question": "Which array method adds one or more elements to the end of an array?",
+            "options": [
+                "push()",
+                "slice() only",
+                "pop()",
+                "shift()"
+            ],
+            "answerIndex": 0,
+            "explanation": "push() appends elements to the end, while pop() removes the final element."
+        },
+        {
+            "id": 41,
+            "question": "Which array method creates a new array containing only elements that satisfy a test?",
+            "options": [
+                "filter()",
+                "toString()",
+                "join()",
+                "reverse()"
+            ],
+            "answerIndex": 0,
+            "explanation": "filter() evaluates each element and returns a new array of those for which the test is true."
+        },
+        {
+            "id": 42,
+            "question": "A student object has a property named score. Which expression correctly reads it using dot notation?",
+            "options": [
+                "student::score",
+                "score.student()",
+                "student.score",
+                "student->score"
+            ],
+            "answerIndex": 2,
+            "explanation": "JavaScript object properties can be accessed with dot notation as object.property."
+        },
+        {
+            "id": 43,
+            "question": "An online calculator must update its result immediately whenever the user types. Which technology directly enables this client-side behaviour?",
+            "options": [
+                "A pre-rendered HTML table",
+                "JavaScript running in the browser",
+                "A server process that runs only after final submission",
+                "A database query required for every keystroke"
+            ],
+            "answerIndex": 1,
+            "explanation": "Browser-side JavaScript can listen for input and recalculate instantly without a page reload."
+        },
+        {
+            "id": 44,
+            "question": "A second dropdown must update as soon as a user selects a category in the first dropdown. Which event is most appropriate?",
+            "options": [
+                "The change event",
+                "The server-start event",
+                "The hover event only",
+                "The print event"
+            ],
+            "answerIndex": 0,
+            "explanation": "The change event fires when the selected value of a form control changes."
+        },
+        {
+            "id": 45,
+            "question": "What is the main purpose of client-side form validation?",
+            "options": [
+                "To convert CSS into PHP",
+                "To guarantee that server-side validation is unnecessary",
+                "To replace the form element with a database",
+                "To detect invalid input and give feedback before data is submitted"
+            ],
+            "answerIndex": 3,
+            "explanation": "Client-side validation improves usability, but server-side validation is still needed for security and reliability."
+        },
+        {
+            "id": 46,
+            "question": "Which technique allows a page to send or receive data without performing a full page reload?",
+            "options": [
+                "Static HTML comments",
+                "POP3",
+                "A CSS margin",
+                "AJAX"
+            ],
+            "answerIndex": 3,
+            "explanation": "AJAX enables asynchronous communication with a server and dynamic updates to part of a page."
+        },
+        {
+            "id": 47,
+            "question": "What does a JavaScript Promise represent?",
+            "options": [
+                "An HTML heading level",
+                "A fixed database table",
+                "The eventual completion or failure of an asynchronous operation",
+                "A CSS rule that must always be applied"
+            ],
+            "answerIndex": 2,
+            "explanation": "A Promise provides a structured way to handle a future result or error from asynchronous work."
+        },
+        {
+            "id": 48,
+            "question": "Why is async/await commonly used?",
+            "options": [
+                "To write Promise-based asynchronous code in a clearer sequential style",
+                "To make HTML tags execute as PHP",
+                "To create a DNS zone",
+                "To disable every event listener"
+            ],
+            "answerIndex": 0,
+            "explanation": "async and await make asynchronous control flow easier to read while still using Promises."
+        },
+        {
+            "id": 49,
+            "question": "What is the role of the JavaScript event loop?",
+            "options": [
+                "Styling forms with borders",
+                "Coordinating execution of queued callbacks and asynchronous tasks without blocking the main flow",
+                "Translating domain names to IP addresses",
+                "Creating SQL tables"
+            ],
+            "answerIndex": 1,
+            "explanation": "The event loop checks task queues and schedules callbacks when the call stack is available."
+        },
+        {
+            "id": 50,
+            "question": "Which modern JavaScript syntax inserts expressions directly inside a backtick-delimited string?",
+            "options": [
+                "XML attributes",
+                "PHP opening tags",
+                "Template literals",
+                "CSS media queries"
+            ],
+            "answerIndex": 2,
+            "explanation": "Template literals use backticks and ${...} placeholders to embed expressions in strings."
+        },
+        {
+            "id": 51,
+            "question": "Which browser API provides a Promise-based way to make network requests?",
+            "options": [
+                "querySelectorAll() only",
+                "fetch()",
+                "document.write()",
+                "push()"
+            ],
+            "answerIndex": 1,
+            "explanation": "The Fetch API returns a Promise and is commonly used for asynchronous HTTP requests."
+        },
+        {
+            "id": 52,
+            "question": "What does the Document Object Model represent?",
+            "options": [
+                "A hierarchical, programmable representation of an HTML or XML document",
+                "A CSS file stored outside the page",
+                "The unchangeable original source text only",
+                "A server-side database schema only"
+            ],
+            "answerIndex": 0,
+            "explanation": "The DOM models a document as nodes and objects that scripts can inspect and modify."
+        },
+        {
+            "id": 53,
+            "question": "Which DOM method directly selects an element by its unique id?",
+            "options": [
+                "document.getByClassOnly()",
+                "document.getElementById()",
+                "console.findServer()",
+                "window.selectDatabase()"
+            ],
+            "answerIndex": 1,
+            "explanation": "getElementById() returns the element whose id matches the supplied value."
+        },
+        {
+            "id": 54,
+            "question": "Which property is generally safest when changing only the text displayed inside an element?",
+            "options": [
+                "textContent",
+                "src for every element",
+                "method",
+                "innerHTML when arbitrary user input is inserted"
+            ],
+            "answerIndex": 0,
+            "explanation": "textContent sets plain text and does not interpret it as HTML markup."
+        },
+        {
+            "id": 55,
+            "question": "When is innerHTML appropriate?",
+            "options": [
+                "When uploading a file through SFTP",
+                "When selecting a database index",
+                "When changing a DNS record",
+                "When trusted HTML markup must be inserted or replaced inside an element"
+            ],
+            "answerIndex": 3,
+            "explanation": "innerHTML parses a string as markup, so it should be used carefully and not with untrusted content."
+        },
+        {
+            "id": 56,
+            "question": "Which sequence correctly creates a new paragraph and places it inside a container?",
+            "options": [
+                "Declare it with SQL and send it through POP3",
+                "Use only a CSS selector without creating a node",
+                "Create it with fetch() and style it with SMTP",
+                "Create it with document.createElement() and insert it with appendChild() or append()"
+            ],
+            "answerIndex": 3,
+            "explanation": "DOM creation and insertion are separate steps: create a node, set its content, and append it to a parent."
+        },
+        {
+            "id": 57,
+            "question": "How can JavaScript respond when a user clicks a button?",
+            "options": [
+                "Add a PHP opening tag to the CSS file",
+                "Change the DNS server",
+                "Rename the database",
+                "Attach a click event listener to the button"
+            ],
+            "answerIndex": 3,
+            "explanation": "An event listener runs a specified handler when the target event occurs."
+        },
+        {
+            "id": 58,
+            "question": "What are data-* attributes primarily used for?",
+            "options": [
+                "Replacing class and id selectors entirely",
+                "Encrypting all traffic automatically",
+                "Defining database primary keys",
+                "Storing custom data on HTML elements for access through the dataset API"
+            ],
+            "answerIndex": 3,
+            "explanation": "Custom data attributes associate extra information with elements and are exposed through element.dataset."
+        },
+        {
+            "id": 59,
+            "question": "A script removes a completed task from a to-do list. Which DOM operation is required?",
+            "options": [
+                "Changing the page's DNS record",
+                "Removing the corresponding element node from its parent",
+                "Applying only a font-family rule",
+                "Sending the task through SMTP"
+            ],
+            "answerIndex": 1,
+            "explanation": "Deleting a visible task from the DOM requires removing the node that represents it."
+        },
+        {
+            "id": 60,
+            "question": "What is the clearest distinction between a JavaScript library and a framework?",
+            "options": [
+                "A framework cannot contain reusable code",
+                "Libraries always replace HTML and CSS",
+                "A library provides callable tools for particular tasks, while a framework supplies a broader application structure and controls the flow",
+                "A library runs only on servers, while a framework runs only in printers"
+            ],
+            "answerIndex": 2,
+            "explanation": "Libraries are usually selected and called as needed; frameworks impose conventions and an overall structure."
+        },
+        {
+            "id": 61,
+            "question": "A small site needs simplified DOM manipulation, animations, and AJAX without a full application framework. Which tool best matches the course material?",
+            "options": [
+                "Oracle Database",
+                "SFTP",
+                "jQuery",
+                "A DNS root server"
+            ],
+            "answerIndex": 2,
+            "explanation": "jQuery is a lightweight JavaScript library known for DOM manipulation, events, AJAX, and animation."
+        },
+        {
+            "id": 62,
+            "question": "Which library is associated with utility functions for working with arrays, objects, and collections?",
+            "options": [
+                "Apache",
+                "POP3",
+                "MathML",
+                "Lodash"
+            ],
+            "answerIndex": 3,
+            "explanation": "Lodash supplies reusable utility functions and supports chaining for data manipulation."
+        },
+        {
+            "id": 63,
+            "question": "Which library discussed in the course focuses on parsing, formatting, and manipulating dates and times?",
+            "options": [
+                "Moment.js",
+                "SVG",
+                "IIS",
+                "MongoDB"
+            ],
+            "answerIndex": 0,
+            "explanation": "Moment.js provides date parsing, formatting, arithmetic, timezone, and locale-related features."
+        },
+        {
+            "id": 64,
+            "question": "Which React feature reduces direct updates to the browser DOM by comparing an in-memory representation first?",
+            "options": [
+                "SQL normalization",
+                "The virtual DOM",
+                "SMTP relaying",
+                "FTP mirroring"
+            ],
+            "answerIndex": 1,
+            "explanation": "React uses a virtual DOM to calculate necessary changes before updating the actual DOM."
+        },
+        {
+            "id": 65,
+            "question": "Which Angular feature automatically synchronises data between the model and the user interface?",
+            "options": [
+                "Two-way data binding",
+                "Static file compression only",
+                "A one-time DNS lookup",
+                "Email polling"
+            ],
+            "answerIndex": 0,
+            "explanation": "Two-way data binding keeps model and interface values synchronised when either changes."
+        },
+        {
+            "id": 66,
+            "question": "Vue.js is described as progressively adoptable. What does this mean?",
+            "options": [
+                "Developers can use as much or as little of it as a project requires",
+                "It can run only after every page is rewritten",
+                "It is restricted to database administration",
+                "It cannot create components"
+            ],
+            "answerIndex": 0,
+            "explanation": "Vue can be introduced incrementally, from enhancing a small page section to building a complete application."
+        },
+        {
+            "id": 67,
+            "question": "In Express.js, what is middleware?",
+            "options": [
+                "A function in the request-response pipeline that can inspect, modify, or pass control onward",
+                "An HTML comment placed in the head",
+                "A database column that stores passwords",
+                "A CSS unit between px and rem"
+            ],
+            "answerIndex": 0,
+            "explanation": "Express middleware executes in order and can perform tasks such as logging, authentication, parsing, or error handling."
+        },
+        {
+            "id": 68,
+            "question": "Where is PHP code normally executed in a web application?",
+            "options": [
+                "Inside a CSS selector",
+                "By the DNS root zone",
+                "Only within the user's monitor hardware",
+                "On the server"
+            ],
+            "answerIndex": 3,
+            "explanation": "PHP is a server-side scripting language; its output is sent to the client after execution."
+        },
+        {
+            "id": 69,
+            "question": "How does a PHP variable name begin?",
+            "options": [
+                "With the @media keyword",
+                "With the # symbol",
+                "With the < symbol",
+                "With the $ symbol"
+            ],
+            "answerIndex": 3,
+            "explanation": "PHP variables are written with a leading dollar sign, such as $name."
+        },
+        {
+            "id": 70,
+            "question": "Which PHP operator joins two strings?",
+            "options": [
+                "The dot operator (.)",
+                "The strict-equality operator === as concatenation",
+                "The CSS descendant combinator",
+                "The SQL wildcard only"
+            ],
+            "answerIndex": 0,
+            "explanation": "PHP uses the dot operator to concatenate strings."
+        },
+        {
+            "id": 71,
+            "question": "Which PHP construct is most suitable when one value must be compared against several named cases?",
+            "options": [
+                "A DNS lookup",
+                "A switch statement",
+                "A CSS margin",
+                "An HTML image element"
+            ],
+            "answerIndex": 1,
+            "explanation": "switch compares one expression with multiple case values and executes the matching block."
+        },
+        {
+            "id": 72,
+            "question": "What is the purpose of the break keyword inside a PHP switch case?",
+            "options": [
+                "To terminate the web server permanently",
+                "To convert PHP into CSS",
+                "To stop execution from continuing into later cases",
+                "To insert a line break in HTML automatically"
+            ],
+            "answerIndex": 2,
+            "explanation": "break exits the switch after the matched case, preventing unintended fall-through."
+        },
+        {
+            "id": 73,
+            "question": "Which keyword begins a custom function declaration in PHP?",
+            "options": [
+                "method=",
+                "def",
+                "func-only",
+                "function"
+            ],
+            "answerIndex": 3,
+            "explanation": "A PHP function declaration starts with the function keyword followed by its name and parentheses."
+        },
+        {
+            "id": 74,
+            "question": "What is the role of a return statement in a PHP function?",
+            "options": [
+                "To send a computed value back to the caller",
+                "To reload the browser's CSS",
+                "To create a DNS record",
+                "To declare every variable global"
+            ],
+            "answerIndex": 0,
+            "explanation": "return ends the function's current execution and supplies a value that the calling code can use."
+        },
+        {
+            "id": 75,
+            "question": "A recursive PHP function calculates factorials. What must it include to prevent endless self-calls?",
+            "options": [
+                "A second web server for every call",
+                "A base case",
+                "A CSS class selector",
+                "An FTP account"
+            ],
+            "answerIndex": 1,
+            "explanation": "The base case defines when recursion stops; without it, calls may continue indefinitely."
+        },
+        {
+            "id": 76,
+            "question": "Which backend technology is highlighted as efficient for real-time applications because it runs JavaScript on the server?",
+            "options": [
+                "POP3",
+                "SVG",
+                "Node.js",
+                "CSS Grid"
+            ],
+            "answerIndex": 2,
+            "explanation": "Node.js supports server-side JavaScript and event-driven applications such as real-time services."
+        },
+        {
+            "id": 77,
+            "question": "What does a server environment include?",
+            "options": [
+                "Only the user's browser bookmarks",
+                "Only the colour palette of the website",
+                "A single HTML paragraph with no infrastructure",
+                "The hardware, software, storage, operating system, and networking components needed to run services"
+            ],
+            "answerIndex": 3,
+            "explanation": "A server environment or stack combines the infrastructure and software required to host applications and data."
+        },
+        {
+            "id": 78,
+            "question": "Which database is a relational database management system commonly used for web applications?",
+            "options": [
+                "WebSocket",
+                "jQuery",
+                "SVG",
+                "MySQL"
+            ],
+            "answerIndex": 3,
+            "explanation": "MySQL is an RDBMS used to store and query structured relational data."
+        },
+        {
+            "id": 79,
+            "question": "Which database from the course is document-oriented and suitable for large amounts of unstructured or semi-structured data?",
+            "options": [
+                "MongoDB",
+                "Apache",
+                "HTML",
+                "SMTP"
+            ],
+            "answerIndex": 0,
+            "explanation": "MongoDB is a NoSQL document database with a flexible schema."
+        },
+        {
+            "id": 80,
+            "question": "Why is Redis commonly used in web systems?",
+            "options": [
+                "For fast in-memory caching, real-time analytics, and message brokering",
+                "For defining HTML headings",
+                "For replacing all application servers",
+                "For encrypting SFTP files only"
+            ],
+            "answerIndex": 0,
+            "explanation": "Redis is an in-memory key-value database suited to fast access and caching."
+        },
+        {
+            "id": 81,
+            "question": "What is database normalization intended to reduce?",
+            "options": [
+                "Browser rendering speed by deleting CSS",
+                "The need for user authentication",
+                "The number of URLs in DNS",
+                "Data redundancy while improving integrity"
+            ],
+            "answerIndex": 3,
+            "explanation": "Normalization organises relational data to avoid unnecessary duplication and update anomalies."
+        },
+        {
+            "id": 82,
+            "question": "What is an API endpoint?",
+            "options": [
+                "The final pixel in an SVG image",
+                "A specific URL or URI through which an API exposes a resource or service",
+                "A local variable inside every function",
+                "A CSS declaration at the bottom of a file"
+            ],
+            "answerIndex": 1,
+            "explanation": "An endpoint is the address clients use to access a particular API operation or resource."
+        },
+        {
+            "id": 83,
+            "question": "Which practice is essential when integrating a third-party API?",
+            "options": [
+                "Disable all validation",
+                "Place secret keys in public HTML",
+                "Authenticate correctly, handle errors, respect limits, and test the integration",
+                "Assume every response is valid and ignore documentation"
+            ],
+            "answerIndex": 2,
+            "explanation": "Reliable API integration depends on correct authentication, testing, error handling, documentation, and secure credential management."
+        },
+        {
+            "id": 84,
+            "question": "What happens in an SQL injection attack?",
+            "options": [
+                "A CSS class is applied twice",
+                "Malicious SQL is inserted through input to manipulate database operations",
+                "A browser enlarges an SVG image",
+                "An email is downloaded using IMAP"
+            ],
+            "answerIndex": 1,
+            "explanation": "SQL injection exploits unsafe database queries constructed from untrusted input."
+        },
+        {
+            "id": 85,
+            "question": "Which measure most directly reduces SQL injection risk?",
+            "options": [
+                "Using longer CSS selectors",
+                "Parameterized queries together with input validation",
+                "Changing all images to SVG",
+                "Disabling HTTPS"
+            ],
+            "answerIndex": 1,
+            "explanation": "Parameterized queries keep data separate from SQL commands, while validation rejects unacceptable input."
+        },
+        {
+            "id": 86,
+            "question": "What is cross-site scripting (XSS)?",
+            "options": [
+                "The secure transfer of files through SFTP",
+                "The use of CSS across several pages",
+                "The distribution of traffic across servers",
+                "The injection of malicious script into content that runs in another user's browser"
+            ],
+            "answerIndex": 3,
+            "explanation": "XSS occurs when untrusted script reaches a page and executes in the victim's browser."
+        },
+        {
+            "id": 87,
+            "question": "What is the main purpose of a Web Application Firewall?",
+            "options": [
+                "To act as a JavaScript array",
+                "To format mathematical equations",
+                "To inspect and filter HTTP or HTTPS traffic before it reaches the web application",
+                "To design page layouts"
+            ],
+            "answerIndex": 2,
+            "explanation": "A WAF helps block suspicious web requests and common application-layer attacks."
+        },
+        {
+            "id": 88,
+            "question": "Which hosting option places an organisation's servers within its own physical facilities?",
+            "options": [
+                "Shared browser history",
+                "Client-side hosting in CSS",
+                "On-premises hosting",
+                "DNS-only hosting"
+            ],
+            "answerIndex": 2,
+            "explanation": "On-premises hosting means the organisation owns or manages the servers at its own site."
+        },
+        {
+            "id": 89,
+            "question": "What is horizontal scaling?",
+            "options": [
+                "Increasing only the font size",
+                "Adding more server instances to share the workload",
+                "Replacing HTTPS with HTTP",
+                "Adding more columns to an HTML table"
+            ],
+            "answerIndex": 1,
+            "explanation": "Horizontal scaling expands capacity by adding machines or instances rather than only upgrading one server."
+        },
+        {
+            "id": 90,
+            "question": "Why is load balancing used?",
+            "options": [
+                "To download email from a server",
+                "To combine all passwords into one field",
+                "To distribute incoming requests across multiple servers and avoid a single bottleneck",
+                "To convert JavaScript to HTML"
+            ],
+            "answerIndex": 2,
+            "explanation": "A load balancer improves availability and performance by spreading traffic among healthy instances."
+        },
+        {
+            "id": 91,
+            "question": "How does caching improve web application performance?",
+            "options": [
+                "It stores frequently used data or results so they can be returned without repeating expensive work",
+                "It changes domain names into CSS classes",
+                "It forces every request to recompute all data",
+                "It removes the need for security controls"
+            ],
+            "answerIndex": 0,
+            "explanation": "Caching reduces repeated processing and data access, often lowering response time and backend load."
+        },
+        {
+            "id": 92,
+            "question": "Which development practice automatically runs tests when code changes are integrated into a shared repository?",
+            "options": [
+                "Continuous integration",
+                "Manual DNS resolution",
+                "Static image embedding",
+                "Email forwarding"
+            ],
+            "answerIndex": 0,
+            "explanation": "Continuous integration regularly combines code changes and runs automated checks to detect problems early."
+        },
+        {
+            "id": 93,
+            "question": "Why is WebAssembly useful for computationally intensive browser applications?",
+            "options": [
+                "It replaces the Internet with a local printer",
+                "It can execute compiled code in the browser at near-native performance",
+                "It retrieves email using POP3",
+                "It is only a CSS naming convention"
+            ],
+            "answerIndex": 1,
+            "explanation": "WebAssembly enables high-performance browser workloads such as games, simulations, and media processing."
+        },
+        {
+            "id": 94,
+            "question": "What characterises serverless architecture?",
+            "options": [
+                "The cloud provider manages infrastructure while developers deploy functions or services",
+                "No servers exist anywhere",
+                "Every function must run in the user's CSS file",
+                "Applications cannot scale automatically"
+            ],
+            "answerIndex": 0,
+            "explanation": "Serverless hides server management from developers; the provider still operates the underlying infrastructure."
+        },
+        {
+            "id": 95,
+            "question": "A shopping site automatically increases computing capacity during a holiday traffic surge and reduces it afterward. Which serverless benefit is illustrated?",
+            "options": [
+                "Manual DNS entry for every customer",
+                "Permanent maximum resource use",
+                "Automatic scalability",
+                "Static HTML only"
+            ],
+            "answerIndex": 2,
+            "explanation": "Serverless platforms can scale functions in response to demand and reduce resources when traffic falls."
+        },
+        {
+            "id": 96,
+            "question": "Which web trend uses learned patterns to provide recommendations, predictions, or intelligent interactions?",
+            "options": [
+                "Only fixed HTML comments",
+                "FTP directory listing",
+                "Machine learning and artificial intelligence on the web",
+                "CSS margin collapsing"
+            ],
+            "answerIndex": 2,
+            "explanation": "ML and AI can analyse data to power recommendations, computer vision, language tools, and predictive services."
+        },
+        {
+            "id": 97,
+            "question": "What is edge AI?",
+            "options": [
+                "Applying a border to an HTML element",
+                "Placing every database at the centre of one page",
+                "Running AI processing closer to where data is generated to reduce latency",
+                "Using only email attachments for computation"
+            ],
+            "answerIndex": 2,
+            "explanation": "Edge AI processes data near devices or users rather than relying entirely on a distant central service."
+        },
+        {
+            "id": 98,
+            "question": "Which accessibility principle requires information and interface components to be presented in forms users can perceive?",
+            "options": [
+                "Perceivable",
+                "Programmable",
+                "Portable only",
+                "Profitable"
+            ],
+            "answerIndex": 0,
+            "explanation": "Perceivable content includes alternatives and presentations that users with different abilities can sense."
+        },
+        {
+            "id": 99,
+            "question": "Which assistive technology converts page text and interface information into speech or Braille?",
+            "options": [
+                "A CSS preprocessor",
+                "A load balancer",
+                "A screen reader",
+                "A proxy cache"
+            ],
+            "answerIndex": 2,
+            "explanation": "Screen readers help blind and visually impaired users access digital content through speech or Braille output."
+        },
+        {
+            "id": 100,
+            "question": "What is a Progressive Web App intended to combine?",
+            "options": [
+                "FTP and printed manuals",
+                "Static pages that cannot work on mobile devices",
+                "Only server hardware and database cables",
+                "The reach of the web with app-like features such as responsiveness, installability, and offline support"
+            ],
+            "answerIndex": 3,
+            "explanation": "PWAs use modern web capabilities to provide reliable, responsive, and app-like experiences across devices."
+        }
+    ]
+}

@@ -1,0 +1,1213 @@
+{
+    "courseDetails": {
+        "code": "COS 102",
+        "title": "Introduction to Problem Solving",
+        "description": "A 100-level Computer Science course covering systematic problem solving, algorithms, computational approaches, flowcharts, pseudocode, C programming foundations, programme objects, abstraction, control flow, arrays, recursion, modularisation, software design, testing, and debugging.",
+        "departments": [
+            "computer-science"
+        ],
+        "level": "100"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Why is a systematic approach especially important when using a computer to solve a problem?",
+            "options": [
+                "Computers solve only problems that humans cannot understand",
+                "A systematic approach removes the need for input data",
+                "Computers can infer missing requirements without instructions",
+                "Computers process instructions systematically and require clearly defined steps"
+            ],
+            "answerIndex": 3,
+            "explanation": "A computer follows explicit instructions in an organised manner, so the problem and its solution must be expressed as clear, systematic steps."
+        },
+        {
+            "id": 2,
+            "question": "Which sequence correctly represents the basic way a computer solves a programmed problem?",
+            "options": [
+                "Input, processing, output",
+                "Output, input, storage",
+                "Input, output, processing",
+                "Processing, output, input"
+            ],
+            "answerIndex": 0,
+            "explanation": "Data enters through input devices, is processed by the CPU, and the result is produced through an output device."
+        },
+        {
+            "id": 3,
+            "question": "A program must determine whether a supplied number is even. What type of computational problem is this?",
+            "options": [
+                "Optimisation problem",
+                "Search problem",
+                "Counting problem",
+                "Decision problem"
+            ],
+            "answerIndex": 3,
+            "explanation": "The required answer is either YES or NO, which is the defining feature of a decision problem."
+        },
+        {
+            "id": 4,
+            "question": "A university system must find every student whose GPA is above 4.5. What type of problem is being solved?",
+            "options": [
+                "Counting problem",
+                "Search problem",
+                "Unsolvable problem",
+                "Decision problem"
+            ],
+            "answerIndex": 1,
+            "explanation": "A search problem asks for one or more values that satisfy a stated property, here students whose GPA exceeds 4.5."
+        },
+        {
+            "id": 5,
+            "question": "A delivery application must choose the route with the lowest fuel cost. This is primarily what type of computational problem?",
+            "options": [
+                "Counting problem",
+                "Decision problem",
+                "Syntax problem",
+                "Optimisation problem"
+            ],
+            "answerIndex": 3,
+            "explanation": "Optimisation problems require the best solution according to a criterion, such as minimum cost or maximum profit."
+        },
+        {
+            "id": 6,
+            "question": "A program determines how many numbers in an array are negative. What type of computational problem is this?",
+            "options": [
+                "Counting problem",
+                "Decision problem",
+                "Optimisation problem",
+                "Search problem"
+            ],
+            "answerIndex": 0,
+            "explanation": "The solution is the number of values possessing a given property, so it is a counting problem."
+        },
+        {
+            "id": 7,
+            "question": "Which action should come first in the four-step problem-solving process?",
+            "options": [
+                "Understand the problem",
+                "Evaluate and refactor the solution",
+                "Write the final program immediately",
+                "Carry out the solution plan"
+            ],
+            "answerIndex": 0,
+            "explanation": "The problem must be understood before a solution plan can be designed, implemented, tested, or improved."
+        },
+        {
+            "id": 8,
+            "question": "A programmer divides an inventory-management problem into stock input, reorder calculation, and report generation. Which idea is being applied?",
+            "options": [
+                "Problem decomposition",
+                "Random execution",
+                "Unconditional branching",
+                "Character encoding"
+            ],
+            "answerIndex": 0,
+            "explanation": "Decomposition breaks a complex problem into smaller, manageable parts whose solutions combine to solve the main problem."
+        },
+        {
+            "id": 9,
+            "question": "Which property is essential for the steps of a usable algorithm?",
+            "options": [
+                "They must be ordered, unambiguous, and complete",
+                "They must avoid all inputs and outputs",
+                "They must depend on one programming language",
+                "They must contain an unlimited number of steps"
+            ],
+            "answerIndex": 0,
+            "explanation": "An algorithm must state a finite, clear, ordered procedure that can be followed or converted into a program."
+        },
+        {
+            "id": 10,
+            "question": "Why can pseudocode not normally be compiled and executed directly?",
+            "options": [
+                "It is stored permanently as machine code",
+                "It contains only graphical symbols",
+                "It describes program logic informally without obeying a specific language syntax",
+                "It is restricted to mathematical calculations"
+            ],
+            "answerIndex": 2,
+            "explanation": "Pseudocode resembles program code but is an informal textual representation rather than valid source code for a particular compiler."
+        },
+        {
+            "id": 11,
+            "question": "Which task is the clearest example of a routine problem?",
+            "options": [
+                "Inventing a new method for reducing city traffic",
+                "Estimating the number of hairs on a person's head",
+                "Choosing a strategy for an unfamiliar research problem",
+                "Calculating the area of a rectangle from its length and width"
+            ],
+            "answerIndex": 3,
+            "explanation": "Routine problems have standard methods and can often be solved quickly by applying a known arithmetic rule or algorithm."
+        },
+        {
+            "id": 12,
+            "question": "What mainly distinguishes a non-routine problem from a routine problem?",
+            "options": [
+                "It always requires only one arithmetic operation",
+                "It has no immediately obvious standard method and may require creative reasoning",
+                "It can never have a solution",
+                "It must produce a YES or NO answer"
+            ],
+            "answerIndex": 1,
+            "explanation": "Non-routine problems require analysis, information gathering, originality, and possibly several approaches."
+        },
+        {
+            "id": 13,
+            "question": "In the Universal Turing Machine model, where is the program to be executed represented?",
+            "options": [
+                "Only in the keyboard buffer",
+                "As an analogue voltage that cannot be changed",
+                "Inside a fixed printer mechanism",
+                "On the machine's tape as encoded instructions"
+            ],
+            "answerIndex": 3,
+            "explanation": "The UTM reads an encoded instruction table placed on its tape and then performs the described task."
+        },
+        {
+            "id": 14,
+            "question": "A mathematical problem is considered solvable in the computational sense when what is available?",
+            "options": [
+                "A graphical diagram with no defined procedure",
+                "An unlimited amount of computer memory",
+                "A systematic algorithm that can produce the required result",
+                "A guess that works for one example"
+            ],
+            "answerIndex": 2,
+            "explanation": "A solvable or computable problem has an algorithmic method that can be applied systematically."
+        },
+        {
+            "id": 15,
+            "question": "What does the halting problem ask us to determine?",
+            "options": [
+                "Whether two arrays have the same length",
+                "Whether a program contains a semicolon",
+                "Whether a computer has enough storage for a file",
+                "Whether a given program will eventually stop or continue forever"
+            ],
+            "answerIndex": 3,
+            "explanation": "The halting problem concerns deciding, for arbitrary programs and inputs, whether execution terminates or runs indefinitely."
+        },
+        {
+            "id": 16,
+            "question": "During brainstorming, which practice is most appropriate at the idea-generation stage?",
+            "options": [
+                "Select a final answer before generating alternatives",
+                "Allow only the most senior person to contribute",
+                "Reject unusual ideas as soon as they are suggested",
+                "Gather many ideas without immediately criticising them"
+            ],
+            "answerIndex": 3,
+            "explanation": "Brainstorming encourages spontaneous idea generation; evaluation and criticism are delayed so that many possibilities can emerge."
+        },
+        {
+            "id": 17,
+            "question": "When is a heuristic approach most appropriate?",
+            "options": [
+                "When every possible solution must be tested exhaustively",
+                "When the problem has no available information at all",
+                "When a mathematically perfect answer is compulsory",
+                "When a quick, acceptable solution is more important than a guaranteed optimum"
+            ],
+            "answerIndex": 3,
+            "explanation": "Heuristics save time and effort but may produce a sub-optimal solution, making them suitable when an acceptable answer is sufficient."
+        },
+        {
+            "id": 18,
+            "question": "Trial-and-error is generally most efficient under which condition?",
+            "options": [
+                "No result can be observed after each attempt",
+                "Every failed attempt permanently destroys the system",
+                "The number of alternatives is practically unlimited",
+                "The number of possible solutions is small"
+            ],
+            "answerIndex": 3,
+            "explanation": "Trying alternatives one after another is practical when there are only a few possibilities; it becomes inefficient when the search space is large."
+        },
+        {
+            "id": 19,
+            "question": "A student sets a goal of completing twelve course topics, divides the goal into weekly targets, and solves each smaller target in turn. Which strategy is this?",
+            "options": [
+                "Character encoding",
+                "Means-ends analysis",
+                "Random sampling",
+                "Unconditional branching"
+            ],
+            "answerIndex": 1,
+            "explanation": "Means-ends analysis compares the current state with the goal and breaks the gap into smaller subproblems that can be solved progressively."
+        },
+        {
+            "id": 20,
+            "question": "A transit map omits the exact shapes of roads and buildings but retains stations and connections. Which problem-solving technique does this illustrate?",
+            "options": [
+                "Recursion",
+                "Brute force",
+                "Abstraction",
+                "Stress testing"
+            ],
+            "answerIndex": 2,
+            "explanation": "Abstraction removes irrelevant details so attention can be focused on the features needed to understand or solve the problem."
+        },
+        {
+            "id": 21,
+            "question": "A developer solves a new queue-management problem by adapting ideas from a previously solved ticket-line problem with the same underlying structure. Which strategy is being used?",
+            "options": [
+                "Exhaustive testing",
+                "Data hiding",
+                "Analogy",
+                "Compilation"
+            ],
+            "answerIndex": 2,
+            "explanation": "Analogy transfers useful understanding from a familiar system to a new, structurally similar problem."
+        },
+        {
+            "id": 22,
+            "question": "Before choosing a computational approach, which question is most important?",
+            "options": [
+                "Can the problem be described without any inputs?",
+                "Is the problem clearly defined, computable, and supported by suitable data?",
+                "Can all testing be postponed until after release?",
+                "Can the solution avoid every form of storage?"
+            ],
+            "answerIndex": 1,
+            "explanation": "Computational methods require a clear goal, feasible calculations, and identified data types and storage needs."
+        },
+        {
+            "id": 23,
+            "question": "A team identifies the nature of a fault, defines success criteria, and determines whether the fault belongs to a known category. Which computational method is this?",
+            "options": [
+                "Pipelining",
+                "Acceptance testing",
+                "Problem recognition",
+                "Character conversion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Problem recognition identifies the parameters, requirements, root cause, and general type of a problem before a solution is selected."
+        },
+        {
+            "id": 24,
+            "question": "A maze solver reaches a dead end, returns to an earlier junction, and tries an unvisited path. Which method is being used?",
+            "options": [
+                "Greedy selection without revision",
+                "Backtracking",
+                "Pipelining",
+                "Data abstraction"
+            ],
+            "answerIndex": 1,
+            "explanation": "Backtracking explores choices and returns to an earlier state when the current path is rejected or cannot lead to a solution."
+        },
+        {
+            "id": 25,
+            "question": "A music platform analyses millions of ratings to discover popular artists and predict user preferences. Which technique is most directly involved?",
+            "options": [
+                "Data mining",
+                "Manual compilation",
+                "Unconditional branching",
+                "Flowchart termination"
+            ],
+            "answerIndex": 0,
+            "explanation": "Data mining extracts patterns and relationships from large datasets to support decisions and predictions."
+        },
+        {
+            "id": 26,
+            "question": "A team creates workload scenarios and success criteria, then measures response time before releasing an application. What are they carrying out?",
+            "options": [
+                "Performance testing",
+                "Pseudocode refinement",
+                "Object declaration",
+                "Routine problem classification"
+            ],
+            "answerIndex": 0,
+            "explanation": "Performance testing checks a system against defined scenarios and criteria, including operation under realistic or stressful loads."
+        },
+        {
+            "id": 27,
+            "question": "A program calculates an order subtotal, passes it to a VAT function, and sends that result to a final-total function. Which approach is demonstrated?",
+            "options": [
+                "White-box recursion",
+                "Backtracking",
+                "Randomisation",
+                "Pipelining"
+            ],
+            "answerIndex": 3,
+            "explanation": "In a pipeline, a task is divided into ordered stages and the output of one stage becomes the input to the next."
+        },
+        {
+            "id": 28,
+            "question": "Why can a graph of routes be more useful than a long textual list when explaining a shortest-path problem?",
+            "options": [
+                "Graphs automatically compile into machine code",
+                "Visualisation can make complex relationships easier for people to understand",
+                "Visualisation guarantees the shortest path without an algorithm",
+                "Text cannot represent any numerical information"
+            ],
+            "answerIndex": 1,
+            "explanation": "Visualisation uses diagrams, graphs, and images to help humans process and retain complex information more effectively."
+        },
+        {
+            "id": 29,
+            "question": "A four-digit padlock is opened by trying combinations from 0000 upward until one works. Which algorithmic approach is this?",
+            "options": [
+                "Means-ends analysis",
+                "Dynamic programming",
+                "Information hiding",
+                "Brute force"
+            ],
+            "answerIndex": 3,
+            "explanation": "Brute force tests every possible choice until a solution is found; it is simple but may be slow."
+        },
+        {
+            "id": 30,
+            "question": "Which statement best describes divide and conquer?",
+            "options": [
+                "Split a complex problem into simpler subproblems, solve them, and combine their solutions",
+                "Test only the user interface of the final system",
+                "Always choose the best immediate option and never reconsider it",
+                "Store every variable in the same memory location"
+            ],
+            "answerIndex": 0,
+            "explanation": "Divide and conquer reduces a problem into smaller instances, solves them, and combines the results."
+        },
+        {
+            "id": 31,
+            "question": "What is a major limitation of a greedy algorithm?",
+            "options": [
+                "It cannot make decisions at individual stages",
+                "It always tries every possible solution",
+                "It must store every subproblem result",
+                "The best immediate choice may fail to produce the globally optimal solution"
+            ],
+            "answerIndex": 3,
+            "explanation": "Greedy algorithms make locally optimal choices. These choices are efficient but do not guarantee a global optimum for every problem."
+        },
+        {
+            "id": 32,
+            "question": "What distinguishes dynamic programming from a simple recursive solution?",
+            "options": [
+                "It accepts only character data",
+                "It stores subproblem results so they do not have to be recomputed",
+                "It prohibits the problem from being divided into smaller parts",
+                "It always selects the first available option"
+            ],
+            "answerIndex": 1,
+            "explanation": "Dynamic programming saves solutions to overlapping subproblems, reducing repeated work and often guaranteeing an optimum when one exists."
+        },
+        {
+            "id": 33,
+            "question": "In hypothesis testing, what decision is normally made when the p-value is less than or equal to the significance level?",
+            "options": [
+                "Repeat the test without considering the result",
+                "Reject the null hypothesis",
+                "Increase the p-value to 1",
+                "Accept every alternative explanation as proven"
+            ],
+            "answerIndex": 1,
+            "explanation": "A p-value at or below the chosen significance level is treated as sufficient evidence to reject the null hypothesis."
+        },
+        {
+            "id": 34,
+            "question": "Researchers compare teaching methods A and B. Their starting assumption is that both methods have the same mean result. What is this assumption called?",
+            "options": [
+                "Search criterion",
+                "Posterior algorithm",
+                "Null hypothesis",
+                "Recursive case"
+            ],
+            "answerIndex": 2,
+            "explanation": "The null hypothesis usually states that there is no difference, effect, or relationship."
+        },
+        {
+            "id": 35,
+            "question": "A significance level of 0.05 represents what?",
+            "options": [
+                "A requirement that the p-value must equal 1",
+                "A 5% risk of rejecting a true null hypothesis",
+                "A 5% probability that all collected data are false",
+                "A guarantee that the alternative hypothesis is 95% correct"
+            ],
+            "answerIndex": 1,
+            "explanation": "The significance level is the probability of a Type I error: rejecting the null hypothesis when it is actually true."
+        },
+        {
+            "id": 36,
+            "question": "Merge sort is an example of which problem-solving approach?",
+            "options": [
+                "Trial and error",
+                "Divide and conquer",
+                "Data hiding",
+                "Unconditional selection"
+            ],
+            "answerIndex": 1,
+            "explanation": "Merge sort divides a list into smaller lists, sorts them, and merges the sorted results."
+        },
+        {
+            "id": 37,
+            "question": "Which issue most commonly makes an initial problem description unreliable?",
+            "options": [
+                "It contains a clearly stated goal and all required inputs",
+                "It lists the expected output precisely",
+                "It identifies both the client and programmer",
+                "It may be ambiguous, incomplete, or based on unstated assumptions"
+            ],
+            "answerIndex": 3,
+            "explanation": "A problem description must be clarified because ambiguity, missing details, and hidden assumptions can lead to the wrong solution."
+        },
+        {
+            "id": 38,
+            "question": "During problem analysis, which pair of questions best identifies the starting and ending points?",
+            "options": [
+                "What data are available, and what result is expected?",
+                "Which compiler is fastest, and which colour is preferred?",
+                "How many comments exist, and how many pages are in the manual?",
+                "Which font will be used, and who will print the report?"
+            ],
+            "answerIndex": 0,
+            "explanation": "Problem analysis establishes the available inputs, relevant rules, and the outputs that indicate the problem has been solved."
+        },
+        {
+            "id": 39,
+            "question": "Why is a high-level algorithm normally developed before minor implementation details?",
+            "options": [
+                "It removes the need to define inputs and outputs",
+                "It prevents the algorithm from ever being reviewed",
+                "It establishes the main solution quickly before time is spent refining details",
+                "It guarantees that no programming language will be required"
+            ],
+            "answerIndex": 2,
+            "explanation": "A high-level algorithm focuses first on the major solution steps; details can then be added through stepwise refinement."
+        },
+        {
+            "id": 40,
+            "question": "What is stepwise refinement?",
+            "options": [
+                "Executing the program before defining the problem",
+                "Replacing an algorithm with an unrelated one",
+                "Removing all decision points from a solution",
+                "Adding progressively more detail to each high-level algorithm step"
+            ],
+            "answerIndex": 3,
+            "explanation": "Stepwise refinement expands broad steps into detailed instructions suitable for the intended implementer and computer environment."
+        },
+        {
+            "id": 41,
+            "question": "Which question belongs most naturally to the algorithm-review stage?",
+            "options": [
+                "Can the algorithm solve more general problems or be made less complex?",
+                "Can input be avoided completely?",
+                "What is the user's keyboard model?",
+                "Which variable name is the longest?"
+            ],
+            "answerIndex": 0,
+            "explanation": "Review checks whether the algorithm solves the problem, can be generalised, and can be improved or simplified."
+        },
+        {
+            "id": 42,
+            "question": "An algorithm executes Step 1, then Step 2, then Step 3 without skipping any step. Which representation structure is this?",
+            "options": [
+                "Recursion",
+                "Repetition",
+                "Sequence",
+                "Selection"
+            ],
+            "answerIndex": 2,
+            "explanation": "Sequence means instructions are carried out in a defined order, one after another."
+        },
+        {
+            "id": 43,
+            "question": "An algorithm prints PASS only when a student's average is at least 45; otherwise it prints FAIL. Which structure is central to this logic?",
+            "options": [
+                "Data mining",
+                "Pipelining",
+                "Sequence without conditions",
+                "Selection"
+            ],
+            "answerIndex": 3,
+            "explanation": "Selection chooses between alternative actions according to whether a condition is true or false."
+        },
+        {
+            "id": 44,
+            "question": "An algorithm repeatedly accepts numbers until the user enters a sentinel value. Which structure is being used?",
+            "options": [
+                "Single selection",
+                "Compilation",
+                "Repetition",
+                "Abstraction"
+            ],
+            "answerIndex": 2,
+            "explanation": "Repetition or iteration runs the same steps repeatedly while or until a condition is satisfied."
+        },
+        {
+            "id": 45,
+            "question": "What does time complexity measure?",
+            "options": [
+                "The number of variable names in the source file",
+                "How the execution time of an algorithm grows with input size",
+                "The time spent writing documentation only",
+                "The physical size of the computer monitor"
+            ],
+            "answerIndex": 1,
+            "explanation": "Time complexity describes the computational time required as the amount of input increases."
+        },
+        {
+            "id": 46,
+            "question": "What does space complexity measure?",
+            "options": [
+                "The width of a flowchart page",
+                "The amount of memory an algorithm requires during execution",
+                "The number of comments in source code",
+                "The number of users who can read the pseudocode"
+            ],
+            "answerIndex": 1,
+            "explanation": "Space complexity concerns the storage or memory needed by an algorithm to complete its work."
+        },
+        {
+            "id": 47,
+            "question": "A fixed set of assignment statements contains no loop, recursion, or non-constant-time function call. What is its typical time complexity?",
+            "options": [
+                "O(2 to the power n)",
+                "O(n)",
+                "O(1)",
+                "O(n squared)"
+            ],
+            "answerIndex": 2,
+            "explanation": "A fixed number of operations takes constant time regardless of the input size, so its complexity is O(1)."
+        },
+        {
+            "id": 48,
+            "question": "A loop processes each of n array elements exactly once. What is its typical time complexity?",
+            "options": [
+                "O(n squared)",
+                "O(log n)",
+                "O(1)",
+                "O(n)"
+            ],
+            "answerIndex": 3,
+            "explanation": "The number of operations grows directly with the number of elements, giving linear time O(n)."
+        },
+        {
+            "id": 49,
+            "question": "Two nested loops each run n times. What is the usual time complexity of the innermost statement?",
+            "options": [
+                "O(1)",
+                "O(n)",
+                "O(n squared)",
+                "O(log n)"
+            ],
+            "answerIndex": 2,
+            "explanation": "The inner operation executes n multiplied by n times, so the growth rate is quadratic."
+        },
+        {
+            "id": 50,
+            "question": "Which description correctly distinguishes best-case and worst-case time complexity?",
+            "options": [
+                "Best case measures memory, while worst case measures storage devices",
+                "Best case is the minimum required time, while worst case is the maximum for input size n",
+                "Best case ignores inputs, while worst case ignores outputs",
+                "Best case occurs after implementation, while worst case occurs before analysis"
+            ],
+            "answerIndex": 1,
+            "explanation": "Best and worst cases describe the minimum and maximum running time an algorithm may require for inputs of the same size."
+        },
+        {
+            "id": 51,
+            "question": "What is a flowchart?",
+            "options": [
+                "A hardware device for processing instructions",
+                "A table that stores only numerical variables",
+                "An executable high-level programming language",
+                "A graphical representation of an algorithm or process sequence"
+            ],
+            "answerIndex": 3,
+            "explanation": "A flowchart uses standard symbols and connecting lines to show the order and logic of operations."
+        },
+        {
+            "id": 52,
+            "question": "Which flowchart symbol is used for START and STOP?",
+            "options": [
+                "Terminator symbol",
+                "Decision symbol",
+                "Summing junction",
+                "Database symbol"
+            ],
+            "answerIndex": 0,
+            "explanation": "The terminator, commonly drawn as an oval or rounded shape, marks the beginning and end of a flowchart."
+        },
+        {
+            "id": 53,
+            "question": "Which flowchart symbol should contain a YES/NO condition such as 'Is grade at least 45?'?",
+            "options": [
+                "Process symbol",
+                "Document symbol",
+                "Decision symbol",
+                "Database symbol"
+            ],
+            "answerIndex": 2,
+            "explanation": "A decision symbol, commonly a diamond, branches the flow according to a true/false or yes/no answer."
+        },
+        {
+            "id": 54,
+            "question": "Which flowchart symbol is normally used to show reading input or displaying output?",
+            "options": [
+                "Input/output data symbol",
+                "Terminator symbol",
+                "Preparation symbol",
+                "Merge symbol"
+            ],
+            "answerIndex": 0,
+            "explanation": "The input/output symbol, commonly a parallelogram, represents data entering or leaving the process."
+        },
+        {
+            "id": 55,
+            "question": "A complex flowchart continues from page 1 to page 2. Which symbol is most appropriate?",
+            "options": [
+                "Off-page connector",
+                "On-page connector",
+                "Summing junction",
+                "Process rectangle"
+            ],
+            "answerIndex": 0,
+            "explanation": "An off-page or link connector links flow across different pages; an on-page connector links separated points on the same page."
+        },
+        {
+            "id": 56,
+            "question": "Which type of flowchart focuses on the movement and processing of information and can reduce the communication gap between users and developers?",
+            "options": [
+                "Process flowchart",
+                "Data flowchart",
+                "Swimlane flowchart",
+                "Workflow flowchart"
+            ],
+            "answerIndex": 1,
+            "explanation": "A data flowchart shows how information moves through a system and supports communication about system requirements."
+        },
+        {
+            "id": 57,
+            "question": "Why might a team prefer pseudocode to a flowchart for an algorithm that changes frequently?",
+            "options": [
+                "Pseudocode requires specialised drawing software",
+                "Text-based pseudocode is usually easier to update rapidly",
+                "Flowcharts cannot represent any decision",
+                "Pseudocode is automatically executed by every compiler"
+            ],
+            "answerIndex": 1,
+            "explanation": "Large flowcharts can be difficult to redraw after structural changes, while pseudocode can be edited quickly as text."
+        },
+        {
+            "id": 58,
+            "question": "Which statement best defines pseudocode?",
+            "options": [
+                "A textual, language-independent description of an algorithm's logic",
+                "A machine-code file produced by a linker",
+                "A database containing test results",
+                "A graphical diagram made only of standard symbols"
+            ],
+            "answerIndex": 0,
+            "explanation": "Pseudocode expresses an algorithm with structured natural-language and programming-like constructs without strict language syntax."
+        },
+        {
+            "id": 59,
+            "question": "Which is an advantage of pseudocode?",
+            "options": [
+                "It always runs faster than compiled C code",
+                "It can be written with a normal text editor and modified easily",
+                "It automatically allocates computer memory",
+                "It has one compulsory worldwide syntax"
+            ],
+            "answerIndex": 1,
+            "explanation": "Pseudocode needs no special software and its text format supports quick editing and refinement."
+        },
+        {
+            "id": 60,
+            "question": "Which is a recognised disadvantage of pseudocode?",
+            "options": [
+                "The absence of a universal standard can lead to inconsistent styles",
+                "It requires a compiler before it can be read",
+                "It cannot express selection or repetition",
+                "It can contain only mathematical symbols"
+            ],
+            "answerIndex": 0,
+            "explanation": "Because pseudocode has no single accepted syntax, unclear personal styles can make it harder for others to understand."
+        },
+        {
+            "id": 61,
+            "question": "Which pseudocode construct is best for choosing between PASS and FAIL?",
+            "options": [
+                "SEQUENCE without a condition",
+                "CALL only",
+                "IF-THEN-ELSE",
+                "EXCEPTION without a protected action"
+            ],
+            "answerIndex": 2,
+            "explanation": "IF-THEN-ELSE represents conditional selection between two alternative actions."
+        },
+        {
+            "id": 62,
+            "question": "Which construct is most suitable for processing examination results one after another while a student counter remains active?",
+            "options": [
+                "WHILE",
+                "RETURN",
+                "HEADER",
+                "COMMENT"
+            ],
+            "answerIndex": 0,
+            "explanation": "A WHILE construct repeats a block as long as its controlling condition remains true."
+        },
+        {
+            "id": 63,
+            "question": "What should a well-written pseudocode header normally identify?",
+            "options": [
+                "Only the final line of the algorithm",
+                "The exact memory address of every variable",
+                "The algorithm name, purpose, required inputs, and expected outputs",
+                "Only the programmer's favourite language"
+            ],
+            "answerIndex": 2,
+            "explanation": "A header clarifies what the algorithm does and the information it receives and produces."
+        },
+        {
+            "id": 64,
+            "question": "After pseudocode has been written, what is the best next action before coding?",
+            "options": [
+                "Convert every variable to a character",
+                "Publish it without reviewing the flow",
+                "Test and refine it to confirm that all cases and logic are handled",
+                "Remove all conditions and loops"
+            ],
+            "answerIndex": 2,
+            "explanation": "Paper testing and review help identify missing cases, logical errors, and opportunities to improve the algorithm before implementation."
+        },
+        {
+            "id": 65,
+            "question": "A biomedical system stores readings such as 98.4567 degrees and calculates averages. Which data representation is most suitable?",
+            "options": [
+                "Boolean representation",
+                "Character representation only",
+                "Short integers without scaling",
+                "Floating-point representation"
+            ],
+            "answerIndex": 3,
+            "explanation": "The values contain fractional parts, so a floating-point type such as float or double preserves the needed numerical precision."
+        },
+        {
+            "id": 66,
+            "question": "Which list contains the three basic data categories emphasised for C in the course?",
+            "options": [
+                "Image, audio, and video",
+                "Structure, class, and module",
+                "Loop, branch, and function",
+                "Character, integer, and floating-point"
+            ],
+            "answerIndex": 3,
+            "explanation": "The course groups basic C data as character data, integers, and floating-point numbers."
+        },
+        {
+            "id": 67,
+            "question": "Which C statement correctly defines an integer variable named count?",
+            "options": [
+                "count int;",
+                "integer = count;",
+                "int count;",
+                "define count as number"
+            ],
+            "answerIndex": 2,
+            "explanation": "A variable definition places the data type before the variable name; a C simple statement ends with a semicolon."
+        },
+        {
+            "id": 68,
+            "question": "After compilation, why may a debugger display a memory address instead of the source-level name userAge?",
+            "options": [
+                "Every variable is removed after execution begins",
+                "Variables are converted into class methods",
+                "The compiler maps variable identifiers to memory locations",
+                "Variable names become Boolean operators"
+            ],
+            "answerIndex": 2,
+            "explanation": "Names help programmers write source code, but the running program accesses stored values through memory locations."
+        },
+        {
+            "id": 69,
+            "question": "Which operator category is used to compare two values and produce a true-or-false result?",
+            "options": [
+                "Relational operators",
+                "Assignment operators",
+                "Header operators",
+                "Comment operators"
+            ],
+            "answerIndex": 0,
+            "explanation": "Relational operators such as <, >, ==, and != compare operands and yield a Boolean result."
+        },
+        {
+            "id": 70,
+            "question": "In C, what is the purpose of the assignment operator '='?",
+            "options": [
+                "To begin a multiline comment",
+                "To terminate a function block",
+                "To store a value in a variable",
+                "To test whether two values are equal"
+            ],
+            "answerIndex": 2,
+            "explanation": "The single equals sign assigns a value. Equality comparison normally uses the relational operator ==."
+        },
+        {
+            "id": 71,
+            "question": "What is a C structure primarily used for?",
+            "options": [
+                "Forcing all members to share one memory location",
+                "Grouping related members that may have different data types into one user-defined type",
+                "Translating assembly language into machine code",
+                "Repeating a code block until a condition changes"
+            ],
+            "answerIndex": 1,
+            "explanation": "A struct combines related values, potentially of different types, while each member retains separate storage."
+        },
+        {
+            "id": 72,
+            "question": "A union stores temperature, pressure, or humidity, but only one sensor value is valid at a time. What explains this behaviour?",
+            "options": [
+                "Access to members is prevented by the compiler",
+                "All union members share the same memory location",
+                "The union automatically creates a new array for every value",
+                "Each member is stored in an independent memory block"
+            ],
+            "answerIndex": 1,
+            "explanation": "Unlike a structure, a union overlays its members in the same storage, so it represents one member's value at a time."
+        },
+        {
+            "id": 73,
+            "question": "In object-oriented thinking, which pair describes an object's two main characteristics?",
+            "options": [
+                "Input and compiler",
+                "Loop and branch",
+                "State and behaviour",
+                "Syntax and linker"
+            ],
+            "answerIndex": 2,
+            "explanation": "An object's state is represented by stored data, while its behaviour is represented by operations or methods."
+        },
+        {
+            "id": 74,
+            "question": "A patient-record object can be replaced without disrupting billing and scheduling objects. Which design property is demonstrated?",
+            "options": [
+                "Objects can operate as independent, replaceable units",
+                "Objects must share every memory location",
+                "Objects remove all external interfaces",
+                "Objects cannot maintain internal state"
+            ],
+            "answerIndex": 0,
+            "explanation": "Object independence supports modularity: a faulty object can be maintained or replaced with limited effect on unrelated objects."
+        },
+        {
+            "id": 75,
+            "question": "A driving simulator exposes steering and pedals but hides engine-combustion details. Which principle is demonstrated?",
+            "options": [
+                "Unconditional branching",
+                "Abstraction",
+                "Brute-force enumeration",
+                "Performance measurement"
+            ],
+            "answerIndex": 1,
+            "explanation": "Abstraction presents relevant functionality while hiding internal implementation details that the user does not need."
+        },
+        {
+            "id": 76,
+            "question": "Which situation is an example of data abstraction?",
+            "options": [
+                "Every function body must be copied into the calling file",
+                "The program avoids using any data type",
+                "All internal variables are directly exposed to every program",
+                "Object data can be changed only through permitted interfaces"
+            ],
+            "answerIndex": 3,
+            "explanation": "Data abstraction hides an object's data and prevents unauthorised direct access or modification."
+        },
+        {
+            "id": 77,
+            "question": "What information is sufficient for using a function whose implementation is hidden by functional abstraction?",
+            "options": [
+                "Its name, input format, and output format",
+                "The physical address of the developer",
+                "Every internal statement and local variable",
+                "The exact binary representation of the compiler"
+            ],
+            "answerIndex": 0,
+            "explanation": "Functional abstraction lets callers use a method through its interface without knowing its internal implementation."
+        },
+        {
+            "id": 78,
+            "question": "What does a function declaration tell the compiler?",
+            "options": [
+                "The final memory address of the executable",
+                "Only the function's internal algorithm",
+                "The entire contents of every imported module",
+                "The function name, return type, and parameters"
+            ],
+            "answerIndex": 3,
+            "explanation": "A declaration describes the function interface; the function definition supplies the actual body."
+        },
+        {
+            "id": 79,
+            "question": "A team imports a tested geometry library instead of rewriting area calculations. What primary advantage does this demonstrate?",
+            "options": [
+                "Prevention of variables in the main program",
+                "Code reuse with clearer and more maintainable software",
+                "Automatic conversion of logic into flowcharts",
+                "Elimination of all memory use"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reusable functions and modules avoid duplication and allow validated improvements to benefit dependent programs."
+        },
+        {
+            "id": 80,
+            "question": "How does a module generally differ from a single function?",
+            "options": [
+                "A module has no relationship to code organisation",
+                "A module operates at a larger scale and may contain several functions and classes",
+                "A module must contain only one statement",
+                "A module cannot be imported into a program"
+            ],
+            "answerIndex": 1,
+            "explanation": "Functions perform focused tasks, while modules organise larger collections of related functions, classes, and data."
+        },
+        {
+            "id": 81,
+            "question": "A C compiler reports missing semicolons after several single expressions. Which structural property is being violated?",
+            "options": [
+                "Every line must contain a decision keyword",
+                "Each statement must declare several variables",
+                "A simple statement must be properly terminated",
+                "Every expression must be placed inside a union"
+            ],
+            "answerIndex": 2,
+            "explanation": "A simple C statement contains one expression and normally ends with a semicolon."
+        },
+        {
+            "id": 82,
+            "question": "What is a compound statement or block in C?",
+            "options": [
+                "A data type that stores only characters",
+                "A group of statements enclosed in curly brackets",
+                "A diagram that joins different pages",
+                "A single expression with no terminator"
+            ],
+            "answerIndex": 1,
+            "explanation": "Curly brackets group multiple statements so they can be treated as one logical unit."
+        },
+        {
+            "id": 83,
+            "question": "How are Boolean results represented numerically in C?",
+            "options": [
+                "Only negative numbers represent true",
+                "Zero represents false, while a nonzero value represents true",
+                "All integers represent false",
+                "Zero represents true, while one represents false"
+            ],
+            "answerIndex": 1,
+            "explanation": "In C conditions, 0 is false and any nonzero value is treated as true."
+        },
+        {
+            "id": 84,
+            "question": "A program must classify a score as distinction, pass, or fail using different ranges. Which statement is most suitable?",
+            "options": [
+                "if-else-if",
+                "A single unconditional goto only",
+                "A variable declaration without conditions",
+                "A comment block"
+            ],
+            "answerIndex": 0,
+            "explanation": "An if-else-if chain supports more than two mutually exclusive choices based on ordered conditions."
+        },
+        {
+            "id": 85,
+            "question": "Which loop is guaranteed to execute its body at least once?",
+            "options": [
+                "for loop with a false initial condition",
+                "while loop",
+                "do-while loop",
+                "if statement"
+            ],
+            "answerIndex": 2,
+            "explanation": "A do-while loop checks its condition after executing the body, so the body runs at least once."
+        },
+        {
+            "id": 86,
+            "question": "What is an array?",
+            "options": [
+                "A module containing only classes",
+                "A collection whose elements must all have different types",
+                "A function that always calls itself",
+                "A fixed-size sequential collection of elements of the same type"
+            ],
+            "answerIndex": 3,
+            "explanation": "An array stores a sequence of same-type elements under one name and accesses them by index."
+        },
+        {
+            "id": 87,
+            "question": "Given double salaries[5] = {1000.0, 2.0, 3.4, 7.0, 50.0}; what is the value of salaries[2]?",
+            "options": [
+                "3.4",
+                "50.0",
+                "2.0",
+                "7.0"
+            ],
+            "answerIndex": 0,
+            "explanation": "C array indexing starts at 0, so index 2 refers to the third element, 3.4."
+        },
+        {
+            "id": 88,
+            "question": "Which notation correctly accesses an element in a two-dimensional C array named matrix?",
+            "options": [
+                "matrix[row][column]",
+                "matrix[row, column]",
+                "matrix(row)(column)",
+                "matrix{row}{column}"
+            ],
+            "answerIndex": 0,
+            "explanation": "Each dimension is indexed with its own pair of square brackets in C."
+        },
+        {
+            "id": 89,
+            "question": "What prevents a properly designed recursive function from calling itself forever?",
+            "options": [
+                "A union that shares memory",
+                "A flowchart connector",
+                "A variable name longer than one character",
+                "A base case that stops further recursive calls"
+            ],
+            "answerIndex": 3,
+            "explanation": "The base case handles the smallest problem instance and ends the recursion."
+        },
+        {
+            "id": 90,
+            "question": "Which statement correctly distinguishes direct and indirect recursion?",
+            "options": [
+                "Direct recursion has no base case; indirect recursion always has two",
+                "Direct recursion calls the same function explicitly; indirect recursion returns through another function",
+                "Direct recursion uses arrays; indirect recursion cannot use arrays",
+                "Direct recursion is a loop; indirect recursion is a flowchart"
+            ],
+            "answerIndex": 1,
+            "explanation": "A directly recursive function calls itself, while indirect recursion occurs through a chain of calls that eventually returns to the original function."
+        },
+        {
+            "id": 91,
+            "question": "Which module design is generally preferred?",
+            "options": [
+                "High coupling with many unrelated responsibilities",
+                "No internal relationship and complete dependence on other modules",
+                "Low cohesion and high coupling",
+                "High cohesion and low coupling"
+            ],
+            "answerIndex": 3,
+            "explanation": "High cohesion keeps related functions together, while low coupling reduces dependencies between modules."
+        },
+        {
+            "id": 92,
+            "question": "What is the purpose of refactoring?",
+            "options": [
+                "Convert every module into one large function",
+                "Add random output changes to the program",
+                "Remove testing requirements from the project",
+                "Improve internal structure without changing external behaviour"
+            ],
+            "answerIndex": 3,
+            "explanation": "Refactoring reduces complexity, redundancy, and poor structure while preserving what the software does."
+        },
+        {
+            "id": 93,
+            "question": "A team begins with the complete system and repeatedly decomposes it into smaller subsystems. Which design approach is this?",
+            "options": [
+                "Brute-force search",
+                "Top-down design",
+                "Black-box testing",
+                "Bottom-up design"
+            ],
+            "answerIndex": 1,
+            "explanation": "Top-down design starts with the whole system and progressively defines more specific components."
+        },
+        {
+            "id": 94,
+            "question": "A new application is assembled from existing low-level components and libraries. Which design approach is most appropriate?",
+            "options": [
+                "Bottom-up design",
+                "Top-down design only",
+                "Trial and error without reuse",
+                "Unconditional branching"
+            ],
+            "answerIndex": 0,
+            "explanation": "Bottom-up design starts from basic components and combines them into higher-level subsystems and the final system."
+        },
+        {
+            "id": 95,
+            "question": "What does software architecture describe?",
+            "options": [
+                "Only the colour scheme of the user interface",
+                "Only the list of variable names in one function",
+                "The system's components, their properties, and the relationships between them",
+                "The sequence of test inputs for a single unit"
+            ],
+            "answerIndex": 2,
+            "explanation": "Software architecture provides a high-level structural model of a system and how its components interact."
+        },
+        {
+            "id": 96,
+            "question": "Which sequence lists the software testing life-cycle phases in the correct order?",
+            "options": [
+                "Requirement analysis, test planning, test case development, environment setup, execution, closure",
+                "Execution, closure, requirement analysis, planning, coding, deployment",
+                "Environment setup, closure, test case development, requirement analysis, execution, planning",
+                "Test planning, execution, requirement analysis, closure, environment setup, design"
+            ],
+            "answerIndex": 0,
+            "explanation": "The course presents six sequential STLC phases, beginning with requirements and ending with test-cycle closure."
+        },
+        {
+            "id": 97,
+            "question": "A tester checks whether independently developed functions work correctly before they are combined. What type of test is this?",
+            "options": [
+                "Compatibility testing",
+                "Acceptance testing",
+                "Unit testing",
+                "System testing"
+            ],
+            "answerIndex": 2,
+            "explanation": "Unit testing focuses on individual functions, components, or execution units in isolation."
+        },
+        {
+            "id": 98,
+            "question": "A team checks how authentication, payment, and notification modules work together. Which testing method is most appropriate?",
+            "options": [
+                "Usability testing",
+                "Routine problem analysis",
+                "Integration testing",
+                "Unit testing of one function only"
+            ],
+            "answerIndex": 2,
+            "explanation": "Integration testing verifies the interactions and interfaces between separate parts of the software."
+        },
+        {
+            "id": 99,
+            "question": "A tester measures network delay and response time under heavy user load. Which non-functional test is being performed?",
+            "options": [
+                "Performance testing",
+                "Acceptance testing",
+                "Syntax testing",
+                "Unit testing"
+            ],
+            "answerIndex": 0,
+            "explanation": "Performance testing examines speed, delays, processing behaviour, and system operation under different load conditions."
+        },
+        {
+            "id": 100,
+            "question": "A tester studies internal code to design test cases but performs the actual test through exposed user interfaces. What testing method is this?",
+            "options": [
+                "Compatibility testing only",
+                "Black-box testing",
+                "Grey-box testing",
+                "White-box testing only"
+            ],
+            "answerIndex": 2,
+            "explanation": "Grey-box testing combines partial knowledge of internal structures with externally executed black-box-style tests."
+        }
+    ]
+}
