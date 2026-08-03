@@ -2,8 +2,10 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 import OptionButton from '../components/OptionButton';
 import PageContainer from '../components/PageContainer';
+import MathText from '../components/MathText';
 import { STORAGE_KEYS } from '../constants/storage';
 import { buildResult } from '../utils/quiz';
+import { isFormulaCategory } from '../utils/questions';
 import { getSessionById, removeSessionById, upsertSession } from '../utils/sessions';
 import { saveJson } from '../utils/storage';
 
@@ -84,29 +86,30 @@ function QuizPage() {
 
   const isCorrectSelection = selectedIndex === question.answerIndex;
   const progress = ((session.currentIndex + 1) / session.questions.length) * 100;
+  const legacyMath = isFormulaCategory(question.category);
 
   return (
     <PageContainer>
-      <header className="mx-auto mb-8 w-full max-w-2xl">
-        <div className="mb-4 flex items-center justify-between">
+      <header className="mx-auto mb-6 w-full max-w-3xl">
+        <div className="mb-3 flex items-center justify-between gap-4">
           <div>
-            <p className="text-sm font-bold uppercase tracking-wider text-slate-400">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">
               Question {session.currentIndex + 1} of {session.questions.length}
             </p>
-            <p className="mt-1 text-xs font-semibold text-brand-600">
+            <p className="mt-1 text-xs font-medium text-brand-600">
               {session.setup.mode === 'instant' ? 'Instant Feedback' : 'End Review'}
             </p>
           </div>
           <div className="text-right">
             <Link
               to="/setup"
-              className="inline-flex min-h-10 items-center justify-center rounded-xl border border-slate-200 bg-white px-4 text-sm font-bold text-slate-600 shadow-sm transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
+              className="inline-flex min-h-9 items-center justify-center rounded-full border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
             >
               Quit Quiz
             </Link>
           </div>
         </div>
-        <div className="h-3 overflow-hidden rounded-full bg-slate-100">
+        <div className="h-1.5 overflow-hidden rounded-full bg-slate-100">
           <div
             className="h-full rounded-full bg-brand-500 transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
@@ -114,13 +117,13 @@ function QuizPage() {
         </div>
       </header>
 
-      <section className="mx-auto w-full max-w-2xl rounded-3xl border border-slate-100 bg-white p-6 shadow-xl shadow-slate-200/40 sm:p-12">
-        <p className="text-xs font-bold uppercase tracking-widest text-brand-500">{question.category}</p>
-        <h1 className="mt-4 text-xl font-extrabold leading-tight text-slate-900 sm:text-3xl">
-          {question.question}
+      <section className="mx-auto w-full max-w-3xl rounded-[1.5rem] border border-slate-100 bg-white p-5 shadow-[0_12px_36px_rgba(25,34,51,0.06)] sm:p-9">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-500">{question.category}</p>
+        <h1 className="mt-3 text-[1.35rem] font-semibold leading-[1.38] tracking-[-0.025em] text-slate-900 sm:text-[1.75rem] sm:leading-[1.32]">
+          <MathText legacyMath={legacyMath}>{question.question}</MathText>
         </h1>
 
-        <div className="mt-10 space-y-4">
+        <div className="mt-8 space-y-3">
           {question.options.map((option, index) => (
             <OptionButton
               key={`${question.id}-${index}`}
@@ -128,6 +131,7 @@ function QuizPage() {
               index={index}
               state={getOptionState(index)}
               disabled={session.setup.mode === 'instant' ? locked : false}
+              legacyMath={legacyMath}
               onClick={() => onPick(index)}
             />
           ))}
@@ -135,7 +139,8 @@ function QuizPage() {
 
         {session.setup.mode === 'instant' && locked && (
           <div
-            className={`mt-8 rounded-2xl border p-6 text-base leading-relaxed ${
+            aria-live="polite"
+            className={`mt-6 rounded-xl border p-4 text-sm leading-6 ${
               isCorrectSelection
                 ? 'border-emerald-200 bg-emerald-50 text-emerald-700'
                 : 'border-rose-200 bg-rose-50 text-rose-700'
@@ -143,19 +148,21 @@ function QuizPage() {
           >
             {isCorrectSelection ? (
               <>
-                <strong>Correct.</strong> {question.explanation}
+                <strong>Correct.</strong>{' '}
+                <MathText legacyMath={legacyMath}>{question.explanation}</MathText>
               </>
             ) : (
               <>
-                <strong>Not correct.</strong> Correct answer: {question.options[question.answerIndex]}.{' '}
-                {question.explanation}
+                <strong>Not correct.</strong> Correct answer:{' '}
+                <MathText legacyMath={legacyMath}>{question.options[question.answerIndex]}</MathText>.{' '}
+                <MathText legacyMath={legacyMath}>{question.explanation}</MathText>
               </>
             )}
           </div>
         )}
 
         <button
-          className="mt-10 inline-flex w-full items-center justify-center rounded-2xl bg-brand-500 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-brand-500/20 transition-all hover:bg-brand-600 hover:shadow-xl hover:shadow-brand-500/30 disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto sm:px-12"
+          className="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(18,101,232,0.18)] transition hover:-translate-y-0.5 hover:bg-brand-600 hover:shadow-[0_12px_24px_rgba(18,101,232,0.22)] disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15 sm:w-auto sm:px-8"
           onClick={onNext}
           disabled={selectedIndex === null}
         >

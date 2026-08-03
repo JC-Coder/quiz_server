@@ -2,6 +2,11 @@ const questionModules = import.meta.glob("../data/questions/*.json", {
   eager: true,
 });
 
+// Only these banks use legacy notation that should be auto-formatted as mathematics.
+export function isFormulaCategory(category) {
+  return /^(MTH|PHY|STA)\d+$/.test(String(category ?? ""));
+}
+
 function normalizeCourseDetails(rawDetails) {
   if (!rawDetails || typeof rawDetails !== "object") return null;
 

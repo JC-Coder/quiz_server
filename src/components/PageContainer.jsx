@@ -1,8 +1,10 @@
 function PageContainer({ children, wide = false }) {
   return (
-    <main className={`mx-auto w-full px-6 py-12 ${wide ? 'max-w-7xl' : 'max-w-5xl'}`}>
-      {children}
-    </main>
+    <div className="min-h-screen bg-[#fbfaf7]">
+      <main className={`mx-auto w-full px-5 py-8 sm:px-6 sm:py-10 ${wide ? 'max-w-7xl' : 'max-w-5xl'}`}>
+        {children}
+      </main>
+    </div>
   );
 }
 

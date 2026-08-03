@@ -20,60 +20,78 @@ function ResultPage() {
 
   if (!result) return null;
 
+  const percentage = Number(result.summary.percent ?? 0);
+  const resultMessage =
+    percentage >= 80
+      ? 'Strong work. Review any missed questions to reinforce what you know.'
+      : percentage >= 50
+        ? 'Good start. Review the missed questions, then have another go.'
+        : 'Keep going. Review the explanations and try the practice again.';
+  const courseLabel = result.setup?.category ?? 'Practice test';
+
   return (
     <PageContainer>
-      <section className="mx-auto w-full max-w-2xl rounded-[2.5rem] border border-slate-100 bg-white p-8 text-center shadow-xl shadow-slate-200/40 sm:p-12">
-        <p className="inline-flex rounded-full bg-brand-50 px-4 py-1.5 text-sm font-bold uppercase tracking-wider text-brand-700">
-          Quiz Complete
-        </p>
-        <h1 className="mt-8 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-          Your Result
-        </h1>
-
-        <div className="mt-10 flex flex-col items-center">
-          <p className="text-7xl font-black tracking-tighter text-brand-500 sm:text-8xl">
-            {result.summary.correct}/{result.summary.total}
+      <section className="mx-auto w-full max-w-3xl rounded-[2rem] border border-slate-100 bg-white p-5 shadow-[0_12px_36px_rgba(25,34,51,0.06)] sm:p-9">
+        <header className="text-center">
+          <p className="inline-flex rounded-full bg-brand-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">
+            Quiz Complete
           </p>
-          <p className="mt-4 text-lg font-bold text-slate-500">{result.summary.percent}% score</p>
+          <h1 className="mt-5 text-3xl font-semibold tracking-[-0.035em] text-slate-900 sm:text-4xl">
+            Your Result
+          </h1>
+          <p className="mt-2 text-sm font-medium text-slate-500">
+            {courseLabel} · {result.summary.total} questions
+          </p>
+        </header>
+
+        <div className="mt-8 rounded-2xl border border-brand-100 bg-brand-50/60 px-5 py-6 text-center sm:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-700">Score</p>
+          <p className="mt-2 text-5xl font-semibold tracking-[-0.06em] text-brand-600 sm:text-6xl">
+            {percentage}%
+          </p>
+          <p className="mt-2 text-sm font-medium text-slate-600">
+            {result.summary.correct} correct out of {result.summary.total}
+          </p>
+          <p className="mx-auto mt-4 max-w-md text-sm leading-6 text-slate-600">{resultMessage}</p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <article className="rounded-3xl border border-slate-100 bg-slate-50/50 p-4 sm:p-6">
-            <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Correct</p>
-            <p className="mt-2 text-2xl font-black text-emerald-500 sm:text-3xl">
+        <div className="mt-8 grid grid-cols-3 divide-x divide-slate-100 border-y border-slate-100">
+          <article className="py-4 text-center">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Correct</p>
+            <p className="mt-1 text-2xl font-semibold text-emerald-500 sm:text-3xl">
               {result.summary.correct}
             </p>
           </article>
-          <article className="rounded-3xl border border-slate-100 bg-slate-50/50 p-4 sm:p-6">
-            <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Wrong</p>
-            <p className="mt-2 text-2xl font-black text-rose-500 sm:text-3xl">{result.summary.wrong}</p>
+          <article className="py-4 text-center">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Wrong</p>
+            <p className="mt-1 text-2xl font-semibold text-rose-500 sm:text-3xl">{result.summary.wrong}</p>
           </article>
-          <article className="rounded-3xl border border-slate-100 bg-slate-50/50 p-4 sm:p-6">
-            <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Total</p>
-            <p className="mt-2 text-2xl font-black text-slate-700 sm:text-3xl">{result.summary.total}</p>
+          <article className="py-4 text-center">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Total</p>
+            <p className="mt-1 text-2xl font-semibold text-slate-700 sm:text-3xl">{result.summary.total}</p>
           </article>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
           <Link
             to="/review"
-            className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-100 bg-white px-8 py-4 text-base font-bold text-slate-700 transition-all hover:border-slate-200 hover:bg-slate-50"
+            className="inline-flex min-h-12 items-center justify-center rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(18,101,232,0.18)] transition hover:-translate-y-0.5 hover:bg-brand-600 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
           >
             Review Answers
           </Link>
           <Link
             to="/setup"
-            className="inline-flex items-center justify-center rounded-2xl bg-brand-500 px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-500/20 transition-all hover:bg-brand-600 hover:shadow-xl hover:shadow-brand-500/30"
+            className="inline-flex min-h-12 items-center justify-center rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
           >
-            Retry Quiz
-          </Link>
-          <Link
-            to="/setup"
-            className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-100 bg-white px-8 py-4 text-base font-bold text-slate-700 transition-all hover:border-slate-200 hover:bg-slate-50 sm:col-span-2"
-          >
-            Start New Practice
+            Start Another Practice
           </Link>
         </div>
+        <Link
+          to="/"
+          className="mt-5 inline-flex text-sm font-medium text-slate-500 transition hover:text-brand-600 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
+        >
+          Back to home
+        </Link>
       </section>
     </PageContainer>
   );
