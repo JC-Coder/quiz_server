@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import PageContainer from '../components/PageContainer';
+import SearchableSelect from '../components/SearchableSelect';
 import { departments, levels, questionCounts, quizModes } from '../constants/options';
 import { STORAGE_KEYS } from '../constants/storage';
 import { getQuestionCatalog } from '../utils/questions';
@@ -105,18 +106,13 @@ function SetupPage() {
               <label className="mb-2 block text-sm font-bold text-slate-700" htmlFor="department">
                 Department
               </label>
-              <select
+              <SearchableSelect
                 id="department"
-                className="w-full appearance-none rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3.5 text-base transition focus:border-brand-500 focus:bg-white focus:outline-none focus:ring-4 focus:ring-brand-500/10"
                 value={department}
-                onChange={(event) => setDepartment(event.target.value)}
-              >
-                {departments.map((item) => (
-                  <option key={item.value} value={item.value}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
+                options={departments}
+                onChange={setDepartment}
+                placeholder="department"
+              />
             </div>
 
             <div>
@@ -141,18 +137,13 @@ function SetupPage() {
               <label className="mb-2 block text-sm font-bold text-slate-700" htmlFor="category">
                 Course
               </label>
-              <select
+              <SearchableSelect
                 id="category"
-                className="w-full appearance-none rounded-2xl border border-slate-200 bg-slate-50/50 px-4 py-3.5 text-base transition focus:border-brand-500 focus:bg-white focus:outline-none focus:ring-4 focus:ring-brand-500/10"
                 value={category}
-                onChange={(event) => setCategory(event.target.value)}
-              >
-                {filteredCourseOptions.map((item) => (
-                  <option key={item.value} value={item.value}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
+                options={filteredCourseOptions}
+                onChange={setCategory}
+                placeholder="course"
+              />
             </div>
 
             <div>

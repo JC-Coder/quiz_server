@@ -49,6 +49,7 @@ function ReviewPage() {
       <section className="mx-auto w-full max-w-3xl space-y-4">
         {result.questions.map((question, index) => {
           const answer = result.answers[index];
+          const isAnswered = Boolean(answer);
           const isCorrect = Boolean(answer?.isCorrect);
           const selectedText = answer ? question.options[answer.selectedIndex] : 'No answer';
           const correctText = question.options[question.answerIndex];
@@ -58,7 +59,7 @@ function ReviewPage() {
             <article
               key={question.id}
               className={`rounded-2xl border bg-white p-5 shadow-[0_8px_24px_rgba(25,34,51,0.04)] sm:p-6 ${
-                isCorrect ? 'border-emerald-50' : 'border-rose-50'
+                isCorrect ? 'border-emerald-50' : isAnswered ? 'border-rose-50' : 'border-slate-100'
               }`}
             >
               <div className="flex items-center justify-between">
@@ -67,17 +68,21 @@ function ReviewPage() {
                 </p>
                 <span
                   className={`inline-flex rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] ${
-                    isCorrect ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-600'
+                    isCorrect
+                      ? 'bg-emerald-50 text-emerald-600'
+                      : isAnswered
+                        ? 'bg-rose-50 text-rose-600'
+                        : 'bg-slate-100 text-slate-500'
                   }`}
                 >
-                  {isCorrect ? 'Correct' : 'Incorrect'}
+                  {isCorrect ? 'Correct' : isAnswered ? 'Incorrect' : 'Unanswered'}
                 </span>
               </div>
               <h2 className="mt-3 text-base font-semibold leading-6 tracking-[-0.01em] text-slate-900 sm:text-lg">
                 <MathText legacyMath={legacyMath}>{index + 1}. {question.question}</MathText>
               </h2>
               <div className="mt-6 flex flex-col gap-2">
-                <p className={`text-sm font-medium ${isCorrect ? 'text-emerald-600' : 'text-rose-600'}`}>
+                <p className={`text-sm font-medium ${isCorrect ? 'text-emerald-600' : isAnswered ? 'text-rose-600' : 'text-slate-500'}`}>
                   Your answer:{' '}
                   <span className="ml-1 rounded-lg bg-current/10 px-2 py-0.5">
                     <MathText legacyMath={legacyMath}>{selectedText}</MathText>

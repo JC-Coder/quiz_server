@@ -14,7 +14,7 @@ export function buildNewSession(setup, allQuestions) {
 }
 
 export function buildResult(session) {
-  const total = session.questions.length;
+  const total = session.answers.filter(Boolean).length;
   const correct = session.answers.filter((answer) => answer?.isCorrect).length;
   const wrong = total - correct;
 
@@ -28,6 +28,7 @@ export function buildResult(session) {
       total,
       correct,
       wrong,
+      unanswered: session.questions.length - total,
       percent: total > 0 ? Math.round((correct / total) * 100) : 0
     }
   };

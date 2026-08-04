@@ -71,10 +71,7 @@ function QuizPage() {
     updatedSession.currentIndex += 1;
 
     if (updatedSession.currentIndex >= updatedSession.questions.length) {
-      const result = buildResult(updatedSession);
-      saveJson(STORAGE_KEYS.result, result);
-      removeSessionById(updatedSession.id);
-      navigate('/result');
+      finishQuiz(updatedSession);
       return;
     }
 
@@ -82,6 +79,32 @@ function QuizPage() {
     setSession(updatedSession);
     setSelectedIndex(null);
     setLocked(false);
+  }
+
+  // Saves the current attempt so students can view scores before all questions are answered.
+  function finishQuiz(updatedSession) {
+    const result = buildResult(updatedSession);
+    saveJson(STORAGE_KEYS.result, result);
+    removeSessionById(updatedSession.id);
+    navigate('/result');
+  }
+
+  function onEndQuiz() {
+    const updatedSession = {
+      ...session,
+      answers: [...session.answers],
+      updatedAt: new Date().toISOString()
+    };
+
+    if (selectedIndex !== null) {
+      updatedSession.answers[session.currentIndex] = {
+        questionId: question.id,
+        selectedIndex,
+        isCorrect: selectedIndex === question.answerIndex
+      };
+    }
+
+    finishQuiz(updatedSession);
   }
 
   const isCorrectSelection = selectedIndex === question.answerIndex;
@@ -100,7 +123,14 @@ function QuizPage() {
               {session.setup.mode === 'instant' ? 'Instant Feedback' : 'End Review'}
             </p>
           </div>
-          <div className="text-right">
+          <div className="flex flex-wrap justify-end gap-2">
+            <button
+              type="button"
+              className="inline-flex min-h-9 items-center justify-center rounded-full border border-brand-200 bg-brand-50 px-3.5 text-xs font-semibold text-brand-700 shadow-sm transition hover:border-brand-300 hover:bg-brand-100 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"
+              onClick={onEndQuiz}
+            >
+              End Quiz &amp; See Score
+            </button>
             <Link
               to="/setup"
               className="inline-flex min-h-9 items-center justify-center rounded-full border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-600 shadow-sm transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15"

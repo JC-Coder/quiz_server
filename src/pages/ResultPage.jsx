@@ -28,19 +28,20 @@ function ResultPage() {
         ? 'Good start. Review the missed questions, then have another go.'
         : 'Keep going. Review the explanations and try the practice again.';
   const courseLabel = result.setup?.category ?? 'Practice test';
+  const unanswered = Number(result.summary.unanswered ?? 0);
 
   return (
     <PageContainer>
       <section className="mx-auto w-full max-w-3xl rounded-[2rem] border border-slate-100 bg-white p-5 shadow-[0_12px_36px_rgba(25,34,51,0.06)] sm:p-9">
         <header className="text-center">
           <p className="inline-flex rounded-full bg-brand-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">
-            Quiz Complete
+            {unanswered > 0 ? 'Quiz Ended' : 'Quiz Complete'}
           </p>
           <h1 className="mt-5 text-3xl font-semibold tracking-[-0.035em] text-slate-900 sm:text-4xl">
             Your Result
           </h1>
           <p className="mt-2 text-sm font-medium text-slate-500">
-            {courseLabel} · {result.summary.total} questions
+            {courseLabel} · {result.summary.total} answered{unanswered > 0 ? ` · ${unanswered} unanswered` : ''}
           </p>
         </header>
 
@@ -67,7 +68,7 @@ function ResultPage() {
             <p className="mt-1 text-2xl font-semibold text-rose-500 sm:text-3xl">{result.summary.wrong}</p>
           </article>
           <article className="py-4 text-center">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Total</p>
+            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-400">Answered</p>
             <p className="mt-1 text-2xl font-semibold text-slate-700 sm:text-3xl">{result.summary.total}</p>
           </article>
         </div>
