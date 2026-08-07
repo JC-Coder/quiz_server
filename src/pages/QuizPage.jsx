@@ -29,6 +29,9 @@ function QuizPage() {
       return;
     }
     setSession(existingSession);
+    const currentAnswer = existingSession.answers[existingSession.currentIndex];
+    setSelectedIndex(currentAnswer?.selectedIndex ?? null);
+    setLocked(existingSession.setup.mode === 'instant' && Boolean(currentAnswer));
   }, [navigate, sessionId]);
 
   if (!session) return null;
@@ -77,8 +80,35 @@ function QuizPage() {
 
     upsertSession(updatedSession);
     setSession(updatedSession);
-    setSelectedIndex(null);
-    setLocked(false);
+    const nextAnswer = updatedSession.answers[updatedSession.currentIndex];
+    setSelectedIndex(nextAnswer?.selectedIndex ?? null);
+    setLocked(updatedSession.setup.mode === 'instant' && Boolean(nextAnswer));
+  }
+
+  // Preserves the current response and restores the previous question's answer state.
+  function onPrevious() {
+    if (session.currentIndex === 0) return;
+
+    const updatedSession = {
+      ...session,
+      answers: [...session.answers],
+      currentIndex: session.currentIndex - 1,
+      updatedAt: new Date().toISOString()
+    };
+
+    if (selectedIndex !== null) {
+      updatedSession.answers[session.currentIndex] = {
+        questionId: question.id,
+        selectedIndex,
+        isCorrect: selectedIndex === question.answerIndex
+      };
+    }
+
+    upsertSession(updatedSession);
+    setSession(updatedSession);
+    const previousAnswer = updatedSession.answers[updatedSession.currentIndex];
+    setSelectedIndex(previousAnswer?.selectedIndex ?? null);
+    setLocked(updatedSession.setup.mode === 'instant' && Boolean(previousAnswer));
   }
 
   // Saves the current attempt so students can view scores before all questions are answered.
@@ -191,13 +221,24 @@ function QuizPage() {
           </div>
         )}
 
-        <button
-          className="mt-8 inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(18,101,232,0.18)] transition hover:-translate-y-0.5 hover:bg-brand-600 hover:shadow-[0_12px_24px_rgba(18,101,232,0.22)] disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15 sm:w-auto sm:px-8"
-          onClick={onNext}
-          disabled={selectedIndex === null}
-        >
-          {session.currentIndex + 1 === session.questions.length ? 'Finish Quiz' : 'Next Question'}
-        </button>
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <button
+            type="button"
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15 sm:w-auto"
+            onClick={onPrevious}
+            disabled={session.currentIndex === 0}
+          >
+            Back
+          </button>
+          <button
+            type="button"
+            className="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(18,101,232,0.18)] transition hover:-translate-y-0.5 hover:bg-brand-600 hover:shadow-[0_12px_24px_rgba(18,101,232,0.22)] disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/15 sm:ml-auto sm:w-auto sm:px-8"
+            onClick={onNext}
+            disabled={selectedIndex === null}
+          >
+            {session.currentIndex + 1 === session.questions.length ? 'Finish Quiz' : 'Next Question'}
+          </button>
+        </div>
       </section>
     </PageContainer>
   );
